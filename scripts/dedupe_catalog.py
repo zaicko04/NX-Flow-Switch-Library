@@ -121,6 +121,7 @@ def main():
     payload = json.loads(path.read_text(encoding="utf-8"))
     payload["items"], stats = deduplicate(payload.get("items", []))
     payload.setdefault("meta", {}).update(stats)
+    payload["meta"]["covers_resolved"] = sum(1 for item in payload["items"] if item.get("cover"))
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(stats, ensure_ascii=False))
 
