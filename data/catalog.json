@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T22:37:48+00:00",
+    "generated_at": "2026-10-16T22:42:40+00:00",
     "sources": {
       "SwitchPorts": "349 importados",
       "HB App Store": "508 importados",
@@ -11,7 +11,13 @@
     "covers_resolved": 45,
     "duplicate_records_removed": 18,
     "invalid_records_removed": 5,
-    "unique_records": 836
+    "unique_records": 836,
+    "cover_breakdown": {
+      "real_artwork": 45,
+      "homebrew_icons": 506,
+      "nx_flow_illustrations": 285,
+      "visually_covered": 836
+    }
   },
   "items": [
     {
