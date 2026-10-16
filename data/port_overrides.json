@@ -18,7 +18,23 @@
       "original_files": "Copia propia de Need for Speed Most Wanted (2012) para Android: APK y OBB de la versión 1.3.128, o archivo XAPK con ambos.",
       "game_edition": "Android 1.3.128. Los archivos PC, PS3, Xbox 360, PS Vita, Wii U e iOS no son compatibles con este port.",
       "source_readme": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/blob/main/README.md",
-      "verification": "Confirmado en README del port Android; consultar la sección How to install para rutas y pasos vigentes."
+      "verification": "Confirmado en README del port Android; consultar la sección How to install para rutas y pasos vigentes.",
+      "installation": "Descargar NFSMostWanted2012-0.2.8.zip desde Releases. Copiar la carpeta switch a la raíz de la SD. Colocar APK armeabi-v7a (32 bits) y OBB main.1003128.com.ea.games.nfs13_row.obb, sin renombrar ni descomprimir, en switch/NFSMostWanted2012/game/. Abrir Homebrew Menu manteniendo R al iniciar un juego y ejecutar NFS Most Wanted 2012 Loader. No iniciarlo desde Álbum.",
+      "rom_format": "APK de Android 32 bits + OBB (o XAPK) de la versión 1.3.128.",
+      "install_url": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/blob/main/docs/INSTALL.md"
+    },
+    "https://github.com/Trinalord777/DK64Recomp-NX": {
+      "title": "Donkey Kong 64",
+      "original_platform": "Nintendo 64",
+      "game_year": 1999,
+      "original_files": "ROM original estadounidense (USA) de Donkey Kong 64 para Nintendo 64. El README indica que solo acepta esa edición; otros formatos se convierten a .z64 si la ROM es la correcta.",
+      "game_edition": "Nintendo 64 USA (US). No se confirma compatibilidad con las ediciones PAL o japonesa.",
+      "rom_format": ".z64; el README señala conversión de otros formatos compatibles.",
+      "release_tag": "v1.1.2",
+      "release_url": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2",
+      "installation": "Descarga DK64Recomp-NX-v1.1.2.zip desde la versión v1.1.2. Necesitas tu propia ROM USA. Consulta los archivos de la versión y la documentación del autor antes de copiar archivos a la SD; las rutas de instalación para Switch no están especificadas en el README principal consultado.",
+      "source_readme": "https://github.com/Trinalord777/DK64Recomp-NX/blob/main/README.md",
+      "verification": "ROM USA y formato .z64 confirmados en el README; versión v1.1.2 y ZIP confirmados en Releases. Las rutas de instalación para Switch no están confirmadas."
     }
   }
 }
