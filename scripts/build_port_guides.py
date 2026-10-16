@@ -75,7 +75,44 @@ def summary(readme):
     if not edition:
         edition = section(r"^faq", 300) if re.search(r"(?i)(specific rom|us version)", readme) else ""
     return {"overview": intro, "requirements": req, "installation": install,
-            "editions": edition}
+            "editions": edition, **overclock_info(readme)}
+
+
+def overclock_info(readme):
+    """Distinguish confirmed overclock requirements from mere mentions."""
+    lines = []
+    inside = False
+    for line in readme.splitlines():
+        if line.strip().startswith(("~~~", chr(96)*3)):
+            inside = not inside
+            continue
+        if not inside: lines.append(line)
+    whole = "\n".join(lines)
+    pat = re.compile(r"over[\s-]?clock|under[\s-]?clock|\bsys[- ]?clk\b|\b(?:stock|default|custom|higher)\s+(?:cpu\s+|gpu\s+)?clocks?\b|\b(?:cpu|gpu|memory)\s+clock\b", re.I)
+    hits = [(i,line) for i,line in enumerate(lines) if pat.search(line)]
+    if not hits:
+        return {"overclock_status":"not_documented", "overclock_notes":"", "overclock_source":""}
+    headings = [(i,re.sub(r"^\s*#{1,6}\s*","",row).strip()) for i,row in enumerate(lines) if re.match(r"^\s*#{1,6}\s+",row)]
+    selected = ""
+    for index,heading in headings:
+        if re.search(r"over[\s-]?clock|clocks?\s+and\s+performance",heading,re.I):
+            stop=next((i for i,h in headings if i>index),len(lines))
+            selected="\n".join(lines[index+1:stop]).strip()
+            break
+    if not selected:
+        selected="\n".join(" ".join(lines[max(0,i-1):min(len(lines),i+2)]).strip() for i,_ in hits[:5])
+    sanitized = re.sub(r"[*_]+","",selected).replace(chr(96),"")
+    context=(sanitized+"\n"+whole[:1500]).lower()
+    status="mentioned"
+    if re.search(r"(?:without|with\s+no|no(?:\s+need\s+for)?|does\s+not\s+require)\s+(?:an?\s+)?over[\s-]?clock|over[\s-]?clock(?:ing)?\s+(?:is\s+)?(?:not\s+required|not\s+needed|unnecessary)",context):
+        status="not_required"
+    elif re.search(r"over[\s-]?clock(?:ing)?\s+(?:is\s+)?(?:required|mandatory|needed|necessary)|(?:must|need\s+to|requires?)\s+over[\s-]?clock",context):
+        status="required"
+    elif re.search(r"over[\s-]?clock(?:ing)?\s+(?:is\s+)?(?:recommended|advised)|recommend(?:ed)?\s+(?:an?\s+)?over[\s-]?clock",context):
+        status="recommended"
+    elif re.search(r"(?:optional|experimental?)\s+(?:cpu\s+|gpu\s+)?(?:over[\s-]?clock|clocks?)|(?:can|may|could)\s+(?:raise|increase|boost)\s+(?:the\s+)?(?:cpu|gpu|clock)|for\s+(?:higher|better|more)\s+(?:fps|performance)[^\n.]{0,90}over[\s-]?clock",context):
+        status="optional"
+    return {"overclock_status":status, "overclock_notes":compact(selected,690), "overclock_source":""}
 
 def source_readme(repo):
     url = urllib.parse.urlsplit(repo)
@@ -133,7 +170,7 @@ def main():
         previous = old.get(repo, {})
         try:
             checked = datetime.datetime.fromisoformat(previous.get("checked_at", ""))
-            fresh = (NOW - checked).days < 14 and previous.get("status") == "readme_verified"
+            fresh = (NOW - checked).days < 14 and previous.get("status") == "readme_verified" and "overclock_status" in previous
         except (ValueError, TypeError):
             fresh = False
         if fresh:
@@ -158,7 +195,8 @@ def main():
         for field in ("title", "game_year", "original_platform", "original_files",
                       "game_edition", "installation", "install_url",
                       "source_readme", "verification", "rom_format",
-                      "release_url", "release_tag"):
+                      "release_url", "release_tag", "overclock_status",
+                      "overclock_notes", "overclock_source"):
             if source.get(field):
                 entry[field] = source[field]
         if source.get("original_files"):
@@ -175,7 +213,8 @@ def main():
     result = {"meta": {"generated_at": NOW.isoformat(timespec="seconds"),
                        "port_count": len(ports), "repositories": len(repos),
                        "statuses": status,
-                       "note": "README-derived summaries are partial. Full instructions must be checked with each author."},
+                       "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
+                       "overclock_statuses": {key: sum(1 for entry in results.values() if entry.get("overclock_status", "not_documented")==key) for key in ("required","recommended","optional","not_required","mentioned","not_documented")}},
               "by_repo": {repo: results[repo] for repo in repos}}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
