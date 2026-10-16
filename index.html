@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0c0e18" />
+  <title>NX Flow — Biblioteca Switch</title>
+  <meta name="description" content="Biblioteca CoverFlow 3D de ports, emuladores, Wine y homebrew para Nintendo Switch con fuentes oficiales y actualizaciones automáticas." />
+  
+  <style>500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+:root{color-scheme:dark;--bg:#090b13;--side:#0f111b;--panel:#131521;--panel-light:#1b1d2d;--line:rgba(255,255,255,.085);--muted:#8e90a6;--white:#f7f5ff;--purple:#9a78ff;--purple2:#5e4bec;--cyan:#6be9f5;--green:#6cdbac}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font:14px 'DM Sans',sans-serif}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}[hidden]{display:none!important}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:#323549;border-radius:30px}.app-shell{display:flex;min-height:100vh}.sidebar{width:249px;flex:0 0 249px;position:sticky;top:0;height:100vh;overflow-y:auto;background:linear-gradient(155deg,#141521 0%,#0c0f18 80%);border-right:1px solid var(--line);padding:34px 15px 18px;display:flex;flex-direction:column;z-index:20}.brand{display:flex;align-items:center;gap:11px;padding:0 14px}.brand-icon{display:grid;place-items:center;width:45px;height:45px;transform:rotate(-8deg);border-radius:12px;background:linear-gradient(145deg,#bd8aff,#6950ea);box-shadow:0 6px 28px #7d55ee44;color:white;font:900 22px Outfit,Arial,sans-serif}.brand-icon span{font-size:16px;margin-left:1px}.brand-copy strong{display:block;font:800 19px Outfit,Arial,sans-serif;letter-spacing:1.2px;line-height:1}.brand-copy small{display:block;font-size:9px;letter-spacing:1.25px;font-weight:800;color:#85849c;margin-top:7px}.sidebar-rule{margin:31px 11px 25px;height:1px;background:var(--line)}.nav-caption{padding-left:14px;margin-bottom:12px;color:#656982;font-size:10px;font-weight:800;letter-spacing:1.85px}.primary-nav{display:flex;flex-direction:column;gap:4px}.nav-link{position:relative;width:100%;border:0;border-radius:10px;background:transparent;text-align:left;color:#a6a9bb;padding:13px 14px;display:flex;align-items:center;gap:13px;font-size:12.5px;font-weight:700;transition:.2s}.nav-link:hover,.nav-link.active{color:#fff;background:linear-gradient(100deg,#5c45ad66,#25203852)}.nav-link.active:before{position:absolute;content:'';left:0;top:15%;height:70%;width:3px;border-radius:2px;background:#aa8bff}.nav-symbol{color:#9c8bd7;font-size:21px;line-height:1;width:24px;text-align:center}.nav-count{margin-left:auto;color:#b1a1ff;background:#30294b;padding:2px 7px;border-radius:5px;font-size:11px}.subnav{margin:1px 0 6px 45px;border-left:1px solid #49405d;padding:3px 0 3px 9px;display:flex;flex-direction:column;max-height:290px;overflow:auto;gap:2px}.subnav button{color:#8c8aa1;text-align:left;background:none;border:0;padding:7px;font-size:11.5px;border-radius:6px}.subnav button:hover,.subnav button.active{color:white;background:#352c53}.sources{display:grid;gap:8px;padding:0 13px}.sources a{color:#9c9ab0;font-size:12px;display:flex;align-items:center;gap:9px;padding:5px 0}.sources a span:last-child{margin-left:auto;opacity:.55}.source-dot{height:7px;width:7px;border-radius:50%}.source-dot.green{background:#40deb1}.source-dot.blue{background:#82a5ff}.source-dot.yellow{background:#ffd27a}.sidebar-bottom{margin:auto 12px 0;border-top:1px solid var(--line);padding-top:22px;color:#818397;display:flex;gap:9px;align-items:center;font-size:10.5px}.heartbeat{height:7px;width:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px #6cdbac22}.main-content{min-width:0;flex:1;background:radial-gradient(ellipse 55% 33% at 70% 12%,#30234255,transparent 75%),#0b0d17}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,4.1vw,65px);border-bottom:1px solid #ffffff0d}.breadcrumb{display:flex;align-items:center;gap:13px;letter-spacing:2px;font-size:10px;font-weight:800;color:#6e7088}.breadcrumb b{font-size:14px;color:#505167}.breadcrumb strong{color:#aea2f9}.toolbar{display:flex;gap:11px;align-items:center}.search-field{height:40px;width:min(34vw,330px);display:flex;align-items:center;gap:10px;background:#171925;border:1px solid #2a2b3b;border-radius:10px;padding:0 13px;color:#b7b0cd}.search-field span{font-size:25px;line-height:0}.search-field input{border:0;outline:0!important;background:transparent;color:#f2f0ff;min-width:0;flex:1;font-size:11px}.search-field input::placeholder{color:#777b90}.search-field kbd{font-size:10px;border:1px solid #4b465c;padding:1px 5px;border-radius:4px}.square-btn{width:40px;height:40px;display:grid;place-items:center;border:1px solid #2a2b3b;background:#171925;color:#a5a6b9;border-radius:10px;font-size:23px}.square-btn:hover{color:#fff;border-color:var(--purple)}.menu-toggle{display:none}.main-inner{max-width:1480px;margin:auto;padding:44px clamp(20px,4.1vw,65px) 0}.heading-block{position:relative}.eyebrow{letter-spacing:2.6px;font-size:10px;color:#aa8cff;font-weight:800}.eyebrow-star{margin-right:6px;color:#beabf7;font-size:16px}.heading-block h1{font:800 clamp(34px,4.1vw,61px)/1.12 Outfit,Arial,sans-serif;letter-spacing:-2px;margin:17px 0 13px}.heading-block h1 em{font-style:normal;background:linear-gradient(90deg,#957bff,#e1a5ff);-webkit-background-clip:text;background-clip:text;color:transparent}.heading-block>p{color:#9998ac;font-size:13px;line-height:1.7;max-width:630px;margin:0}.metrics{display:flex;align-items:center;gap:35px;margin-top:32px}.metrics>div{display:flex;align-items:baseline;gap:8px}.metrics strong{font:800 27px Outfit,Arial,sans-serif;letter-spacing:-.8px}.metrics small{font-size:9px;font-weight:800;color:#77788d;letter-spacing:1.4px}.metric-line{height:23px;width:1px;background:#333344}.showcase{margin-top:59px}.section-heading{display:flex;justify-content:space-between;align-items:end}.section-kicker{font-size:10px;font-weight:800;letter-spacing:2.2px;color:#8379af}.section-heading h2{font:700 clamp(20px,2.1vw,29px) Outfit,Arial,sans-serif;margin:9px 0 0;letter-spacing:-.5px}.sparkle{color:#ac8afa;font-weight:400}.showcase-tools{display:flex;gap:7px}.arrow-btn{height:38px;width:43px;border:1px solid #353349;border-radius:9px;background:#181a28;color:#c4c2d0;font-size:20px}.arrow-btn:hover{background:#342b57;color:white}.coverflow{height:375px;position:relative;overflow:hidden;outline:0;perspective:1100px;margin-top:10px;touch-action:pan-y}.ambient-glow{position:absolute;top:49%;left:50%;transform:translate(-50%,-50%);width:700px;height:240px;background:radial-gradient(ellipse,#6e4ab745,transparent 68%);filter:blur(8px);pointer-events:none}.floor-line{position:absolute;bottom:36px;left:12%;width:76%;height:2px;background:linear-gradient(90deg,transparent,#7770b044,transparent);box-shadow:0 -13px 35px #8c57ff33}.carousel-items{position:absolute;inset:0;transform-style:preserve-3d}.cover-item{position:absolute;top:35px;left:50%;width:205px;height:284px;transform-style:preserve-3d;transform-origin:center;transition:transform .47s cubic-bezier(.2,.75,.25,1),opacity .35s,filter .35s;cursor:pointer;will-change:transform}.cover-item:after{content:'';position:absolute;left:0;right:0;top:100%;height:70px;background:inherit;transform:scaleY(-1);opacity:.08;filter:blur(15px);pointer-events:none}.cover-item.selected .case{box-shadow:0 22px 65px #000b,0 0 0 2px #cab0ff6b,0 0 45px #9a78ff60}.case{height:100%;width:100%;border-radius:6px 10px 10px 6px;position:relative;overflow:hidden;background:#171d2c;border:1px solid #9994b366;box-shadow:9px 13px 29px #000b;isolation:isolate;display:flex;flex-direction:column}.case:before{position:absolute;content:'';inset:0 auto 0 0;width:9px;z-index:5;background:linear-gradient(90deg,#0008,#ffffff32,#0006);border-right:1px solid #ffffff20}.case .cover-art{position:absolute;inset:0;background-position:center;background-size:cover;z-index:-1}.case .cover-art:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#11152113 0%,#03041109 35%,#080817f2 100%)}.cover-top{display:flex;gap:6px;justify-content:space-between;padding:14px 15px 0 19px;font-size:9px;font-weight:900;letter-spacing:1.5px;text-shadow:0 1px 9px #000}.cover-top span:last-child{color:#eee5ff;font-size:8px;background:#0006;border:1px solid #ffffff40;padding:3px 5px;border-radius:3px}.cover-center{flex:1;display:grid;place-items:center;color:#ffffff6e;font:900 70px Outfit,Arial,sans-serif;text-shadow:0 3px 20px #0006}.cover-center.icon-center{padding:30px}.cover-center img{width:114px;height:114px;object-fit:contain;filter:drop-shadow(0 10px 20px #0009)}.cover-bottom{padding:0 16px 22px 20px;position:relative}.cover-bottom .case-eyebrow{font-size:8px;letter-spacing:1.6px;color:#c1aaff;font-weight:800}.cover-bottom strong{font:800 20px/1.05 Outfit,Arial,sans-serif;display:block;margin-top:9px;overflow:hidden;max-height:63px;word-break:break-word}.cover-bottom small{display:block;margin-top:8px;font-size:9px;color:#d2ccdc}.cover-item.selected .case{border-color:#b4a2ff}.selection-footer{margin-top:4px;min-height:83px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #ffffff10}.selection-main{min-width:0;display:flex;align-items:center;gap:20px}.selection-number{font:700 12px Outfit,Arial,sans-serif;color:#b59aff;white-space:nowrap}.selection-title{font:700 17px Outfit,Arial,sans-serif;max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.selection-meta{font-size:11px;color:#86869c;white-space:nowrap}.selection-actions{display:flex;gap:9px}.ghost-btn,.main-btn{height:39px;border-radius:9px;font-size:12px;font-weight:800}.ghost-btn{border:1px solid #38354d;color:#a99bc4;background:#191a28;width:43px;font-size:22px}.ghost-btn.is-fav{color:#ffaccd}.main-btn{border:1px solid #ad96ff;background:linear-gradient(110deg,#a587fd,#795ce5);color:white;padding:0 18px;box-shadow:0 8px 32px #7451d936}.main-btn span{margin-left:12px}.carousel-instructions{font-size:10px;color:#666980;display:flex;justify-content:center;gap:10px;margin-top:9px}.carousel-instructions span{color:#353648}.collection-section{margin-top:76px}.lower-heading{margin-bottom:25px}.view-switch{display:flex;gap:5px}.view-btn{border:1px solid #302e43;background:#181a26;border-radius:7px;height:33px;width:39px;color:#828399;font-size:21px}.view-btn.active{color:#b7a3ff;border-color:#6855a9;background:#30274f}.filter-bar{border-block:1px solid var(--line);padding:16px 0;display:flex;justify-content:space-between;gap:16px;align-items:center}.category-chips{display:flex;gap:7px;flex-wrap:wrap}.chip{background:#1a1c2b;border:1px solid #303044;color:#9c9daf;font-size:10px;font-weight:700;padding:8px 12px;border-radius:7px;white-space:nowrap}.chip.active,.chip:hover{color:#fff;border-color:#745cc8;background:#302747}.sort-and-count{display:flex;align-items:center;gap:14px;color:#747689;font-size:11px;white-space:nowrap}.sort-and-count select{border:1px solid #303044;padding:9px 10px;color:#bbb7cc;background:#171923;border-radius:7px;font-size:11px;outline:none}.catalog-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:17px;margin-top:25px}.catalog-card{min-width:0;border:1px solid #292a3a;background:#151722;border-radius:12px;overflow:hidden;cursor:pointer;transition:border-color .2s,transform .2s,box-shadow .2s}.catalog-card:hover{border-color:#7964c8;transform:translateY(-3px);box-shadow:0 12px 30px #0007}.catalog-cover{height:158px;position:relative;background:var(--art);background-size:cover;background-position:center;overflow:hidden;display:flex;align-items:center;justify-content:center}.catalog-cover:after{position:absolute;content:'';inset:0;background:linear-gradient(180deg,transparent 45%,#0b0b1cbb 100%);pointer-events:none}.catalog-cover .abbr{font:900 46px Outfit,Arial,sans-serif;letter-spacing:-3px;color:#ffffff57;text-shadow:0 7px 14px #0009}.catalog-cover .cover-icon{height:80px;width:80px;object-fit:contain;filter:drop-shadow(0 7px 14px #0008)}.card-source{position:absolute;z-index:2;top:11px;left:11px;border:1px solid #ffffff24;background:#080913ba;backdrop-filter:blur(5px);padding:5px 7px;font-weight:700;font-size:8px;border-radius:5px}.card-information{padding:14px 13px 15px}.card-information .card-category{font-size:9px;letter-spacing:1.1px;font-weight:800;color:#a591e9;text-transform:uppercase}.card-information h3{font:700 14px/1.3 Outfit,Arial,sans-serif;margin:7px 0 8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card-information p{font-size:10px;color:#777b91;margin:0;display:flex;justify-content:space-between;gap:5px}.catalog-grid.list-mode{display:flex;flex-direction:column;gap:8px}.list-mode .catalog-card{display:flex;align-items:center}.list-mode .catalog-cover{width:110px;flex:0 0 110px;height:77px}.list-mode .catalog-cover .abbr{font-size:30px}.list-mode .catalog-cover .cover-icon{width:55px;height:55px}.list-mode .card-information{flex:1}.list-mode .card-information h3{font-size:16px}.list-mode .card-information p{justify-content:start;gap:28px}.load-row{display:flex;justify-content:center;padding:30px 0}.load-more{border:1px solid #50446b;background:#24203a;color:#d8d1fa;border-radius:9px;font-weight:800;padding:11px 24px}.footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid var(--line);margin-top:35px;padding:24px 0 30px;color:#77768f;font-size:10px}.footer strong{color:#a995ff}.coverflow-empty{position:absolute;top:40%;width:100%;text-align:center;color:#9a94ac}.modal-overlay{position:fixed;inset:0;z-index:100;background:#05040bce;backdrop-filter:blur(11px);display:grid;place-items:center;padding:25px}.modal{position:relative;display:grid;grid-template-columns:38% 62%;width:min(850px,94vw);max-height:90vh;overflow:auto;border:1px solid #4f3d77;background:#191827;border-radius:18px;box-shadow:0 30px 100px #000b}.modal-art{background:var(--art);background-size:cover;background-position:center;min-height:480px;position:relative;display:flex;align-items:center;justify-content:center}.modal-art:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#07050c06,#0905137d)}.modal-art .abbr{font:900 75px Outfit,Arial,sans-serif;color:#fff9;letter-spacing:-7px}.modal-art img{max-width:65%;max-height:260px;filter:drop-shadow(0 17px 25px #0009)}.modal-content{padding:38px 36px 32px}.modal-kicker{color:#ab95ff;font-size:10px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;margin-bottom:12px}.modal-content h2{font:800 31px/1.14 Outfit,Arial,sans-serif;margin:0 0 15px}.modal-content>p{font-size:13px;line-height:1.8;color:#a6a3b8;white-space:pre-wrap;max-height:145px;overflow:auto}.details-table{margin:20px 0;border-block:1px solid #40354c;display:grid;grid-template-columns:1fr 1fr;gap:15px 10px;padding:17px 0}.detail-cell span{display:block;color:#7e7b92;font-size:9px;font-weight:800;letter-spacing:1px;margin-bottom:7px}.detail-cell strong{font-size:12px;font-weight:700;word-break:break-word}.modal-note{border:1px solid #534777;background:#2b233c;color:#c1b2e0;font-size:11px;padding:11px 13px;border-radius:8px;line-height:1.6}.modal-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.modal-actions a,.modal-actions button{border-radius:8px;padding:12px 15px;font-weight:800;font-size:11px;border:1px solid #594784;background:#342b50;color:#e5dafa}.modal-actions a.primary{background:linear-gradient(90deg,#ae89ff,#6c53d4);color:white;border:0}.close-modal{position:absolute;right:14px;top:14px;z-index:10;border:1px solid #ffffff32;background:#0e1021a8;color:white;border-radius:8px;width:35px;height:35px;font-size:16px}@media(max-width:1300px){.catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.cover-item{width:186px;height:264px;top:42px}.metrics{gap:22px}.selection-meta{display:none}}@media(max-width:1050px){.sidebar{width:205px;flex-basis:205px}.brand-copy strong{font-size:16px}.nav-link{font-size:11.5px}.catalog-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.cover-item{width:175px;height:256px}.filter-bar{align-items:start;flex-direction:column}.sort-and-count{width:100%;justify-content:space-between}}@media(max-width:800px){.sidebar{position:fixed;left:0;top:0;transform:translateX(-100%);width:255px;transition:transform .25s;box-shadow:15px 0 45px #0006}.sidebar.open{transform:translateX(0)}.menu-toggle{display:grid}.topbar{height:69px}.main-inner{padding-top:34px}.showcase{margin-top:44px}.coverflow{height:345px}.cover-item{width:180px;height:252px;top:30px}.metrics{flex-wrap:wrap;gap:20px}.catalog-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.search-field{width:min(51vw,330px)}}@media(max-width:590px){.topbar{padding:0 17px}.main-inner{padding-inline:17px}.heading-block h1{font-size:36px}.heading-block>p{font-size:12px}.breadcrumb{font-size:9px;letter-spacing:1px}.search-field{width:min(43vw,230px)}.search-field kbd{display:none}.search-field input{font-size:10px}.metrics{gap:12px}.metrics>div{display:block}.metrics strong{font-size:21px}.metrics small{display:block;margin-top:4px}.metric-line{height:25px}.section-heading h2{font-size:22px}.coverflow{margin-inline:-17px;height:324px}.cover-item{width:165px;height:230px;top:33px}.cover-center{font-size:55px}.cover-bottom strong{font-size:16px}.selection-footer{flex-wrap:wrap;gap:14px;padding-top:12px}.selection-main{gap:9px}.selection-title{font-size:14px;max-width:210px}.selection-actions{width:100%;justify-content:flex-end}.carousel-instructions{font-size:9px}.collection-section{margin-top:55px}.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.catalog-cover{height:130px}.catalog-card .card-information{padding:11px 10px}.card-information h3{font-size:13px}.category-chips{gap:5px}.chip{font-size:9px;padding:7px 8px}.modal{grid-template-columns:1fr;max-height:94vh}.modal-art{min-height:160px;max-height:200px}.modal-art .abbr{font-size:45px}.modal-art img{max-height:105px}.modal-content{padding:24px}.modal-content h2{font-size:24px}.details-table{gap:13px}}
+@media(max-width:590px){.topbar{gap:5px}.breadcrumb{min-width:0;flex:1;overflow:hidden;white-space:nowrap;gap:6px}.toolbar{flex-shrink:0;gap:6px}.search-field{width:120px;padding-inline:8px}.square-btn{width:36px;height:36px}.search-field{height:36px}.breadcrumb span{display:none}}
+/* Collections / layered console navigation */
+.path-trail{margin:17px 0 19px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:#737790;font-size:11px;font-weight:800;letter-spacing:.8px}
+.path-trail button{border:0;border-radius:7px;padding:8px 12px;color:#c8bded;background:#222034;font-size:10px;font-weight:800;letter-spacing:.5px}
+.path-trail button:hover{background:#35284f;color:white}.path-trail strong{font-size:11px;color:#f1eaff}
+.console-explorer{padding-top:10px;min-height:475px}.explorer-heading{display:flex;align-items:start;justify-content:space-between;gap:16px;margin-bottom:28px}.explorer-heading h2{font:800 clamp(29px,3.1vw,43px)/1.1 Outfit,Arial,sans-serif;letter-spacing:-1.2px;margin:14px 0 12px}.explorer-heading p{max-width:575px;color:#9999ac;font-size:13px;line-height:1.7;margin:0}.explorer-index{color:#5e6179;font-size:10px;font-weight:900;letter-spacing:2px;white-space:nowrap;margin-top:13px}
+.explorer-grid{display:grid;gap:17px}.family-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.family-tile,.system-tile{position:relative;isolation:isolate;overflow:hidden;border:1px solid #313246;background:linear-gradient(155deg,#1d2030,#111521 85%);border-radius:16px;color:#f8f6ff;text-align:left;cursor:pointer;box-shadow:0 7px 19px #0002;transition:transform .22s,border-color .22s,box-shadow .22s}.family-tile:hover,.system-tile:hover,.family-tile:focus-visible,.system-tile:focus-visible{transform:translateY(-4px);border-color:var(--tone);box-shadow:0 15px 42px #0008,0 0 25px color-mix(in srgb,var(--tone) 16%,transparent)}.family-tile{min-height:248px;padding:16px 19px 18px;display:flex;flex-direction:column;align-items:stretch;justify-content:space-between}.family-tile-glow{position:absolute;z-index:-1;inset:-20%;background:radial-gradient(ellipse at 55% 16%,color-mix(in srgb,var(--tone) 23%,transparent),transparent 61%);pointer-events:none}.family-tile-logo{display:block;height:134px;width:100%;margin-bottom:10px}.family-tile-logo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 7px 15px #0006)}.family-tile-bottom strong{display:block;font:800 23px Outfit,Arial,sans-serif;letter-spacing:-.35px}.family-tile-bottom small{display:block;margin:6px 0 18px;color:#9d9db0;font-size:11px}.tile-count{border-top:1px solid #ffffff15;padding-top:12px;display:flex;justify-content:space-between;font-weight:700;font-size:11px;color:#bab4ce}.tile-count b{font-size:19px;color:var(--tone);font-weight:500}
+.system-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.system-tile{min-height:205px;padding:11px 13px 14px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center}.system-tile-shine{position:absolute;z-index:-1;inset:0;background:radial-gradient(ellipse at 50% 28%,color-mix(in srgb,var(--tone) 14%,transparent),transparent 66%)}.system-logo{position:relative;display:flex;align-items:center;justify-content:center;height:125px;width:100%}.system-logo img{height:100%;width:100%;object-fit:contain;filter:drop-shadow(0 5px 14px #0008)}.system-logo-fallback{display:none;font-size:35px;font-weight:900}.system-logo img[style*="none"]+.system-logo-fallback{display:block}.system-tile-name{font:800 15px Outfit,Arial,sans-serif;color:#e9e6f5;margin:1px 0 11px}.system-tile-count{border-top:1px solid #ffffff15;padding-top:10px;width:100%;display:flex;justify-content:space-between;align-items:center;font-size:9px;letter-spacing:1.1px;font-weight:900;color:var(--tone)}.system-tile-count span{font-size:19px}.system-tile.no-ports .system-tile-count{color:#76778d}.system-tile.no-ports .system-logo{opacity:.59}.system-tile.no-ports{border-color:#292b3a}.system-tile.no-ports:hover{border-color:var(--tone)}
+@media(max-width:1190px){.family-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.system-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.explorer-heading{display:block}.explorer-index{display:none}.explorer-heading h2{font-size:30px}.explorer-heading p{font-size:12px}.family-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.family-tile{min-height:195px;padding:10px 12px}.family-tile-logo{height:91px}.family-tile-bottom strong{font-size:16px}.family-tile-bottom small{font-size:9px;margin:5px 0 12px;line-height:1.3;min-height:23px}.tile-count{font-size:10px;padding-top:9px}.system-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.system-tile{min-height:165px;padding:7px 9px 10px}.system-logo{height:99px}.system-tile-name{font-size:12px;margin:1px 0 7px}.system-tile-count{font-size:8px;padding-top:7px}}
+@media(max-width:380px){.family-tile-logo{height:74px}.family-tile{min-height:185px}}
+@media(prefers-reduced-motion:reduce){.family-tile,.system-tile{transition:none}.family-tile:hover,.system-tile:hover{transform:none}}
+</style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#inicio" aria-label="Inicio NX Flow">
+        <span class="brand-icon">N<span>X</span></span>
+        <span class="brand-copy"><strong>NX FLOW</strong><small>THE HOMEBREW LIBRARY</small></span>
+      </a>
+      <div class="sidebar-rule"></div>
+      <div class="nav-caption">BIBLIOTECA</div>
+      <nav id="primary-nav" class="primary-nav" aria-label="Categorías">
+        <button type="button" data-cat="Todos" class="nav-link active"><span class="nav-symbol">◈</span> Explorar todo <span class="nav-count" id="total-nav">—</span></button>
+        <button type="button" data-cat="Emuladores" class="nav-link"><span class="nav-symbol">▣</span> Emuladores</button>
+        <button type="button" data-cat="Ports" class="nav-link"><span class="nav-symbol">⟁</span> Ports por consola</button>
+        <div id="platform-links" class="subnav" hidden></div>
+        <button type="button" data-cat="PC nativo" class="nav-link"><span class="nav-symbol">▤</span> Ports PC nativos</button>
+        <button type="button" data-cat="Wine / PC" class="nav-link"><span class="nav-symbol">⌘</span> Wine / PC Windows</button>
+        <button type="button" data-cat="Android" class="nav-link"><span class="nav-symbol">⬡</span> Android</button>
+        <button type="button" data-cat="Homebrew" class="nav-link"><span class="nav-symbol">✧</span> Homebrew</button>
+        <button type="button" data-cat="Utilidades" class="nav-link"><span class="nav-symbol">⚒</span> Herramientas</button>
+        <button type="button" data-cat="Comunidad" class="nav-link"><span class="nav-symbol">⌁</span> GBAtemp · Novedades</button>
+        <button type="button" data-cat="Favoritos" class="nav-link"><span class="nav-symbol">♡</span> Mis favoritos</button>
+      </nav>
+      <div class="sidebar-rule"></div>
+      <div class="nav-caption">FUENTES CONECTADAS</div>
+      <div class="sources">
+        <a target="_blank" rel="noopener noreferrer" href="https://hb-app.store/switch"><span class="source-dot green"></span> HB App Store <span>↗</span></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/robzilla10001/SwitchPorts"><span class="source-dot blue"></span> SwitchPorts <span>↗</span></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://gbatemp.net/forums/nintendo-switch.283/"><span class="source-dot yellow"></span> GBAtemp <span>↗</span></a>
+      </div>
+      <div class="sidebar-bottom"><span class="heartbeat"></span><span id="sync-sidebar">Catálogo local disponible</span></div>
+    </aside>
+
+    <main class="main-content" id="inicio">
+      <header class="topbar">
+        <div class="breadcrumb"><span>LIBRARY</span><b>/</b><strong id="breadcrumb-section">EXPLORE</strong></div>
+        <div class="toolbar">
+          <label class="search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar en toda la biblioteca..." autocomplete="off" aria-label="Buscar en el catálogo"/><kbd>/</kbd></label>
+          <button id="refresh" class="square-btn" title="Consultar catálogo publicado" aria-label="Actualizar catálogo">↻</button>
+          <button id="mobile-menu" class="square-btn menu-toggle" title="Abrir categorías" aria-label="Abrir categorías">☰</button>
+        </div>
+      </header>
+
+      <div class="main-inner">
+        <section class="heading-block">
+          <div class="eyebrow"><span class="eyebrow-star">✦</span> TU COLECCIÓN DEFINITIVA DE HOMEBREW</div>
+          <h1>Todo tu universo <em>Switch.</em></h1>
+          <p>Ports, emuladores, utilidades y proyectos de la escena. Todo en un solo lugar, actualizado desde sus fuentes.</p>
+          <div class="metrics">
+            <div><strong id="metric-total">—</strong><small>ENTRADAS</small></div>
+            <span class="metric-line"></span>
+            <div><strong id="metric-ports">—</strong><small>PORTS</small></div>
+            <span class="metric-line"></span>
+            <div><strong id="metric-emus">—</strong><small>EMULADORES</small></div>
+            <span class="metric-line"></span>
+            <div><strong id="metric-sources">3</strong><small>FUENTES</small></div>
+          </div>
+        </section>
+
+        <nav class="path-trail" id="path-trail" aria-label="Ruta de navegación" hidden></nav>
+        <section class="console-explorer" id="console-explorer" aria-label="Explorador de ports" hidden>
+          <div class="explorer-heading">
+            <div>
+              <span class="section-kicker" id="explorer-eyebrow">PORTS / PLATAFORMAS</span>
+              <h2 id="explorer-title">Selecciona una familia</h2>
+              <p id="explorer-description">Explora los ports por plataforma de origen. Las colecciones se actualizan con el catálogo.</p>
+            </div>
+            <span class="explorer-index">NX / SYSTEM LIBRARY</span>
+          </div>
+          <div id="explorer-grid" class="explorer-grid"></div>
+        </section>
+        <section class="showcase" aria-label="Carrusel 3D">
+          <div class="section-heading">
+            <div><span class="section-kicker" id="showcase-kicker">01 / DESTACADOS</span><h2 id="section-title">Descubre algo nuevo <span class="sparkle">✳</span></h2></div>
+            <div class="showcase-tools"><button id="prev" class="arrow-btn" aria-label="Anterior">←</button><button id="next" class="arrow-btn" aria-label="Siguiente">→</button></div>
+          </div>
+          <div id="coverflow" class="coverflow" tabindex="0" aria-label="Carátulas. Usa las flechas izquierda y derecha para navegar">
+            <div class="ambient-glow"></div>
+            <div class="floor-line"></div>
+            <div id="carousel-items" class="carousel-items"></div>
+            <div class="coverflow-empty" id="empty-carousel" hidden>No hay resultados. Prueba otra búsqueda o categoría.</div>
+          </div>
+          <div class="selection-footer">
+            <div class="selection-main"><div class="selection-number" id="item-index">01 / 00</div><div class="selection-title" id="item-title">Selecciona una entrada</div><div class="selection-meta" id="item-meta">—</div></div>
+            <div class="selection-actions"><button id="favorite-active" class="ghost-btn" aria-label="Guardar favorito">♡</button><button id="view-active" class="main-btn">Ver detalles <span>↗</span></button></div>
+          </div>
+          <div class="carousel-instructions">← → navegar <span>·</span> ENTER detalles <span>·</span> ESC cerrar</div>
+        </section>
+
+        <section class="collection-section">
+          <div class="section-heading lower-heading"><div><span class="section-kicker">02 / CATÁLOGO COMPLETO</span><h2>Explorar biblioteca</h2></div><div class="view-switch"><button class="view-btn active" id="grid-view" title="Vista cuadrícula">▦</button><button class="view-btn" id="list-view" title="Vista lista">☷</button></div></div>
+          <div class="filter-bar"><div class="category-chips" id="category-chips"></div><div class="sort-and-count"><span id="results-counter">0 resultados</span><select id="sort" aria-label="Ordenar"><option value="updated">Más recientes</option><option value="title">Nombre A-Z</option><option value="source">Por fuente</option></select></div></div>
+          <div id="catalog-grid" class="catalog-grid"></div>
+          <div class="load-row"><button id="load-more" class="load-more" hidden>Mostrar más ↓</button></div>
+        </section>
+
+        <footer class="footer"><div><strong>NX FLOW</strong> · Biblioteca comunitaria no oficial. No afiliada a Nintendo.</div><div id="updated-at">Sin sincronización verificada</div></footer>
+      </div>
+    </main>
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close-modal" id="close-modal" aria-label="Cerrar">✕</button>
+      <div class="modal-art" id="modal-art"></div>
+      <div class="modal-content"><div class="modal-kicker" id="modal-kicker"></div><h2 id="modal-title"></h2><p id="modal-description"></p>
+        <div class="details-table" id="modal-fields"></div>
+        <div class="modal-note" id="modal-note">Los ports pueden requerir archivos originales adquiridos legalmente. Consulta el repositorio del autor.</div>
+        <div class="modal-actions" id="modal-actions"></div>
+      </div>
+    </div>
+  </div>
+  <script>window.NX_INLINE_DATA={
+  "meta": {
+    "generated_at": null,
+    "notice": "Catálogo inicial de demostración con registros comprobados. Se ampliará automáticamente al ejecutar sync_catalog.py mediante GitHub Actions.",
+    "sources": {
+      "SwitchPorts": "semilla",
+      "HB App Store": "pendiente",
+      "GBAtemp": "pendiente"
+    }
+  },
+  "items": [
+    {
+      "id": "port-zelda-oot",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "9.3.0",
+      "updated": "2026-10-06",
+      "source": "SwitchPorts",
+      "author": "Ship of Harkinian",
+      "url": "https://github.com/timschneeb/Shipwright-Switch",
+      "description": "Port nativo basado en el proyecto Ship of Harkinian. Requiere archivos originales del juego."
+    },
+    {
+      "id": "port-sm64",
+      "title": "Super Mario 64 (Ghostship)",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "3.0.0",
+      "updated": "2026-09-07",
+      "source": "SwitchPorts",
+      "author": "HarbourMasters",
+      "url": "https://github.com/HarbourMasters/Ghostship",
+      "description": "Port/recompilación de Super Mario 64 para Nintendo Switch. Revisa los requisitos en el repositorio."
+    },
+    {
+      "id": "port-mk64",
+      "title": "Mario Kart 64",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.0",
+      "updated": "2026-02-24",
+      "source": "SwitchPorts",
+      "author": "HarbourMasters",
+      "url": "https://github.com/HarbourMasters/SpaghettiKart"
+    },
+    {
+      "id": "port-papermario",
+      "title": "Paper Mario",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.2",
+      "updated": "2026-10-01",
+      "source": "SwitchPorts",
+      "author": "Thorhax",
+      "url": "https://github.com/Thorhax/PaperBoat-NX-Modern"
+    },
+    {
+      "id": "port-half-life",
+      "title": "Half-Life",
+      "type": "Port",
+      "platform": "PC",
+      "version": "4211",
+      "updated": "2026-10-11",
+      "source": "SwitchPorts",
+      "author": "FWGS",
+      "url": "https://github.com/FWGS/xash3d-fwgs"
+    },
+    {
+      "id": "port-doom",
+      "title": "Doom (GZDoom)",
+      "type": "Port",
+      "platform": "PC",
+      "version": "4.10.0",
+      "updated": "2026-08-29",
+      "source": "SwitchPorts",
+      "author": "Thorhax",
+      "url": "https://github.com/Thorhax/GZDoom-NX-2026"
+    },
+    {
+      "id": "port-diablo",
+      "title": "Diablo (DevilutionX)",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.6.1",
+      "updated": "2026-09-04",
+      "source": "SwitchPorts",
+      "author": "Thorhax",
+      "url": "https://github.com/Thorhax/DevilutionX-NX-Modern"
+    },
+    {
+      "id": "port-fallout",
+      "title": "Fallout",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.1.0",
+      "updated": "2026-05-21",
+      "source": "SwitchPorts",
+      "author": "ryandeering",
+      "url": "https://github.com/ryandeering/fallout-ce-switch"
+    },
+    {
+      "id": "community-nfsh",
+      "title": "Need for Speed: Most Wanted (2005)",
+      "type": "Comunidad",
+      "platform": "PC",
+      "version": "Consultar autor",
+      "updated": "2026-09-27",
+      "source": "GBAtemp",
+      "author": "StevensND",
+      "discussion": "https://gbatemp.net/forums/nintendo-switch.283/",
+      "description": "Proyecto comentado en la comunidad. Comprueba repositorio y versión en el hilo del autor.",
+      "status": "Por verificar"
+    },
+    {
+      "id": "emu-ppsspp",
+      "title": "PPSSPP-NX",
+      "type": "Emulador",
+      "platform": "PSP",
+      "version": "1.0.0",
+      "updated": "2026-09-17",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/ppsspp-nx"
+    },
+    {
+      "id": "emu-dolphin",
+      "title": "Dolphin NX",
+      "type": "Emulador",
+      "platform": "GameCube / Wii",
+      "version": "1.2.0",
+      "updated": "2026-10-16",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/dolphin-nx"
+    },
+    {
+      "id": "emu-drastic",
+      "title": "DrasticDS",
+      "type": "Emulador",
+      "platform": "Nintendo DS",
+      "version": "1.1.2",
+      "updated": "2026-09-16",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/DrasticDS_nx"
+    },
+    {
+      "id": "emu-flycast",
+      "title": "Flycast",
+      "type": "Emulador",
+      "platform": "Dreamcast",
+      "version": "Por confirmar",
+      "updated": "2026-10-12",
+      "source": "SwitchPorts",
+      "author": "flyinghead",
+      "url": "https://flyinghead.github.io/flycast-builds/"
+    },
+    {
+      "id": "emu-vita",
+      "title": "Vita3K NX",
+      "type": "Emulador",
+      "platform": "PS Vita",
+      "version": "1.3.1",
+      "updated": "2026-09-16",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/Vita3K-nx"
+    },
+    {
+      "id": "emu-retroarch",
+      "title": "RetroArch",
+      "type": "Emulador",
+      "platform": "Multisistema",
+      "version": "Nightly",
+      "source": "SwitchPorts",
+      "author": "Libretro",
+      "url": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/"
+    },
+    {
+      "id": "emu-ps2",
+      "title": "NetherSX2 NX",
+      "type": "Emulador",
+      "platform": "PlayStation 2",
+      "version": "1.4.0",
+      "updated": "2026-10-15",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/NetherSX2_nx"
+    },
+    {
+      "id": "manual-autorun",
+      "title": "Autorun (Wine / PC)",
+      "type": "Wine / PC",
+      "platform": "Windows PC",
+      "version": "Experimental",
+      "updated": "2026-09-20",
+      "source": "GitHub oficial",
+      "author": "autorunhq",
+      "url": "https://github.com/autorunhq/autorun",
+      "discussion": "https://gbatemp.net/threads/autorun-play-windows-pc-games-on-your-nintendo-switch.684587/",
+      "description": "Ejecuta algunos programas Windows mediante Wine y traducción de CPU. Lleva tus copias legítimas de juegos; proyecto experimental.",
+      "status": "Experimental"
+    },
+    {
+      "id": "manual-autorun-dlls",
+      "title": "Autorun — Windows DLLs",
+      "type": "Wine / PC",
+      "platform": "Windows PC",
+      "version": "Proyecto activo",
+      "source": "GitHub oficial",
+      "author": "autorunhq",
+      "url": "https://github.com/autorunhq/autorun-horizon-dlls",
+      "description": "Dependencias de Wine para Autorun."
+    }
+  ]
+}
+;
+window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik9USEVSIFNZU1RFTVMiPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjYjdjN2RmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNmY4NGEzIi8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaCI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTAiLz48L2ZpbHRlcj48L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjE2OSIgY3k9Ijk0IiByeD0iMTEwIiByeT0iNTEiIGZpbGw9IiM2Zjg0YTMiIG9wYWNpdHk9Ii4yMSIgZmlsdGVyPSJ1cmwoI3NoKSIvPgogIDxyZWN0IHg9IjIyIiB5PSIyNSIgd2lkdGg9IjI5NiIgaGVpZ2h0PSIxNDAiIHJ4PSIyOSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iLjA0NSIgc3Ryb2tlPSIjYjdjN2RmIiBzdHJva2Utb3BhY2l0eT0iLjE5Ii8+CiAgPHJlY3QgeD0iMTIyIiB5PSIyOSIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjUiIGZpbGw9InVybCgjZykiIG9wYWNpdHk9Ii45NCIvPgogIDx0ZXh0IHg9IjE3MCIgeT0iOTQiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjY4IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjMTQxYjJkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4rPC90ZXh0PgogIDx0ZXh0IHg9IjE3MCIgeT0iMTUyIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNmOWY5ZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPk9USEVSIFNZU1RFTVM8L3RleHQ+CiAgPC9zdmc+", "assets/families/pc.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBDIE5BVElWRSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiNiZDliZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM3ZDVkZTQiLz48L2xpbmVhckdyYWRpZW50PjxmaWx0ZXIgaWQ9InNoIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMCIvPjwvZmlsdGVyPjwvZGVmcz4KICA8ZWxsaXBzZSBjeD0iMTY5IiBjeT0iOTQiIHJ4PSIxMTAiIHJ5PSI1MSIgZmlsbD0iIzdkNWRlNCIgb3BhY2l0eT0iLjIxIiBmaWx0ZXI9InVybCgjc2gpIi8+CiAgPHJlY3QgeD0iMjIiIHk9IjI1IiB3aWR0aD0iMjk2IiBoZWlnaHQ9IjE0MCIgcng9IjI5IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIuMDQ1IiBzdHJva2U9IiNiZDliZmYiIHN0cm9rZS1vcGFjaXR5PSIuMTkiLz4KICA8cmVjdCB4PSIxMjIiIHk9IjI5IiB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHJ4PSIyNSIgZmlsbD0idXJsKCNnKSIgb3BhY2l0eT0iLjk0Ii8+CiAgPHRleHQgeD0iMTcwIiB5PSI5NCIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNTAiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiMxNDFiMmQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlBDPC90ZXh0PgogIDx0ZXh0IHg9IjE3MCIgeT0iMTUyIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNmOWY5ZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlBDIE5BVElWRTwvdGV4dD4KICA8L3N2Zz4=", "assets/families/sega.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNFR0EiPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjNTVkNGYyIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjU4Y2ViIi8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaCI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTAiLz48L2ZpbHRlcj48L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjE2OSIgY3k9Ijk0IiByeD0iMTEwIiByeT0iNTEiIGZpbGw9IiMyNThjZWIiIG9wYWNpdHk9Ii4yMSIgZmlsdGVyPSJ1cmwoI3NoKSIvPgogIDxyZWN0IHg9IjIyIiB5PSIyNSIgd2lkdGg9IjI5NiIgaGVpZ2h0PSIxNDAiIHJ4PSIyOSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iLjA0NSIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utb3BhY2l0eT0iLjE5Ii8+CiAgPHJlY3QgeD0iMTIyIiB5PSIyOSIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjUiIGZpbGw9InVybCgjZykiIG9wYWNpdHk9Ii45NCIvPgogIDx0ZXh0IHg9IjE3MCIgeT0iOTQiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjY4IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjMTQxYjJkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5TPC90ZXh0PgogIDx0ZXh0IHg9IjE3MCIgeT0iMTUyIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNmOWY5ZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNFR0E8L3RleHQ+CiAgPC9zdmc+", "assets/families/playstation.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBMQVlTVEFUSU9OIj4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzdlYTdmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRhNjhlYyIvPjwvbGluZWFyR3JhZGllbnQ+PGZpbHRlciBpZD0ic2giPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEwIi8+PC9maWx0ZXI+PC9kZWZzPgogIDxlbGxpcHNlIGN4PSIxNjkiIGN5PSI5NCIgcng9IjExMCIgcnk9IjUxIiBmaWxsPSIjNGE2OGVjIiBvcGFjaXR5PSIuMjEiIGZpbHRlcj0idXJsKCNzaCkiLz4KICA8cmVjdCB4PSIyMiIgeT0iMjUiIHdpZHRoPSIyOTYiIGhlaWdodD0iMTQwIiByeD0iMjkiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9Ii4wNDUiIHN0cm9rZT0iIzdlYTdmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4xOSIvPgogIDxyZWN0IHg9IjEyMiIgeT0iMjkiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgcng9IjI1IiBmaWxsPSJ1cmwoI2cpIiBvcGFjaXR5PSIuOTQiLz4KICA8dGV4dCB4PSIxNzAiIHk9Ijk0IiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI1MCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iIzE0MWIyZCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UFM8L3RleHQ+CiAgPHRleHQgeD0iMTcwIiB5PSIxNTIiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE5IiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iMSIgZmlsbD0iI2Y5ZjlmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UExBWVNUQVRJT048L3RleHQ+CiAgPC9zdmc+", "assets/families/android.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFORFJPSUQiPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjYmJlODhjIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjODBiZDUzIi8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaCI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTAiLz48L2ZpbHRlcj48L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjE2OSIgY3k9Ijk0IiByeD0iMTEwIiByeT0iNTEiIGZpbGw9IiM4MGJkNTMiIG9wYWNpdHk9Ii4yMSIgZmlsdGVyPSJ1cmwoI3NoKSIvPgogIDxyZWN0IHg9IjIyIiB5PSIyNSIgd2lkdGg9IjI5NiIgaGVpZ2h0PSIxNDAiIHJ4PSIyOSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iLjA0NSIgc3Ryb2tlPSIjYmJlODhjIiBzdHJva2Utb3BhY2l0eT0iLjE5Ii8+CiAgPHJlY3QgeD0iMTIyIiB5PSIyOSIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjUiIGZpbGw9InVybCgjZykiIG9wYWNpdHk9Ii45NCIvPgogIDx0ZXh0IHg9IjE3MCIgeT0iOTQiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjY4IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjMTQxYjJkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BPC90ZXh0PgogIDx0ZXh0IHg9IjE3MCIgeT0iMTUyIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNmOWY5ZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFORFJPSUQ8L3RleHQ+CiAgPC9zdmc+", "assets/families/xbox.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlhCT1giPgogIDxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjOWFlZmE0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMmNiYTY5Ii8+PC9saW5lYXJHcmFkaWVudD48ZmlsdGVyIGlkPSJzaCI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTAiLz48L2ZpbHRlcj48L2RlZnM+CiAgPGVsbGlwc2UgY3g9IjE2OSIgY3k9Ijk0IiByeD0iMTEwIiByeT0iNTEiIGZpbGw9IiMyY2JhNjkiIG9wYWNpdHk9Ii4yMSIgZmlsdGVyPSJ1cmwoI3NoKSIvPgogIDxyZWN0IHg9IjIyIiB5PSIyNSIgd2lkdGg9IjI5NiIgaGVpZ2h0PSIxNDAiIHJ4PSIyOSIgZmlsbD0iI2ZmZmZmZiIgb3BhY2l0eT0iLjA0NSIgc3Ryb2tlPSIjOWFlZmE0IiBzdHJva2Utb3BhY2l0eT0iLjE5Ii8+CiAgPHJlY3QgeD0iMTIyIiB5PSIyOSIgd2lkdGg9Ijk2IiBoZWlnaHQ9Ijk2IiByeD0iMjUiIGZpbGw9InVybCgjZykiIG9wYWNpdHk9Ii45NCIvPgogIDx0ZXh0IHg9IjE3MCIgeT0iOTQiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjY4IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjMTQxYjJkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5YPC90ZXh0PgogIDx0ZXh0IHg9IjE3MCIgeT0iMTUyIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9IjEiIGZpbGw9IiNmOWY5ZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlhCT1g8L3RleHQ+CiAgPC9zdmc+", "assets/families/arcade.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFSQ0FERSI+CiAgPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiNmZmNlN2UiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNkOTg0NTAiLz48L2xpbmVhckdyYWRpZW50PjxmaWx0ZXIgaWQ9InNoIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMCIvPjwvZmlsdGVyPjwvZGVmcz4KICA8ZWxsaXBzZSBjeD0iMTY5IiBjeT0iOTQiIHJ4PSIxMTAiIHJ5PSI1MSIgZmlsbD0iI2Q5ODQ1MCIgb3BhY2l0eT0iLjIxIiBmaWx0ZXI9InVybCgjc2gpIi8+CiAgPHJlY3QgeD0iMjIiIHk9IjI1IiB3aWR0aD0iMjk2IiBoZWlnaHQ9IjE0MCIgcng9IjI5IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIuMDQ1IiBzdHJva2U9IiNmZmNlN2UiIHN0cm9rZS1vcGFjaXR5PSIuMTkiLz4KICA8cmVjdCB4PSIxMjIiIHk9IjI5IiB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHJ4PSIyNSIgZmlsbD0idXJsKCNnKSIgb3BhY2l0eT0iLjk0Ii8+CiAgPHRleHQgeD0iMTcwIiB5PSI5NCIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNjgiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiMxNDFiMmQiIHRleHQtYW5jaG9yPSJtaWRkbGUiPuKYhTwvdGV4dD4KICA8dGV4dCB4PSIxNzAiIHk9IjE1MiIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTkiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIxIiBmaWxsPSIjZjlmOWZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5BUkNBREU8L3RleHQ+CiAgPC9zdmc+", "assets/families/nintendo.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNDAgMTkwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5JTlRFTkRPIj4KICA8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgyPSIxIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2YzN2E4NiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2YwNGE2NSIvPjwvbGluZWFyR3JhZGllbnQ+PGZpbHRlciBpZD0ic2giPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEwIi8+PC9maWx0ZXI+PC9kZWZzPgogIDxlbGxpcHNlIGN4PSIxNjkiIGN5PSI5NCIgcng9IjExMCIgcnk9IjUxIiBmaWxsPSIjZjA0YTY1IiBvcGFjaXR5PSIuMjEiIGZpbHRlcj0idXJsKCNzaCkiLz4KICA8cmVjdCB4PSIyMiIgeT0iMjUiIHdpZHRoPSIyOTYiIGhlaWdodD0iMTQwIiByeD0iMjkiIGZpbGw9IiNmZmZmZmYiIG9wYWNpdHk9Ii4wNDUiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLW9wYWNpdHk9Ii4xOSIvPgogIDxyZWN0IHg9IjEyMiIgeT0iMjkiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgcng9IjI1IiBmaWxsPSJ1cmwoI2cpIiBvcGFjaXR5PSIuOTQiLz4KICA8dGV4dCB4PSIxNzAiIHk9Ijk0IiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSI2OCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iIzE0MWIyZCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TjwvdGV4dD4KICA8dGV4dCB4PSIxNzAiIHk9IjE1MiIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTkiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIxIiBmaWxsPSIjZjlmOWZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5OSU5URU5ETzwvdGV4dD4KICA8L3N2Zz4=", "assets/consoles/gb.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdBTUUgQk9ZIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxyZWN0IHg9IjExNyIgeT0iMTQiIHdpZHRoPSI2NiIgaGVpZ2h0PSIxMTIiIHJ4PSIxMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiLz48cmVjdCB4PSIxMjgiIHk9IjI1IiB3aWR0aD0iNDQiIGhlaWdodD0iNTMiIHJ4PSI0IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuMzUiLz48cGF0aCBkPSJNMTMwIDk5aDIxbS0xMCAtMTB2MjAiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGNpcmNsZSBjeD0iMTY0IiBjeT0iOTgiIHI9IjQiIGZpbGw9IiNmMDRhNjUiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzEiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+R0FNRSBCT1k8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/pc.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBDIE5BVElWRSI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiM3ZDVkZTQiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjN2Q1ZGU0IiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cmVjdCB4PSIxMDAiIHk9IjMyIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjY2IiByeD0iNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYmQ5YmZmIiBzdHJva2Utd2lkdGg9IjYiLz48cGF0aCBkPSJNMTMxIDExMGgzOG0tMTkgLTEydjEyIiBzdHJva2U9IiNiZDliZmYiIHN0cm9rZS13aWR0aD0iNiIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5QQyBOQVRJVkU8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/switch.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNXSVRDSCI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjA0YTY1IiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cmVjdCB4PSIxMDMiIHk9IjI4IiByeD0iMjIiIHdpZHRoPSI5NCIgaGVpZ2h0PSI4NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjkiLz48cGF0aCBkPSJNMTUwIDI5VjExMSIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiLz48Y2lyY2xlIGN4PSIxMjYiIGN5PSI1OCIgcj0iOCIgZmlsbD0iI2YzN2E4NiIvPjxjaXJjbGUgY3g9IjE3NCIgY3k9Ijg0IiByPSI4IiBmaWxsPSIjZjM3YTg2Ii8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMxIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPlNXSVRDSDwvdGV4dD4KICAgIDwvc3ZnPg==", "assets/consoles/psp.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBTUCI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiM0YTY4ZWMiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNGE2OGVjIiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cmVjdCB4PSI2OSIgeT0iMzgiIHdpZHRoPSIxNjIiIGhlaWdodD0iNjciIHJ4PSIyNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjN2VhN2ZmIiBzdHJva2Utd2lkdGg9IjciLz48cmVjdCB4PSIxMTIiIHk9IjQ1IiB3aWR0aD0iNzYiIGhlaWdodD0iNTIiIHJ4PSI1IiBmaWxsPSIjN2VhN2ZmIiBvcGFjaXR5PSIuMjUiLz48cGF0aCBkPSJNODYgNjloMjJtLTExIC0xMXYyMiIgc3Ryb2tlPSIjN2VhN2ZmIiBzdHJva2Utd2lkdGg9IjQiLz48Y2lyY2xlIGN4PSIyMTMiIGN5PSI2MCIgcj0iNSIgZmlsbD0iIzRhNjhlYyIvPjxjaXJjbGUgY3g9IjIwMyIgY3k9Ijc4IiByPSI1IiBmaWxsPSIjNGE2OGVjIi8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMxIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPlBTUDwvdGV4dD4KICAgIDwvc3ZnPg==", "assets/consoles/snes.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNVUEVSIE5JTlRFTkRPIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik04NSA0OWwxOC0xOGg5NGwxOCAxOCA5IDQzYzIgOC01IDE3LTE0IDE3SDkwYy05IDAtMTYtOS0xNC0xN3oiIGZpbGw9IiNmMzdhODYiIG9wYWNpdHk9Ii4zMCIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTE4IDY0aDMybS0xNi0xNnYzMiIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE4MiIgY3k9IjYxIiByPSI3IiBmaWxsPSIjZjM3YTg2Ii8+PGNpcmNsZSBjeD0iMTk2IiBjeT0iNzYiIHI9IjciIGZpbGw9IiNmMDRhNjUiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+U1VQRVIgTklOVEVORE88L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/android32.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFORFJPSUQgMzIiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjODBiZDUzIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzgwYmQ1MyIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTEwNiA1NXE0NC01MyA4OCAwdjQ1aC04OHoiIGZpbGw9IiNiYmU4OGMiIG9wYWNpdHk9Ii43NiIvPjxwYXRoIGQ9Ik0xMjIgMzFsLTExLTE0bTY3IDE0IDExLTE0IiBzdHJva2U9IiNiYmU4OGMiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTMxIiBjeT0iNjMiIHI9IjQiIGZpbGw9IiMxMDIzMWUiLz48Y2lyY2xlIGN4PSIxNjkiIGN5PSI2MyIgcj0iNCIgZmlsbD0iIzEwMjMxZSIvPjxwYXRoIGQ9Ik0xMTYgMTExdjEzbTY4LTEzdjEzIiBzdHJva2U9IiNiYmU4OGMiIHN0cm9rZS13aWR0aD0iOSIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5BTkRST0lEIDMyPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/dreamcast.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRSRUFNQ0FTVCI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiMyNThjZWIiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjU4Y2ViIiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cGF0aCBkPSJNMTQ4IDIzYy02NC02LTc3IDc0LTE5IDk2IDUyIDIxIDEwMC0xOCA5MC01Ny03LTI4LTQ1LTQzLTY1LTE5LTE3IDE5LTMgNDIgMTYgMzkgMjMtNCAxNi0zMi00LTMwIiBmaWxsPSJub25lIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iMTAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5EUkVBTUNBU1Q8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/x360.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlhCT1ggMzYwIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iIzJjYmE2OSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyY2JhNjkiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik04NSA0OWwxOC0xOGg5NGwxOCAxOCA5IDQzYzIgOC01IDE3LTE0IDE3SDkwYy05IDAtMTYtOS0xNC0xN3oiIGZpbGw9IiM5YWVmYTQiIG9wYWNpdHk9Ii4zMCIgc3Ryb2tlPSIjOWFlZmE0IiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTE4IDY0aDMybS0xNi0xNnYzMiIgc3Ryb2tlPSIjOWFlZmE0IiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE4MiIgY3k9IjYxIiByPSI3IiBmaWxsPSIjOWFlZmE0Ii8+PGNpcmNsZSBjeD0iMTk2IiBjeT0iNzYiIHI9IjciIGZpbGw9IiMyY2JhNjkiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzEiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+WEJPWCAzNjA8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/neogeo.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5FTyBHRU8iPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjZDk4NDUwIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2Q5ODQ1MCIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHJlY3QgeD0iMTE3IiB5PSIxOSIgd2lkdGg9IjY2IiBoZWlnaHQ9Ijk1IiByeD0iNCIgc3Ryb2tlPSIjZmZjZTdlIiBzdHJva2Utd2lkdGg9IjYiIGZpbGw9IiNmZmNlN2UiIG9wYWNpdHk9Ii4zNiIvPjxyZWN0IHg9IjEyNiIgeT0iMjgiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgcng9IjMiIGZpbGw9IiNkOTg0NTAiIG9wYWNpdHk9Ii42OCIvPjxjaXJjbGUgY3g9IjE1NiIgY3k9IjkyIiByPSI2IiBmaWxsPSIjZmZjZTdlIi8+PGNpcmNsZSBjeD0iMTcxIiBjeT0iOTYiIHI9IjQiIGZpbGw9IiNmZmNlN2UiLz48cGF0aCBkPSJNMTM4IDkwVjc5IiBzdHJva2U9IiNmZmNlN2UiIHN0cm9rZS13aWR0aD0iNSIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5ORU8gR0VPPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/wiiu.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IldpaSBVIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik04NSA0OWwxOC0xOGg5NGwxOCAxOCA5IDQzYzIgOC01IDE3LTE0IDE3SDkwYy05IDAtMTYtOS0xNC0xN3oiIGZpbGw9IiNmMzdhODYiIG9wYWNpdHk9Ii4zMCIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTE4IDY0aDMybS0xNi0xNnYzMiIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE4MiIgY3k9IjYxIiByPSI3IiBmaWxsPSIjZjM3YTg2Ii8+PGNpcmNsZSBjeD0iMTk2IiBjeT0iNzYiIHI9IjciIGZpbGw9IiNmMDRhNjUiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzEiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+V2lpIFU8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/wii.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IldpaSI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjA0YTY1IiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cGF0aCBkPSJNODUgNDlsMTgtMThoOTRsMTggMTggOSA0M2MyIDgtNSAxNy0xNCAxN0g5MGMtOSAwLTE2LTktMTQtMTd6IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuMzAiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHBhdGggZD0iTTExOCA2NGgzMm0tMTYtMTZ2MzIiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIxODIiIGN5PSI2MSIgcj0iNyIgZmlsbD0iI2YzN2E4NiIvPjxjaXJjbGUgY3g9IjE5NiIgY3k9Ijc2IiByPSI3IiBmaWxsPSIjZjA0YTY1Ii8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMxIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPldpaTwvdGV4dD4KICAgIDwvc3ZnPg==", "assets/consoles/xbox.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlhCT1giPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjMmNiYTY5IiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJjYmE2OSIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTg1IDQ5bDE4LTE4aDk0bDE4IDE4IDkgNDNjMiA4LTUgMTctMTQgMTdIOTBjLTkgMC0xNi05LTE0LTE3eiIgZmlsbD0iIzlhZWZhNCIgb3BhY2l0eT0iLjMwIiBzdHJva2U9IiM5YWVmYTQiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTggNjRoMzJtLTE2LTE2djMyIiBzdHJva2U9IiM5YWVmYTQiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTgyIiBjeT0iNjEiIHI9IjciIGZpbGw9IiM5YWVmYTQiLz48Y2lyY2xlIGN4PSIxOTYiIGN5PSI3NiIgcj0iNyIgZmlsbD0iIzJjYmE2OSIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5YQk9YPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/gba.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdBTUUgQk9ZIEFEVkFOQ0UiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjZjA0YTY1IiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHJlY3QgeD0iNjkiIHk9IjM4IiB3aWR0aD0iMTYyIiBoZWlnaHQ9IjY3IiByeD0iMjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI3Ii8+PHJlY3QgeD0iMTEyIiB5PSI0NSIgd2lkdGg9Ijc2IiBoZWlnaHQ9IjUyIiByeD0iNSIgZmlsbD0iI2YzN2E4NiIgb3BhY2l0eT0iLjI1Ii8+PHBhdGggZD0iTTg2IDY5aDIybS0xMSAtMTF2MjIiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PGNpcmNsZSBjeD0iMjEzIiBjeT0iNjAiIHI9IjUiIGZpbGw9IiNmMDRhNjUiLz48Y2lyY2xlIGN4PSIyMDMiIGN5PSI3OCIgcj0iNSIgZmlsbD0iI2YwNGE2NSIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5HQU1FIEJPWSBBRFZBTkNFPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/arcade.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFSQ0FERSI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiNkOTg0NTAiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDk4NDUwIiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cmVjdCB4PSIxMTciIHk9IjE5IiB3aWR0aD0iNjYiIGhlaWdodD0iOTUiIHJ4PSI0IiBzdHJva2U9IiNmZmNlN2UiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0iI2ZmY2U3ZSIgb3BhY2l0eT0iLjM2Ii8+PHJlY3QgeD0iMTI2IiB5PSIyOCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMyIgZmlsbD0iI2Q5ODQ1MCIgb3BhY2l0eT0iLjY4Ii8+PGNpcmNsZSBjeD0iMTU2IiBjeT0iOTIiIHI9IjYiIGZpbGw9IiNmZmNlN2UiLz48Y2lyY2xlIGN4PSIxNzEiIGN5PSI5NiIgcj0iNCIgZmlsbD0iI2ZmY2U3ZSIvPjxwYXRoIGQ9Ik0xMzggOTBWNzkiIHN0cm9rZT0iI2ZmY2U3ZSIgc3Ryb2tlLXdpZHRoPSI1Ii8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMxIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPkFSQ0FERTwvdGV4dD4KICAgIDwvc3ZnPg==", "assets/consoles/gamecube.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdBTUVDVUJFIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik0xNTAgMjJsNjEgMzAtNjEgMzUtNjEtMzV6IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuODkiLz48cGF0aCBkPSJNODkgNTJ2NDlsNjEgMzNWODd6IiBmaWxsPSIjZjA0YTY1Ii8+PHBhdGggZD0iTTIxMSA1MnY0OWwtNjEgMzNWODd6IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuNTQiLz48cGF0aCBkPSJNMTUwIDIydjY1bS02MS0zNWw2MSAzNSA2MS0zNSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLW9wYWNpdHk9Ii41NSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMxIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPkdBTUVDVUJFPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/32x.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNFR0EgMzJYIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iIzI1OGNlYiIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNThjZWIiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik04NSA0OWwxOC0xOGg5NGwxOCAxOCA5IDQzYzIgOC01IDE3LTE0IDE3SDkwYy05IDAtMTYtOS0xNC0xN3oiIGZpbGw9IiM1NWQ0ZjIiIG9wYWNpdHk9Ii4zMCIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTE4IDY0aDMybS0xNi0xNnYzMiIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE4MiIgY3k9IjYxIiByPSI3IiBmaWxsPSIjNTVkNGYyIi8+PGNpcmNsZSBjeD0iMTk2IiBjeT0iNzYiIHI9IjciIGZpbGw9IiMyNThjZWIiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzEiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+U0VHQSAzMlg8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/n64.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5JTlRFTkRPIDY0Ij4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik0xNTAgMjJsNjEgMzAtNjEgMzUtNjEtMzV6IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuODkiLz48cGF0aCBkPSJNODkgNTJ2NDlsNjEgMzNWODd6IiBmaWxsPSIjZjA0YTY1Ii8+PHBhdGggZD0iTTIxMSA1MnY0OWwtNjEgMzNWODd6IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuNTQiLz48cGF0aCBkPSJNMTUwIDIydjY1bS02MS0zNWw2MSAzNSA2MS0zNSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLW9wYWNpdHk9Ii41NSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI2IiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPk5JTlRFTkRPIDY0PC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/segacd.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNFR0EgQ0QiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjMjU4Y2ViIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI1OGNlYiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTg1IDQ5bDE4LTE4aDk0bDE4IDE4IDkgNDNjMiA4LTUgMTctMTQgMTdIOTBjLTkgMC0xNi05LTE0LTE3eiIgZmlsbD0iIzU1ZDRmMiIgb3BhY2l0eT0iLjMwIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTggNjRoMzJtLTE2LTE2djMyIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTgyIiBjeT0iNjEiIHI9IjciIGZpbGw9IiM1NWQ0ZjIiLz48Y2lyY2xlIGN4PSIxOTYiIGN5PSI3NiIgcj0iNyIgZmlsbD0iIzI1OGNlYiIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5TRUdBIENEPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/saturn.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNFR0EgU0FUVVJOIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iIzI1OGNlYiIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNThjZWIiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik04NSA0OWwxOC0xOGg5NGwxOCAxOCA5IDQzYzIgOC01IDE3LTE0IDE3SDkwYy05IDAtMTYtOS0xNC0xN3oiIGZpbGw9IiM1NWQ0ZjIiIG9wYWNpdHk9Ii4zMCIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTE4IDY0aDMybS0xNi0xNnYzMiIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE4MiIgY3k9IjYxIiByPSI3IiBmaWxsPSIjNTVkNGYyIi8+PGNpcmNsZSBjeD0iMTk2IiBjeT0iNzYiIHI9IjciIGZpbGw9IiMyNThjZWIiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+U0VHQSBTQVRVUk48L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/nds.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5JTlRFTkRPIERTIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxyZWN0IHg9IjEwMCIgeT0iMjQiIHdpZHRoPSIxMDAiIGhlaWdodD0iNDUiIHJ4PSI3IiBmaWxsPSJub25lIiBzdHJva2U9IiNmMzdhODYiIHN0cm9rZS13aWR0aD0iNiIvPjxyZWN0IHg9IjEwMCIgeT0iNzAiIHdpZHRoPSIxMDAiIGhlaWdodD0iNDUiIHJ4PSI3IiBmaWxsPSJub25lIiBzdHJva2U9IiNmMzdhODYiIHN0cm9rZS13aWR0aD0iNiIvPjxyZWN0IHg9IjExNSIgeT0iMzUiIHdpZHRoPSI3MCIgaGVpZ2h0PSIyNCIgcng9IjMiIGZpbGw9IiNmMDRhNjUiIG9wYWNpdHk9Ii40OCIvPjxyZWN0IHg9IjExOCIgeT0iNzgiIHdpZHRoPSI2NCIgaGVpZ2h0PSIyOCIgcng9IjMiIGZpbGw9IiNmMDRhNjUiIG9wYWNpdHk9Ii41NSIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5OSU5URU5ETyBEUzwvdGV4dD4KICAgIDwvc3ZnPg==", "assets/consoles/android64.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkFORFJPSUQgNjQiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjODBiZDUzIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzgwYmQ1MyIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTEwNiA1NXE0NC01MyA4OCAwdjQ1aC04OHoiIGZpbGw9IiNiYmU4OGMiIG9wYWNpdHk9Ii43NiIvPjxwYXRoIGQ9Ik0xMjIgMzFsLTExLTE0bTY3IDE0IDExLTE0IiBzdHJva2U9IiNiYmU4OGMiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTMxIiBjeT0iNjMiIHI9IjQiIGZpbGw9IiMxMDIzMWUiLz48Y2lyY2xlIGN4PSIxNjkiIGN5PSI2MyIgcj0iNCIgZmlsbD0iIzEwMjMxZSIvPjxwYXRoIGQ9Ik0xMTYgMTExdjEzbTY4LTEzdjEzIiBzdHJva2U9IiNiYmU4OGMiIHN0cm9rZS13aWR0aD0iOSIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNiIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5BTkRST0lEIDY0PC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/ps2.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBMQVlTVEFUSU9OIDIiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjNGE2OGVjIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRhNjhlYyIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTg1IDQ5bDE4LTE4aDk0bDE4IDE4IDkgNDNjMiA4LTUgMTctMTQgMTdIOTBjLTkgMC0xNi05LTE0LTE3eiIgZmlsbD0iIzdlYTdmZiIgb3BhY2l0eT0iLjMwIiBzdHJva2U9IiM3ZWE3ZmYiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTggNjRoMzJtLTE2LTE2djMyIiBzdHJva2U9IiM3ZWE3ZmYiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTgyIiBjeT0iNjEiIHI9IjciIGZpbGw9IiM3ZWE3ZmYiLz48Y2lyY2xlIGN4PSIxOTYiIGN5PSI3NiIgcj0iNyIgZmlsbD0iIzRhNjhlYyIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5QTEFZU1RBVElPTiAyPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/ps1.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBMQVlTVEFUSU9OIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iIzRhNjhlYyIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM0YTY4ZWMiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxwYXRoIGQ9Ik04NSA0OWwxOC0xOGg5NGwxOCAxOCA5IDQzYzIgOC01IDE3LTE0IDE3SDkwYy05IDAtMTYtOS0xNC0xN3oiIGZpbGw9IiM3ZWE3ZmYiIG9wYWNpdHk9Ii4zMCIgc3Ryb2tlPSIjN2VhN2ZmIiBzdHJva2Utd2lkdGg9IjUiLz48cGF0aCBkPSJNMTE4IDY0aDMybS0xNi0xNnYzMiIgc3Ryb2tlPSIjN2VhN2ZmIiBzdHJva2Utd2lkdGg9IjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE4MiIgY3k9IjYxIiByPSI3IiBmaWxsPSIjN2VhN2ZmIi8+PGNpcmNsZSBjeD0iMTk2IiBjeT0iNzYiIHI9IjciIGZpbGw9IiM0YTY4ZWMiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+UExBWVNUQVRJT048L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/gbc.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdBTUUgQk9ZIENPTE9SIj4KICAgIDxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZyI+PHN0b3Agc3RvcC1jb2xvcj0iI2YwNGE2NSIgc3RvcC1vcGFjaXR5PSIuMjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPgogICAgPGVsbGlwc2UgY3g9IjE1MCIgY3k9IjgwIiByeD0iMTI4IiByeT0iNzMiIGZpbGw9InVybCgjZykiLz4KICAgIDxyZWN0IHg9IjExNyIgeT0iMTQiIHdpZHRoPSI2NiIgaGVpZ2h0PSIxMTIiIHJ4PSIxMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiLz48cmVjdCB4PSIxMjgiIHk9IjI1IiB3aWR0aD0iNDQiIGhlaWdodD0iNTMiIHJ4PSI0IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuMzUiLz48cGF0aCBkPSJNMTMwIDk5aDIxbS0xMCAtMTB2MjAiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGNpcmNsZSBjeD0iMTY0IiBjeT0iOTgiIHI9IjQiIGZpbGw9IiNmMDRhNjUiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjAiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+R0FNRSBCT1kgQ09MT1I8L3RleHQ+CiAgICA8L3N2Zz4=", "assets/consoles/3ds.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5JTlRFTkRPIDNEUyI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjA0YTY1IiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cmVjdCB4PSIxMDAiIHk9IjI0IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQ1IiByeD0iNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiLz48cmVjdCB4PSIxMDAiIHk9IjcwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQ1IiByeD0iNyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjM3YTg2IiBzdHJva2Utd2lkdGg9IjYiLz48cmVjdCB4PSIxMTUiIHk9IjM1IiB3aWR0aD0iNzAiIGhlaWdodD0iMjQiIHJ4PSIzIiBmaWxsPSIjZjA0YTY1IiBvcGFjaXR5PSIuNDgiLz48cmVjdCB4PSIxMTgiIHk9Ijc4IiB3aWR0aD0iNjQiIGhlaWdodD0iMjgiIHJ4PSIzIiBmaWxsPSIjZjA0YTY1IiBvcGFjaXR5PSIuNTUiLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTU3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSI5MDAiIGxldHRlci1zcGFjaW5nPSIuNSIgZmlsbD0iI2Y4ZjZmZiI+TklOVEVORE8gM0RTPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/vita.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlBTIFZJVEEiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjNGE2OGVjIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzRhNjhlYyIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHJlY3QgeD0iNjkiIHk9IjM4IiB3aWR0aD0iMTYyIiBoZWlnaHQ9IjY3IiByeD0iMjYiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzdlYTdmZiIgc3Ryb2tlLXdpZHRoPSI3Ii8+PHJlY3QgeD0iMTEyIiB5PSI0NSIgd2lkdGg9Ijc2IiBoZWlnaHQ9IjUyIiByeD0iNSIgZmlsbD0iIzdlYTdmZiIgb3BhY2l0eT0iLjI1Ii8+PHBhdGggZD0iTTg2IDY5aDIybS0xMSAtMTF2MjIiIHN0cm9rZT0iIzdlYTdmZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PGNpcmNsZSBjeD0iMjEzIiBjeT0iNjAiIHI9IjUiIGZpbGw9IiM0YTY4ZWMiLz48Y2lyY2xlIGN4PSIyMDMiIGN5PSI3OCIgcj0iNSIgZmlsbD0iIzRhNjhlYyIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5QUyBWSVRBPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/sg1000.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlNHLTEwMDAiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjMjU4Y2ViIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI1OGNlYiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTg1IDQ5bDE4LTE4aDk0bDE4IDE4IDkgNDNjMiA4LTUgMTctMTQgMTdIOTBjLTkgMC0xNi05LTE0LTE3eiIgZmlsbD0iIzU1ZDRmMiIgb3BhY2l0eT0iLjMwIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTggNjRoMzJtLTE2LTE2djMyIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTgyIiBjeT0iNjEiIHI9IjciIGZpbGw9IiM1NWQ0ZjIiLz48Y2lyY2xlIGN4PSIxOTYiIGN5PSI3NiIgcj0iNyIgZmlsbD0iIzI1OGNlYiIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5TRy0xMDAwPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/genesis.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdFTkVTSVMiPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjMjU4Y2ViIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI1OGNlYiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTg1IDQ5bDE4LTE4aDk0bDE4IDE4IDkgNDNjMiA4LTUgMTctMTQgMTdIOTBjLTkgMC0xNi05LTE0LTE3eiIgZmlsbD0iIzU1ZDRmMiIgb3BhY2l0eT0iLjMwIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTggNjRoMzJtLTE2LTE2djMyIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTgyIiBjeT0iNjEiIHI9IjciIGZpbGw9IiM1NWQ0ZjIiLz48Y2lyY2xlIGN4PSIxOTYiIGN5PSI3NiIgcj0iNyIgZmlsbD0iIzI1OGNlYiIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIzMSIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5HRU5FU0lTPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/mastersystem.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik1BU1RFUiBTWVNURU0iPgogICAgPGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJnIj48c3RvcCBzdG9wLWNvbG9yPSIjMjU4Y2ViIiBzdG9wLW9wYWNpdHk9Ii4yOCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzI1OGNlYiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+CiAgICA8ZWxsaXBzZSBjeD0iMTUwIiBjeT0iODAiIHJ4PSIxMjgiIHJ5PSI3MyIgZmlsbD0idXJsKCNnKSIvPgogICAgPHBhdGggZD0iTTg1IDQ5bDE4LTE4aDk0bDE4IDE4IDkgNDNjMiA4LTUgMTctMTQgMTdIOTBjLTkgMC0xNi05LTE0LTE3eiIgZmlsbD0iIzU1ZDRmMiIgb3BhY2l0eT0iLjMwIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTggNjRoMzJtLTE2LTE2djMyIiBzdHJva2U9IiM1NWQ0ZjIiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMTgyIiBjeT0iNjEiIHI9IjciIGZpbGw9IiM1NWQ0ZjIiLz48Y2lyY2xlIGN4PSIxOTYiIGN5PSI3NiIgcj0iNyIgZmlsbD0iIzI1OGNlYiIvPgogICAgPHRleHQgeD0iMTUwIiB5PSIxNTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJBcmlhbCxIZWx2ZXRpY2Esc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjkwMCIgbGV0dGVyLXNwYWNpbmc9Ii41IiBmaWxsPSIjZjhmNmZmIj5NQVNURVIgU1lTVEVNPC90ZXh0PgogICAgPC9zdmc+", "assets/consoles/gamegear.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkdBTUUgR0VBUiI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiMyNThjZWIiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjU4Y2ViIiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cmVjdCB4PSI2OSIgeT0iMzgiIHdpZHRoPSIxNjIiIGhlaWdodD0iNjciIHJ4PSIyNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utd2lkdGg9IjciLz48cmVjdCB4PSIxMTIiIHk9IjQ1IiB3aWR0aD0iNzYiIGhlaWdodD0iNTIiIHJ4PSI1IiBmaWxsPSIjNTVkNGYyIiBvcGFjaXR5PSIuMjUiLz48cGF0aCBkPSJNODYgNjloMjJtLTExIC0xMXYyMiIgc3Ryb2tlPSIjNTVkNGYyIiBzdHJva2Utd2lkdGg9IjQiLz48Y2lyY2xlIGN4PSIyMTMiIGN5PSI2MCIgcj0iNSIgZmlsbD0iIzI1OGNlYiIvPjxjaXJjbGUgY3g9IjIwMyIgY3k9Ijc4IiByPSI1IiBmaWxsPSIjMjU4Y2ViIi8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI2IiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPkdBTUUgR0VBUjwvdGV4dD4KICAgIDwvc3ZnPg==", "assets/consoles/nes.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMTY1IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik5FUyI+CiAgICA8ZGVmcz48cmFkaWFsR3JhZGllbnQgaWQ9ImciPjxzdG9wIHN0b3AtY29sb3I9IiNmMDRhNjUiIHN0b3Atb3BhY2l0eT0iLjI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjA0YTY1IiBzdG9wLW9wYWNpdHk9IjAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz4KICAgIDxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjEyOCIgcnk9IjczIiBmaWxsPSJ1cmwoI2cpIi8+CiAgICA8cGF0aCBkPSJNODUgNDlsMTgtMThoOTRsMTggMTggOSA0M2MyIDgtNSAxNy0xNCAxN0g5MGMtOSAwLTE2LTktMTQtMTd6IiBmaWxsPSIjZjM3YTg2IiBvcGFjaXR5PSIuMzAiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI1Ii8+PHBhdGggZD0iTTExOCA2NGgzMm0tMTYtMTZ2MzIiIHN0cm9rZT0iI2YzN2E4NiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSIxODIiIGN5PSI2MSIgcj0iNyIgZmlsbD0iI2YzN2E4NiIvPjxjaXJjbGUgY3g9IjE5NiIgY3k9Ijc2IiByPSI3IiBmaWxsPSIjZjA0YTY1Ii8+CiAgICA8dGV4dCB4PSIxNTAiIHk9IjE1NyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjMxIiBmb250LXdlaWdodD0iOTAwIiBsZXR0ZXItc3BhY2luZz0iLjUiIGZpbGw9IiNmOGY2ZmYiPk5FUzwvdGV4dD4KICAgIDwvc3ZnPg=="};</script>
+<script>/* NX Flow: static frontend. Data is synchronized by scripts/sync_catalog.py on GitHub Actions. */
+(() => {
+  'use strict';
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => [...document.querySelectorAll(s)];
+  const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+  const safeURL = (u) => { try { const x = new URL(String(u), location.href); return ['http:', 'https:'].includes(x.protocol) ? x.href : ''; } catch { return ''; } };
+  const plabel = { 'Nintendo 64':'N64', 'GameCube':'GC', 'Game Boy Advance':'GBA', 'Game Boy Color':'GBC', 'Nintendo DS':'NDS', 'Nintendo 3DS':'3DS', 'PlayStation':'PS1', 'PlayStation 2':'PS2', 'Dreamcast':'DC', 'Super Nintendo':'SNES', 'PC':'PC', 'Android 64bit':'AND64', 'Android 32bit':'AND32', 'Wii U':'Wii U', 'Xbox 360':'X360', 'Sega Genesis':'MD' };
+  const backgrounds = [
+    ['#111b39','#6036a5','#db84a9'],['#081c27','#15899d','#b5efb2'],['#232344','#b252aa','#ffc59b'],
+    ['#13292f','#3a689a','#c89df3'],['#291d34','#bd5d68','#ffd087'],['#152b26','#389981','#b7d3e6'],
+    ['#281a2d','#8f459b','#eb8dca'],['#2c1836','#3b4bc5','#9cd5e9'],['#222134','#b57d4a','#f1c891']
+  ];
+  // Slugs and logical families are deliberately independent from cover art and external sources.
+  // Entries from SwitchPorts, HB App Store or data/custom use the same catalog pipeline.
+  const families = [
+    { id:'nintendo', title:'Nintendo', symbol:'N', tone:'#e65d65', subtitle:'De NES a Nintendo Switch' },
+    { id:'playstation', title:'PlayStation', symbol:'PS', tone:'#748bff', subtitle:'PS1, PS2, PSP y PS Vita' },
+    { id:'sega', title:'Sega', symbol:'S', tone:'#47a6ef', subtitle:'De Master System a Dreamcast' },
+    { id:'xbox', title:'Xbox', symbol:'X', tone:'#62c989', subtitle:'Xbox y Xbox 360' },
+    { id:'arcade', title:'Arcade', symbol:'★', tone:'#ffac5d', subtitle:'Arcade, Neo Geo y recreativas' },
+    { id:'android', title:'Android', symbol:'A', tone:'#a0d16b', subtitle:'Ports de Android 32/64 bits' },
+    { id:'pc', title:'PC nativo', symbol:'PC', tone:'#a58bfa', subtitle:'Juegos para PC adaptados a Switch' },
+    { id:'otros', title:'Otros sistemas', symbol:'+', tone:'#afb9c9', subtitle:'Plataformas sin clasificar' }
+  ];
+  const systems = {
+    nintendo:[['nes','NES','NES'],['snes','Super Nintendo','SNES'],['n64','Nintendo 64','N64'],['gb','Game Boy','GB'],['gbc','Game Boy Color','GBC'],['gba','Game Boy Advance','GBA'],['nds','Nintendo DS','DS'],['3ds','Nintendo 3DS','3DS'],['gamecube','GameCube','GC'],['wii','Wii','Wii'],['wiiu','Wii U','Wii U'],['switch','Nintendo Switch','Switch']],
+    playstation:[['ps1','PlayStation','PS1'],['ps2','PlayStation 2','PS2'],['psp','PSP','PSP'],['vita','PS Vita','PS Vita']],
+    sega:[['sg1000','SG-1000','SG'],['mastersystem','Master System','MS'],['genesis','Sega Genesis','MD'],['segacd','Sega CD','CD'],['32x','Sega 32X','32X'],['gamegear','Game Gear','GG'],['saturn','Sega Saturn','Saturn'],['dreamcast','Dreamcast','DC']],
+    xbox:[['xbox','Xbox','Xbox'],['x360','Xbox 360','360']],
+    arcade:[['arcade','Arcade','Arcade'],['neogeo','Neo Geo','Neo Geo']],
+    android:[['android32','Android 32bit','32-bit'],['android64','Android 64bit','64-bit']],
+    pc:[['pc','PC','PC']]
+  };
+  const alias = {'gameboy':'Game Boy','gameboy color':'Game Boy Color','gameboy advance':'Game Boy Advance','super nintendo entertainment system':'Super Nintendo','snes':'Super Nintendo','nes':'NES','n64':'Nintendo 64','gc':'GameCube','gamecube / wii':'GameCube','playstation 1':'PlayStation','ps1':'PlayStation','ps2':'PlayStation 2','ps vita':'PS Vita','genesis':'Sega Genesis','dreamcast':'Dreamcast','android 32-bit':'Android 32bit','android 64-bit':'Android 64bit','sega mega drive':'Sega Genesis','megadrive':'Sega Genesis','nintendo switch':'Nintendo Switch'};
+  const normalizeSystem = s => alias[String(s||'').trim().toLowerCase()] || String(s||'').trim();
+  function familyOf(item) {
+    if (item.family && families.some(f=>f.id===item.family)) return item.family;
+    const name=normalizeSystem(item.platform).toLowerCase();
+    for (const [family,entries] of Object.entries(systems)) if (entries.some(e=>e[1].toLowerCase()===name)) return family;
+    return 'otros';
+  }
+  const systemEntry = (family,platform) => (systems[family]||[]).find(e=>e[1]===normalizeSystem(platform));
+  const state = { all: [],filtered:[],nav:'Todos',family:'',platform:'',chip:'Todos',selected:0,limit:30,sort:'updated',list:false,favs:new Set(),meta:{} };
+  try { state.favs = new Set(JSON.parse(localStorage.getItem('nxflow:favs') || '[]')); } catch {}
+  const remember = () => { try { localStorage.setItem('nxflow:favs', JSON.stringify([...state.favs])); } catch {} };
+  const short = v => (plabel[v] || v || 'NX').toUpperCase();
+  const key = item => String(item.id || `${item.source}:${item.title}:${item.platform}`);
+  const hue = (item) => { let n=0; for (const c of key(item)) n=(n*31+c.charCodeAt(0))>>>0; return backgrounds[n % backgrounds.length]; };
+  function gradient(item) { const [a,b,c]=hue(item); return `radial-gradient(ellipse at 78% 16%,${c}88 0%,transparent 36%),radial-gradient(ellipse at 10% 90%,${b}bb 0%,transparent 55%),linear-gradient(140deg,${a},${b} 145%)`; }
+  function shortTitle(item) { return String(item.title || '?').split(/\s+/).map(x=>x[0]).join('').slice(0,3).toUpperCase() || 'NX'; }
+  function coverMarkup(item, large=false) {
+    const icon = safeURL(item.icon);
+    const title = esc(item.title);
+    const t = shortTitle(item);
+    if (large) return `<div class="case"><div class="cover-art" style="background:${gradient(item)}"></div><div class="cover-top"><span>NX / FLOW</span><span>${esc(short(item.platform || item.type))}</span></div><div class="cover-center ${icon?'icon-center':''}">${icon?`<img loading="lazy" src="${esc(icon)}" alt="" onerror="this.remove()">`:esc(t)}</div><div class="cover-bottom"><div class="case-eyebrow">${esc(item.type || 'PORT')}</div><strong>${title}</strong><small>${esc(item.author || item.source || 'Nintendo Switch')}</small></div></div>`;
+    return `<div class="catalog-cover" style="--art:${gradient(item)}"><span class="card-source">${esc(item.source)}</span>${icon?`<img class="cover-icon" loading="lazy" src="${esc(icon)}" alt="" onerror="this.style.display='none'">`:`<span class="abbr">${esc(t)}</span>`}</div>`;
+  }
+  function asDate(s) { const d=Date.parse(s||''); return Number.isNaN(d)?0:d; }
+  function categoryMatches(item) {
+    const {nav,family,platform,chip} = state;
+    const searching=Boolean($('#search').value.trim());
+    const type = item.type || '';
+    const src = item.source || '';
+    if (!searching && nav === 'Favoritos' && !state.favs.has(key(item))) return false;
+    if (!searching && nav === 'Emuladores' && type !== 'Emulador') return false;
+    if (!searching && nav === 'Ports' && type !== 'Port') return false;
+    if (!searching && nav === 'Ports' && family && familyOf(item)!==family) return false;
+    if (!searching && nav === 'PC nativo' && !(type==='Port' && item.platform==='PC')) return false;
+    if (!searching && nav === 'Wine / PC' && type !== 'Wine / PC') return false;
+    if (!searching && nav === 'Android' && !String(item.platform).startsWith('Android')) return false;
+    if (!searching && nav === 'Homebrew' && !['Homebrew','Juego homebrew'].includes(type)) return false;
+    if (!searching && nav === 'Utilidades' && type !== 'Utilidad') return false;
+    if (!searching && nav === 'Comunidad' && type !== 'Comunidad') return false;
+    if (!searching && platform && normalizeSystem(item.platform) !== normalizeSystem(platform)) return false;
+    if (chip === 'Homebrew App Store' && src !== 'HB App Store') return false;
+    if (chip === 'SwitchPorts' && src !== 'SwitchPorts') return false;
+    if (chip === 'GBAtemp' && src !== 'GBAtemp') return false;
+    if (chip === 'Recientes' && (!asDate(item.updated) || Date.now() - asDate(item.updated) > 30*86400000)) return false;
+    const words = $('#search').value.trim().toLocaleLowerCase('es');
+    if (words && !`${item.title||''} ${item.platform||''} ${item.type||''} ${item.author||''} ${item.description||''} ${item.source||''} ${familyOf(item)}`.toLocaleLowerCase('es').includes(words)) return false;
+    return true;
+  }
+  const logoAsset = path => window.NX_ASSETS?.[path] || path;
+  function explorerActive(){return state.nav==='Ports' && !$('#search').value.trim() && (!state.family || !state.platform);}
+  function portsCount(family='',platform='') {
+    return state.all.filter(i=>i.type==='Port' && (!family || familyOf(i)===family) && (!platform || normalizeSystem(i.platform)===normalizeSystem(platform))).length;
+  }
+  function renderExplorer(){
+    const active=explorerActive();
+    $('#console-explorer').hidden=!active;
+    $('.showcase').hidden=active;
+    $('.collection-section').hidden=active;
+    $('#path-trail').hidden=state.nav!=='Ports' || Boolean($('#search').value.trim());
+    if (state.nav!=='Ports') return;
+    const family=families.find(x=>x.id===state.family);
+    const crumbs=[`<button type="button" data-route="ports">PORTS</button>`];
+    if(family) crumbs.push(`<span>›</span><button type="button" data-route="${esc('ports/'+family.id)}">${esc(family.title)}</button>`);
+    if(state.platform) crumbs.push(`<span>›</span><strong>${esc(state.platform)}</strong>`);
+    $('#path-trail').innerHTML=crumbs.join('');
+    if(!active)return;
+    $('#explorer-eyebrow').textContent=family?`PORTS / ${family.title.toUpperCase()}`:'BIBLIOTECA / PORTS';
+    $('#explorer-title').textContent=family?`Ports de ${family.title}`:'Elige una plataforma';
+    $('#explorer-description').textContent=family?'Selecciona el logo de una consola para abrir su colección y navegar sus carátulas en 3D.':'Primero selecciona una familia. Después elige la consola original de cada juego.';
+    const group=$('#explorer-grid');
+    if(!family){
+      group.className='explorer-grid family-grid';
+      group.innerHTML=families.map(f=>{
+        const count=portsCount(f.id);
+        return `<button type="button" class="family-tile" data-family="${esc(f.id)}" style="--tone:${f.tone}"><span class="family-tile-glow"></span><span class="family-tile-logo"><img src="${logoAsset(`assets/families/${esc(f.id)}.svg`)}" alt="" loading="lazy"></span><span class="family-tile-bottom"><strong>${esc(f.title)}</strong><small>${esc(f.subtitle)}</small></span><span class="tile-count">${count} ${count===1?'port':'ports'} <b>↗</b></span></button>`;
+      }).join('');
+    } else {
+      group.className='explorer-grid system-grid';
+      const entries=systems[family.id]||[];
+      // Unknown source platforms are still discoverable rather than lost in an 'Other' group.
+      const extra=family.id==='otros'?[...new Set(state.all.filter(x=>x.type==='Port'&&familyOf(x)==='otros').map(x=>normalizeSystem(x.platform)))].filter(Boolean).map((p,i)=>['extra-'+i,p,p]):[];
+      group.innerHTML=[...entries,...extra].map(([id,platform,label])=>{
+        const count=portsCount(family.id,platform);
+        return `<button type="button" class="system-tile ${count?'':'no-ports'}" data-system="${esc(platform)}" style="--tone:${family.tone}" aria-label="Ver ports de ${esc(platform)}: ${count}"><span class="system-tile-shine"></span><span class="system-logo"><img src="${logoAsset(`assets/consoles/${esc(id)}.svg`)}" loading="lazy" alt="Logo ilustrado de ${esc(platform)}" onerror="this.style.display='none'"><span class="system-logo-fallback">${esc(label)}</span></span><span class="system-tile-name">${esc(platform)}</span><span class="system-tile-count">${count?`${count} ${count===1?'PORT':'PORTS'}`:'SIN REGISTROS'} <span>→</span></span></button>`;
+      }).join('');
+    }
+  }
+  function rerender({keepSelection=false}={}) {
+    const previous = keepSelection ? key(state.filtered[state.selected]||{}) : '';
+    state.filtered = state.all.filter(categoryMatches).sort((a,b) => state.sort==='title' ? (a.title||'').localeCompare(b.title||'') : state.sort==='source' ? (a.source||'').localeCompare(b.source||'') || (a.title||'').localeCompare(b.title||'') : asDate(b.updated)-asDate(a.updated) || a.title.localeCompare(b.title));
+    const index=state.filtered.findIndex(i=>key(i)===previous); state.selected=index>=0?index:(state.filtered.length?Math.min(3,Math.floor(state.filtered.length/2)):0);
+    $('#results-counter').textContent = `${state.filtered.length.toLocaleString('es-MX')} resultados`;
+    const f=families.find(x=>x.id===state.family);
+    const section=$('#search').value.trim()?'Resultados de búsqueda':state.nav==='Ports'?(state.platform||f?.title||'Ports por consola'):(state.nav==='Todos'?'Descubre algo nuevo':state.nav);
+    $('#section-title').innerHTML= `${esc(section)} <span class="sparkle">✳</span>`;
+    $('#showcase-kicker').textContent=state.platform?'COLECCIÓN / '+(f?.title.toUpperCase()||'PORTS'):'01 / DESTACADOS';
+    $('#breadcrumb-section').textContent=$('#search').value.trim()?'BUSCAR':state.nav==='Ports'?(state.platform||f?.title||'PORTS').toUpperCase():state.nav.toUpperCase();
+    $$('.nav-link').forEach(x=>x.classList.toggle('active',x.dataset.cat===state.nav));
+    $$('.subnav button').forEach(x=>x.classList.toggle('active',x.dataset.family===state.family));
+    $$('.chip').forEach(x=>x.classList.toggle('active',x.dataset.chip===state.chip));
+    $('#platform-links').hidden=state.nav!=='Ports';
+    renderExplorer();renderFlow(); renderCards();
+  }
+  function renderFlow() {
+    const length=state.filtered.length, selected=state.selected, target=$('#carousel-items');
+    $('#empty-carousel').hidden=length!==0;
+    if (!length) { target.innerHTML=''; $('#item-index').textContent='00 / 00';$('#item-title').textContent='Sin resultados';$('#item-meta').textContent='Agrega tu primer port a data/custom/ o cambia de consola';$('#favorite-active').textContent='♡';return; }
+    const visible=[];
+    // show at most 9 covers, or fewer when the catalog is small
+    for(let delta=-4;delta<=4;delta++){
+      const i=selected+delta; if(i<0||i>=length)continue;
+      const item=state.filtered[i];
+      const x=delta===0?0:Math.sign(delta)*(123+Math.max(0,Math.abs(delta)-1)*113);
+      const y=Math.abs(delta)*4;
+      const z=delta===0?125: -Math.abs(delta)*115;
+      const angle=delta===0?0:(delta<0?54:-54);
+      const sc=delta===0?1.07:Math.max(.72,.9-Math.abs(delta)*.035);
+      visible.push(`<div class="cover-item ${delta===0?'selected':''}" data-index="${i}" role="button" tabindex="${delta===0?0:-1}" aria-label="${esc(item.title)}" style="transform:translateX(calc(-50% + ${x}px)) translateY(${y}px) translateZ(${z}px) rotateY(${angle}deg) scale(${sc});z-index:${10-Math.abs(delta)};opacity:${Math.abs(delta)>3?.38:1};filter:brightness(${delta===0?1:.70})">${coverMarkup(item,true)}</div>`);
+    }
+    target.innerHTML=visible.join('');
+    $$('.cover-item').forEach(el=>el.addEventListener('click',()=>{const i=Number(el.dataset.index);if(state.selected===i)openDetails(state.filtered[i]); else {state.selected=i;renderFlow();}}));
+    const item=state.filtered[selected];
+    $('#item-index').textContent=`${String(selected+1).padStart(2,'0')} / ${String(length).padStart(2,'0')}`;
+    $('#item-title').textContent=item.title;
+    $('#item-meta').textContent=`${item.platform||item.type} · ${item.version||'Versión no indicada'} · ${item.source}`;
+    $('#favorite-active').classList.toggle('is-fav',state.favs.has(key(item)));
+    $('#favorite-active').textContent=state.favs.has(key(item))?'♥':'♡';
+  }
+  function renderCards(){
+    const container=$('#catalog-grid'), items=state.filtered.slice(0,state.limit);
+    container.classList.toggle('list-mode',state.list);
+    container.innerHTML=items.map((item,i)=>`<article class="catalog-card" tabindex="0" data-index="${i}" role="button" aria-label="Detalles de ${esc(item.title)}">${coverMarkup(item)}<div class="card-information"><div class="card-category">${esc(item.platform || item.type)}</div><h3 title="${esc(item.title)}">${esc(item.title)}</h3><p><span>${esc(item.version || 'Sin versión')}</span><span>${esc(item.updated || 'Sin fecha')}</span></p></div></article>`).join('');
+    $$('.catalog-card').forEach(el=>{const open=()=>openDetails(state.filtered[+el.dataset.index]);el.addEventListener('click',open);el.addEventListener('keydown',e=>{if(['Enter',' '].includes(e.key)){e.preventDefault();open();}})});
+    $('#load-more').hidden=state.limit>=state.filtered.length;
+  }
+  function makeCell(label,value){const el=document.createElement('div');el.className='detail-cell';const a=document.createElement('span');a.textContent=label;const b=document.createElement('strong');b.textContent=value || 'No especificado';el.append(a,b);return el;}
+  function actionLink(text,url,cls){const u=safeURL(url);if(!u)return null;const a=document.createElement('a');a.href=u;a.target='_blank';a.rel='noopener noreferrer';a.textContent=text;a.className=cls||'';return a;}
+  function openDetails(item){if(!item)return;$('#modal-kicker').textContent=`${item.type || 'Software'} / ${item.platform || 'Nintendo Switch'}`;$('#modal-title').textContent=item.title;$('#modal-description').textContent=item.description || 'Consulta los detalles en el repositorio original para información, instalación y requisitos.';
+    const art=$('#modal-art');art.style.setProperty('--art',gradient(item));art.replaceChildren();if(safeURL(item.icon)){const img=document.createElement('img');img.src=item.icon;img.alt='';img.onerror=()=>{img.replaceWith(Object.assign(document.createElement('span'),{className:'abbr',textContent:shortTitle(item)}));};art.append(img);}else{const txt=document.createElement('span');txt.className='abbr';txt.textContent=shortTitle(item);art.append(txt);}
+    const details=$('#modal-fields');details.replaceChildren(makeCell('VERSIÓN',item.version),makeCell('SISTEMA ORIGINAL',item.platform),makeCell('AUTOR',item.author),makeCell('FUENTE',item.source),makeCell('ACTUALIZACIÓN',item.updated),makeCell('ESTADO',item.status||'Catalogado'));
+    $('#modal-note').textContent=item.type==='Comunidad'?'Publicado en GBAtemp. Esta entrada es una noticia o proyecto por revisar; no se ha verificado una descarga oficial.':item.type==='Wine / PC'?'Compatibilidad experimental. Requiere juegos y archivos propios; revisa la documentación oficial antes de instalar.':item.type==='Emulador'?'Usa únicamente BIOS y copias de juegos que estés autorizado a utilizar. Revisa la compatibilidad en el repositorio oficial.':item.source==='HB App Store'?'El enlace del paquete apunta a la CDN oficial de Homebrew App Store. Verifica las instrucciones de instalación.':'Los ports pueden necesitar archivos originales de juegos adquiridos legalmente. Esta biblioteca no distribuye esos archivos.';
+    const actions=$('#modal-actions');actions.replaceChildren();let a;
+    if(item.download && (a=actionLink('↓ Descargar paquete oficial',item.download,'primary')))actions.append(a);
+    if(item.url && (a=actionLink('↗ Repositorio / proyecto',item.url,item.download?'':'primary')))actions.append(a);
+    if(item.discussion && (a=actionLink('⌁ Ver hilo GBAtemp',item.discussion)))actions.append(a);
+    if(!actions.children.length) actions.textContent='Sin enlace oficial confirmado.';
+    $('#modal-overlay').hidden=false;document.body.style.overflow='hidden';$('#close-modal').focus();
+  }
+  function closeDetails(){$('#modal-overlay').hidden=true;document.body.style.overflow='';}
+  function setNav(nav, family='', platform='', persist=true){
+    state.nav=nav;state.family=nav==='Ports'?family:'';state.platform=nav==='Ports'?platform:'';state.limit=30;
+    if(persist){
+      const sys=platform&&systemEntry(family,platform);
+      const target=nav==='Ports'?'#/ports'+(family?'/'+family:'')+(platform?'/'+encodeURIComponent(sys?.[0]||platform):''):'#/'+encodeURIComponent(nav.toLowerCase());
+      if(location.hash!==target)location.hash=target;
+    }
+    rerender();$('#sidebar').classList.remove('open');
+  }
+  function routeFromHash(){
+    const parts=decodeURIComponent((location.hash||'').replace(/^#\/?/,'')).split('/').filter(Boolean);
+    if(parts[0]==='ports'){
+      const family=families.find(x=>x.id===parts[1])?.id||'';
+      const bySlug=(systems[family]||[]).find(x=>x[0]===parts[2]);
+      const platform=bySlug?.[1]||(family==='otros'&&parts[2]?parts[2]:'');
+      setNav('Ports',family,platform,false);
+    } else {
+      const aliases={'todos':'Todos','emuladores':'Emuladores','pc nativo':'PC nativo','wine / pc':'Wine / PC','android':'Android','homebrew':'Homebrew','utilidades':'Utilidades','comunidad':'Comunidad','favoritos':'Favoritos'};
+      setNav(aliases[parts[0]]||'Todos','','',false);
+    }
+  }
+  function shift(delta){if(!state.filtered.length)return;state.selected=Math.max(0,Math.min(state.selected+delta,state.filtered.length-1));renderFlow();}
+  function initControls(){
+    $('#primary-nav').addEventListener('click',e=>{const b=e.target.closest('[data-cat]');if(b){$('#search').value='';setNav(b.dataset.cat);}});
+    $('#platform-links').addEventListener('click',e=>{const b=e.target.closest('[data-family]');if(b){$('#search').value='';setNav('Ports',b.dataset.family);}});
+    $('#explorer-grid').addEventListener('click',e=>{const family=e.target.closest('[data-family]'),system=e.target.closest('[data-system]');if(family)setNav('Ports',family.dataset.family);else if(system)setNav('Ports',state.family,system.dataset.system);});
+    $('#path-trail').addEventListener('click',e=>{const b=e.target.closest('[data-route]');if(b){$('#search').value='';location.hash='#/'+b.dataset.route;routeFromHash();}});
+    $('#category-chips').addEventListener('click',e=>{const b=e.target.closest('[data-chip]');if(b){state.chip=b.dataset.chip;state.limit=30;rerender();}});
+    $('#prev').addEventListener('click',()=>shift(-1));$('#next').addEventListener('click',()=>shift(1));
+    $('#coverflow').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();shift(-1);}if(e.key==='ArrowRight'){e.preventDefault();shift(1);}if(e.key==='Enter')openDetails(state.filtered[state.selected]);});
+    $('#view-active').addEventListener('click',()=>openDetails(state.filtered[state.selected]));
+    $('#favorite-active').addEventListener('click',()=>{const item=state.filtered[state.selected];if(!item)return;const k=key(item);if(state.favs.has(k))state.favs.delete(k);else state.favs.add(k);remember();if(state.nav==='Favoritos')rerender();else renderFlow();});
+    $('#search').addEventListener('input',()=>{state.limit=30;rerender();});$('#sort').addEventListener('change',e=>{state.sort=e.target.value;rerender({keepSelection:true});});
+    $('#grid-view').addEventListener('click',()=>{state.list=false;$('#grid-view').classList.add('active');$('#list-view').classList.remove('active');renderCards();});
+    $('#list-view').addEventListener('click',()=>{state.list=true;$('#list-view').classList.add('active');$('#grid-view').classList.remove('active');renderCards();});
+    $('#load-more').addEventListener('click',()=>{state.limit+=30;renderCards();});
+    $('#close-modal').addEventListener('click',closeDetails);$('#modal-overlay').addEventListener('click',e=>{if(e.target===$('#modal-overlay'))closeDetails();});
+    $('#mobile-menu').addEventListener('click',()=>$('#sidebar').classList.toggle('open'));
+    document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDetails();$('#sidebar').classList.remove('open');}if(e.key==='/'&&!/INPUT|TEXTAREA/.test(document.activeElement?.tagName||'')){e.preventDefault();$('#search').focus();}});
+    let touchX=0;$('#coverflow').addEventListener('touchstart',e=>{touchX=e.changedTouches[0].clientX;},{passive:true});$('#coverflow').addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-touchX;if(Math.abs(dx)>35)shift(dx<0?1:-1);},{passive:true});
+    $('#refresh').addEventListener('click',()=>load(true));
+    window.addEventListener('hashchange',routeFromHash);
+  }
+  function makeSidebar(){
+    $('#platform-links').innerHTML=families.map(f=>`<button data-family="${esc(f.id)}">${esc(f.title)} <span style="float:right;opacity:.5">${portsCount(f.id)}</span></button>`).join('');
+  }
+  function updateMetrics(){const all=state.all;$('#metric-total').textContent=all.length.toLocaleString('es-MX');$('#metric-ports').textContent=all.filter(x=>x.type==='Port').length.toLocaleString('es-MX');$('#metric-emus').textContent=all.filter(x=>x.type==='Emulador').length.toLocaleString('es-MX');$('#metric-sources').textContent=new Set(all.map(x=>x.source)).size;$('#total-nav').textContent=all.length.toLocaleString('es-MX');const d=state.meta.generated_at;$('#updated-at').textContent=d?`Última sincronización: ${new Date(d).toLocaleString('es-MX',{dateStyle:'medium',timeStyle:'short'})}`:'Sincronización automática pendiente';$('#sync-sidebar').textContent=d?'Datos sincronizados':'Catálogo inicial · sincronización pendiente';}
+  function chips(){const c=['Todos','Recientes','Homebrew App Store','SwitchPorts','GBAtemp'];$('#category-chips').innerHTML=c.map(x=>`<button class="chip ${x===state.chip?'active':''}" data-chip="${esc(x)}">${esc(x)}</button>`).join('');}
+  async function load(force=false){const refresh=$('#refresh');refresh.textContent='⟳';refresh.disabled=true;try{let resp;try{resp=await fetch('data/catalog.json'+(force?'?t='+Date.now():''),{cache:force?'no-store':'default'});if(!resp.ok)throw Error(String(resp.status));}catch(e){console.warn('Usando catálogo local inicial',e);resp={ok:true,json:async()=>window.NX_INLINE_DATA};}if(!resp.ok)throw new Error(`${resp.status}`);const data=await resp.json();if(!Array.isArray(data.items))throw new Error('Catálogo no válido');state.all=data.items.filter(item=>item && item.id && item.title && item.source);state.meta=data.meta||{};makeSidebar();updateMetrics();chips();routeFromHash();}catch(err){console.error('No se pudo cargar el catálogo',err);$('#sync-sidebar').textContent='Error cargando catálogo';$('#empty-carousel').hidden=false;$('#empty-carousel').textContent='No se pudo leer data/catalog.json. Abre la web con un servidor web, no mediante file://.';}finally{refresh.textContent='↻';refresh.disabled=false;}}
+  initControls();load();
+})();
+</script>
+</body>
+</html>
