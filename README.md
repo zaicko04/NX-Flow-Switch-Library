@@ -65,3 +65,19 @@ El archivo `scripts/resolve_covers.py` intenta completar carátulas en la misma 
 Para un port nuevo en `data/custom/nintendo/n64.json`, también puedes escribir `"cover": "assets/covers/mi-port.webp"` directamente. Esto se preserva entre actualizaciones.
 
 Las carátulas oficiales de videojuegos pueden estar protegidas por derechos de autor; procura usar imágenes con permiso o conforme a las condiciones de su fuente, conserva sus créditos y no redistribuyas ROMs ni datos propietarios. El sitio enlaza las imágenes públicas de Libretro, no las almacena de forma masiva.
+
+## Carátulas visibles para todo el catálogo
+
+El CoverFlow y la cuadrícula siempre muestran una carátula para cada entrada, incluso cuando no existe una portada real en las fuentes públicas.
+
+Prioridad visual:
+
+1. **Carátula real del juego** en el campo `cover` (Libretro, x360db, o imagen personalizada).
+2. **Portada diseñada automáticamente más icono auténtico** cuando la entrada proviene de HB App Store y tiene `icon`.
+3. **Portada ilustrada de NX Flow**, con el título, consola y colores identificables. Se genera en el navegador (SVG); no se presenta como arte oficial.
+
+Si una carátula externa no carga, el diseño SVG toma su lugar. Así no aparecen cajas vacías ni imágenes rotas.
+
+Para cambiar una ilustración por una carátula autorizada, sube la imagen a `assets/covers/` y referencia su ruta en `data/covers.json` con la clave `Consola|Título`. La siguiente sincronización aplicará el cambio.
+
+La deduplicación conserva un registro por título, consola y tipo; las alternativas quedan en metadatos. Por eso el total visual coincide con las entradas únicas, no con las variantes importadas.
