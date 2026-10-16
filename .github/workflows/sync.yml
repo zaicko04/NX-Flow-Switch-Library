@@ -21,6 +21,8 @@ jobs:
           python-version: "3.12"
       - name: Importar SwitchPorts, Homebrew App Store y GBAtemp
         run: python scripts/sync_catalog.py
+      - name: Agregar carátulas verificadas por consola
+        run: python scripts/resolve_covers.py
       - name: Guardar catálogo actualizado
         run: |
           if ! git diff --quiet -- data/catalog.json; then
