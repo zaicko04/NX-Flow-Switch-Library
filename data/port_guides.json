@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T22:55:39+00:00",
+    "generated_at": "2026-10-16T22:56:55+00:00",
     "port_count": 303,
     "repositories": 301,
     "statuses": {
-      "readme_verified": 299,
-      "review_needed": 2
+      "readme_verified": 300,
+      "review_needed": 1
     },
     "note": "README-derived summaries are partial. Full instructions must be checked with each author."
   },
@@ -1211,14 +1211,14 @@
       "checked_at": "2026-10-16T22:53:39+00:00"
     },
     "https://github.com/NaGaa95/vcmi_nx": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/NaGaa95/vcmi_nx",
-      "reason": "README not available at repository root",
+      "status": "readme_verified",
+      "readme_url": "https://github.com/NaGaa95/vcmi_nx/blob/master/docs/Readme.md",
+      "reason": "",
       "overview": "",
       "requirements": "",
-      "installation": "",
+      "installation": "Windows\nmacOS\nLinux\nAndroid\niOS\n\nSee also installation guide for Heroes Chronicles.",
       "editions": "",
-      "checked_at": "2026-10-16T22:55:39+00:00"
+      "checked_at": "2026-10-16T22:56:55+00:00"
     },
     "https://github.com/NaGaa95/vln_nx": {
       "status": "readme_verified",
@@ -2335,7 +2335,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:55:39+00:00"
+      "checked_at": "2026-10-16T22:56:55+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
