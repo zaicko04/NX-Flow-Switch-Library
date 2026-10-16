@@ -23,6 +23,13 @@
 @media(max-width:650px){.explorer-heading{display:block}.explorer-index{display:none}.explorer-heading h2{font-size:30px}.explorer-heading p{font-size:12px}.family-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.family-tile{min-height:195px;padding:10px 12px}.family-tile-logo{height:91px}.family-tile-bottom strong{font-size:16px}.family-tile-bottom small{font-size:9px;margin:5px 0 12px;line-height:1.3;min-height:23px}.tile-count{font-size:10px;padding-top:9px}.system-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.system-tile{min-height:165px;padding:7px 9px 10px}.system-logo{height:99px}.system-tile-name{font-size:12px;margin:1px 0 7px}.system-tile-count{font-size:8px;padding-top:7px}}
 @media(max-width:380px){.family-tile-logo{height:74px}.family-tile{min-height:185px}}
 @media(prefers-reduced-motion:reduce){.family-tile,.system-tile{transition:none}.family-tile:hover,.system-tile:hover{transform:none}}
+
+/* Supplied system logos, optimized to WebP with transparency. */
+.active-platform-logo{display:block;max-width:250px;width:auto;height:47px;object-fit:contain;object-position:left center;margin:10px 0 0;filter:drop-shadow(0 3px 9px #0008)}
+.active-platform-logo[hidden],.modal-platform-logo[hidden]{display:none!important}
+.path-trail .trail-current{display:inline-flex;align-items:center;gap:10px}.path-trail .trail-current img{height:26px;max-width:115px;object-fit:contain}
+.modal-platform-logo{display:block;max-height:45px;max-width:190px;width:auto;object-fit:contain;object-position:left;margin:0 0 12px}
+.case-platform-brand{display:flex;justify-content:center;align-items:center;min-width:46px;max-width:95px;min-height:24px}.case-platform-brand img{width:auto!important;max-height:19px;max-width:82px;object-fit:contain;filter:drop-shadow(0 2px 5px #000b)}
 </style>
 </head>
 <body>
@@ -97,7 +104,7 @@
         </section>
         <section class="showcase" aria-label="Carrusel 3D">
           <div class="section-heading">
-            <div><span class="section-kicker" id="showcase-kicker">01 / DESTACADOS</span><h2 id="section-title">Descubre algo nuevo <span class="sparkle">✳</span></h2></div>
+            <div><span class="section-kicker" id="showcase-kicker">01 / DESTACADOS</span><h2 id="section-title">Descubre algo nuevo <span class="sparkle">✳</span></h2><img id="active-platform-logo" class="active-platform-logo" alt="" hidden></div>
             <div class="showcase-tools"><button id="prev" class="arrow-btn" aria-label="Anterior">←</button><button id="next" class="arrow-btn" aria-label="Siguiente">→</button></div>
           </div>
           <div id="coverflow" class="coverflow" tabindex="0" aria-label="Carátulas. Usa las flechas izquierda y derecha para navegar">
@@ -129,7 +136,7 @@
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <button class="close-modal" id="close-modal" aria-label="Cerrar">✕</button>
       <div class="modal-art" id="modal-art"></div>
-      <div class="modal-content"><div class="modal-kicker" id="modal-kicker"></div><h2 id="modal-title"></h2><p id="modal-description"></p>
+      <div class="modal-content"><div class="modal-kicker" id="modal-kicker"></div><img id="modal-platform-logo" class="modal-platform-logo" alt="" hidden><h2 id="modal-title"></h2><p id="modal-description"></p>
         <div class="details-table" id="modal-fields"></div>
         <div class="port-guide" id="modal-port-guide" hidden></div>
         <div class="modal-note" id="modal-note">Los ports pueden requerir archivos originales adquiridos legalmente. Consulta el repositorio del autor.</div>
@@ -474,8 +481,9 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const icon = safeURL(item.icon);
     const title = esc(item.title);
     const t = shortTitle(item);
+    const platformLogo=consoleLogo(item.platform);
     const image = '<img class="'+(large?'real-cover':'full-cover')+'" loading="lazy" decoding="async" src="'+esc(src)+'" data-fallback="'+esc(fallback)+'" alt="Carátula de '+title+'" onerror="this.onerror=null;this.src=this.dataset.fallback">';
-    if (large) return '<div class="case"><div class="cover-art" style="background:'+gradient(item)+'">'+image+'</div><div class="cover-top"><span>NX / FLOW</span><span>'+esc(short(item.platform || item.type))+'</span></div><div class="cover-center '+(official?'has-cover':icon?'icon-center':'template-center')+'">'+(!official&&icon?'<img loading="lazy" src="'+esc(icon)+'" alt="Icono de '+title+'" onerror="this.remove()">':!official?esc(t):'')+'</div><div class="cover-bottom"><div class="case-eyebrow">'+esc(item.type || 'PORT')+'</div><strong>'+title+'</strong><small>'+esc(item.author || item.source || 'Nintendo Switch')+'</small></div></div>';
+    if (large) return '<div class="case"><div class="cover-art" style="background:'+gradient(item)+'">'+image+'</div><div class="cover-top"><span>NX / FLOW</span><span class="case-platform-brand">'+(platformLogo?'<img src="'+esc(platformLogo)+'" alt="'+esc(item.platform||'Consola')+'">':esc(short(item.platform || item.type)))+'</span></div><div class="cover-center '+(official?'has-cover':icon?'icon-center':'template-center')+'">'+(!official&&icon?'<img loading="lazy" src="'+esc(icon)+'" alt="Icono de '+title+'" onerror="this.remove()">':!official?esc(t):'')+'</div><div class="cover-bottom"><div class="case-eyebrow">'+esc(item.type || 'PORT')+'</div><strong>'+title+'</strong><small>'+esc(item.author || item.source || 'Nintendo Switch')+'</small></div></div>';
     return '<div class="catalog-cover" style="--art:'+gradient(item)+'"><span class="card-source">'+esc(item.source)+'</span>'+image+(!official&&icon?'<img class="cover-icon" loading="lazy" src="'+esc(icon)+'" alt="" onerror="this.remove()">':'')+'</div>';
   }
   function asDate(s) { const d=Date.parse(s||''); return Number.isNaN(d)?0:d; }
@@ -547,7 +555,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const family=families.find(x=>x.id===state.family);
     const crumbs=[`<button type="button" data-route="ports">PORTS</button>`];
     if(family) crumbs.push(`<span>›</span><button type="button" data-route="${esc('ports/'+family.id)}">${esc(family.title)}</button>`);
-    if(state.platform) crumbs.push(`<span>›</span><strong>${esc(state.platform)}</strong>`);
+    if(state.platform){const logoPath=consoleLogo(state.platform);crumbs.push(`<span>›</span><strong class="trail-current">${logoPath?`<img src="${esc(logoPath)}" alt="" loading="lazy">`:``}${esc(state.platform)}</strong>`);}
     $('#path-trail').innerHTML=crumbs.join('');
     if(!active)return;
     $('#explorer-eyebrow').textContent=family?`PORTS / ${family.title.toUpperCase()}`:'BIBLIOTECA / PORTS';
@@ -579,6 +587,8 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const f=families.find(x=>x.id===state.family);
     const section=$('#search').value.trim()?'Resultados de búsqueda':state.nav==='Ports'?(state.platform||f?.title||'Ports por consola'):(state.nav==='Todos'?'Descubre algo nuevo':state.nav);
     $('#section-title').innerHTML= `${esc(section)} <span class="sparkle">✳</span>`;
+    const activeLogo=$('#active-platform-logo'),activeLogoUrl=(state.nav==='Ports'&&!$('#search').value.trim()&&state.platform)?consoleLogo(state.platform):'';
+    activeLogo.hidden=!activeLogoUrl;if(activeLogoUrl){activeLogo.src=activeLogoUrl;activeLogo.alt='Logo de '+state.platform;}
     $('#showcase-kicker').textContent=state.platform?'COLECCIÓN / '+(f?.title.toUpperCase()||'PORTS'):'01 / DESTACADOS';
     $('#breadcrumb-section').textContent=$('#search').value.trim()?'BUSCAR':state.nav==='Ports'?(state.platform||f?.title||'PORTS').toUpperCase():state.nav.toUpperCase();
     $$('.nav-link').forEach(x=>x.classList.toggle('active',x.dataset.cat===state.nav));
@@ -700,6 +710,8 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
   function openDetails(item){if(!item)return;
     $('#modal-kicker').textContent=(item.type||'Software')+' / '+(item.platform||'Nintendo Switch');
     $('#modal-title').textContent=item.title;
+    const modalLogo=$('#modal-platform-logo'),logoPath=consoleLogo(item.platform);
+    modalLogo.hidden=!logoPath;if(logoPath){modalLogo.src=logoPath;modalLogo.alt='Logo de '+item.platform;}
     $('#modal-description').textContent=item.description||'Consulta los detalles y requisitos en el repositorio original.';
     const art=$('#modal-art');art.style.setProperty('--art',gradient(item));art.replaceChildren();
     const artwork=document.createElement('img');artwork.src=safeURL(item.cover)||generatedCover(item);artwork.alt='Portada de '+item.title;artwork.style.cssText='width:94%;height:auto;max-width:340px;max-height:470px;object-fit:contain';
