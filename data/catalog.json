@@ -1,12 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T21:56:02+00:00",
+    "generated_at": "2026-10-16T22:23:02+00:00",
     "sources": {
       "SwitchPorts": "349 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
-    "notice": "Datos públicos; GBAtemp queda por verificar."
+    "notice": "Datos públicos; GBAtemp queda por verificar.",
+    "covers_checked_at": "2026-10-16T22:23:02+00:00",
+    "covers_resolved": 44
   },
   "items": [
     {
@@ -2356,7 +2358,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/Killer-Instinct-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Killer%20Instinct.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-07cc1fc9d406d3",
@@ -2368,7 +2372,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/Killer-Instinct-2-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Killer%20Instinct%202.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-08b9d8724342cd",
@@ -2419,7 +2425,9 @@
       "url": "https://github.com/Thorhax/VF2-NX-Modern",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/virtua-fighter-2-arcade.685157/unread"
+      "discussion": "https://gbatemp.net/threads/virtua-fighter-2-arcade.685157/unread",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Virtua%20Fighter%202%20%28Version%202.1%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-63095e2a938fd2",
@@ -2455,7 +2463,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/delsonazevedo/Zelda-LA-DX-HD-Updated",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20DX%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-1ccfd5700c70f9",
@@ -2468,7 +2478,9 @@
       "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-zelda-links-awakening-dx-hd-aleks-ultimate-nx-edition-switch-homebrew-60fps-flip-grip-touch-second-screen.684512/unread"
+      "discussion": "https://gbatemp.net/threads/release-zelda-links-awakening-dx-hd-aleks-ultimate-nx-edition-switch-homebrew-60fps-flip-grip-touch-second-screen.684512/unread",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20DX%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-b14e966dbdb794",
@@ -2506,7 +2518,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/HayatoG/tmc",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-66f03f1b1e776e",
@@ -2532,7 +2546,9 @@
       "url": "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/metroid-zero-mission-nx.685276/"
+      "discussion": "https://gbatemp.net/threads/metroid-zero-mission-nx.685276/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Metroid%20-%20Zero%20Mission%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-b09b067ee6ec46",
@@ -2544,7 +2560,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/boraeskicioglu/sonic_advance2_nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Sonic%20Advance%202%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-9ae50c8340f34f",
@@ -2557,7 +2575,9 @@
       "url": "https://github.com/digdat0/ACGC-Switch-Port",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/animal-crossing-gcnx-switch-port.685302/"
+      "discussion": "https://gbatemp.net/threads/animal-crossing-gcnx-switch-port.685302/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Animal%20Crossing%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-f32850c06b18b4",
@@ -2570,7 +2590,9 @@
       "url": "https://github.com/HayatoG/dusklight/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dusk-for-switch-tloz-twilight-princess-port.681677/"
+      "discussion": "https://gbatemp.net/threads/dusk-for-switch-tloz-twilight-princess-port.681677/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-049b9090c797ea",
@@ -2583,7 +2605,9 @@
       "url": "https://github.com/souldbminerr/dusklight-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dusklight-switch-port-720p-30fps-at-stock-clocks-2x-performance-compared-to-old-port.684545/"
+      "discussion": "https://gbatemp.net/threads/dusklight-switch-port-720p-30fps-at-stock-clocks-2x-performance-compared-to-old-port.684545/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-f59c675c79c726",
@@ -2596,7 +2620,9 @@
       "url": "https://github.com/givethesourceplox/dusk",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dusk-for-switch-tloz-twilight-princess-port.681677/"
+      "discussion": "https://gbatemp.net/threads/dusk-for-switch-tloz-twilight-princess-port.681677/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-a2188c86003927",
@@ -2635,7 +2661,9 @@
       "url": "https://github.com/new-coke/strikers",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/strikers-a-native-port-of-super-mario-strikers-is-testing-a-switch-port.684553/"
+      "discussion": "https://gbatemp.net/threads/strikers-a-native-port-of-super-mario-strikers-is-testing-a-switch-port.684553/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Mario%20Strikers%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-8e4595f3475e61",
@@ -2647,7 +2675,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/KawaiiBunga/Melee-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Super%20Smash%20Bros.%20Melee%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-4b8ffd7160404f",
@@ -2672,7 +2702,9 @@
       "url": "https://github.com/PalindromicBreadLoaf/Docklight",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/docklight-a-port-of-lighthouse-to-the-nintendo-switch.683488/"
+      "discussion": "https://gbatemp.net/threads/docklight-a-port-of-lighthouse-to-the-nintendo-switch.683488/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-7023af3585a8ce",
@@ -2685,7 +2717,9 @@
       "url": "https://github.com/boraeskicioglu/goldenballoon_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/diddy-kong-racing-golden-balloon-switch-port.683670/"
+      "discussion": "https://gbatemp.net/threads/diddy-kong-racing-golden-balloon-switch-port.683670/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Diddy%20Kong%20Racing%20%28USA%29%20%28En%2CFr%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-003afa8d098d80",
@@ -2698,7 +2732,9 @@
       "url": "https://github.com/Trinalord777/DK64Recomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dk64-reconkgpiled-nx-port.685111/"
+      "discussion": "https://gbatemp.net/threads/dk64-reconkgpiled-nx-port.685111/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donkey%20Kong%2064%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-cdd34db2762d02",
@@ -2710,7 +2746,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/fgsfdsfgs/Doom64EX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doom%2064%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-2b4822e9c55913",
@@ -2722,7 +2760,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/PalindromicBreadLoaf/NX-Diffuser",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-fc5c6464de9178",
@@ -2735,7 +2775,9 @@
       "url": "https://github.com/YoshiCrystal9/2ship2harkinian-Switch/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/majoras-mask-switch-port-2ship-2harkinian.667996/"
+      "discussion": "https://gbatemp.net/threads/majoras-mask-switch-port-2ship-2harkinian.667996/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora's%20Mask%20(USA).png",
+      "cover_source": "Personalizado"
     },
     {
       "id": "switchports-6244c9801b0128",
@@ -2748,7 +2790,9 @@
       "url": "https://github.com/reflex909/2ship2harkinian-Switch",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/2ship2harkinian-switch-port-gyro-and-rumble-support.683491/"
+      "discussion": "https://gbatemp.net/threads/2ship2harkinian-switch-port-gyro-and-rumble-support.683491/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora's%20Mask%20(USA).png",
+      "cover_source": "Personalizado"
     },
     {
       "id": "switchports-3ff79c9fa36b87",
@@ -2774,7 +2818,9 @@
       "url": "https://github.com/HarbourMasters/SpaghettiKart/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/mario-kart-64-nintendo-switch-port.672589/"
+      "discussion": "https://gbatemp.net/threads/mario-kart-64-nintendo-switch-port.672589/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mario%20Kart%2064%20(USA).png",
+      "cover_source": "Personalizado"
     },
     {
       "id": "switchports-33309f513ebcfd",
@@ -2786,7 +2832,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/PaperBoat-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-7e78332e6b0cc2",
@@ -2798,7 +2846,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/CypherNoodle/PaperBoat-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-266942c59cc5b9",
@@ -2811,7 +2861,9 @@
       "url": "https://github.com/perfect-dark-pc-port/perfect_dark/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/perfect-dark-switch-port.663322/"
+      "discussion": "https://gbatemp.net/threads/perfect-dark-switch-port.663322/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Perfect%20Dark%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-ab658490b9305c",
@@ -2849,7 +2901,9 @@
       "url": "https://github.com/HarbourMasters/Ghostship",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/super-mario-64-gets-a-new-pc-port-from-the-harbour-masters-team.678985/"
+      "discussion": "https://gbatemp.net/threads/super-mario-64-gets-a-new-pc-port-from-the-harbour-masters-team.678985/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Mario%2064%20(USA).png",
+      "cover_source": "Personalizado"
     },
     {
       "id": "switchports-cd03c787674638",
@@ -2861,7 +2915,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/KawaiiBunga/BattleShipNX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-6c600b6a63a4f9",
@@ -2873,7 +2929,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/delsonazevedo/BattleShip-Switch",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-5c1c0573fcb2a1",
@@ -3993,7 +4051,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/emuman100/wipeout-rewrite-nintendo-switch-homebrew",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/WipEout%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-59bedbc5a1834e",
@@ -4031,7 +4091,9 @@
       "url": "https://github.com/souldbminerr/DKC1Recomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/"
+      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-26ac9a330c0c9b",
@@ -4081,7 +4143,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-91bf7ea350477c",
@@ -4094,7 +4158,9 @@
       "url": "https://github.com/snesrev/zelda3/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/"
+      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-0e2f6a3c716c9a",
@@ -4107,7 +4173,9 @@
       "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10899736"
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10899736",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-efdcb7616fa463",
@@ -4119,7 +4187,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/mrOt4/babel-recomp",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Illusion%20of%20Gaia%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-5d4cb835f812e0",
@@ -4132,7 +4202,9 @@
       "url": "https://github.com/Thorhax/MegaManX-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/megaman-x-recomp-nx.685184/"
+      "discussion": "https://gbatemp.net/threads/megaman-x-recomp-nx.685184/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-69176aae48f0a0",
@@ -4145,7 +4217,9 @@
       "url": "https://github.com/kandowontu2/starfox-enhanced",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/"
+      "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-39c2c61104912d",
@@ -4158,7 +4232,9 @@
       "url": "https://github.com/snesrev/sm/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/super-metroid-sm-nintendo-switch-port.628933/"
+      "discussion": "https://gbatemp.net/threads/super-metroid-sm-nintendo-switch-port.628933/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Metroid%20%28USA%2C%20Europe%29%20%28En%2CJa%29%20%28Virtual%20Console%2C%20Classic%20Mini%2C%20Switch%20Online%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-9988ef434edd56",
@@ -4171,7 +4247,9 @@
       "url": "https://github.com/antoxa2584x/burnout3-sw",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/burnout-3-takedown-switch-port.685241/"
+      "discussion": "https://gbatemp.net/threads/burnout-3-takedown-switch-port.685241/",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Burnout%203%20-%20Takedown%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-8ed18072b4fdc3",
@@ -4183,7 +4261,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/R-drg/defjam-sw",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Def%20Jam%20-%20Fight%20for%20NY%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-73228a22aa08e1",
@@ -4196,7 +4276,9 @@
       "url": "https://github.com/antoxa2584x/flatout2-sw",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10924028"
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10924028",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/FlatOut%202%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-c9f99e63dddacb",
@@ -4209,7 +4291,9 @@
       "url": "https://github.com/thelinkin3000/halo-ce-universal",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/halo-ce-for-switch.684926/#post-10917594"
+      "discussion": "https://gbatemp.net/threads/halo-ce-for-switch.684926/#post-10917594",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Halo%20-%20Combat%20Evolved%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-d85bca5aa231fe",
@@ -4234,7 +4318,9 @@
       "url": "https://github.com/antoxa2584x/nfsuc-sw",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/need-for-speed-carbon-switch-port.685045/"
+      "discussion": "https://gbatemp.net/threads/need-for-speed-carbon-switch-port.685045/",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Need%20for%20Speed%20-%20Carbon%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-c5d7e08c95a9bb",
@@ -4246,7 +4332,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/antoxa2584x/nfsu1-sw",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Need%20for%20Speed%20-%20Underground%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-df37ca6b6c21c5",
@@ -4259,7 +4347,9 @@
       "url": "https://github.com/antoxa2584x/nfsu2-sw",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10916795"
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10916795",
+      "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Need%20for%20Speed%20-%20Underground%202%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-112c8622b78bd7",
