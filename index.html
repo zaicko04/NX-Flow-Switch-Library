@@ -641,7 +641,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
       const links=document.createElement('div');links.className='guide-links';
       const source=safeURL(item.source_readme||guide.readme_url||item.url);
       const install=safeURL(item.install_url||guide.install_url);
-      const release=safeURL(item.release_url||guide.release_url);
+      const release=safeURL(item.release_url||guide.release_url||(repo?repo+'/releases':''));
       if(source){const a=actionLink('Leer README completo ↗',source);if(a)links.append(a);}
       if(install){const a=actionLink('Guía oficial de instalación ↗',install);if(a)links.append(a);}
       if(release){const a=actionLink('Versión / Release ↗',release);if(a)links.append(a);}
