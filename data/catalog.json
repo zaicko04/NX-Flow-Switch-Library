@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T22:37:19+00:00",
+    "generated_at": "2026-10-16T22:37:48+00:00",
     "sources": {
       "SwitchPorts": "349 importados",
       "HB App Store": "508 importados",
@@ -8,7 +8,7 @@
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-10-16T22:23:02+00:00",
-    "covers_resolved": 54,
+    "covers_resolved": 45,
     "duplicate_records_removed": 18,
     "invalid_records_removed": 5,
     "unique_records": 836
