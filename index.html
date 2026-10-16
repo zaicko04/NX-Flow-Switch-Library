@@ -503,7 +503,36 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     if (words && !`${item.title||''} ${item.platform||''} ${item.type||''} ${item.author||''} ${item.description||''} ${item.source||''} ${familyOf(item)}`.toLocaleLowerCase('es').includes(words)) return false;
     return true;
   }
-  const logoAsset = path => window.NX_ASSETS?.[path] || path;
+  // Brand artwork from the uploaded Light - Color console-logo collection.
+  // 33 optimized WebP files are stored locally to avoid external dependencies.
+  const logoIdAliases={android32:'android',android64:'android'};
+  const familyLogoIds={nintendo:'family-nintendo',playstation:'ps1',sega:'family-sega',xbox:'xbox',arcade:'arcade',android:'android',pc:'pc'};
+  const knownLogoIds=new Set(['nes','snes','n64','gb','gbc','gba','nds','3ds','gamecube','wii','wiiu','switch','ps1','ps2','psp','vita','sg1000','mastersystem','genesis','segacd','32x','gamegear','saturn','dreamcast','xbox','x360','arcade','neogeo','android','pc','family-nintendo','family-sega']);
+  const consoleLogoPath=id=>{
+    const key=logoIdAliases[id]||id;
+    return knownLogoIds.has(key)?'assets/logos/'+key+'.webp':'';
+  };
+  const logoAsset = path => {
+    const consoleMatch=String(path||'').match(/^assets\/consoles\/([\w-]+)\.svg$/);
+    if(consoleMatch){
+      const result=consoleLogoPath(consoleMatch[1]);
+      return result||window.NX_ASSETS?.[path]||path;
+    }
+    const familyMatch=String(path||'').match(/^assets\/families\/([\w-]+)\.svg$/);
+    if(familyMatch){
+      const result=consoleLogoPath(familyLogoIds[familyMatch[1]]);
+      return result||window.NX_ASSETS?.[path]||path;
+    }
+    return window.NX_ASSETS?.[path]||path;
+  };
+  const consoleLogo=platform=>{
+    const name=normalizeSystem(platform).toLowerCase();
+    for(const entries of Object.values(systems)){
+      const found=entries.find(x=>x[1].toLowerCase()===name);
+      if(found) return consoleLogoPath(found[0]);
+    }
+    return '';
+  };
   function explorerActive(){return state.nav==='Ports' && !$('#search').value.trim() && (!state.family || !state.platform);}
   function portsCount(family='',platform='') {
     return state.all.filter(i=>i.type==='Port' && (!family || familyOf(i)===family) && (!platform || normalizeSystem(i.platform)===normalizeSystem(platform))).length;
