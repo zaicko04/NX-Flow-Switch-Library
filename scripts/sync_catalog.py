@@ -135,9 +135,18 @@ def main():
     data.extend(x for x in old if x.get('source') not in ('SwitchPorts','HB App Store','GBAtemp'))
     data.extend(custom())
     items={str(x['id']):x for x in data if isinstance(x,dict) and x.get('id') and x.get('title')}
+    prior={str(x['id']):x for x in old if isinstance(x,dict) and x.get('id')}
+    for rec in items.values():
+        p=prior.get(str(rec['id'])) or {}
+        if not rec.get('cover') and p.get('cover'):
+            rec['cover']=p['cover']
+            if p.get('cover_source'):rec['cover_source']=p['cover_source']
     sorted_items=sorted(items.values(),key=lambda x:x.get('updated',''),reverse=True)
+    try: old_meta=json.loads(OUT.read_text(encoding='utf-8')).get('meta',{})
+    except (OSError,ValueError):old_meta={}
     result={'meta':{'generated_at':datetime.now(timezone.utc).isoformat(timespec='seconds'),
-        'sources':status,'notice':'Datos públicos; GBAtemp queda por verificar.'},'items':sorted_items}
+        'sources':status,'notice':'Datos públicos; GBAtemp queda por verificar.',
+        'covers_checked_at':old_meta.get('covers_checked_at')},'items':sorted_items}
     OUT.parent.mkdir(exist_ok=True,parents=True)
     OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('Catalog items:',len(sorted_items),status)
