@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T22:23:02+00:00",
+    "generated_at": "2026-10-16T22:28:19+00:00",
     "sources": {
       "SwitchPorts": "349 importados",
       "HB App Store": "508 importados",
@@ -8,7 +8,7 @@
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-10-16T22:23:02+00:00",
-    "covers_resolved": 44
+    "covers_resolved": 54
   },
   "items": [
     {
@@ -4362,7 +4362,9 @@
       "url": "https://github.com/Ad0ky/LostOdysseyRecomp",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/lost-odyssey-nintendo-switch-port.685442/"
+      "discussion": "https://gbatemp.net/threads/lost-odyssey-nintendo-switch-port.685442/",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/4D5307FA/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-e33c300bcd7375",
@@ -4374,7 +4376,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/nebadasSwifty/masseffect-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/4D5307E8/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-33d7d9d2a025bb",
@@ -4413,7 +4417,9 @@
       "url": "https://github.com/ChanseyIsTheBest/peggle2-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/peggle-2-switch-port.685349/unread"
+      "discussion": "https://gbatemp.net/threads/peggle-2-switch-port.685349/unread",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/58411436/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-9b3038328f2fbe",
@@ -4425,7 +4431,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/R-drg/the-simpsons-game-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/45410809/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-e0332381bd4201",
@@ -4438,7 +4446,9 @@
       "url": "https://github.com/ChanseyIsTheBest/sa2-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-adventure-2-xbox-360-ver-switch-port.685092/"
+      "discussion": "https://gbatemp.net/threads/sonic-adventure-2-xbox-360-ver-switch-port.685092/",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/58411202/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-5a027167420697",
@@ -4451,7 +4461,9 @@
       "url": "https://github.com/ChanseyIsTheBest/MarathonRecomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/marathon-recompiled-sonic-the-hedgehog-2006-switch-port.682907/post-10916486"
+      "discussion": "https://gbatemp.net/threads/marathon-recompiled-sonic-the-hedgehog-2006-switch-port.682907/post-10916486",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/534507D6/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-e129ccb573ef7b",
@@ -4464,7 +4476,9 @@
       "url": "https://github.com/NaGaa95/UnleashedRecomp-NX/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/"
+      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/53450812/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-afc69fa0679374",
@@ -4477,7 +4491,9 @@
       "url": "https://github.com/givethesourceplox/UnleashedRecomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/"
+      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/53450812/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-4d17410aa51f02",
@@ -4490,7 +4506,9 @@
       "url": "https://github.com/ChanseyIsTheBest/UnleashedRecomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/post-10916920"
+      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/post-10916920",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/53450812/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-ab5724217c8aa9",
@@ -4514,7 +4532,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/liartes/torchlight-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/58410A7E/artwork/boxart.jpg",
+      "cover_source": "x360db / Xbox 360 original"
     },
     {
       "id": "switchports-f7a414b5942193",
