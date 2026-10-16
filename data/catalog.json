@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "generated_at": null,
+    "notice": "Catálogo inicial de demostración con registros comprobados. Se ampliará automáticamente al ejecutar sync_catalog.py mediante GitHub Actions.",
+    "sources": {
+      "SwitchPorts": "semilla",
+      "HB App Store": "pendiente",
+      "GBAtemp": "pendiente"
+    }
+  },
+  "items": [
+    {
+      "id": "port-zelda-oot",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "9.3.0",
+      "updated": "2026-10-06",
+      "source": "SwitchPorts",
+      "author": "Ship of Harkinian",
+      "url": "https://github.com/timschneeb/Shipwright-Switch",
+      "description": "Port nativo basado en el proyecto Ship of Harkinian. Requiere archivos originales del juego."
+    },
+    {
+      "id": "port-sm64",
+      "title": "Super Mario 64 (Ghostship)",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "3.0.0",
+      "updated": "2026-09-07",
+      "source": "SwitchPorts",
+      "author": "HarbourMasters",
+      "url": "https://github.com/HarbourMasters/Ghostship",
+      "description": "Port/recompilación de Super Mario 64 para Nintendo Switch. Revisa los requisitos en el repositorio."
+    },
+    {
+      "id": "port-mk64",
+      "title": "Mario Kart 64",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.0",
+      "updated": "2026-02-24",
+      "source": "SwitchPorts",
+      "author": "HarbourMasters",
+      "url": "https://github.com/HarbourMasters/SpaghettiKart"
+    },
+    {
+      "id": "port-papermario",
+      "title": "Paper Mario",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.2",
+      "updated": "2026-10-01",
+      "source": "SwitchPorts",
+      "author": "Thorhax",
+      "url": "https://github.com/Thorhax/PaperBoat-NX-Modern"
+    },
+    {
+      "id": "port-half-life",
+      "title": "Half-Life",
+      "type": "Port",
+      "platform": "PC",
+      "version": "4211",
+      "updated": "2026-10-11",
+      "source": "SwitchPorts",
+      "author": "FWGS",
+      "url": "https://github.com/FWGS/xash3d-fwgs"
+    },
+    {
+      "id": "port-doom",
+      "title": "Doom (GZDoom)",
+      "type": "Port",
+      "platform": "PC",
+      "version": "4.10.0",
+      "updated": "2026-08-29",
+      "source": "SwitchPorts",
+      "author": "Thorhax",
+      "url": "https://github.com/Thorhax/GZDoom-NX-2026"
+    },
+    {
+      "id": "port-diablo",
+      "title": "Diablo (DevilutionX)",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.6.1",
+      "updated": "2026-09-04",
+      "source": "SwitchPorts",
+      "author": "Thorhax",
+      "url": "https://github.com/Thorhax/DevilutionX-NX-Modern"
+    },
+    {
+      "id": "port-fallout",
+      "title": "Fallout",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.1.0",
+      "updated": "2026-05-21",
+      "source": "SwitchPorts",
+      "author": "ryandeering",
+      "url": "https://github.com/ryandeering/fallout-ce-switch"
+    },
+    {
+      "id": "community-nfsh",
+      "title": "Need for Speed: Most Wanted (2005)",
+      "type": "Comunidad",
+      "platform": "PC",
+      "version": "Consultar autor",
+      "updated": "2026-09-27",
+      "source": "GBAtemp",
+      "author": "StevensND",
+      "discussion": "https://gbatemp.net/forums/nintendo-switch.283/",
+      "description": "Proyecto comentado en la comunidad. Comprueba repositorio y versión en el hilo del autor.",
+      "status": "Por verificar"
+    },
+    {
+      "id": "emu-ppsspp",
+      "title": "PPSSPP-NX",
+      "type": "Emulador",
+      "platform": "PSP",
+      "version": "1.0.0",
+      "updated": "2026-09-17",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/ppsspp-nx"
+    },
+    {
+      "id": "emu-dolphin",
+      "title": "Dolphin NX",
+      "type": "Emulador",
+      "platform": "GameCube / Wii",
+      "version": "1.2.0",
+      "updated": "2026-10-16",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/dolphin-nx"
+    },
+    {
+      "id": "emu-drastic",
+      "title": "DrasticDS",
+      "type": "Emulador",
+      "platform": "Nintendo DS",
+      "version": "1.1.2",
+      "updated": "2026-09-16",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/DrasticDS_nx"
+    },
+    {
+      "id": "emu-flycast",
+      "title": "Flycast",
+      "type": "Emulador",
+      "platform": "Dreamcast",
+      "version": "Por confirmar",
+      "updated": "2026-10-12",
+      "source": "SwitchPorts",
+      "author": "flyinghead",
+      "url": "https://flyinghead.github.io/flycast-builds/"
+    },
+    {
+      "id": "emu-vita",
+      "title": "Vita3K NX",
+      "type": "Emulador",
+      "platform": "PS Vita",
+      "version": "1.3.1",
+      "updated": "2026-09-16",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/Vita3K-nx"
+    },
+    {
+      "id": "emu-retroarch",
+      "title": "RetroArch",
+      "type": "Emulador",
+      "platform": "Multisistema",
+      "version": "Nightly",
+      "source": "SwitchPorts",
+      "author": "Libretro",
+      "url": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/"
+    },
+    {
+      "id": "emu-ps2",
+      "title": "NetherSX2 NX",
+      "type": "Emulador",
+      "platform": "PlayStation 2",
+      "version": "1.4.0",
+      "updated": "2026-10-15",
+      "source": "SwitchPorts",
+      "author": "NaGaa95",
+      "url": "https://github.com/NaGaa95/NetherSX2_nx"
+    },
+    {
+      "id": "manual-autorun",
+      "title": "Autorun (Wine / PC)",
+      "type": "Wine / PC",
+      "platform": "Windows PC",
+      "version": "Experimental",
+      "updated": "2026-09-20",
+      "source": "GitHub oficial",
+      "author": "autorunhq",
+      "url": "https://github.com/autorunhq/autorun",
+      "discussion": "https://gbatemp.net/threads/autorun-play-windows-pc-games-on-your-nintendo-switch.684587/",
+      "description": "Ejecuta algunos programas Windows mediante Wine y traducción de CPU. Lleva tus copias legítimas de juegos; proyecto experimental.",
+      "status": "Experimental"
+    },
+    {
+      "id": "manual-autorun-dlls",
+      "title": "Autorun — Windows DLLs",
+      "type": "Wine / PC",
+      "platform": "Windows PC",
+      "version": "Proyecto activo",
+      "source": "GitHub oficial",
+      "author": "autorunhq",
+      "url": "https://github.com/autorunhq/autorun-horizon-dlls",
+      "description": "Dependencias de Wine para Autorun."
+    }
+  ]
+}
