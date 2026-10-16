@@ -8,6 +8,7 @@ on:
       - ".github/workflows/sync.yml"
       - "scripts/sync_catalog.py"
       - "scripts/resolve_covers.py"
+      - "scripts/dedupe_catalog.py"
       - "data/covers.json"
       - "data/custom/**"
 permissions:
@@ -27,6 +28,8 @@ jobs:
         run: python scripts/sync_catalog.py
       - name: Agregar carátulas verificadas por consola
         run: python scripts/resolve_covers.py
+      - name: Ocultar duplicados y elegir la versión más reciente
+        run: python scripts/dedupe_catalog.py
       - name: Guardar catálogo actualizado
         run: |
           if ! git diff --quiet -- data/catalog.json; then
