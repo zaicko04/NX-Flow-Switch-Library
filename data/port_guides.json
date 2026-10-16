@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T22:53:39+00:00",
+    "generated_at": "2026-10-16T22:55:39+00:00",
     "port_count": 303,
     "repositories": 301,
     "statuses": {
-      "readme_verified": 294,
-      "review_needed": 7
+      "readme_verified": 299,
+      "review_needed": 2
     },
     "note": "README-derived summaries are partial. Full instructions must be checked with each author."
   },
@@ -1218,7 +1218,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/NaGaa95/vln_nx": {
       "status": "readme_verified",
@@ -1368,24 +1368,24 @@
       "checked_at": "2026-10-16T22:53:39+00:00"
     },
     "https://github.com/Thorhax/AvP-Gold-NX-Modern": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/Thorhax/AvP-Gold-NX-Modern",
-      "reason": "README not available at repository root",
-      "overview": "",
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/AvP-Gold-NX-Modern/blob/master/README",
+      "reason": "",
+      "overview": "Aliens vs Predator Switch http://icculus.org/avp/\nTable of Contents:\n0. About this version (NEW!)\n1. Introduction\n2. Current Status\n3. Installation\n4. Credits",
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/Thorhax/Cannonball-NX-Modern": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/Thorhax/Cannonball-NX-Modern",
-      "reason": "README not available at repository root",
-      "overview": "",
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/Cannonball-NX-Modern/blob/main/README.MD",
+      "reason": "",
+      "overview": "Overview\n=====\nSwitch port of Cannonball, an enhanced Outrun engine by djyt.\n\nNOTE: Arcade roms for Outrun Version B are required to run this engine",
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/Thorhax/Daytona-NX-Modern": {
       "status": "readme_verified",
@@ -2098,14 +2098,14 @@
       "checked_at": "2026-10-16T22:53:39+00:00"
     },
     "https://github.com/capsterx-switch/abuse": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/capsterx-switch/abuse",
-      "reason": "README not available at repository root",
-      "overview": "",
+      "status": "readme_verified",
+      "readme_url": "https://github.com/capsterx-switch/abuse/blob/main/README",
+      "reason": "",
+      "overview": "Abuse 0.8 README\n1. Introduction\n2. Additional Features\n3. Requirements\n4. Running Abuse\n5. Configuration\n6. Installing the datafiles\n7. Notes\n8",
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/capsterx-switch/exult": {
       "status": "readme_verified",
@@ -2128,14 +2128,14 @@
       "checked_at": "2026-10-16T22:53:39+00:00"
     },
     "https://github.com/carstene1ns/dunelegacy": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/carstene1ns/dunelegacy",
-      "reason": "README not available at repository root",
-      "overview": "",
+      "status": "readme_verified",
+      "readme_url": "https://github.com/carstene1ns/dunelegacy/blob/master/README",
+      "reason": "",
+      "overview": "/-----------------------------------------------\\\n | |\n | Dune Legacy 0.98.4 readme |\n | --------------------------------------- |",
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/centollOS/SwitchWaker": {
       "status": "readme_verified",
@@ -2335,7 +2335,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -2698,14 +2698,14 @@
       "checked_at": "2026-10-16T22:53:39+00:00"
     },
     "https://github.com/rsn8887/rocksndiamonds": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/rsn8887/rocksndiamonds",
-      "reason": "README not available at repository root",
-      "overview": "",
+      "status": "readme_verified",
+      "readme_url": "https://github.com/rsn8887/rocksndiamonds/blob/master/README.MD",
+      "reason": "",
+      "overview": "Recent Changes\n======\n1.15 (Switch only)\non Switch, add 12.0.0 support. Only .nro files changed, data is the same.\n\nDescription\n======",
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-16T22:53:39+00:00"
+      "checked_at": "2026-10-16T22:55:39+00:00"
     },
     "https://github.com/ryandeering/fallout-ce-switch": {
       "status": "readme_verified",
