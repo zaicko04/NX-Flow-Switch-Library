@@ -9,7 +9,10 @@
       "installation": "Abrir el instalador web del proyecto, elegir ISO o carpeta con default.xex, generar nfsmw-nx.zip con los archivos del disco original, extraerlo en sdmc:/switch/ e iniciar mediante game override o forwarder. Album applet no ofrece suficiente memoria.",
       "install_url": "https://stevensnd.github.io/nfsmw-nx-installer/",
       "source_readme": "https://github.com/StevensND/nfsmw-nx/blob/main/README.md",
-      "verification": "Confirmado en README del proyecto; verifica que tu copia coincida con una de las ediciones compatibles."
+      "verification": "Confirmado en README del proyecto; verifica que tu copia coincida con una de las ediciones compatibles.",
+      "overclock_status": "not_required",
+      "overclock_notes": "No es necesario para jugar: el autor indica que apunta a 30 FPS con frecuencias estándar. En portátil: CPU 1020 MHz, GPU 460,8 MHz y RAM 1331,2 MHz; en dock: CPU 1020 MHz, GPU 768 MHz y RAM 1600 MHz. Se describe overclock opcional para buscar más FPS, con advertencias de estabilidad.",
+      "overclock_source": "https://github.com/StevensND/nfsmw-nx/blob/main/README.md#overclocking"
     },
     "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch": {
       "title": "Need for Speed: Most Wanted (2012)",
@@ -21,7 +24,10 @@
       "verification": "Confirmado en README del port Android; consultar la sección How to install para rutas y pasos vigentes.",
       "installation": "Descargar NFSMostWanted2012-0.2.8.zip desde Releases. Copiar la carpeta switch a la raíz de la SD. Colocar APK armeabi-v7a (32 bits) y OBB main.1003128.com.ea.games.nfs13_row.obb, sin renombrar ni descomprimir, en switch/NFSMostWanted2012/game/. Abrir Homebrew Menu manteniendo R al iniciar un juego y ejecutar NFS Most Wanted 2012 Loader. No iniciarlo desde Álbum.",
       "rom_format": "APK de Android 32 bits + OBB (o XAPK) de la versión 1.3.128.",
-      "install_url": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/blob/main/docs/INSTALL.md"
+      "install_url": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/blob/main/docs/INSTALL.md",
+      "overclock_status": "optional",
+      "overclock_notes": "No se documenta como obligatorio. El juego apunta a 30 FPS, pero las carreras exigentes pueden bajar de esa cifra con frecuencias estándar; el menú de depuración permite elevar la CPU. Los relojes personalizados figuran como experimentales.",
+      "overclock_source": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/blob/main/README.md#status"
     },
     "https://github.com/Trinalord777/DK64Recomp-NX": {
       "title": "Donkey Kong 64",
@@ -34,7 +40,10 @@
       "release_url": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2",
       "installation": "Descarga DK64Recomp-NX-v1.1.2.zip desde la versión v1.1.2. Necesitas tu propia ROM USA. Consulta los archivos de la versión y la documentación del autor antes de copiar archivos a la SD; las rutas de instalación para Switch no están especificadas en el README principal consultado.",
       "source_readme": "https://github.com/Trinalord777/DK64Recomp-NX/blob/main/README.md",
-      "verification": "ROM USA y formato .z64 confirmados en el README; versión v1.1.2 y ZIP confirmados en Releases. Las rutas de instalación para Switch no están confirmadas."
+      "verification": "ROM USA y formato .z64 confirmados en el README; versión v1.1.2 y ZIP confirmados en Releases. Las rutas de instalación para Switch no están confirmadas.",
+      "overclock_status": "optional",
+      "overclock_notes": "No está documentado como obligatorio para jugar. La resolución experimental 4x (1080p en dock) se probó únicamente a 1428 MHz de GPU en el lanzamiento v1.1.2; esa medición no significa que sea necesaria para los modos normales.",
+      "overclock_source": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2"
     }
   }
 }
