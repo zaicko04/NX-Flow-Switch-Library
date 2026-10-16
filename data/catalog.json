@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T22:28:19+00:00",
+    "generated_at": "2026-10-16T22:37:19+00:00",
     "sources": {
       "SwitchPorts": "349 importados",
       "HB App Store": "508 importados",
@@ -8,7 +8,10 @@
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-10-16T22:23:02+00:00",
-    "covers_resolved": 54
+    "covers_resolved": 54,
+    "duplicate_records_removed": 18,
+    "invalid_records_removed": 5,
+    "unique_records": 836
   },
   "items": [
     {
@@ -1237,19 +1240,6 @@
       "discussion": "https://gbatemp.net/threads/final-fantasy-iii-3d-remake-switch-port.682660/"
     },
     {
-      "id": "switchports-365033578f9790",
-      "title": "Final Fantasy IV 3D Remake",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/NaGaa95/ff4_3d_nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/final-fantasy-iv-3d-remake-switch-port.682557/"
-    },
-    {
       "id": "switchports-7d9d5f337b7d07",
       "title": "Final Fantasy IV 3D Remake",
       "type": "Port",
@@ -1260,7 +1250,15 @@
       "url": "https://github.com/GlitchedDeveloper/ff4_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/final-fantasy-iv-3d-remake-switch-port.683136/"
+      "discussion": "https://gbatemp.net/threads/final-fantasy-iv-3d-remake-switch-port.683136/",
+      "alternatives": [
+        {
+          "title": "Final Fantasy IV 3D Remake",
+          "version": "1.0.2",
+          "url": "https://github.com/NaGaa95/ff4_3d_nx",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-5abd37a79f12c6",
@@ -1942,19 +1940,6 @@
       "discussion": "https://gbatemp.net/threads/the-room-three-old-sins-switch-port.683590/"
     },
     {
-      "id": "switchports-2f241187031c04",
-      "title": "RVGL",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/ChanseyIsTheBest/revolt_nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/rvgl-re-volt-switch-port.684578/"
-    },
-    {
       "id": "switchports-ab342f1a222441",
       "title": "RVGL",
       "type": "Port",
@@ -1964,7 +1949,15 @@
       "source": "SwitchPorts",
       "url": "https://github.com/BirdSentinel/rvgl-for-switch",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "alternatives": [
+        {
+          "title": "RVGL",
+          "version": "1.0.0",
+          "url": "https://github.com/ChanseyIsTheBest/revolt_nx",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-1334a1d55eda59",
@@ -2465,22 +2458,15 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20DX%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-1ccfd5700c70f9",
-      "title": "The Legend of Zelda: Link's Awakening DX",
-      "type": "Port",
-      "platform": "Game Boy Color",
-      "version": "1.1.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-zelda-links-awakening-dx-hd-aleks-ultimate-nx-edition-switch-homebrew-60fps-flip-grip-touch-second-screen.684512/unread",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Color/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Link%27s%20Awakening%20DX%20%28USA%2C%20Europe%29%20%28SGB%20Enhanced%29%20%28GB%20Compatible%29.png",
-      "cover_source": "Libretro thumbnails"
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "The Legend of Zelda: Link's Awakening DX",
+          "version": "1.1.0",
+          "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Link-s-Awakening-DX-HD-Alek-s-Ultimate-NX-Edition",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-b14e966dbdb794",
@@ -2496,19 +2482,6 @@
       "discussion": "https://gbatemp.net/threads/release-oracles-nx-1-0-native-switch-port-of-oracle-of-ages-oracle-of-seasons.685197/"
     },
     {
-      "id": "switchports-75c0de61da9715",
-      "title": "🟢",
-      "type": "Port",
-      "platform": "Game Boy Color",
-      "version": "1.1.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/toniisound/The-Oracles-Project-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-the-oracles-project-nx-1-1-0-oracle-of-ages-seasons-for-switch-widescreen-languages-mods.685427/"
-    },
-    {
       "id": "switchports-99f712ab1ae23d",
       "title": "The Legend of Zelda: The Minish Cap",
       "type": "Port",
@@ -2521,19 +2494,6 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Game%20Boy%20Advance/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20The%20Minish%20Cap%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-66f03f1b1e776e",
-      "title": "🟢",
-      "type": "Port",
-      "platform": "Game Boy Advance",
-      "version": "1.5.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-The-Minish-Cap-Alek-s-Ultimate-NX-Edition",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/page-14#post-10898392"
     },
     {
       "id": "switchports-a1841c03746df4",
@@ -2580,21 +2540,6 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-f32850c06b18b4",
-      "title": "The Legend of Zelda: Twilight Princess",
-      "type": "Port",
-      "platform": "GameCube",
-      "version": "1.4.3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/HayatoG/dusklight/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dusk-for-switch-tloz-twilight-princess-port.681677/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
       "id": "switchports-049b9090c797ea",
       "title": "The Legend of Zelda: Twilight Princess",
       "type": "Port",
@@ -2607,35 +2552,21 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/dusklight-switch-port-720p-30fps-at-stock-clocks-2x-performance-compared-to-old-port.684545/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-f59c675c79c726",
-      "title": "The Legend of Zelda: Twilight Princess",
-      "type": "Port",
-      "platform": "GameCube",
-      "version": "v1.4.1.0-test",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/givethesourceplox/dusk",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dusk-for-switch-tloz-twilight-princess-port.681677/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20GameCube/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Twilight%20Princess%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-a2188c86003927",
-      "title": "🟢",
-      "type": "Port",
-      "platform": "GameCube",
-      "version": "1.0.0-beta.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-Twilight-Princess-Alek-s-Ultimate-NX-Edition",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-twilight-princess-for-switch-dusklight-aleks-ultimate-nx-edition-public-beta-1-0-0-beta-1.685028/"
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "The Legend of Zelda: Twilight Princess",
+          "version": "1.4.3",
+          "url": "https://github.com/HayatoG/dusklight/",
+          "source": "SwitchPorts"
+        },
+        {
+          "title": "The Legend of Zelda: Twilight Princess",
+          "version": "v1.4.1.0-test",
+          "url": "https://github.com/givethesourceplox/dusk",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-16a89cbe77bf09",
@@ -2765,21 +2696,6 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-fc5c6464de9178",
-      "title": "The Legend of Zelda: Majora's Mask",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "4.0.0 nx",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/YoshiCrystal9/2ship2harkinian-Switch/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/majoras-mask-switch-port-2ship-2harkinian.667996/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora's%20Mask%20(USA).png",
-      "cover_source": "Personalizado"
-    },
-    {
       "id": "switchports-6244c9801b0128",
       "title": "The Legend of Zelda: Majora's Mask",
       "type": "Port",
@@ -2792,7 +2708,15 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/2ship2harkinian-switch-port-gyro-and-rumble-support.683491/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora's%20Mask%20(USA).png",
-      "cover_source": "Personalizado"
+      "cover_source": "Personalizado",
+      "alternatives": [
+        {
+          "title": "The Legend of Zelda: Majora's Mask",
+          "version": "4.0.0 nx",
+          "url": "https://github.com/YoshiCrystal9/2ship2harkinian-Switch/",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-3ff79c9fa36b87",
@@ -2834,21 +2758,15 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-7e78332e6b0cc2",
-      "title": "Paper Mario",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "1.0.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/CypherNoodle/PaperBoat-nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "Paper Mario",
+          "version": "1.0.2",
+          "url": "https://github.com/CypherNoodle/PaperBoat-nx",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-266942c59cc5b9",
@@ -2917,33 +2835,15 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-6c600b6a63a4f9",
-      "title": "Super Smash Bros.",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "1.3.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/delsonazevedo/BattleShip-Switch",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-5c1c0573fcb2a1",
-      "title": "Wave Race 64",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "0.1.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/1weell/RaceWave46-Switch",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "Super Smash Bros.",
+          "version": "1.3.0",
+          "url": "https://github.com/delsonazevedo/BattleShip-Switch",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-6cc4242eae1075",
@@ -2956,7 +2856,15 @@
       "url": "https://github.com/DomazinUS/RaceWave46",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-racewave46-wave-race-64-recompiled-for-nintendo-switch-60fps-720p-1080p-stock-clocks.684841/"
+      "discussion": "https://gbatemp.net/threads/release-racewave46-wave-race-64-recompiled-for-nintendo-switch-60fps-720p-1080p-stock-clocks.684841/",
+      "alternatives": [
+        {
+          "title": "Wave Race 64",
+          "version": "0.1.0",
+          "url": "https://github.com/1weell/RaceWave46-Switch",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-ea434b2dbab8be",
@@ -3121,19 +3029,6 @@
       "discussion": "https://gbatemp.net/threads/dethrace-nx.670358/"
     },
     {
-      "id": "switchports-1be83e8239861f",
-      "title": "🔴 Diablo",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.95b",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/lantus/devilution-nx/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/diablo-nx-nintendo-switch-port-of-devilutionx-diablo.542414/"
-    },
-    {
       "id": "switchports-7507dfced2e9a1",
       "title": "🔴 Diablo",
       "type": "Port",
@@ -3143,19 +3038,15 @@
       "source": "SwitchPorts",
       "url": "http://github.com/Thorhax/DevilutionX-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-08303e5990a683",
-      "title": "🔴 Doom",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.02",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/lantus/chocolate-doom-nx/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "alternatives": [
+        {
+          "title": "🔴 Diablo",
+          "version": "0.95b",
+          "url": "https://github.com/lantus/devilution-nx/",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-34dd43005c1931",
@@ -3167,19 +3058,21 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/GZDoom-NX-2026",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-ed457ad7d98418",
-      "title": "🔴 Doom",
-      "type": "Port",
-      "platform": "PC",
-      "version": "Update 2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Thorhax/GZDoom-NX-Modern",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "alternatives": [
+        {
+          "title": "🔴 Doom",
+          "version": "1.02",
+          "url": "https://github.com/lantus/chocolate-doom-nx/",
+          "source": "SwitchPorts"
+        },
+        {
+          "title": "🔴 Doom",
+          "version": "Update 2",
+          "url": "https://github.com/Thorhax/GZDoom-NX-Modern",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-83acf73f67685c",
@@ -3231,18 +3124,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/openmw-for-switch.540250/"
-    },
-    {
-      "id": "switchports-584c8022fc7007",
-      "title": "🟢",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/seamusduncmcgrath/openmw-nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-30c79a5f94aabd",
@@ -3742,19 +3623,6 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-1930ec72e214f6",
-      "title": "Sonic R",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/boraeskicioglu/sonic_r_nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-r-switch-port-with-lan-support.684446/"
-    },
-    {
       "id": "switchports-7512a37ce6943b",
       "title": "Sonic R",
       "type": "Port",
@@ -3764,7 +3632,15 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/Sonic-R-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "alternatives": [
+        {
+          "title": "Sonic R",
+          "version": "0.1",
+          "url": "https://github.com/boraeskicioglu/sonic_r_nx",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-b6169943830341",
@@ -4119,19 +3995,15 @@
       "url": "https://github.com/souldbminerr/DKC3Recomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/"
-    },
-    {
-      "id": "switchports-e24b9725af534e",
-      "title": "Donkey Kong Country 3",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "1.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/1weell/DKC2Recomp-Switch",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/",
+      "alternatives": [
+        {
+          "title": "Donkey Kong Country 3",
+          "version": "1.1",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-8518f10bd9fdaa",
@@ -4148,21 +4020,6 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-91bf7ea350477c",
-      "title": "🔴 The Legend of Zelda: A Link to the Past",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "0.3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/snesrev/zelda3/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
       "id": "switchports-0e2f6a3c716c9a",
       "title": "🔴 The Legend of Zelda: A Link to the Past",
       "type": "Port",
@@ -4175,7 +4032,15 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10899736",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "🔴 The Legend of Zelda: A Link to the Past",
+          "version": "0.3",
+          "url": "https://github.com/snesrev/zelda3/",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-efdcb7616fa463",
@@ -4294,18 +4159,6 @@
       "discussion": "https://gbatemp.net/threads/halo-ce-for-switch.684926/#post-10917594",
       "cover": "https://thumbnails.libretro.com/Microsoft%20-%20Xbox/Named_Boxarts/Halo%20-%20Combat%20Evolved%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-d85bca5aa231fe",
-      "title": "🟢",
-      "type": "Port",
-      "platform": "Xbox",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/seamusduncmcgrath/OpenCE-nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-40f097b0723d8e",
@@ -4466,36 +4319,6 @@
       "cover_source": "x360db / Xbox 360 original"
     },
     {
-      "id": "switchports-e129ccb573ef7b",
-      "title": "🟠 Sonic Unleashed",
-      "type": "Port",
-      "platform": "Xbox 360",
-      "version": "0.0.3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/NaGaa95/UnleashedRecomp-NX/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/",
-      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/53450812/artwork/boxart.jpg",
-      "cover_source": "x360db / Xbox 360 original"
-    },
-    {
-      "id": "switchports-afc69fa0679374",
-      "title": "🟠 Sonic Unleashed",
-      "type": "Port",
-      "platform": "Xbox 360",
-      "version": "0.0.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/givethesourceplox/UnleashedRecomp-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/",
-      "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/53450812/artwork/boxart.jpg",
-      "cover_source": "x360db / Xbox 360 original"
-    },
-    {
       "id": "switchports-4d17410aa51f02",
       "title": "🟠 Sonic Unleashed",
       "type": "Port",
@@ -4508,7 +4331,21 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/sonic-unleashed-recompiled-homebrew-port.681869/post-10916920",
       "cover": "https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/53450812/artwork/boxart.jpg",
-      "cover_source": "x360db / Xbox 360 original"
+      "cover_source": "x360db / Xbox 360 original",
+      "alternatives": [
+        {
+          "title": "🟠 Sonic Unleashed",
+          "version": "0.0.3",
+          "url": "https://github.com/NaGaa95/UnleashedRecomp-NX/",
+          "source": "SwitchPorts"
+        },
+        {
+          "title": "🟠 Sonic Unleashed",
+          "version": "0.0.1",
+          "url": "https://github.com/givethesourceplox/UnleashedRecomp-NX",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-ab5724217c8aa9",
@@ -7224,20 +7061,6 @@
       "status": "Publicado en HB App Store"
     },
     {
-      "id": "hbas-payload-launcher-apple",
-      "title": "Payload-Launcher",
-      "type": "Utilidad",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "3.0",
-      "author": "LordApple",
-      "url": "https://hb-app.store/switch/Payload-Launcher-Apple",
-      "download": "https://switch.cdn.fortheusers.org/zips/Payload-Launcher-Apple.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/Payload-Launcher-Apple/icon.png",
-      "description": "To make payloads show up in the app, just add your payloads to sdmc:/payloads/ and the app should find them all. Thanks to SciresM For being a lawyer, and creating the reboot to payload code. and XorTroll For taking on too many projects, and creating Plutonium.",
-      "status": "Publicado en HB App Store"
-    },
-    {
       "id": "hbas-payload_launcher",
       "title": "Payload_Launcher",
       "type": "Utilidad",
@@ -7249,7 +7072,16 @@
       "download": "https://switch.cdn.fortheusers.org/zips/Payload_launcher.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/Payload_launcher/icon.png",
       "description": "With this app you can list a folder, and launch payloads inside of it. You can also favourite a payload for quick launching with X, and set the currently selected payload as atmosphere's reboot payload by pressing -.",
-      "status": "Publicado en HB App Store"
+      "status": "Publicado en HB App Store",
+      "alternatives": [
+        {
+          "title": "Payload-Launcher",
+          "version": "3.0",
+          "url": "https://hb-app.store/switch/Payload-Launcher-Apple",
+          "download": "https://switch.cdn.fortheusers.org/zips/Payload-Launcher-Apple.zip",
+          "source": "HB App Store"
+        }
+      ]
     },
     {
       "id": "hbas-pctlmanager",
