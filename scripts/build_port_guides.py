@@ -81,8 +81,8 @@ def source_readme(repo):
     url = urllib.parse.urlsplit(repo)
     owner, name = url.path.strip("/").split("/")[:2]
     # Most repositories use main or master, but documentation can vary.
-    for branch in ("main", "master"):
-        for namepart in ("README.md", "readme.md", "Readme.md", "README.MD", "README", "README.txt", "INSTALL", "README_original.md"):
+    for branch in ("main", "master", "develop", "switch_pr"):
+        for namepart in ("README.md", "readme.md", "Readme.md", "README.MD", "README", "README.txt", "INSTALL", "README_original.md", "docs/Readme.md"):
             path = "https://raw.githubusercontent.com/" + urllib.parse.quote(owner) + "/" + urllib.parse.quote(name) + "/" + branch + "/" + namepart
             req = urllib.request.Request(path, headers={"User-Agent": "NXFlow-README-metadata/1.0", "Accept": "text/plain"})
             try:
