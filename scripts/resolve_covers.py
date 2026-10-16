@@ -86,6 +86,56 @@ def fetch_system(system):
             art[k]=candidate
     return {name:url+urllib.parse.quote(info[2],safe='') for name,info in art.items()}
 
+def xbox360_index(items):
+    """Use x360db as a catalog of genuine Xbox 360 boxarts."""
+    wanting=[p for p in items if p.get('type')=='Port' and p.get('platform')=='Xbox 360' and not p.get('cover')]
+    if not wanting:return 0
+    url='https://raw.githubusercontent.com/xenia-manager/x360db/main/games.json'
+    try:
+        req=urllib.request.Request(url,headers={'User-Agent':'NXFlowCatalog/1.2 artwork resolver','Accept':'application/json'})
+        with urllib.request.urlopen(req,timeout=45) as response:
+            listing=json.load(response)
+    except Exception as exc:
+        print('x360db metadata unavailable:',str(exc)[:160],flush=True)
+        return 0
+    if isinstance(listing,dict):listing=listing.get('games',[])
+    if not isinstance(listing,list):
+        print('x360db unexpected index shape',flush=True)
+        return 0
+    by_title={}
+    for game in listing:
+        if not isinstance(game,dict):continue
+        name=base_title(game.get('title'))
+        if not name or not re.fullmatch('[0-9A-Fa-f]{8}',str(game.get('id') or '')):continue
+        if not game.get('boxart'):continue
+        by_title.setdefault(name,[]).append(game)
+    checked=set()
+    resolved=0
+    for port in wanting:
+        key=base_title(port.get('title'))
+        # Correct spelling, only where the real retail title is unambiguous.
+        aliases={'the simpson s game':'the simpsons game',
+                 'sonic the hedgehog':'sonic the hedgehog'}
+        key=aliases.get(key,key)
+        matches=by_title.get(key,[])
+        # NFS Most Wanted exists in 2005 and 2012, so require explicit matching.
+        if key=='need for speed most wanted' or len(matches)!=1:continue
+        g=matches[0]
+        gid=str(g['id']).upper()
+        image='https://raw.githubusercontent.com/xenia-manager/x360db/main/titles/'+gid+'/artwork/boxart.jpg'
+        if gid not in checked:
+            try:
+                req=urllib.request.Request(image,method='HEAD',headers={'User-Agent':'NXFlowCatalog/1.2'})
+                with urllib.request.urlopen(req,timeout=15) as response:
+                    checked.add(gid) if 200<=response.status<300 else None
+            except Exception:continue
+        if gid not in checked:continue
+        port['cover']=image
+        port['cover_source']='x360db / Xbox 360 original'
+        resolved+=1
+    print('x360db games:',len(listing),'Xbox 360 covers:',resolved,flush=True)
+    return resolved
+
 def main():
     doc=json.loads(CAT.read_text(encoding='utf-8'))
     items=doc.get('items',[])
@@ -126,6 +176,7 @@ def main():
                     item['cover_source']='Libretro thumbnails'
                     count+=1
         meta['covers_checked_at']=today.isoformat(timespec='seconds')
+    xbox360_index(items)
     meta['covers_resolved']=sum(1 for x in items if isinstance(x,dict) and x.get('cover'))
     CAT.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('New box arts:',count,'Current covers:',meta['covers_resolved'],flush=True)
