@@ -361,7 +361,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => [...document.querySelectorAll(s)];
   const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
-  const safeURL = (u) => { try { const x = new URL(String(u), location.href); return ['http:', 'https:'].includes(x.protocol) ? x.href : ''; } catch { return ''; } };
+  const safeURL = (u) => { if (typeof u !== 'string' || !u.trim()) return ''; try { const x = new URL(u.trim(), location.href); return ['http:', 'https:'].includes(x.protocol) ? x.href : ''; } catch { return ''; } };
   const plabel = { 'Nintendo 64':'N64', 'GameCube':'GC', 'Game Boy Advance':'GBA', 'Game Boy Color':'GBC', 'Nintendo DS':'NDS', 'Nintendo 3DS':'3DS', 'PlayStation':'PS1', 'PlayStation 2':'PS2', 'Dreamcast':'DC', 'Super Nintendo':'SNES', 'PC':'PC', 'Android 64bit':'AND64', 'Android 32bit':'AND32', 'Wii U':'Wii U', 'Xbox 360':'X360', 'Sega Genesis':'MD' };
   const backgrounds = [
     ['#111b39','#6036a5','#db84a9'],['#081c27','#15899d','#b5efb2'],['#232344','#b252aa','#ffc59b'],
