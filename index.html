@@ -635,6 +635,19 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
       guideField(panel,'EDICIÓN, REGIÓN O VERSIÓN COMPATIBLE',item.game_edition||guide.editions||'No especificada en el README consultado');
       guideField(panel,'ROM / ARCHIVOS QUE NECESITAS',item.original_files||guide.requirements||'No especificados: no utilices archivos de otra edición sin confirmarlo.');
       guideField(panel,'FORMATO DE ROM O DATOS',item.rom_format||guide.rom_format||'No verificado');
+      const overclockStatus=item.overclock_status||guide.overclock_status||'not_documented';
+      const overclockLabels={
+        required:'Sí, necesario según el autor',
+        recommended:'Recomendado por el autor',
+        optional:'Opcional / para modos de rendimiento',
+        not_required:'No es necesario según el autor',
+        mentioned:'Mencionado, pero sin confirmar necesidad',
+        not_documented:'No documentado por el autor'
+      };
+      guideField(panel,'¿REQUIERE OVERCLOCK?',overclockLabels[overclockStatus]||overclockLabels.not_documented);
+      if(item.overclock_notes||guide.overclock_notes){
+        guideField(panel,'FRECUENCIAS Y OBSERVACIONES DOCUMENTADAS',item.overclock_notes||guide.overclock_notes);
+      }
       guideField(panel,'INSTALACIÓN SEGÚN EL AUTOR',item.installation||guide.installation||'No se encontraron instrucciones concretas en el README principal de este repositorio.');
       if(guide.overview&&!item.installation)guideField(panel,'DESCRIPCIÓN EXTRAÍDA DEL README',guide.overview);
       if(item.verification)guideField(panel,'VERIFICACIÓN',item.verification);
@@ -642,12 +655,14 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
       const source=safeURL(item.source_readme||guide.readme_url||item.url);
       const install=safeURL(item.install_url||guide.install_url);
       const release=safeURL(item.release_url||guide.release_url||(repo?repo+'/releases':''));
+      const overclockSource=safeURL(item.overclock_source||guide.overclock_source);
       if(source){const a=actionLink('Leer README completo ↗',source);if(a)links.append(a);}
+      if(overclockSource && overclockSource!==source){const a=actionLink('Fuente del overclock ↗',overclockSource);if(a)links.append(a);}
       if(install){const a=actionLink('Guía oficial de instalación ↗',install);if(a)links.append(a);}
       if(release){const a=actionLink('Versión / Release ↗',release);if(a)links.append(a);}
       if(links.children.length)panel.append(links);
       const warning=document.createElement('p');warning.className='guide-warning';
-      warning.textContent='El texto anterior es una ficha resumida de documentación pública. No se proporciona ninguna ROM, BIOS ni archivo comercial. Comprueba siempre el README completo, el release y las revisiones compatibles de tu propia copia.';
+      warning.textContent='El texto es un resumen del autor, no una prueba directa de rendimiento. Overclock puede aumentar consumo, temperatura e inestabilidad; no uses frecuencias de otro modelo de Switch. No se proporcionan ROMs, BIOS ni archivos comerciales. Revisa siempre el README y el release.';
       panel.append(warning);
     }catch(error){
       panel.textContent='No se pudieron obtener las instrucciones. Consulta el repositorio oficial.';
