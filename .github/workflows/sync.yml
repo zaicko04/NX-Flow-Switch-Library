@@ -6,6 +6,10 @@ on:
   push:
     paths:
       - ".github/workflows/sync.yml"
+      - "scripts/sync_catalog.py"
+      - "scripts/resolve_covers.py"
+      - "data/covers.json"
+      - "data/custom/**"
 permissions:
   contents: write
 jobs:
