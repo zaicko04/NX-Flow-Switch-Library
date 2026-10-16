@@ -1,0 +1,34 @@
+name: Actualizar biblioteca NX Flow
+on:
+  schedule:
+    - cron: "12 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/sync.yml"
+permissions:
+  contents: write
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Importar SwitchPorts, Homebrew App Store y GBAtemp
+        run: python scripts/sync_catalog.py
+      - name: Guardar catálogo actualizado
+        run: |
+          if ! git diff --quiet -- data/catalog.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/catalog.json
+            git commit -m "chore: sincronizar catálogo NX Flow"
+            git push
+          else
+            echo "No hay cambios"
+          fi
