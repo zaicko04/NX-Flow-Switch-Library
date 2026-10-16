@@ -141,6 +141,18 @@ def main():
         if not rec.get('cover') and p.get('cover'):
             rec['cover']=p['cover']
             if p.get('cover_source'):rec['cover_source']=p['cover_source']
+    # Version/game requirements verified against each project's own README.
+    try:
+        manual=json.loads((ROOT/'data/port_overrides.json').read_text(encoding='utf-8')).get('by_repo',{})
+    except (OSError,ValueError,TypeError):
+        manual={}
+    normalize=lambda u:str(u or '').strip().rstrip('/').lower().replace('http://','https://')
+    manual={normalize(k):v for k,v in manual.items()}
+    for item in items.values():
+        override=manual.get(normalize(item.get('url')))
+        if not isinstance(override,dict):continue
+        for k in ('title','game_year','original_platform','original_files','game_edition','installation','install_url','source_readme','verification'):
+            if override.get(k):item[k]=override[k]
     sorted_items=sorted(items.values(),key=lambda x:x.get('updated',''),reverse=True)
     try: old_meta=json.loads(OUT.read_text(encoding='utf-8')).get('meta',{})
     except (OSError,ValueError):old_meta={}
