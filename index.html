@@ -135,7 +135,7 @@
           <div class="load-row"><button id="load-more" class="load-more" hidden>Mostrar más ↓</button></div>
         </section>
 
-        <footer class="footer"><div><strong>NX FLOW</strong> · Biblioteca comunitaria no oficial. No afiliada a Nintendo.</div><div id="updated-at">Sin sincronización verificada</div></footer>
+        <footer class="footer"><div><strong>NX FLOW</strong> · Biblioteca comunitaria no oficial. No afiliada a Nintendo. <a href="https://github.com/zaicko04/NX-Flow-Switch-Library/blob/main/data/console_photos.json" target="_blank" rel="noopener noreferrer">Créditos de las fotografías de consolas ↗</a></div><div id="updated-at">Sin sincronización verificada</div></footer>
       </div>
     </main>
   </div>
@@ -639,6 +639,18 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const activeLogo=$('#active-platform-logo'),activeLogoUrl=(state.nav==='Ports'&&!$('#search').value.trim()&&state.platform)?consoleLogo(state.platform):'';
     activeLogo.hidden=!activeLogoUrl;if(activeLogoUrl){activeLogo.src=activeLogoUrl;activeLogo.alt='Logo de '+state.platform;}
     $('#showcase-kicker').textContent=state.platform?'COLECCIÓN / '+(f?.title.toUpperCase()||'PORTS'):'01 / DESTACADOS';
+    const portHero=$('#port-console-hero');
+    const heroId=state.nav==='Ports'&&!$('#search').value.trim()&&state.platform?consoleLogoSlug(state.platform):'';
+    const heroPhoto=heroId?hardwarePhoto(heroId):null;
+    portHero.hidden=!heroPhoto;
+    if(heroPhoto){
+      $('#port-console-photo').src=heroPhoto.file;
+      $('#port-console-photo').alt='Fotografía de '+state.platform;
+      $('#port-hero-name').textContent=state.platform;
+      const credit=$('#port-hero-credit');
+      credit.textContent='Foto: '+heroPhoto.credit.author+' · '+heroPhoto.credit.license+' · Wikimedia Commons ↗';
+      credit.href=heroPhoto.credit.source;
+    }
     $('#breadcrumb-section').textContent=$('#search').value.trim()?'BUSCAR':state.nav==='Ports'?(state.platform||f?.title||'PORTS').toUpperCase():state.nav.toUpperCase();
     $$('.nav-link').forEach(x=>x.classList.toggle('active',x.dataset.cat===state.nav));
     $$('.subnav button').forEach(x=>x.classList.toggle('active',x.dataset.family===state.family));
@@ -763,11 +775,20 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     modalLogo.hidden=!logoPath;if(logoPath){modalLogo.src=logoPath;modalLogo.alt='Logo de '+item.platform;}
     $('#modal-description').textContent=item.description||'Consulta los detalles y requisitos en el repositorio original.';
     const art=$('#modal-art');art.style.setProperty('--art',gradient(item));art.replaceChildren();
-    const artwork=document.createElement('img');artwork.src=safeURL(item.cover)||generatedCover(item);artwork.alt='Portada de '+item.title;artwork.style.cssText='width:94%;height:auto;max-width:340px;max-height:470px;object-fit:contain';
-    artwork.onerror=()=>{artwork.onerror=null;artwork.src=generatedCover(item);};
-    art.append(artwork);
+    const emulatorGallery=item.type==='Emulador'?emulatorHardwareMarkup(item,true):'';
+    if(emulatorGallery)art.innerHTML=emulatorGallery;
+    else{
+      const artwork=document.createElement('img');artwork.src=safeURL(item.cover)||generatedCover(item);artwork.alt='Portada de '+item.title;artwork.style.cssText='width:94%;height:auto;max-width:340px;max-height:470px;object-fit:contain';
+      artwork.onerror=()=>{artwork.onerror=null;artwork.src=generatedCover(item);};
+      art.append(artwork);
+    }
     const details=$('#modal-fields');
     details.replaceChildren(makeCell('VERSIÓN PORT',item.version),makeCell('CONSOLA',item.platform),makeCell('AUTOR',item.author),makeCell('FUENTE',item.source),makeCell('ACTUALIZACIÓN',item.updated),makeCell('ESTADO',item.status||'Catalogado'));
+    if(item.type==='Emulador'){
+      const ids=emulatorPlatforms(item);
+      const labels=ids.map(id=>Object.values(systems).flat().find(x=>x[0]===id)?.[1]||({gamewatch:'Game & Watch',arcade:'Arcade'}[id]||id.toUpperCase()));
+      details.prepend(makeCell('SISTEMAS EMULADOS',labels.length?labels.join(' · ')+(labels.length>=5?' (selección representativa)':''):'No confirmados. Consulta el repositorio.'));
+    }
     $('#modal-note').textContent=item.type==='Port'
       ?'Necesitas los archivos originales compatibles obtenidos legalmente. La versión concreta se debe comprobar con las instrucciones de cada desarrollador.'
       :item.type==='Emulador'
