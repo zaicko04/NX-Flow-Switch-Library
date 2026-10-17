@@ -103,6 +103,14 @@
           <div id="explorer-grid" class="explorer-grid"></div>
         </section>
         <section class="showcase" aria-label="Carrusel 3D">
+          <div id="port-console-hero" class="port-console-hero" hidden>
+            <img id="port-console-photo" alt="" loading="lazy">
+            <div class="port-hero-details">
+              <span class="section-kicker">CONSOLA ORIGINAL</span>
+              <strong id="port-hero-name"></strong>
+              <a id="port-hero-credit" href="#" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+          </div>
           <div class="section-heading">
             <div><span class="section-kicker" id="showcase-kicker">01 / DESTACADOS</span><h2 id="section-title">Descubre algo nuevo <span class="sparkle">✳</span></h2><img id="active-platform-logo" class="active-platform-logo" alt="" hidden></div>
             <div class="showcase-tools"><button id="prev" class="arrow-btn" aria-label="Anterior">←</button><button id="next" class="arrow-btn" aria-label="Siguiente">→</button></div>
@@ -482,9 +490,10 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const title = esc(item.title);
     const t = shortTitle(item);
     const platformLogo=consoleLogo(item.platform);
+    const hardware=item.type==='Emulador'?emulatorHardwareMarkup(item,large):'';
     const image = '<img class="'+(large?'real-cover':'full-cover')+'" loading="lazy" decoding="async" src="'+esc(src)+'" data-fallback="'+esc(fallback)+'" alt="Carátula de '+title+'" onerror="this.onerror=null;this.src=this.dataset.fallback">';
-    if (large) return '<div class="case"><div class="cover-art" style="background:'+gradient(item)+'">'+image+'</div><div class="cover-top"><span>NX / FLOW</span><span class="case-platform-brand">'+(platformLogo?'<img src="'+esc(platformLogo)+'" alt="'+esc(item.platform||'Consola')+'">':esc(short(item.platform || item.type)))+'</span></div><div class="cover-center '+(official?'has-cover':icon?'icon-center':'template-center')+'">'+(!official&&icon?'<img loading="lazy" src="'+esc(icon)+'" alt="Icono de '+title+'" onerror="this.remove()">':!official?esc(t):'')+'</div><div class="cover-bottom"><div class="case-eyebrow">'+esc(item.type || 'PORT')+'</div><strong>'+title+'</strong><small>'+esc(item.author || item.source || 'Nintendo Switch')+'</small></div></div>';
-    return '<div class="catalog-cover" style="--art:'+gradient(item)+'"><span class="card-source">'+esc(item.source)+'</span>'+image+(!official&&icon?'<img class="cover-icon" loading="lazy" src="'+esc(icon)+'" alt="" onerror="this.remove()">':'')+'</div>';
+    if (large) return '<div class="case '+(hardware?'emulator-case':'')+'"><div class="cover-art" style="background:'+gradient(item)+'">'+image+hardware+'</div><div class="cover-top"><span>NX / FLOW</span><span class="case-platform-brand">'+(platformLogo?'<img src="'+esc(platformLogo)+'" alt="'+esc(item.platform||'Consola')+'">':esc(short(item.platform || item.type)))+'</span></div><div class="cover-center '+(official?'has-cover':icon?'icon-center':'template-center')+'">'+(!official&&icon?'<img loading="lazy" src="'+esc(icon)+'" alt="Icono de '+title+'" onerror="this.remove()">':!official?esc(t):'')+'</div><div class="cover-bottom"><div class="case-eyebrow">'+esc(item.type || 'PORT')+'</div><strong>'+title+'</strong><small>'+esc(item.author || item.source || 'Nintendo Switch')+'</small></div></div>';
+    return '<div class="catalog-cover '+(hardware?'emulator-art':'')+'" style="--art:'+gradient(item)+'"><span class="card-source">'+esc(item.source)+'</span>'+image+(hardware?hardware:(!official&&icon?'<img class="cover-icon" loading="lazy" src="'+esc(icon)+'" alt="" onerror="this.remove()">':''))+'</div>';
   }
   function asDate(s) { const d=Date.parse(s||''); return Number.isNaN(d)?0:d; }
   function categoryMatches(item) {
@@ -613,8 +622,9 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
       // Unknown source platforms are still discoverable rather than lost in an 'Other' group.
       const extra=family.id==='otros'?[...new Set(state.all.filter(x=>x.type==='Port'&&familyOf(x)==='otros').map(x=>normalizeSystem(x.platform)))].filter(Boolean).map((p,i)=>['extra-'+i,p,p]):[];
       group.innerHTML=[...entries,...extra].map(([id,platform,label])=>{
-        const count=portsCount(family.id,platform);
-        return `<button type="button" class="system-tile ${count?'':'no-ports'}" data-system="${esc(platform)}" style="--tone:${family.tone}" aria-label="Ver ports de ${esc(platform)}: ${count}"><span class="system-tile-shine"></span><span class="system-logo"><img src="${logoAsset(`assets/consoles/${esc(id)}.svg`)}" loading="lazy" alt="Logo ilustrado de ${esc(platform)}" onerror="this.style.display='none'"><span class="system-logo-fallback">${esc(label)}</span></span><span class="system-tile-name">${esc(platform)}</span><span class="system-tile-count">${count?`${count} ${count===1?'PORT':'PORTS'}`:'SIN REGISTROS'} <span>→</span></span></button>`;
+        const count=portsCount(family.id,platform),photo=hardwarePhoto(id);
+        const photoMarkup=photo?'<span class="system-photo"><img src="'+esc(photo.file)+'" loading="lazy" alt="Fotografía de '+esc(platform)+'" title="Foto: '+esc(photo.credit.author)+' · '+esc(photo.credit.license)+'" onerror="this.closest(&quot;.system-photo&quot;).style.display=&quot;none&quot;"></span>':'';
+        return `<button type="button" class="system-tile ${count?'':'no-ports'} ${photo?'has-photo':''}" data-system="${esc(platform)}" style="--tone:${family.tone}" aria-label="Ver ports de ${esc(platform)}: ${count}"><span class="system-tile-shine"></span>${photoMarkup}<span class="system-logo"><img src="${logoAsset(`assets/consoles/${esc(id)}.svg`)}" loading="lazy" alt="Logo ilustrado de ${esc(platform)}" onerror="this.style.display='none'"><span class="system-logo-fallback">${esc(label)}</span></span><span class="system-tile-name">${esc(platform)}</span><span class="system-tile-count">${count?`${count} ${count===1?'PORT':'PORTS'}`:'SIN REGISTROS'} <span>→</span></span></button>`;
       }).join('');
     }
   }
@@ -823,7 +833,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
   }
   function updateMetrics(){const all=state.all;$('#metric-total').textContent=all.length.toLocaleString('es-MX');$('#metric-ports').textContent=all.filter(x=>x.type==='Port').length.toLocaleString('es-MX');$('#metric-emus').textContent=all.filter(x=>x.type==='Emulador').length.toLocaleString('es-MX');$('#metric-sources').textContent=new Set(all.map(x=>x.source)).size;$('#total-nav').textContent=all.length.toLocaleString('es-MX');const d=state.meta.generated_at;$('#updated-at').textContent=d?`Última sincronización: ${new Date(d).toLocaleString('es-MX',{dateStyle:'medium',timeStyle:'short'})}`:'Sincronización automática pendiente';$('#sync-sidebar').textContent=d?'Datos sincronizados':'Catálogo inicial · sincronización pendiente';}
   function chips(){const c=['Todos','Recientes','Homebrew App Store','SwitchPorts','GBAtemp'];$('#category-chips').innerHTML=c.map(x=>`<button class="chip ${x===state.chip?'active':''}" data-chip="${esc(x)}">${esc(x)}</button>`).join('');}
-  async function load(force=false){const refresh=$('#refresh');refresh.textContent='⟳';refresh.disabled=true;try{let resp;try{resp=await fetch('data/catalog.json?v=4&t='+Date.now(),{cache:'no-store'});if(!resp.ok)throw Error(String(resp.status));}catch(e){console.warn('Usando catálogo local inicial',e);resp={ok:true,json:async()=>window.NX_INLINE_DATA};}if(!resp.ok)throw new Error(`${resp.status}`);const data=await resp.json();if(!Array.isArray(data.items))throw new Error('Catálogo no válido');state.all=data.items.filter(item=>item && item.id && item.title && item.source);state.meta=data.meta||{};makeSidebar();updateMetrics();chips();routeFromHash();}catch(err){console.error('No se pudo cargar el catálogo',err);$('#sync-sidebar').textContent='Error cargando catálogo';$('#empty-carousel').hidden=false;$('#empty-carousel').textContent='No se pudo leer data/catalog.json. Abre la web con un servidor web, no mediante file://.';}finally{refresh.textContent='↻';refresh.disabled=false;}}
+  async function load(force=false){const refresh=$('#refresh');refresh.textContent='⟳';refresh.disabled=true;try{let resp;try{resp=await fetch('data/catalog.json?v=4&t='+Date.now(),{cache:'no-store'});if(!resp.ok)throw Error(String(resp.status));}catch(e){console.warn('Usando catálogo local inicial',e);resp={ok:true,json:async()=>window.NX_INLINE_DATA};}if(!resp.ok)throw new Error(`${resp.status}`);const data=await resp.json();if(!Array.isArray(data.items))throw new Error('Catálogo no válido');try{const photoResponse=await fetch('data/console_photos.json?v=1&t='+Date.now(),{cache:'no-store'});hardwareCatalog=photoResponse.ok?await photoResponse.json():{photos:{},emulators_by_repo:{}};}catch(error){hardwareCatalog={photos:{},emulators_by_repo:{}};}state.all=data.items.filter(item=>item && item.id && item.title && item.source);state.meta=data.meta||{};makeSidebar();updateMetrics();chips();routeFromHash();}catch(err){console.error('No se pudo cargar el catálogo',err);$('#sync-sidebar').textContent='Error cargando catálogo';$('#empty-carousel').hidden=false;$('#empty-carousel').textContent='No se pudo leer data/catalog.json. Abre la web con un servidor web, no mediante file://.';}finally{refresh.textContent='↻';refresh.disabled=false;}}
   initControls();load();
 })();
 </script>
