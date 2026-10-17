@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T00:59:14+00:00",
-    "port_count": 303,
-    "repositories": 301,
+    "generated_at": "2026-10-17T04:23:13+00:00",
+    "port_count": 304,
+    "repositories": 302,
     "statuses": {
-      "readme_verified": 300,
+      "readme_verified": 301,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -13,7 +13,7 @@
       "recommended": 2,
       "optional": 3,
       "not_required": 5,
-      "mentioned": 22,
+      "mentioned": 23,
       "not_documented": 269
     }
   },
@@ -3030,7 +3030,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-17T00:59:14+00:00"
+      "checked_at": "2026-10-17T04:23:13+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -3382,6 +3382,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/paulodiasred/BM64Switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/paulodiasred/BM64Switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "You need a Switch running Atmosphère and your own Bomberman 64 (USA) ROM. Download the game from the\nReleases page. There are two ways to install it:",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "General: language (English or Portuguese). - Graphics: internal resolution, anti-aliasing, texture filtering, VSync, FPS and the Switch CPU clock. - Sound.",
+      "overclock_source": "",
+      "checked_at": "2026-10-17T04:23:13+00:00"
     },
     "https://github.com/perfect-dark-pc-port/perfect_dark": {
       "status": "readme_verified",

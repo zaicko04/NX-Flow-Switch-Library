@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T00:59:13+00:00",
+    "generated_at": "2026-10-17T04:23:13+00:00",
     "sources": {
-      "SwitchPorts": "349 importados",
+      "SwitchPorts": "350 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 45,
     "duplicate_records_removed": 18,
     "invalid_records_removed": 5,
-    "unique_records": 836,
+    "unique_records": 837,
     "cover_breakdown": {
       "real_artwork": 45,
       "homebrew_icons": 506,
-      "nx_flow_illustrations": 285,
-      "visually_covered": 836
+      "nx_flow_illustrations": 286,
+      "visually_covered": 837
     }
   },
   "items": [
@@ -2650,6 +2650,19 @@
       "discussion": "https://gbatemp.net/threads/docklight-a-port-of-lighthouse-to-the-nintendo-switch.683488/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Banjo-Kazooie%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-2268a4ccd4b891",
+      "title": "🟢 Bomberman 64",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/paulodiasred/BM64Switch",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/release-bomberman-64-recompiled-native-switch-port-nsp-nro-60-fps.685448/"
     },
     {
       "id": "switchports-7023af3585a8ce",
