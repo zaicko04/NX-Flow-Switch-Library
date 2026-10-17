@@ -1,20 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T15:32:10+00:00",
-    "port_count": 305,
-    "repositories": 303,
+    "generated_at": "2026-10-17T20:34:55+00:00",
+    "port_count": 270,
+    "repositories": 269,
     "statuses": {
-      "readme_verified": 302,
+      "readme_verified": 268,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
       "required": 0,
       "recommended": 2,
-      "optional": 3,
-      "not_required": 5,
-      "mentioned": 24,
-      "not_documented": 269
+      "optional": 2,
+      "not_required": 0,
+      "mentioned": 17,
+      "not_documented": 248
     }
   },
   "by_repo": {
@@ -96,32 +96,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/Ad0ky/LostOdysseyRecomp": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/Ad0ky/LostOdysseyRecomp/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "Thanks to everyone who sent pull requests and patches: MikeRavenelle, dj5927, Xarishark, navjack, frankzzz and cngjd. The macOS port started from MikeRavenelle's Apple Silicon work.\n\nWith research and tools from UnleashedRecomp, re:Blue, XenonRecomp, XenosRecomp, plume and Xenia. Audio uses the Xenia FFmpeg fork (license)",
-      "installation": "Changelog · Report an issue · Discord · Project board · Build from source",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You need a legally obtained USA copy of A Link to the Past. No ROM is\nincluded here and none will be provided.\n\n1. Copy the `.nro` to `sdmc:/switch/Zelda3/`.\n2. Put your USA ROM in that same folder (`.sfc` or `.smc`).\n3. Launch it.\n\nOn first run the built-in extractor finds your ROM, validates it, and\ngenerates `zelda3assets.dat` locally — on the console, with no Python or\nother tooling required. A 512-byte copier header is handled where supported.\nKeep the ROM there. If `zelda3assets.dat` is ever deleted the extractor\nneeds the ROM again to rebuild it. The patch shipped inside the `.nro` is only",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/BirdSentinel/rvgl-for-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/BirdSentinel/rvgl-for-switch/blob/master/README.md",
@@ -145,32 +119,6 @@
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/ChanseyIsTheBest/MarathonRecomp-NX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/MarathonRecomp-NX/blob/main/README.md",
-      "reason": "",
-      "overview": "[!CAUTION]\nThis recompilation is still under active development and is NOT meant for public use. Support will not be provided until an official release.",
-      "requirements": "Game bugs present on the original hardware are intentionally preserved and will not be fixed apart from a few minor exceptions in #44. Please do not report issues for these bugs and verify that the issue does not occur on original hardware before reporting. Bug reports for issues found in the original game will be rejected",
-      "installation": "You can make the game ignore the default configuration paths and force it to save everything in the installation directory by creating an empty `portable.txt` file. You are directly responsible for the safekeeping of your save data and configuration if you choose this option.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/ChanseyIsTheBest/UnleashedRecomp-NX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/UnleashedRecomp-NX/blob/main/README.md",
-      "reason": "",
-      "overview": "Unleashed Recompiled is an unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation",
-      "requirements": "CPU with support for the AVX instruction set:\nIntel: Sandy Bridge (Intel Core 2nd Generation)\nAMD: Bulldozer (AMD FX series)\nGPU with support for Direct3D 12.0 (Shader Model 6) or Vulkan 1.2:\nNVIDIA: GeForce GT 630 (Kepler)\nAMD: Radeon HD 7750 (2012, not the RX 7000)\nIntel: HD Graphics 510 (Skylake)\nMemory:\n8 GB minimum\nOperating System:\nWindows 10 (version 1909)\nA modern Linux distro such as Ubuntu 22.04 LTS\nStorage:\nWith DLC: 10 GiB required",
-      "installation": "1) You must have access to the following:\nXbox 360 (modifications not necessary)\nXbox 360 Storage Device (either an Xbox 360 hard drive or an external USB storage device)\nXbox 360 Hard Drive Transfer Cable or a compatible SATA to USB adapter (only required for dumping from an Xbox 360 hard drive)\nSonic Unleashed for Xbox 360 (US or EU, JP is not supported)\nRetail Disc or Digital Copy (can be purchased and downloaded from the Xbox Store).\nTitle Update required.\nAll available DLC (Adventure Packs) are optional, but highly recommended. The DLC includes high quality lighting for the entire game.\n[!TIP]",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "Performance has been found to improve significantly when the Deck's GPU clock is manually set to its maximum value via Gamescope, even if the game appears to be primarily CPU bottlenecked. Be aware that maintaining the target frame rate may be difficult during demanding sections, such as Werehog combat or DLC stages. Overall, performance is considered to be noticeably better than on the original hardware while using the default settings.",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
@@ -408,19 +356,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/ChanseyIsTheBest/futari-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/futari-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Mushihimesama Futari — Nintendo Switch port\n\nA native Nintendo Switch port of the Xbox 360 version of Mushihimesama Futari Ver 1.5 (CAVE, 2009), with the",
-      "requirements": "",
-      "installation": "1. Open the installer page: https://chanseyisthebest.github.io/futari-nx-installer/\n2. Choose your game: its disc image (`.iso`; you can choose the DLC package files along with it) or a folder\n you extracted the game into. Then press Create futari-nx.zip. Everything runs in your browser and the game\n files never leave your computer: the page checks your copy, downloads the build and makes the shaders from your\n game's own executables.\n3. Extract the downloaded `futari-nx.zip` into `sdmc:/switch/`.\n\nYour `futari-nx` folder should look like this:\n\nLaunch it with a game override (hold R while starting an installed title) or a forwarder",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "The port runs at the console's stock clocks. The released NRO is built with link-time optimisation, PGO from a console session and the hottest functions first in memory. Every optimisation has its own setting and was checked on",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/ChanseyIsTheBest/happywheels_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/ChanseyIsTheBest/happywheels_nx/blob/main/README.md",
@@ -564,19 +499,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/ChanseyIsTheBest/peggle2-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/peggle2-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Peggle 2 — Nintendo Switch port\n\nA native Nintendo Switch port of the Xbox 360 (Xbox Live Arcade) version of Peggle 2 (2014), with everything the",
-      "requirements": "",
-      "installation": "1. Open the installer page: https://chanseyisthebest.github.io/peggle2-nx-installer/\n2. Choose your Xbox 360 package (`2452FB99DD4F3E052C919B780FEAE8F8E8281CF058`, or the whole `58411436` folder copied\n from your console) and your PS4 base package (`CUSA00743`). Then press Create peggle2-nx.zip. Everything runs\n in your browser and the game files never leave your computer: the page checks your copies, downloads the build,\n converts the PS4 content, makes the 1080p art, the shaders and the game pack from your files.\n3. Extract the downloaded `peggle2-nx.zip` into `sdmc:/switch/`.\n\nYour `peggle2-nx` folder should look like this:",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/ChanseyIsTheBest/phigros_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/ChanseyIsTheBest/phigros_nx/blob/main/README.md",
@@ -652,19 +574,6 @@
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/ChanseyIsTheBest/sa2-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/sa2-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Sonic Adventure 2 — Nintendo Switch port\n\nA native Nintendo Switch port of the Xbox 360 (Xbox Live Arcade) version of Sonic Adventure 2 (2012).",
-      "requirements": "",
-      "installation": "1. Open the installer page: https://chanseyisthebest.github.io/sa2-nx-installer/\n2. Choose your game: its package file (`525E7BB1E72A2DB99AB79281BA24938048198FAD58`) or the whole `58411202`\n folder copied from your Xbox 360, with the Battle DLC (`SonicAdventure2Battle`) if you have it. Then press\nCreate sa2-nx.zip. Everything runs in your browser and the game files never leave your computer: the page\n checks your copy, downloads the build and makes the shaders and the game pack from your files.\n3. Extract the downloaded `sa2-nx.zip` into `sdmc:/switch/`.\n\nYour `sa2-nx` folder should look like this:",
-      "editions": "",
-      "overclock_status": "not_required",
-      "overclock_notes": "The port is made to run at the console's stock clocks with no overclock. A CPU overclock raises the frame rate\nin the heavy scenes.\n[!CAUTION]\nOverclocking pushes the console beyond what it was designed for and you do it at your own risk. An unstable memory\noverclock can corrupt the NAND or the SD card: make a backup first and test every change.\n\nThese community guides explain how to do it:\nHow to get 60 FPS: the tools you need (Horizon OC, Ultrahand, Status\n Monitor...) and how to set them up.\nMariko guide: overclocking the Switch V2, Lite and OLED.\nErista guide: overclocking the original 2017 Switch.\nHow to test stability: how to check that your clocks are stable.",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
@@ -980,32 +889,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/HayatoG/tmc": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/HayatoG/tmc/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "To set up the repository, see INSTALL.md.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/JJTapiaXX/Metroid-Zero-Mission-NX/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "devkitPro with `devkitARM`, `libctru`, `citro2d` and `citro3d`.\n`makerom` and `bannertool` for `.cia` packaging.",
-      "installation": "1. Install the app\n\n Download `mzm-3ds.cia` from the Releases page\n and install it with FBI or your preferred installer. Releases named Beta\n are pre-releases cut from a branch still being worked on; pick a plain\nRelease for a stable build.\n\n Only a CIA is published. A `.3dsx` cannot declare its own memory budget, so\n it inherits whatever the Homebrew Launcher's host title has left — not enough\n for the 8&nbsp;MB ROM buffer plus the GPU buffers this port reserves. The CIA\n requests 64&nbsp;MB of its own.\n\n2. ROM placement\n\n Create this directory and copy a clean, legally obtained GBA ROM into it. Any `.gba` filename works:",
-      "editions": "`REGION=any` is the default and produces the single binary described above. The other values pin the decomp's compile-time region choices, which also restricts that build to one region's ROM — useful for bisecting a region-specific problem:",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/JohnUzoka/terrabuilder-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/JohnUzoka/terrabuilder-nx/blob/main/README.md",
@@ -1029,19 +912,6 @@
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/KawaiiBunga/Melee-NX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/KawaiiBunga/Melee-NX/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Copy the NRO and your disc image to an Atmosphère SD card:\n\nLaunch from the Homebrew Menu. The first run offers to extract the game into\n`files/`, or play directly from the image. After extraction and a successful\ndisc boot have created `disc.meta` and `disc-boot.bin`, the game can boot without\nthe image. Keep those metadata files alongside the NRO.\n\nStartup and runtime logs are written to `melee-nx-boot.log` and\n`melee-nx-runtime.log` in the same directory. See the\ninstallation guide for details.",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "A September 21, 2026 capture of a four-fighter game at 720p and stock clocks averaged 55.4 FPS over a representative seven-minute window. A later scene",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
@@ -1656,45 +1526,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/R-drg/defjam-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/R-drg/defjam-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "defjam-sw\n\n Def Jam: Fight for NY (Xbox, 2004) on the Nintendo Switch and Linux,\n\n statically recompiled from the original Xbox executable — no emulator.",
-      "requirements": "",
-      "installation": "You need a Switch running custom firmware (Atmosphère) with the Homebrew Menu, and your own copy of the game: the\ndisc image (`.iso`, a full dump or an xiso) or the extracted disc (the folder with `default.xbe`).\n\n1. Open the installer in Chrome, Edge or Firefox on a computer.\n Choose your disc image or game folder. It checks that it is the supported release and saves\n`defjam-sw.zip`. Everything happens in your browser; your game files are never uploaded.\n2. Extract the zip into the `switch` folder of your SD card. You get:\n\n3. On the Switch, hold R while starting any installed game to open the Homebrew Menu in title takeover mode,",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/R-drg/project8-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/R-drg/project8-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "Tony Hawk's Project 8 — Nintendo Switch port\n\nA native Nintendo Switch port of the Xbox 360 version of Tony Hawk's Project 8 (2006).\n\nIt's not an emulator",
-      "requirements": "",
-      "installation": "1. Open the installer page: https://r-drg.github.io/project8-sw-installer/\n2. Choose your format (Disc image (.iso) or XEX format, the folder with `default.xex` and `DATA`) and press\nCreate project8-sw.zip. Everything runs in your browser and the game files never leave your computer: the\n page checks your copy, downloads the build and puts the two together.\n3. Extract the downloaded `project8-sw.zip` into `sdmc:/switch/`.\n\nYour `project8-sw` folder should look like this:\n\nThe game creates `thpsp8/` (saves and the graphics pipeline cache) and `logs/` next to the NRO the first time it\nruns.",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "Tested on an OLED Switch in handheld mode, with the GPU at 768 MHz (set by sys-clk): Free Skate and Career run at a locked 30 FPS nearly all the time. A few frames still take longer in the busiest areas (2,000-3,000 draws per frame)",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/R-drg/the-simpsons-game-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/R-drg/the-simpsons-game-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "The Simpsons Game — Nintendo Switch port\n\nA native Nintendo Switch port of the Xbox 360 version of The Simpsons Game (2007).\n\nIt's not an emulator",
-      "requirements": "",
-      "installation": "1. Open the installer page: https://r-drg.github.io/the-simpsons-game-nx-installer/\n2. Choose your format (Disc image (.iso) or Game folder, the folder with `default.xex` and the disc's\n folders) and press Create the-simpsons-game-nx.zip. Everything runs in your browser and the game files never\n leave your computer: the page checks your copy, downloads the build and puts the two together.\n3. Extract the downloaded zip into `sdmc:/switch/`.\n\nYour folder should look like this:\n\nThe game creates `simpsons/` (saves and caches) and `logs/` next to the NRO the first time it runs.",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "[!IMPORTANT] > Clocks. The port was tested with sys-clk at CPU 1785 MHz and GPU 768 MHz in handheld mode, and that is > what 30 FPS needs. At stock handheld clocks (CPU 1020, GPU 307) the game drops to about 19 FPS. Don't change\nwhat 30 FPS needs. At stock handheld clocks (CPU 1020, GPU 307) the game drops to about 19 FPS. Don't change > sys-clk while the game runs, and leave > `switchgpumhz` at 0 in `simpsons.toml` when sys-clk is installed: both setting clocks at once crashes the\nsys-clk while the game runs, and leave > `switchgpumhz` at 0 in `simpsons.toml` when sys-clk is installed: both setting clocks at once crashes the > console.",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/RohanBhattacharyya/oSBM": {
       "status": "readme_verified",
       "readme_url": "https://github.com/RohanBhattacharyya/oSBM/blob/main/README.md",
@@ -1742,27 +1573,6 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/StevensND/nfsmw-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/StevensND/nfsmw-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Need for Speed: Most Wanted — Nintendo Switch port\n\nA native Nintendo Switch port of the Xbox 360 version of Need for Speed: Most Wanted (2005).",
-      "requirements": "Copia propia de Xbox 360: ISO del disco o carpeta extraída con default.xex, Movies y NFS.",
-      "installation": "Abrir el instalador web del proyecto, elegir ISO o carpeta con default.xex, generar nfsmw-nx.zip con los archivos del disco original, extraerlo en sdmc:/switch/ e iniciar mediante game override o forwarder. Album applet no ofrece suficiente memoria.",
-      "editions": "Ediciones PAL (ES/EN/FR/DE/IT/PL) y NTSC (USA/JP/KR/Asia) admitidas mediante compilaciones específicas.",
-      "overclock_status": "not_required",
-      "overclock_notes": "No es necesario para jugar: el autor indica que apunta a 30 FPS con frecuencias estándar. En portátil: CPU 1020 MHz, GPU 460,8 MHz y RAM 1331,2 MHz; en dock: CPU 1020 MHz, GPU 768 MHz y RAM 1600 MHz. Se describe overclock opcional para buscar más FPS, con advertencias de estabilidad.",
-      "overclock_source": "https://github.com/StevensND/nfsmw-nx/blob/main/README.md#overclocking",
-      "checked_at": "2026-10-16T23:01:36+00:00",
-      "title": "Need for Speed: Most Wanted (2005)",
-      "game_year": 2005,
-      "original_platform": "Xbox 360",
-      "original_files": "Copia propia de Xbox 360: ISO del disco o carpeta extraída con default.xex, Movies y NFS.",
-      "game_edition": "Ediciones PAL (ES/EN/FR/DE/IT/PL) y NTSC (USA/JP/KR/Asia) admitidas mediante compilaciones específicas.",
-      "install_url": "https://stevensnd.github.io/nfsmw-nx-installer/",
-      "source_readme": "https://github.com/StevensND/nfsmw-nx/blob/main/README.md",
-      "verification": "Confirmado en README del proyecto; verifica que tu copia coincida con una de las ediciones compatibles."
     },
     "https://github.com/StevensND/zombotron_nx": {
       "status": "readme_verified",
@@ -2076,19 +1886,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/Thorhax/sega-vr-disasm": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/Thorhax/sega-vr-disasm/blob/master/README.md",
-      "reason": "",
-      "overview": "(NEW) Check my just completed dissassembly of Aerobiz Supersonic at https://github.com/matiaszanolli/aerobiz-disasm",
-      "requirements": "Python 3.x\nGCC and Make (for vasm)\nUnix-like environment (Linux, macOS, WSL)",
-      "installation": "",
-      "editions": "The expansion space contains optimized SH2 handlers: inlined coordtransform (S-6), single-shot command protocols (B-004/B-005), and async infrastructure.",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/Trinalord777/DK64Recomp-NX": {
       "status": "readme_verified",
       "readme_url": "https://github.com/Trinalord777/DK64Recomp-NX/blob/main/README.md",
@@ -2111,19 +1908,6 @@
       "rom_format": ".z64; el README señala conversión de otros formatos compatibles.",
       "release_url": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2",
       "release_tag": "v1.1.2"
-    },
-    "https://github.com/UNDERdecoded/Gen2Recomped": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/UNDERdecoded/Gen2Recomped/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Open the desktop app. On first boot, choose your legally obtained `.gb` /\n`.gbc` file or drop it onto the window. Import takes a few seconds for Gen 1\nand a couple of minutes for Gen 2, then the game starts automatically.\n\nOn a console or handheld there is no file picker to open: you copy the dump\ninto a folder the launcher scans instead. See\nDownloads for the exact path per device.\n\nOnly the canonical US ROMs are accepted. The importer verifies SHA-1 before\ncreating any game data:\n\n| Version | Size | SHA-1 |\n| ------- | ----- | ------------------------------------------ |\n| Gold | 2 MiB | `d8b8a3600a465308c9953dfa04f0081c05bdcb94` |",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
     },
     "https://github.com/ZenoArrows/The-Simpsons-Hit-and-Run": {
       "status": "readme_verified",
@@ -2398,84 +2182,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/amydevs/lainNX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/amydevs/lainNX/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Since the homebrew app does not bundle any game assets itself, you will need to provide an \"offline `laingame.com`\" file yourself. The `laingame.com` file is an offline version of the lainTSX web-browser port of the game and is NOT the same as the original `.bin` PS1 ROM files. This guide will not mention whatsoever how to obtain this file for legal reasons.\n\n1. Download the latest `lainNXnro.zip` from here\n2. Extract `lainNXnro.zip` to the root of your switch SD card.\n3.\nRename `laingame.com` to `laingame.zip` and extract all folders EXCEPT `voice` inside said zip to the `switch/LainNX` folder on your Switch SD card",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/antoxa2584x/burnout3-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/antoxa2584x/burnout3-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You need:\nWindows 10 or 11, x64, with about 12 GB free\nyour own Burnout 3: Takedown disc image (`.iso`)\nan Xbox or XInput controller (two for split-screen); there is no keyboard mapping",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/antoxa2584x/flatout2-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/antoxa2584x/flatout2-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "optional",
-      "overclock_notes": "🔁 Docked / handheld profiles: render scale per mode, applied when you dock or undock; optional clock boost that steps aside when sys-clk or Horizon OC is running\n|---|---| | `NFSU2CPUMHZ`, `NFSU2GPUMHZ`, `NFSU2MEMMHZ` | Clocks in both modes (more heat and battery). Ignored while sys-clk or Horizon OC runs; a clock already higher is never lowered. The log shows `[clock] ...`. | | `FO2DOCKBOOST=1` | With the three above unset: boost to 1785 / 768 / 1600 MHz while docked only. |\n| `FO2DOCKBOOST=1` | With the three above unset: boost to 1785 / 768 / 1600 MHz while docked only. | | `NFSU2CLOCKFORCE=1` | Set the clocks even when sys-clk or Horizon OC runs",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/antoxa2584x/nfsu1-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/antoxa2584x/nfsu1-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/antoxa2584x/nfsu2-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/antoxa2584x/nfsu2-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/antoxa2584x/nfsuc-sw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/antoxa2584x/nfsuc-sw/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "| `RECOMPNXPROFILEAFTER=` | Start the profiler after s seconds. | | `NFSU2CPUMHZ`, `NFSU2GPUMHZ`, `NFSU2MEMMHZ` | Overclock (opt-in; more heat and battery). The log shows `[clock] ...`. | | `RECOMPNXSHM=1` | Guest RAM from shared memory instead of code memory. |",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/artslay/NearChuckle_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/artslay/NearChuckle_nx/blob/main/README.md",
@@ -2580,19 +2286,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/boraeskicioglu/sonic_advance2_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/boraeskicioglu/sonic_advance2_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "sonicadvance2nx\n\n An unofficial native Nintendo Switch port of Sonic Advance 2.\n\n Based on the SAT-R/sa2 decompilation project.\n[!IMPORTANT]",
-      "requirements": "",
-      "installation": "1. Download `sonicadvance2nxv0.1.nro` from the GitHub Releases page.\n2. Create this directory on the SD card:\n\n3. Copy the NRO into that directory. You may rename it to `sonicadvance2nx.nro`.\n4. Copy your clean USA Sonic Advance 2 ROM into the same directory and name it exactly `sa2.gba`.\n5. Start the port from the Homebrew Menu.\n\nThe expected ROM is the USA release with this SHA-1 checksum:\n\nIf the ROM is missing or does not match, the application displays an error instead of starting the game.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/boraeskicioglu/sonic_runners_adventure_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/boraeskicioglu/sonic_runners_adventure_nx/blob/main/README.md",
@@ -2652,19 +2345,6 @@
       "overview": "`tasm2nx` runs the original 32-bit Android version of The Amazing Spider-Man 2 on Nintendo Switch, using the open-source android32 runtime.",
       "requirements": "A Nintendo Switch running Atmosphère homebrew.\nsphaira for installing the HOME-menu forwarder.\nYour own supported 1.2.8d ARMv7 APK.\nBoth required OBB expansion files listed below.\n\nDownload the release ZIP and copy its `switch/` folder to the root of your SD card. Add your APK and OBB files so the layout is:\n\n| Required expansion | Exact size |\n| --- | ---: |\n| `main.12032.com.gameloft.android.ANMP.GloftASHM.obb` | 1,236,510,228 bytes |",
       "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/bryanthaboi/gen1recomp": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/bryanthaboi/gen1recomp/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "1. Download the build for your platform from the\n latest release.\n2. Launch it. The packaged app contains no ROM and no game data, so the\n launcher will ask for one.\n3. Choose your legally obtained `.gb` / `.gbc` / `.gba` file, a `.zip` /\n `.7z` that holds one (offered only where your platform's build supports\n archives), or drop it onto the window. Import takes a few seconds and the\n game starts automatically.\n4. Repeat for any other game you own. Each one gets its own tab in the launcher.\n\nOnly the canonical US English ROMs below are accepted. The importer checks the\nSHA-1 before creating any game data",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -2775,32 +2455,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/centollOS/SwitchWaker": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/centollOS/SwitchWaker/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "Your own legally obtained copy of the disc: `GZLE01` (USA) or `GZLP01` (Europe) revision 0, as\n an uncompressed `.iso`. The build generates what it needs from it. The version is fixed at build\n time: the European disc needs the European build (below).\nThis repository contains no game assets, executables or data. The binaries you build contain\n code generated from your disc: they are for your own use only; do not share them.",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/centollOS/SwitchWakerHD": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/centollOS/SwitchWakerHD/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "Your own legally obtained copy of the game: the USA version (title `00050000-10143500`) or the\n European one (title `00050000-10143600`, in its five languages), version 0 (the disc or eShop release\n without the update), dumped from your own Wii U. The runtime checks `code/cking.rpx` against those\n versions at startup.\nThis repository contains no game code, assets, keys or data. The NRO you build contains the",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_required",
-      "overclock_notes": "The game is perfectly playable at the console's stock clocks, which are the default (CPU 1020 MHz, GPU 307 MHz in handheld): 30 fps on the opening island, a smooth 26-29 fps in the busiest\nscenes. Nintendo's other handheld GPU profiles are in the Switch tab. The game no longer sets a CPU or GPU overclock itself (the CPU steps and GPU 614 MHz were removed: with the CPU raised that way the console did not wake from sleep, #33). If you want the busiest scenes at a steady 30, a mild CPU\nconsole did not wake from sleep, #33). If you want the busiest scenes at a steady 30, a mild CPU clock of 1224 MHz does it: set it with sys-clk, which handles sleep and docking properly.",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/cutarev/sh2-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/cutarev/sh2-nx/blob/main/README.md",
@@ -2860,19 +2514,6 @@
       "overview": "Super Mario World Remastered Plus · Nintendo Switch port\n\nA wrapper/loader that runs the Android release of Super Mario World",
       "requirements": "",
       "installation": "On your SD card, the app lives in `/switch/smwrnx/`:\n\nBoth `.so` files must be the arm64-v8a ones (`lib/arm64-v8a/` inside the\nAPK) — not the armeabi-v7a ones.\n\nLaunch it through a game/title override (hold R on a game and open it) or a\nforwarder, so the port runs with full RAM. It will not work in applet/album mode.\n\nSaves and `config.txt` live in `/switch/smwrnx/save/`.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/delsonazevedo/Zelda-LA-DX-HD-Updated": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/delsonazevedo/Zelda-LA-DX-HD-Updated/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -2957,32 +2598,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/digdat0/ACGC-Switch-Port": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/digdat0/ACGC-Switch-Port/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "| | |\n|---|---|\n| Console | A Nintendo Switch running Atmosphère custom firmware |\n| Game | Your own disc image of Animal Crossing (USA), game ID GAFE01, as `.iso`, `.gcm` or `.ciso`. Dolphin's compressed formats (RVZ, WIA, GCZ) and NKit images are not supported: convert them to a plain ISO in Dolphin first (right-click the game, Convert File…, format ISO) |\n| SD card | About 1.6 GB free (the disc image is 1.4 GB) |",
-      "installation": "1. Download `AnimalCrossing-gcNX.nro` from the Releases page. A release contains the `.nro` and\n this README, nothing else.\n2. On the SD card, create a folder for it under `switch/` (for example `switch/AnimalCrossing-gcNX/`) and put\n `AnimalCrossing-gcNX.nro` in it. The folder name doesn't matter: gcNX keeps everything in the folder the\n `.nro` is in.\n3. Put your disc image in the same folder. Any file name works, but keep only one disc image there.\n4. Hold R while starting any game, then open Animal Crossing gcNX in the Homebrew Menu.\n\nThe first start compiles the game's shaders and takes about a minute. Later starts take a few seconds.",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "The GameCube Animal Crossing, running natively on Nintendo Switch: 60 fps in handheld mode at stock clocks.\nIn handheld mode at stock clocks the game targets 60 fps. Dynamic resolution renders busy scenes at 432p–540p and quiet ones up to 720p, upscaled to the screen. Docked, the GPU is faster and the resolution climbs higher.\ngcNX asks the system for the GPU speed retail games use in handheld mode (460 MHz), the official profile, not an overclock. It restores the previous setting when you exit.",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/emuman100/wipeout-rewrite-nintendo-switch-homebrew": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/emuman100/wipeout-rewrite-nintendo-switch-homebrew/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "For instructions on obtaining and extracting the required game data files, follow\nthe directions in the upstream wipeout-rewrite README.\nThe game data must be present and in the correct location before launching.\nIf the required files are missing or in the wrong place the app will\nterminate immediately with no error message. The intro movie\n(`intro.mpeg`) is the only optional file — its absence is handled gracefully.",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/fgsfdsfgs/ArxLibertatis": {
       "status": "readme_verified",
       "readme_url": "https://github.com/fgsfdsfgs/ArxLibertatis/blob/master/README.md",
@@ -3030,7 +2645,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-17T15:32:10+00:00"
+      "checked_at": "2026-10-17T20:34:55+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -3065,19 +2680,6 @@
       "overview": "",
       "requirements": "",
       "installation": "You're going to need an Unreal or Unreal Gold installation patched with the OldUnreal 227j patch.\nUnfortunately oldunreal.com seems to disallow direct linking to files, so click the link at the bottom of that post to get it.\n\nEnsure that the patch is installed correctly: when installing make sure to tick every box, but only tick \"Return to Na Pali support\" if you have Unreal Gold.\nIf you don't have a folder called `SystemARM` in the Unreal folder, you need to reinstall the patch. Simply run the installer again to do that.\n\nTo install:\n1. Create a folder called `unreal` in the `switch` folder on your SD card.\n2",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/fildicio/jak-project-switch": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fildicio/jak-project-switch/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "This repository contains no game data, ROMs, ISOs, textures, audio, or other\ncopyrighted assets from any Jak and Daxter title. You must extract game data yourself from\nyour own legally purchased copy of the game. Nothing here is a substitute for buying the\noriginal games.\n\nJak and Daxter and all related names, characters and trademarks are the property of\nSony Interactive Entertainment and Naughty Dog. Nintendo Switch is a trademark of Nintendo.",
-      "installation": "",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -3279,19 +2881,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/liartes/torchlight-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/liartes/torchlight-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "torchlight-nx\n\nAn unofficial, fan-made Nintendo Switch port of the Xbox Live Arcade version of Torchlight (2011).\n[!IMPORTANT]",
-      "requirements": "A Nintendo Switch running custom firmware (Atmosphère).\nThe Torchlight package from your Xbox 360 hard drive: the file\n `35F62CE3FE43845B1625A000921D5A6C48CCC7C058` (197 MB), found in `Content/0000000000000000/58410A7E/000D0000/`.\n Copy it to your computer the way you prefer (for example by FTP from a modded console, or with a USB drive and an\n Xbox 360 content tool). Only the full version of the game is supported.",
-      "installation": "1. Extract `torchlight-nx-.zip` to the root of your SD card. You get `sdmc:/switch/torchlight/torchlight.nro`.\n2. Copy your package file into the same folder, `sdmc:/switch/torchlight/`. Its name does not matter.\n3. Launch Torchlight with full memory, in one of these two ways:\nRecommended: a forwarder. Create a Home menu icon for `torchlight.nro` (for example with\n Sphaira) and start it from there. Torchlight then runs as its own\n application, with its own kernel resources.\nTitle override: hold R while starting any installed game. This works too, but Torchlight then uses the",
-      "editions": "",
-      "overclock_status": "not_required",
-      "overclock_notes": "ReXGlue and compiled for the Switch, and the game is drawn by a native Vulkan renderer running on NVK (Mesa). It runs at the console's stock clocks, with no overclock needed (the frame rate depends on the area and on the console's settings).\nThe port targets the stock clocks. Overclocking (for example with sys-clk) is your choice and is not required.",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/mariob0y/gta3-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/mariob0y/gta3-nx/blob/main/README.md",
@@ -3338,32 +2927,6 @@
       "overview": "",
       "requirements": "Illusion of Gaia (USA) ROM, unmodified, 2 MB (a 512-byte copier header\n is fine and ignored). The game checks it before booting:\n\n | | |\n |---|---|\n | SHA-256 | `32adc048fd89228a4310c03df243e83de7d436cdb2460b4cc83ade20d359b2bd` |\n | SHA-1 | `38de0c84dd2bc3bdfc0a3d7ab0220c79b70887c3` |\n | CRC32 | `1c3848c0` |\nOptional: your own European ROMs (Illusion of Time: Spain, France,\n Germany) to play in Spanish, French or German.",
       "installation": "Download the package for your platform from the\nReleases page, or build it yourself (below). In every case\nthe files you add go beside the executable:",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/nebadasSwifty/masseffect-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/nebadasSwifty/masseffect-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Mass Effect — Nintendo Switch Port\n\nAn ahead-of-time static recompilation port of BioWare's sci-fi epic Mass Effect (Xbox 360, 2007) for the Nintendo Switch, by…",
-      "requirements": "",
-      "installation": "You can assemble your complete Switch installation package entirely in your desktop browser using the client-side installer: https://nebadasswifty.github.io/masseffect-nx/ (available in English and Russian).\n\n1. Select game files: Open the installer and point it to your Xbox 360 disc image (`.iso`) or extracted game directory (containing `default.xex`). For the Russian two-disc release choose both images (Disc 1 and Disc 2) together: the installer takes the intact copy of every file (Feros from Disc 1, Ilos and the ending from Disc 2) and checks every package.\n2. Build package: Click Create masseffect-nx.zip",
-      "editions": "",
-      "overclock_status": "not_required",
-      "overclock_notes": "Rather than emulating the Xbox 360 hardware at runtime, the original PowerPC machine code in `default.xex` is statically translated into C++ using ReXGlue and compiled directly to native ARM64 (AArch64) code for Horizon OS. In-game rendering is handled by a custom Vulkan backend built on the open-source Mesa/NVK graphics driver. The game runs on standard Switch hardware clocks with no overclock required.\nThe port is made to run at the console's stock clocks with no overclock. It changes nothing in the system configuration and uses no sysmodule: the only request it makes to the system is the official GPU performance",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/new-coke/strikers": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/new-coke/strikers/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Download your platform's archive above or from Releases, then follow its page on the wiki:\nWindows\nmacOS\nLinux\nSteam Deck\nNintendo Switch\n\nThe wiki also lists the supported discs and how to report a problem. Troubleshooting covers issues you may have playing or installing the game.",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -3695,6 +3258,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/snesrev/zelda3": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/snesrev/zelda3/blob/master/README.md",
+      "reason": "",
+      "overview": "This is a reverse engineered clone of Zelda 3 - A Link to the Past.\n\nIt's around 70-80kLOC of C code, and reimplements all parts of the original game",
+      "requirements": "",
+      "installation": "The game supports snapshots. The joypad input history is also saved in the snapshot. It's thus possible to replay a playthrough in turbo mode to verify that the game behaves correctly.\n\nThe game is run with `./zelda3` and takes an optional path to the ROM-file, which will verify for each frame that the C code matches the original behavior.\n\n| Button | Key |\n| ------ | ----------- |\n| Up | Up arrow |\n| Down | Down arrow |\n| Left | Left arrow |\n| Right | Right arrow |\n| Start | Enter |\n| Select | Right shift |\n| A | X |\n| B | Z |\n| X | S |\n| Y | A |\n| L | C |\n| R | V |\n\nThe keys can be reconfigured in zelda3.ini",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-17T20:34:55+00:00"
+    },
     "https://github.com/souldbminerr/0ad-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/souldbminerr/0ad-switch/blob/main/README.md",
@@ -3747,19 +3323,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/souldbminerr/dusklight-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/souldbminerr/dusklight-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Official Website\n •\n Discord",
-      "requirements": "",
-      "installation": "[!IMPORTANT]\nDusklight does not provide any copyrighted assets. You must provide your own copy of the original game.\n[!IMPORTANT]\nAt a minimum, Dusklight requires a GPU with support for D3D12, Vulkan 1.1+, or Metal. For older devices, best-effort support is provided for D3D11 and OpenGL ES (Android), but will not achieve full accuracy or performance. Your experience with specific hardware, operating systems, and drivers may vary.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/souldbminerr/swi-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/souldbminerr/swi-nx/blob/main/README.md",
@@ -3786,19 +3349,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/thelinkin3000/halo-ce-universal": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/thelinkin3000/halo-ce-universal/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/timschneeb/Shipwright-Switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/timschneeb/Shipwright-Switch/blob/master/README.md",
@@ -3807,19 +3357,6 @@
       "requirements": "Custom assets are packed in `.otr` archive files. To use custom assets, place them in the `mods` folder.\n\nIf you're interested in creating and/or packing your own custom asset `.otr` files, check out the following tools:\nretro - OTR generator\nfast64 - Blender plugin",
       "installation": "The Ship does not include any copyrighted assets. You are required to provide a supported copy of the game.",
       "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/toniisound/oracles-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/toniisound/oracles-nx/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "Any file name works: games are recognised by their SHA1, not their name.\n`.gbc`, `.gb`, `.zip` and `.gz` are accepted.\nOnly the USA / Australia versions work:\n\n| Game | SHA1 |\n| --- | --- |\n| Oracle of Ages | `880374fb978b18af4aa529e2e32f7ffb4d7dd2f4` |\n| Oracle of Seasons | `ba1268290fb2b1b70505d2d7b5825fc8a4816a4b` |",
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
@@ -3980,6 +3517,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/xflipperkast/stonestory_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/xflipperkast/stonestory_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`stonestorynx` brings Stone Story RPG Android 4.33.0 (ARM64, version code 355) to Nintendo Switch as an experimental homebrew port.",
+      "requirements": "devkitPro, devkitA64 and libnx\nSwitch portlibs: Mesa/FreeType headers, libdrmnouveau, libvorbis/libogg, curl, Mbed TLS, zlib and liblzma\nLinux or WSL with GNU Make, Bash, Python 3.11+, curl, tar, patch and Ninja\nPython's `packaging` and `MarkupSafe` modules; bison, flex and m4, or Ubuntu/WSL's `apt-get` to fetch these generators locally",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-17T20:34:55+00:00"
     }
   }
 }
