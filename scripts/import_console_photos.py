@@ -18,6 +18,8 @@ MAX_BYTES = 4_500_000
 MAX_EDGE = 620
 
 def import_photo(record):
+    if record.get("external_photo"):
+        return "external", str(record.get("file") or "")
     relative = str(record.get("file") or "")
     if not relative.startswith("assets/consoles/photos/") or ".." in relative or not relative.endswith(".webp"):
         return "invalid", relative
@@ -44,14 +46,14 @@ def import_photo(record):
 def main():
     d = json.loads(META.read_text(encoding="utf-8"))
     photos = list(d["photos"].values())
-    counts = {"saved": 0, "cached": 0, "invalid": 0, "error": 0}
+    counts = {"saved": 0, "cached": 0, "external": 0, "invalid": 0, "error": 0}
     with concurrent.futures.ThreadPoolExecutor(max_workers=7) as pool:
         results = list(pool.map(safely_import, photos))
     for status, target in results:
         counts[status] = counts.get(status,0) + 1
         print(status, target)
     print("Hardware photo import:", counts)
-    if counts["saved"] + counts["cached"] < len(photos) - 2:
+    if counts["saved"] + counts["cached"] + counts["external"] < len(photos) - 2:
         raise RuntimeError("Too many photos missing; check image sources or network")
 
 def safely_import(record):
