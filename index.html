@@ -666,7 +666,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const family=families.find(x=>x.id===state.family);
     const crumbs=[`<button type="button" data-route="ports">PORTS</button>`];
     if(family) crumbs.push(`<span>›</span><button type="button" data-route="${esc('ports/'+family.id)}">${esc(family.title)}</button>`);
-    if(state.platform){const logoPath=consoleLogo(state.platform);crumbs.push(`<span>›</span><strong class="trail-current">${logoPath?`<img src="${esc(logoPath)}" alt="" loading="lazy">`:``}${esc(state.platform)}</strong>`);}
+    if(state.platform){const logoPath=consoleLogo(state.platform);crumbs.push(`<span>›</span><strong class="trail-current">${logoPath?`<img src="${esc(logoPath)}" alt="Logo oficial de ${esc(state.platform)}" loading="lazy">`:esc(state.platform)}</strong>`);}
     $('#path-trail').innerHTML=crumbs.join('');
     if(!active)return;
     $('#explorer-eyebrow').textContent=family?`PORTS / ${family.title.toUpperCase()}`:'BIBLIOTECA / PORTS';
@@ -698,10 +698,12 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     $('#results-counter').textContent = `${state.filtered.length.toLocaleString('es-MX')} resultados`;
     const f=families.find(x=>x.id===state.family);
     const section=$('#search').value.trim()?'Resultados de búsqueda':state.nav==='Ports'?(state.platform||f?.title||'Ports por consola'):(state.nav==='Todos'?'Descubre algo nuevo':state.nav);
-    $('#section-title').innerHTML= `${esc(section)} <span class="sparkle">✳</span>`;
     const activeLogo=$('#active-platform-logo'),activeLogoUrl=(state.nav==='Ports'&&!$('#search').value.trim()&&state.platform)?consoleLogo(state.platform):'';
-    activeLogo.hidden=!activeLogoUrl;if(activeLogoUrl){activeLogo.src=activeLogoUrl;activeLogo.alt='Logo de '+state.platform;}
-    $('#showcase-kicker').textContent=state.platform?'COLECCIÓN / '+(f?.title.toUpperCase()||'PORTS'):'01 / DESTACADOS';
+    const sectionTitle=$('#section-title');
+    sectionTitle.hidden=!!activeLogoUrl;
+    sectionTitle.innerHTML= `${esc(section)} <span class="sparkle">✳</span>`;
+    activeLogo.hidden=!activeLogoUrl;if(activeLogoUrl){activeLogo.src=activeLogoUrl;activeLogo.alt='Logo oficial de '+state.platform;}
+    $('#showcase-kicker').textContent=activeLogoUrl?'COLECCIÓN DE PORTS':state.platform?'COLECCIÓN / '+(f?.title.toUpperCase()||'PORTS'):'01 / DESTACADOS';
     const portHero=$('#port-console-hero');
     const heroId=state.nav==='Ports'&&!$('#search').value.trim()&&state.platform?consoleLogoSlug(state.platform):'';
     const heroPhoto=heroId?hardwarePhoto(heroId):null;
@@ -709,7 +711,13 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     if(heroPhoto){
       $('#port-console-photo').src=heroPhoto.file;
       $('#port-console-photo').alt='Fotografía de '+state.platform;
-      $('#port-hero-name').textContent=state.platform;
+      const heroLabel=$('#port-hero-name'),heroLogo=consoleLogo(state.platform);
+      heroLabel.replaceChildren();
+      if(heroLogo){
+        const logoImage=document.createElement('img');
+        logoImage.src=heroLogo;logoImage.alt='Logo oficial de '+state.platform;
+        heroLabel.append(logoImage);
+      }else heroLabel.textContent=state.platform;
       const credit=$('#port-hero-credit');
       credit.textContent='Foto: '+heroPhoto.credit.author+' · '+heroPhoto.credit.license+' · Wikimedia Commons ↗';
       credit.href=heroPhoto.credit.source;
@@ -838,8 +846,16 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     modalLogo.hidden=!logoPath;if(logoPath){modalLogo.src=logoPath;modalLogo.alt='Logo de '+item.platform;}
     $('#modal-description').textContent=item.description||'Consulta los detalles y requisitos en el repositorio original.';
     const art=$('#modal-art');art.style.setProperty('--art',gradient(item));art.replaceChildren();
-    const emulatorGallery=item.type==='Emulador'?emulatorHardwareMarkup(item,true):'';
-    if(emulatorGallery)art.innerHTML=emulatorGallery;
+    const emulatorBranding=item.type==='Emulador'?emulatorBrand(item):null;
+    const emulatorGallery=item.type==='Emulador'&&!emulatorBranding?emulatorHardwareMarkup(item,true):'';
+    if(emulatorBranding){
+      const panel=document.createElement('div');panel.className='emulator-brand-mark';
+      const img=document.createElement('img');img.src=emulatorBranding.logo;img.alt='Logo oficial de '+(emulatorBranding.label||item.title);
+      img.onerror=()=>{img.style.display='none';};
+      const name=document.createElement('span');name.textContent=emulatorBranding.label||item.title;
+      panel.append(img,name);art.append(panel);
+    }
+    else if(emulatorGallery)art.innerHTML=emulatorGallery;
     else{
       const artwork=document.createElement('img');artwork.src=safeURL(item.cover)||generatedCover(item);artwork.alt='Portada de '+item.title;artwork.style.cssText='width:94%;height:auto;max-width:340px;max-height:470px;object-fit:contain';
       artwork.onerror=()=>{artwork.onerror=null;artwork.src=generatedCover(item);};
