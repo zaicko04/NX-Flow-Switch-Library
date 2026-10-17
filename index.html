@@ -86,6 +86,8 @@
 .modal-art .emulator-brand-mark img{max-height:210px;width:auto;max-width:100%;object-fit:contain}
 .port-hero-details #port-hero-name img{display:block;width:auto;max-width:220px;max-height:59px;object-fit:contain;filter:drop-shadow(0 5px 11px #0009)}
 .section-heading h2[hidden]{display:none!important}
+
+.emulator-brand-mark.retroarch-white img{filter:brightness(0) invert(1) drop-shadow(0 12px 17px #000a)!important}
 </style>
 </head>
 <body>
@@ -547,7 +549,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const brand = item.type==='Emulador'?emulatorBrand(item):null;
     const hardware = item.type==='Emulador'&&!brand?emulatorHardwareMarkup(item,large):'';
     const image = '<img class="'+(large?'real-cover':'full-cover')+'" loading="lazy" decoding="async" src="'+esc(src)+'" data-fallback="'+esc(fallback)+'" alt="Carátula de '+title+'" onerror="this.onerror=null;this.src=this.dataset.fallback">';
-    const brandMark = brand ? '<div class="emulator-brand-mark"><img loading="lazy" src="'+esc(brand.logo)+'" alt="Logotipo oficial de '+esc(brand.label||item.title)+'" onerror="this.style.display=&quot;none&quot;"><span>'+esc(brand.label||item.title)+'</span></div>':'';
+    const brandMark = brand ? '<div class="emulator-brand-mark '+(brand.label==='RetroArch'?'retroarch-white':'')+'"><img loading="lazy" src="'+esc(brand.logo)+'" alt="Logotipo oficial de '+esc(brand.label||item.title)+'" onerror="this.style.display=&quot;none&quot;"><span>'+esc(brand.label||item.title)+'</span></div>':'';
     // Do not cover the game's own box artwork with duplicated NX FLOW,
     // console branding or a second game title; all cards retain their case shape.
     if (large) return '<div class="case '+(hardware?'emulator-case ':'')+(brand?'branded-emulator-case':'')+'"><div class="cover-art" style="background:'+gradient(item)+'">'+image+hardware+brandMark+'</div></div>';
@@ -849,7 +851,7 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const emulatorBranding=item.type==='Emulador'?emulatorBrand(item):null;
     const emulatorGallery=item.type==='Emulador'&&!emulatorBranding?emulatorHardwareMarkup(item,true):'';
     if(emulatorBranding){
-      const panel=document.createElement('div');panel.className='emulator-brand-mark';
+      const panel=document.createElement('div');panel.className='emulator-brand-mark'+(emulatorBranding.label==='RetroArch'?' retroarch-white':'');
       const img=document.createElement('img');img.src=emulatorBranding.logo;img.alt='Logo oficial de '+(emulatorBranding.label||item.title);
       img.onerror=()=>{img.style.display='none';};
       const name=document.createElement('span');name.textContent=emulatorBranding.label||item.title;
@@ -878,6 +880,16 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     if(item.download && (a=actionLink('↓ Descargar paquete oficial',item.download,'primary')))actions.append(a);
     if(item.url && (a=actionLink('↗ Repositorio / proyecto',item.url,item.download?'':'primary')))actions.append(a);
     if(item.discussion && (a=actionLink('⌁ Ver hilo GBAtemp',item.discussion)))actions.append(a);
+    if(item.type==='Emulador'){
+      const ids=emulatorPlatforms(item);
+      const credited=ids.map(id=>hardwarePhoto(id)).filter(p=>p?.credit?.license_url);
+      for(const photo of credited.slice(0,2)){
+        const link=actionLink('Fotografía: '+photo.credit.author+' · '+photo.credit.license,photo.credit.source);
+        if(link)actions.append(link);
+      }
+      const brand=emulatorBrand(item);
+      if(brand && (a=actionLink('Fuente del logo oficial',brand.source)))actions.append(a);
+    }
     if(!actions.children.length)actions.textContent='Sin enlace oficial confirmado.';
     const panel=$('#modal-port-guide');panel.hidden=item.type!=='Port';panel.replaceChildren();
     $('#modal-overlay').hidden=false;document.body.style.overflow='hidden';
