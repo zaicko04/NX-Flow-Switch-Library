@@ -72,6 +72,20 @@
  .system-photo{height:125px}
  .system-photo img{max-height:121px}
 }
+
+/* Show official emulator branding without laying graphics over game covers. */
+.branded-emulator-art .full-cover{opacity:.11!important;filter:blur(6px)}
+.branded-emulator-case .cover-art>.real-cover{opacity:.11!important;filter:blur(6px)}
+.emulator-brand-mark{position:absolute;z-index:5;inset:10% 9%;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;pointer-events:none}
+.emulator-brand-mark img{display:block;max-width:100%;max-height:72%;width:auto;height:auto;object-fit:contain;filter:drop-shadow(0 12px 16px #000b)}
+.emulator-brand-mark span{font:900 12px Outfit,Arial,sans-serif;letter-spacing:1.6px;color:#f9f8ff;text-shadow:0 3px 8px #050511;opacity:.9}
+.emulator-brand-mark img:not([style*="none"])+span{font-size:10px;opacity:.6}
+.catalog-cover .emulator-brand-mark{inset:15% 13%;z-index:4}
+.catalog-cover .emulator-brand-mark span{font-size:9px}
+.modal-art .emulator-brand-mark{position:relative;inset:auto;height:300px;width:100%;z-index:4;max-width:85%}
+.modal-art .emulator-brand-mark img{max-height:210px;width:auto;max-width:100%;object-fit:contain}
+.port-hero-details #port-hero-name img{display:block;width:auto;max-width:220px;max-height:59px;object-fit:contain;filter:drop-shadow(0 5px 11px #0009)}
+.section-heading h2[hidden]{display:none!important}
 </style>
 </head>
 <body>
@@ -530,12 +544,14 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     const src=official || fallback;
     const icon = safeURL(item.icon);
     const title = esc(item.title);
-    const t = shortTitle(item);
-    const platformLogo=consoleLogo(item.platform);
-    const hardware=item.type==='Emulador'?emulatorHardwareMarkup(item,large):'';
+    const brand = item.type==='Emulador'?emulatorBrand(item):null;
+    const hardware = item.type==='Emulador'&&!brand?emulatorHardwareMarkup(item,large):'';
     const image = '<img class="'+(large?'real-cover':'full-cover')+'" loading="lazy" decoding="async" src="'+esc(src)+'" data-fallback="'+esc(fallback)+'" alt="Carátula de '+title+'" onerror="this.onerror=null;this.src=this.dataset.fallback">';
-    if (large) return '<div class="case '+(hardware?'emulator-case':'')+'"><div class="cover-art" style="background:'+gradient(item)+'">'+image+hardware+'</div><div class="cover-top"><span>NX / FLOW</span><span class="case-platform-brand">'+(platformLogo?'<img src="'+esc(platformLogo)+'" alt="'+esc(item.platform||'Consola')+'">':esc(short(item.platform || item.type)))+'</span></div><div class="cover-center '+(official?'has-cover':icon?'icon-center':'template-center')+'">'+(!official&&icon?'<img loading="lazy" src="'+esc(icon)+'" alt="Icono de '+title+'" onerror="this.remove()">':!official?esc(t):'')+'</div><div class="cover-bottom"><div class="case-eyebrow">'+esc(item.type || 'PORT')+'</div><strong>'+title+'</strong><small>'+esc(item.author || item.source || 'Nintendo Switch')+'</small></div></div>';
-    return '<div class="catalog-cover '+(hardware?'emulator-art':'')+'" style="--art:'+gradient(item)+'"><span class="card-source">'+esc(item.source)+'</span>'+image+(hardware?hardware:(!official&&icon?'<img class="cover-icon" loading="lazy" src="'+esc(icon)+'" alt="" onerror="this.remove()">':''))+'</div>';
+    const brandMark = brand ? '<div class="emulator-brand-mark"><img loading="lazy" src="'+esc(brand.logo)+'" alt="Logotipo oficial de '+esc(brand.label||item.title)+'" onerror="this.style.display=&quot;none&quot;"><span>'+esc(brand.label||item.title)+'</span></div>':'';
+    // Do not cover the game's own box artwork with duplicated NX FLOW,
+    // console branding or a second game title; all cards retain their case shape.
+    if (large) return '<div class="case '+(hardware?'emulator-case ':'')+(brand?'branded-emulator-case':'')+'"><div class="cover-art" style="background:'+gradient(item)+'">'+image+hardware+brandMark+'</div></div>';
+    return '<div class="catalog-cover '+(hardware?'emulator-art ':'')+(brand?'branded-emulator-art':'')+'" style="--art:'+gradient(item)+'"><span class="card-source">'+esc(item.source)+'</span>'+image+hardware+brandMark+(!official&&!hardware&&!brand&&icon?'<img class="cover-icon" loading="lazy" src="'+esc(icon)+'" alt="" onerror="this.remove()">':'')+'</div>';
   }
   function asDate(s) { const d=Date.parse(s||''); return Number.isNaN(d)?0:d; }
   function categoryMatches(item) {
@@ -618,6 +634,11 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
       if(found)return found[0];
     }
     return '';
+  };
+  const emulatorBrand=item=>{
+    if(!item||item.type!=='Emulador')return null;
+    const url=String(item.url||'').replace(/\/+$/,'');
+    return Object.entries(hardwareCatalog.emulator_branding||{}).find(([key])=>key===url)?.[1]||null;
   };
   const emulatorHardwareMarkup=(item,large=false)=>{
     const ids=emulatorPlatforms(item).slice(0,large?5:4);
