@@ -10,6 +10,8 @@ on:
       - "scripts/resolve_covers.py"
       - "scripts/dedupe_catalog.py"
       - "scripts/build_port_guides.py"
+      - "scripts/import_console_photos.py"
+      - "data/console_photos.json"
       - "data/port_overrides.json"
       - "data/covers.json"
       - "data/custom/**"
@@ -26,6 +28,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Preparar fotografías originales de consolas
+        run: |
+          python -m pip install --quiet pillow
+          python scripts/import_console_photos.py
       - name: Importar SwitchPorts, Homebrew App Store y GBAtemp
         run: python scripts/sync_catalog.py
       - name: Agregar carátulas verificadas por consola
@@ -36,7 +42,7 @@ jobs:
         run: python scripts/build_port_guides.py
       - name: Guardar catálogo actualizado
         run: |
-          git add data/catalog.json data/port_guides.json
+          git add data/catalog.json data/port_guides.json assets/consoles/photos
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
