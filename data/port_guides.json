@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T04:23:13+00:00",
-    "port_count": 304,
-    "repositories": 302,
+    "generated_at": "2026-10-17T10:41:24+00:00",
+    "port_count": 305,
+    "repositories": 303,
     "statuses": {
-      "readme_verified": 301,
+      "readme_verified": 302,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -13,7 +13,7 @@
       "recommended": 2,
       "optional": 3,
       "not_required": 5,
-      "mentioned": 23,
+      "mentioned": 24,
       "not_documented": 269
     }
   },
@@ -3030,7 +3030,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-17T04:23:13+00:00"
+      "checked_at": "2026-10-17T10:41:24+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -3577,6 +3577,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/saekaze/th075-switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/saekaze/th075-switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "⚠️ Disclaimer: This repository contains ONLY the homebrew engine code. No game assets are distributed. You must legally own a copy of Touhou 7.5: Immaterial and Missing Power updated to ver1.11 (Japanese).",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
+      "overclock_source": "",
+      "checked_at": "2026-10-17T10:41:24+00:00"
     },
     "https://github.com/saekaze/th08-switch": {
       "status": "readme_verified",
