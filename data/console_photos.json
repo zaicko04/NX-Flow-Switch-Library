@@ -2,7 +2,7 @@
   "meta": {
     "source_repository": "https://github.com/mattias800/spela",
     "source_credits": "https://github.com/mattias800/spela/blob/master/server/internal/api/static/console-photos/CREDITS.json",
-    "note": "Hardware photos, not console logos. Each image is from Wikimedia with its own author and license. Files are fetched from the cited Spela bundle and optimized locally; credits are preserved.",
+    "note": "Hardware photos, not console logos. Each image is from Wikimedia with its own author and license. Files are fetched from the cited Spela bundle and optimized locally; credits are preserved. V.Smile original de Wikimedia Commons bajo CC BY-SA 3.0 (autor Xavier Caré); se conserva la atribución y el enlace a la licencia. Los emuladores RetroArch y Tico muestran sus marcas oficiales.",
     "attribution": "La autoría y licencia de cada fotografía se muestra junto a las imágenes cuando corresponde."
   },
   "photos": {
@@ -346,6 +346,19 @@
         "title": "TurboGrafx16-Console-Set.png"
       },
       "spela_id": "pce"
+    },
+    "vsmile": {
+      "file": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Vtech_Vsmile_French_version.JPG/960px-Vtech_Vsmile_French_version.JPG",
+      "external_photo": true,
+      "credit": {
+        "author": "Xavier Caré",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Vtech_Vsmile_French_version.JPG",
+        "title": "Vtech Vsmile French version.JPG (fotografía original; sin cambios)",
+        "changes": "Sin modificaciones; se muestra miniatura original de Wikimedia Commons"
+      },
+      "note": "VTech V.Smile original de 2004, no V.Smile Baby"
     }
   },
   "emulators_by_repo": {
@@ -371,6 +384,23 @@
     ],
     "https://github.com/1timewire1/Yokoi_Game_-_Watch_emulator_switch/tree/switch-port": [
       "gamewatch"
+    ],
+    "https://github.com/1timewire1/D.Smile_nx": [
+      "vsmile"
     ]
+  },
+  "emulator_branding": {
+    "https://github.com/ticohq/tico": {
+      "logo": "https://i.imgur.com/8qsV6MH.png",
+      "label": "tico",
+      "source": "https://github.com/ticohq/tico/blob/main/README.md",
+      "note": "Logo oficial publicado por los autores, servido desde la dirección usada por su README."
+    },
+    "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/": {
+      "logo": "assets/emulators/retroarch.svg",
+      "label": "RetroArch",
+      "source": "https://github.com/libretro/RetroArch/blob/master/media/retroarch-vector_invader-only.svg",
+      "note": "Vector oficial del repositorio RetroArch."
+    }
   }
 }
