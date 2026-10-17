@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "source_repository": "https://github.com/mattias800/spela",
+    "source_credits": "https://github.com/mattias800/spela/blob/master/server/internal/api/static/console-photos/CREDITS.json",
+    "note": "Hardware photos, not console logos. Each image is from Wikimedia with its own author and license. Files are fetched from the cited Spela bundle and optimized locally; credits are preserved.",
+    "attribution": "La autoría y licencia de cada fotografía se muestra junto a las imágenes cuando corresponde."
+  },
+  "photos": {
+    "nes": {
+      "file": "assets/consoles/photos/nes.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/nes.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:NES-Console-Set.png",
+        "title": "NES-Console-Set.png"
+      },
+      "spela_id": "nes"
+    },
+    "snes": {
+      "file": "assets/consoles/photos/snes.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/snes.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.png",
+        "title": "SNES-Mod1-Console-Set.png"
+      },
+      "spela_id": "snes"
+    },
+    "n64": {
+      "file": "assets/consoles/photos/n64.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/n64.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:N64-Console-Set.png",
+        "title": "N64-Console-Set.png"
+      },
+      "spela_id": "n64"
+    },
+    "gb": {
+      "file": "assets/consoles/photos/gb.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gb.png",
+      "credit": {
+        "author": "Transfrom JPEG version and remove white background. Original by Evan-Amos.",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Game-Boy-FL.png",
+        "title": "Game-Boy-FL.png"
+      },
+      "spela_id": "gb"
+    },
+    "gbc": {
+      "file": "assets/consoles/photos/gbc.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gbc.png",
+      "credit": {
+        "author": "Evan-Amos, modified by Gunnar.offel",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-FL.png",
+        "title": "Nintendo-Game-Boy-Color-FL.png"
+      },
+      "spela_id": "gbc"
+    },
+    "gba": {
+      "file": "assets/consoles/photos/gba.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gba.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Purple-FL.png",
+        "title": "Nintendo-Game-Boy-Advance-Purple-FL.png"
+      },
+      "spela_id": "gba"
+    },
+    "nds": {
+      "file": "assets/consoles/photos/nds.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/nds.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo-DS-Lite-Black-Open.png",
+        "title": "Nintendo-DS-Lite-Black-Open.png"
+      },
+      "spela_id": "nds"
+    },
+    "3ds": {
+      "file": "assets/consoles/photos/3ds.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/3ds.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo-3DS-AquaOpen.png",
+        "title": "Nintendo-3DS-AquaOpen.png"
+      },
+      "spela_id": "3ds"
+    },
+    "gamecube": {
+      "file": "assets/consoles/photos/gamecube.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gc.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:GameCube-Console-Set.png",
+        "title": "GameCube-Console-Set.png"
+      },
+      "spela_id": "gc"
+    },
+    "wii": {
+      "file": "assets/consoles/photos/wii.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/wii.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Wii-Console.png",
+        "title": "Wii-Console.png"
+      },
+      "spela_id": "wii"
+    },
+    "wiiu": {
+      "file": "assets/consoles/photos/wiiu.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/wiiu.png",
+      "credit": {
+        "author": "Takimata (edited by:Tokyoship)",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wii_U_Console_and_Gamepad.png",
+        "title": "Wii_U_Console_and_Gamepad.png"
+      },
+      "spela_id": "wiiu"
+    },
+    "switch": {
+      "file": "assets/consoles/photos/switch.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/nsw.png",
+      "credit": {
+        "author": "Owen1962",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_Console.png",
+        "title": "Nintendo_Switch_Console.png"
+      },
+      "spela_id": "nsw"
+    },
+    "ps1": {
+      "file": "assets/consoles/photos/ps1.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/psx.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:PSX-Console-wController.png",
+        "title": "PSX-Console-wController.png"
+      },
+      "spela_id": "psx"
+    },
+    "ps2": {
+      "file": "assets/consoles/photos/ps2.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/ps2.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:PS2-Fat-Console-Set.png",
+        "title": "PS2-Fat-Console-Set.png"
+      },
+      "spela_id": "ps2"
+    },
+    "psp": {
+      "file": "assets/consoles/photos/psp.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/psp.png",
+      "credit": {
+        "author": "Psp-1000.jpg: Evan-Amos derivative work: Alphathon™ (talk)",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:PSP-1000.png",
+        "title": "PSP-1000.png"
+      },
+      "spela_id": "psp"
+    },
+    "vita": {
+      "file": "assets/consoles/photos/vita.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/vita.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:PlayStation-Vita-1101-FL.png",
+        "title": "PlayStation-Vita-1101-FL.png"
+      },
+      "spela_id": "vita"
+    },
+    "sg1000": {
+      "file": "assets/consoles/photos/sg1000.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/sg1k.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-SG-1000-Console-Set.png",
+        "title": "Sega-SG-1000-Console-Set.png"
+      },
+      "spela_id": "sg1k"
+    },
+    "mastersystem": {
+      "file": "assets/consoles/photos/mastersystem.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/sms.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-Master-System-Set.png",
+        "title": "Sega-Master-System-Set.png"
+      },
+      "spela_id": "sms"
+    },
+    "genesis": {
+      "file": "assets/consoles/photos/genesis.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gen.png",
+      "credit": {
+        "author": "Original by Evan-AmosDerivative version by ReneeWrites",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-Mk2-6button.png",
+        "title": "Sega-Genesis-Mk2-6button.png"
+      },
+      "spela_id": "gen"
+    },
+    "segacd": {
+      "file": "assets/consoles/photos/segacd.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/scd.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-CD-Model1-Set.jpg",
+        "title": "Sega-CD-Model1-Set.jpg"
+      },
+      "spela_id": "scd"
+    },
+    "32x": {
+      "file": "assets/consoles/photos/32x.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/32x.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-Genesis-32X-01.jpg",
+        "title": "Sega-Genesis-32X-01.jpg"
+      },
+      "spela_id": "32x"
+    },
+    "gamegear": {
+      "file": "assets/consoles/photos/gamegear.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gg.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-Game-Gear-WB.png",
+        "title": "Sega-Game-Gear-WB.png"
+      },
+      "spela_id": "gg"
+    },
+    "saturn": {
+      "file": "assets/consoles/photos/saturn.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/sat.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega-Saturn-Console-Set-Mk1.png",
+        "title": "Sega-Saturn-Console-Set-Mk1.png"
+      },
+      "spela_id": "sat"
+    },
+    "dreamcast": {
+      "file": "assets/consoles/photos/dreamcast.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/dc.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dreamcast-Console-Set.png",
+        "title": "Dreamcast-Console-Set.png"
+      },
+      "spela_id": "dc"
+    },
+    "xbox": {
+      "file": "assets/consoles/photos/xbox.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/xbox.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Xbox-Console-Set.png",
+        "title": "Xbox-Console-Set.png"
+      },
+      "spela_id": "xbox"
+    },
+    "x360": {
+      "file": "assets/consoles/photos/x360.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/x360.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Xbox-360S-Console-Set.png",
+        "title": "Xbox-360S-Console-Set.png"
+      },
+      "spela_id": "x360"
+    },
+    "arcade": {
+      "file": "assets/consoles/photos/arcade.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/arcade.png",
+      "credit": {
+        "author": "Fan de Rétro",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Borne_arcade_Pacman.png",
+        "title": "Borne arcade Pacman.png"
+      },
+      "spela_id": "arcade"
+    },
+    "neogeo": {
+      "file": "assets/consoles/photos/neogeo.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/neogeo.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Neo-Geo-AES-Console-Set.png",
+        "title": "Neo-Geo-AES-Console-Set.png"
+      },
+      "spela_id": "neogeo"
+    },
+    "gamewatch": {
+      "file": "assets/consoles/photos/gamewatch.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/gw.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Game%26watch-donkey-kong-2.png",
+        "title": "Game&watch-donkey-kong-2.png"
+      },
+      "spela_id": "gw"
+    },
+    "virtualboy": {
+      "file": "assets/consoles/photos/virtualboy.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/vb.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Virtual-Boy-Set.png",
+        "title": "Virtual-Boy-Set.png"
+      },
+      "spela_id": "vb"
+    },
+    "turbografx": {
+      "file": "assets/consoles/photos/turbografx.webp",
+      "upstream": "https://raw.githubusercontent.com/mattias800/spela/master/server/internal/api/static/console-photos/pce.png",
+      "credit": {
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:TurboGrafx16-Console-Set.png",
+        "title": "TurboGrafx16-Console-Set.png"
+      },
+      "spela_id": "pce"
+    }
+  },
+  "emulators_by_repo": {
+    "https://github.com/PalindromicBreadLoaf/nezumiiruka": [
+      "gamecube",
+      "wii"
+    ],
+    "https://github.com/NaGaa95/dolphin-nx": [
+      "gamecube",
+      "wii"
+    ],
+    "https://github.com/NaGaa95/ppsspp-nx": [
+      "psp"
+    ],
+    "https://github.com/ticohq/tico": [],
+    "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/": [
+      "nes",
+      "snes",
+      "n64",
+      "gb",
+      "gba",
+      "genesis"
+    ],
+    "https://github.com/1timewire1/Yokoi_Game_-_Watch_emulator_switch/tree/switch-port": [
+      "gamewatch"
+    ]
+  }
+}
