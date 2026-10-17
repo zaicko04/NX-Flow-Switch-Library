@@ -30,6 +30,48 @@
 .path-trail .trail-current{display:inline-flex;align-items:center;gap:10px}.path-trail .trail-current img{height:26px;max-width:115px;object-fit:contain}
 .modal-platform-logo{display:block;max-height:45px;max-width:190px;width:auto;object-fit:contain;object-position:left;margin:0 0 12px}
 .case-platform-brand{display:flex;justify-content:center;align-items:center;min-width:46px;max-width:95px;min-height:24px}.case-platform-brand img{width:auto!important;max-height:19px;max-width:82px;object-fit:contain;filter:drop-shadow(0 2px 5px #000b)}
+
+/* Genuine console hardware photos, locally cached and license-credited. */
+.system-tile.has-photo{min-height:303px}
+.system-photo{position:relative;display:flex;width:100%;height:144px;align-items:center;justify-content:center;margin:6px 0 1px;isolation:isolate}
+.system-photo:before{content:'';position:absolute;inset:13px 5px 2px;background:radial-gradient(ellipse,#a796ff20,transparent 68%);filter:blur(7px)}
+.system-photo img{position:relative;max-width:100%;max-height:138px;width:auto;height:auto;object-fit:contain;filter:drop-shadow(0 13px 15px #0007)}
+.system-tile.has-photo .system-logo{height:55px;max-height:55px}
+.system-tile.has-photo .system-logo img{max-height:55px;max-width:83%;object-fit:contain}
+.system-tile.has-photo .system-tile-name{margin-top:9px}
+.port-console-hero{position:relative;display:flex;align-items:center;justify-content:center;gap:25px;background:linear-gradient(117deg,#161d2f,#21213a 54%,#1c1b2a);border:1px solid #34344c;border-radius:16px;padding:13px 32px;margin:0 0 26px;min-height:178px;overflow:hidden}
+.port-console-hero[hidden]{display:none!important}
+.port-console-hero>img{max-width:58%;max-height:188px;width:auto;height:auto;object-fit:contain;filter:drop-shadow(0 18px 18px #0009)}
+.port-hero-details{display:flex;flex-direction:column;gap:11px;min-width:145px;max-width:290px}
+.port-hero-details strong{font:800 clamp(17px,2vw,26px)/1.15 Outfit,Arial,sans-serif;color:#f4f1ff}
+.port-hero-details a{color:#9b92b5;font-size:10px;line-height:1.4;text-decoration:underline;text-underline-offset:3px}
+.emulator-art .full-cover{opacity:.15!important;filter:blur(3px)}
+.emulator-art .cover-icon{display:none!important}
+.emulator-case .cover-art .real-cover{opacity:.1!important;filter:blur(5px)}
+.emulator-case .cover-center{opacity:0!important}
+.hardware-gallery{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:7px;z-index:4;pointer-events:none;padding:30px 6px 13px}
+.hardware-caption{font:800 9px Outfit,Arial,sans-serif;letter-spacing:1.1px;color:#eee6ff;text-shadow:0 2px 6px #000}
+.hardware-photo-row{display:flex;align-items:center;justify-content:center;gap:6px;max-height:80%;width:100%}
+.hardware-photo{display:flex;flex:1 1 0;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-width:0;max-width:200px}
+.hardware-photo img{object-fit:contain;max-width:100%;width:auto;height:auto;max-height:104px;filter:drop-shadow(0 5px 8px #000b)}
+.hardware-photo small{font:700 8px Outfit,Arial,sans-serif;color:#f6f0ff;text-align:center;text-shadow:0 2px 6px #000b}
+.hardware-gallery:not(.multiple) .hardware-photo img{max-height:115px}
+.emulator-case .hardware-gallery{padding:42px 11px 85px;z-index:3;gap:16px}
+.emulator-case .hardware-photo img{max-height:148px}
+.emulator-case .hardware-photo small{font-size:10px}
+.modal-art .hardware-gallery{position:relative;padding:26px;z-index:3;width:100%;height:auto}
+.modal-art .hardware-photo img{max-height:205px;max-width:100%;filter:drop-shadow(0 9px 15px #0008)}
+.modal-art .hardware-photo small{font-size:12px}
+.modal-art .hardware-caption{font-size:12px}
+@media(max-width:640px){
+ .port-console-hero{padding:13px;gap:9px;min-height:128px}
+ .port-console-hero>img{max-width:54%;max-height:125px}
+ .port-hero-details{min-width:0}
+ .port-hero-details a{font-size:8px}
+ .system-tile.has-photo{min-height:275px}
+ .system-photo{height:125px}
+ .system-photo img{max-height:121px}
+}
 </style>
 </head>
 <body>
