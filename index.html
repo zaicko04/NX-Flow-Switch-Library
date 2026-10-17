@@ -541,6 +541,45 @@ window.NX_ASSETS={"assets/families/otros.svg": "data:image/svg+xml;base64,PHN2Zy
     }
     return '';
   };
+  // Real hardware photographs: locally hosted, licensed and credited in data/console_photos.json.
+  // Emulator mappings refer to emulated consoles, not necessarily to the emulator logo.
+  let hardwareCatalog={photos:{},emulators_by_repo:{}};
+  const hardwarePhoto=id=>hardwareCatalog.photos?.[id]||null;
+  const hardwarePhotoUrl=id=>hardwarePhoto(id)?.file||'';
+  const emulatorPlatforms=item=>{
+    if(!item||item.type!=='Emulador')return [];
+    const address=String(item.url||'').replace(/\/+$/,'');
+    const exact=Object.entries(hardwareCatalog.emulators_by_repo||{}).find(([key])=>address===key||address.startsWith(key+'/'));
+    if(exact)return exact[1].filter(id=>!!hardwarePhoto(id));
+    const p=String(item.platform||'').trim().toLowerCase();
+    const map={'nintendo 3ds':['3ds'],'nintendo ds':['nds'],'psp':['psp'],'playstation':['ps1'],
+      'playstation 2':['ps2'],'ps vita':['vita'],'gamecube / wii':['gamecube','wii'],
+      'wiiu':['wiiu'],'wii u':['wiiu'],'dreamcast':['dreamcast'],
+      'saturn':['saturn'],'g&w':['gamewatch'],'model2':['arcade'],'model3':['arcade'],'s.22':['arcade']};
+    if(map[p])return map[p].filter(id=>!!hardwarePhoto(id));
+    const guess=consoleLogoSlug(item.platform);
+    return guess&&hardwarePhoto(guess)?[guess]:[];
+  };
+  const consoleLogoSlug=platform=>{
+    const name=normalizeSystem(platform).toLowerCase();
+    for(const entries of Object.values(systems)){
+      const found=entries.find(x=>x[1].toLowerCase()===name);
+      if(found)return found[0];
+    }
+    return '';
+  };
+  const emulatorHardwareMarkup=(item,large=false)=>{
+    const ids=emulatorPlatforms(item).slice(0,large?5:4);
+    if(!ids.length)return '';
+    const classes='hardware-gallery '+(ids.length>1?'multiple ':'')+(large?'hardware-large':'hardware-small');
+    const pictures=ids.map(id=>{
+      const p=hardwarePhoto(id);if(!p)return '';
+      const name=(systems&&Object.values(systems).flat().find(x=>x[0]===id)?.[1])||id.toUpperCase();
+      const caption=String(p.credit?.author||'')+' · '+String(p.credit?.license||'');
+      return '<span class="hardware-photo"><img src="'+esc(p.file)+'" loading="lazy" alt="Consola '+esc(name)+'" title="'+esc(caption)+'" onerror="this.closest(&quot;.hardware-photo&quot;).style.display=&quot;none&quot;"><small>'+esc(name)+'</small></span>';
+    }).join('');
+    return '<div class="'+classes+'"><span class="hardware-caption">SISTEMAS EMULADOS</span><div class="hardware-photo-row">'+pictures+'</div></div>';
+  };
   function explorerActive(){return state.nav==='Ports' && !$('#search').value.trim() && (!state.family || !state.platform);}
   function portsCount(family='',platform='') {
     return state.all.filter(i=>i.type==='Port' && (!family || familyOf(i)===family) && (!platform || normalizeSystem(i.platform)===normalizeSystem(platform))).length;
