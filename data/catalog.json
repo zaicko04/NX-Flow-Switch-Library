@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T20:34:55+00:00",
+    "generated_at": "2026-10-18T04:30:00+00:00",
     "sources": {
       "SwitchPorts": "309 importados",
       "HB App Store": "509 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-10-16T22:23:02+00:00",
-    "covers_resolved": 20,
+    "covers_checked_at": "2026-10-18T04:30:00+00:00",
+    "covers_resolved": 22,
     "duplicate_records_removed": 12,
     "invalid_records_removed": 4,
     "unique_records": 804,
     "cover_breakdown": {
-      "real_artwork": 20,
+      "real_artwork": 22,
       "homebrew_icons": 507,
-      "nx_flow_illustrations": 277,
+      "nx_flow_illustrations": 275,
       "visually_covered": 804
     }
   },
@@ -2474,7 +2474,9 @@
       "url": "https://github.com/paulodiasred/BM64Switch",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-bomberman-64-recompiled-native-switch-port-nsp-nro-60-fps.685448/"
+      "discussion": "https://gbatemp.net/threads/release-bomberman-64-recompiled-native-switch-port-nsp-nro-60-fps.685448/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-7023af3585a8ce",
@@ -3837,7 +3839,9 @@
       "url": "https://github.com/snesrev/zelda3/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/"
+      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-efdcb7616fa463",
