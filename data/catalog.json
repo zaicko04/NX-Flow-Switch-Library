@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T15:50:52+00:00",
+    "generated_at": "2026-10-18T20:40:26+00:00",
     "sources": {
       "SwitchPorts": "310 importados",
       "HB App Store": "506 importados",
@@ -9,8 +9,8 @@
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-10-18T04:30:00+00:00",
     "covers_resolved": 22,
-    "duplicate_records_removed": 12,
-    "invalid_records_removed": 4,
+    "duplicate_records_removed": 11,
+    "invalid_records_removed": 5,
     "unique_records": 802,
     "cover_breakdown": {
       "real_artwork": 22,
@@ -117,7 +117,7 @@
       "title": "🟢 Kirikiroid2-NX",
       "type": "Emulador",
       "platform": "KiriKiri",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Erige005/Kirikiroid2-NX",
@@ -2648,7 +2648,7 @@
       "title": "🟢 StarCraft64",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "0.5",
+      "version": "1.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/gabryboy12-ai/StarCraft64-NX",
@@ -2706,25 +2706,16 @@
       ]
     },
     {
-      "id": "switchports-6cc4242eae1075",
+      "id": "switchports-5c1c0573fcb2a1",
       "title": "Wave Race 64",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/DomazinUS/RaceWave46",
+      "url": "https://github.com/1weell/RaceWave46-Switch",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/release-racewave46-wave-race-64-recompiled-for-nintendo-switch-60fps-720p-1080p-stock-clocks.684841/",
-      "alternatives": [
-        {
-          "title": "Wave Race 64",
-          "version": "0.1.0",
-          "url": "https://github.com/1weell/RaceWave46-Switch",
-          "source": "SwitchPorts"
-        }
-      ]
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-ea434b2dbab8be",
@@ -7471,7 +7462,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.7.13",
+      "version": "0.7.13.1",
       "author": "Papux200",
       "url": "https://hb-app.store/switch/SwitchFrameTap",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchFrameTap.zip",

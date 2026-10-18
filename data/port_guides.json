@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T15:50:53+00:00",
+    "generated_at": "2026-10-18T20:40:26+00:00",
     "port_count": 271,
     "repositories": 270,
     "statuses": {
@@ -69,6 +69,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/1weell/RaceWave46-Switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/1weell/RaceWave46-Switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "RaceWave46 retains the original game's modes and progression:\n\n| Feature | What you can play |\n| --- | --- |\n| Championship | Race through the championship, earn points, unlock further challenges and reach the podium. |\n| Time Trials | Chase faster laps and course records. |\n| Stunt Mode | Take on the game's stunt challenges and score-based play. |\n| Two-player racing | Local head-to-head races with two independently controlled riders. |",
+      "installation": "The first release targets Windows 10/11, 64-bit. Detailed performance requirements are still being evaluated; resolution, additional effects and running two player windows all affect GPU load.\n\n1. Extract the entire Windows release ZIP into a writable folder.\n2. Open WaveRace64Recompiled.exe. The application starts in fullscreen.\n3. Choose Select USA ROM and import your own Wave Race 64 USA Rev 1 ROM.\n4. Choose Start Game. Open Settings to adjust the presentation and enhancements.\n\nNo game ROM, personal save, account credentials or installed texture packs are included",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-18T20:40:26+00:00"
     },
     "https://github.com/6eone6/phigros_nx_cn": {
       "status": "readme_verified",
@@ -792,19 +805,6 @@
       "overview": "",
       "requirements": "You need the Android APK and both OBB expansion files for `com.dotemu.ys1x`. From them, extract:\n\n| Source | What to extract |\n|---|---|\n| APK → `lib/arm64-v8a/` | `libys1x.so`, `libfmod.so`, `libfmodstudio.so`, `libogg.so`, `libvorbis.so`, `libtheora.so` |\n| APK → `assets/` | `game.properties` |\n| Main OBB (`main.23.com.dotemu.ys1x.obb`) | the `GUI/`, `data/`, `bgm/`, and `fonts/` folders |",
       "installation": "This section assumes you've never built Switch homebrew before — every step is spelled out.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/DomazinUS/RaceWave46": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/DomazinUS/RaceWave46/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "RaceWave46 retains the original game's modes and progression:\n\n| Feature | What you can play |\n| --- | --- |\n| Championship | Race through the championship, earn points, unlock further challenges and reach the podium. |\n| Time Trials | Chase faster laps and course records. |\n| Stunt Mode | Take on the game's stunt challenges and score-based play. |\n| Two-player racing | Local head-to-head races with two independently controlled riders. |",
-      "installation": "The first release targets Windows 10/11, 64-bit. Detailed performance requirements are still being evaluated; resolution, additional effects and running two player windows all affect GPU load.\n\n1. Extract the entire Windows release ZIP into a writable folder.\n2. Open WaveRace64Recompiled.exe. The application starts in fullscreen.\n3. Choose Select USA ROM and import your own Wave Race 64 USA Rev 1 ROM.\n4. Choose Start Game. Open Settings to adjust the presentation and enhancements.\n\nNo game ROM, personal save, account credentials or installed texture packs are included",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -2645,7 +2645,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-18T15:50:53+00:00"
+      "checked_at": "2026-10-18T20:40:26+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
