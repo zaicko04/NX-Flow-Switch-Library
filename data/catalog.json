@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T11:01:29+00:00",
+    "generated_at": "2026-10-18T15:50:52+00:00",
     "sources": {
       "SwitchPorts": "310 importados",
-      "HB App Store": "509 importados",
+      "HB App Store": "506 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
@@ -11,12 +11,12 @@
     "covers_resolved": 22,
     "duplicate_records_removed": 12,
     "invalid_records_removed": 4,
-    "unique_records": 805,
+    "unique_records": 802,
     "cover_breakdown": {
       "real_artwork": 22,
-      "homebrew_icons": 507,
+      "homebrew_icons": 504,
       "nx_flow_illustrations": 276,
-      "visually_covered": 805
+      "visually_covered": 802
     }
   },
   "items": [
@@ -5222,7 +5222,7 @@
       "type": "Homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.9.0",
+      "version": "2.0.1",
       "author": "Jonathan8520",
       "url": "https://hb-app.store/switch/FlashNX",
       "download": "https://switch.cdn.fortheusers.org/zips/FlashNX.zip",
@@ -5670,12 +5670,12 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "author": "SertAy",
       "url": "https://hb-app.store/switch/Kinestop",
       "download": "https://switch.cdn.fortheusers.org/zips/Kinestop.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/Kinestop/icon.png",
-      "description": "❗Read the requirements at the bottom❗\\n--------------------------------------------------\\nKinestop is an anti-motion sickness (kinetosis) overlay for the Nintendo Switch. It renders smooth 60 FPS floating motion cues synchronized with hardware sensors, eliminating nausea while playing games in moving vehicles (cars, buses, trains).\\n\\n✨ Features:\\n• Prevents Motion Sickness: Syncs visual cues with physical motion.\\n• 100% Compatibility: Works in all games and the Switch Home Menu.\\n• Free Floating Mode: Dots drift naturally beyond screen edges.\\n• Visual Styles: 12 color themes, 6 placement patterns, size & opacity.\\n• Sensitivity: 10 adjustable levels (0.2x - 6.0x) with tremor filter.\\n• Zero Calibration: Calibrate center angle with a single click.\\n• Languages: English and Turkish language support.\\n\\n⚠️Critical Prep (Required)\\n\\n1) You MUST have nx-ovlloader and Ultrahand-Overlay installed.\\n2) To avoid crashes: Open UltraHand, press + -> System -> change Overlay Memory from 4MB t",
+      "description": "❗Read the requirements at the bottom❗\\n--------------------------------------------------\\nKinestop is an anti-motion sickness (kinetosis) overlay for the Nintendo Switch. It renders smooth 60 FPS floating motion cues synchronized with hardware sensors, eliminating nausea while playing games in moving vehicles (cars, buses, trains).\\n\\n✨ Features:\\n• Prevents Motion Sickness: Syncs visual cues with physical motion.\\n• 100% Compatibility: Works in all games and the Switch Home Menu.\\n• Free Floating Mode: Dots drift naturally beyond screen edges.\\n• Visual Styles: 12 color themes, 6 placement patterns, size & opacity.\\n• Sensitivity: 10 adjustable levels (0.2x - 6.0x) with tremor filter.\\n• Zero Calibration: Calibrate center angle with a single click.\\n• Languages: English and Turkish language support.\\n\\n⚠️Requirements\\n\\n1) You MUST have nx-ovlloader and Ultrahand-Overlay installed.\\n2) Memory: Fully optimized for default 4MB overlay memory (no 8MB expansion required).",
       "status": "Publicado en HB App Store"
     },
     {
@@ -6155,20 +6155,6 @@
       "status": "Publicado en HB App Store"
     },
     {
-      "id": "hbas-nxfetch",
-      "title": "NX-Fetch",
-      "type": "Homebrew",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "1.4.0",
-      "author": "Xc98",
-      "url": "https://hb-app.store/switch/NXFetch",
-      "download": "https://switch.cdn.fortheusers.org/zips/NXFetch.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/NXFetch/icon.png",
-      "description": "Neofetch for the nintendo switch. Prints system info and switch icon ascii art in the style you would see in neofetch.\\nPress DPad left / right to change joycon ascii colors",
-      "status": "Publicado en HB App Store"
-    },
-    {
       "id": "hbas-nxfetchrem",
       "title": "NX-Fetch-Rem",
       "type": "Utilidad",
@@ -6264,20 +6250,6 @@
       "download": "https://switch.cdn.fortheusers.org/zips/NXSAND.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/NXSAND/icon.png",
       "description": "NXSand is a falling-sand sandbox game for Nintendo Switch homebrew. Paint sand, water, lava, fire, smoke, plants, ice, oil, acid, glass, metal, wood, and more on a live pixel grid, then watch the materials fall, flow, burn, melt, dissolve, and react. The game supports Joy-Con and touchscreen controls, a material ring, brush size controls, quick save, and up to three saved worlds.\\n\\nThe simulation runs on the GPU using OpenGL ES, with a Margolus-style cellular automaton fast material updates. NXSand is designed mainly for Switch, with desktop builds available for testing and development.",
-      "status": "Publicado en HB App Store"
-    },
-    {
-      "id": "hbas-nxsavesync",
-      "title": "NX-Save-Sync",
-      "type": "Utilidad",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "2.3.0",
-      "author": "Xc98 ",
-      "url": "https://hb-app.store/switch/NXSaveSync",
-      "download": "https://switch.cdn.fortheusers.org/zips/NXSaveSync.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/NXSaveSync/icon.png",
-      "description": "NX Save Sync is a switch homebrew app to quickly sync save files between switch and an emulator.\\n\\nControls:\\nPress L / R in main menu to move between tabs or move between pages when selecting a title\\nPress ZL / ZR to change the selected user\\n\\nUsage:\\nFor a guide on how to use switch / pc app, check github repo:\\nhttps://github.com/Xc987/NX-Save-Sync",
       "status": "Publicado en HB App Store"
     },
     {
@@ -6459,7 +6431,7 @@
       "url": "https://hb-app.store/switch/OpenHomeNX",
       "download": "https://switch.cdn.fortheusers.org/zips/OpenHomeNX.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/OpenHomeNX/icon.png",
-      "description": "OpenHomeNX is a Nintendo Switch homebrew Pokémon save editor built on OpenHome's Rust core with pkHouse's UI.\\n\\nSupported games:\\n- Gen 9: Scarlet / Violet, Legends: Z-A\\n- Gen 8: Sword / Shield, Brilliant Diamond / Shining Pearl, Legends: Arceus\\n- Gen 7: Let's Go Pikachu! / Eevee!, Sun / Moon, Ultra Sun / Ultra Moon\\n- Gen 6: X / Y, Omega Ruby / Alpha Sapphire\\n- Gen 5: Black / White / Black 2 / White 2 (save write-back)\\n- Gen 4: Diamond / Pearl / Platinum / HeartGold / SoulSilver\\n- Gen 3: FireRed / LeafGreen, Ruby / Sapphire / Emerald (imported saves)\\n- Gen 2: Gold / Silver / Crystal\\n- Gen 1: Red / Blue / Yellow\\n\\nFeatures:\\n- Full party & box Pokémon editing: species, level, IVs/EVs, nature, ability, moves, held item, ball, OT/met data, shininess, gender\\n- Cross-generation bank: deposit from one game, withdraw into another with full format conversion (Gen 1→9, all 13 targets), dex-cut & move-cut warnings with explicit confirmation, base-move refill on total drop\\n- Backpack ",
+      "description": "OpenHomeNX is a Pokémon hub for Nintendo Switch homebrew and R36S/ArkOS, powered by OpenHome's Rust conversion core.\n\nWhat it does:\n- ROM launcher with a built-in cover art scraper: browse and launch your whole GBA/GB/GBC library from the app, with real 2D/3D box art downloaded automatically for every game\n- Local cross-generation bank with self-trade evolution: move any Pokémon between 13 stored formats (Gen 1-9), and evolve trade-only Pokémon (Kadabra, held-item lines...) with no second console needed\n- Multi-device save sync via a self-hosted server: pair once over LAN (mDNS auto-discovery), and every device you own stays in sync automatically at every boot\n- Backpack: full item editing across generations, not just Pokémon\n\nSupported games:\n- Gen 9: Scarlet / Violet, Legends: Z-A\n- Gen 8: Sword / Shield, Brilliant Diamond / Shining Pearl, Legends: Arceus\n- Gen 7: Let's Go Pikachu! / Eevee!, Sun / Moon, Ultra Sun / Ultra Moon\n- Gen 6: X / Y, Omega Ruby / Alpha Sapphire\n- Gen 5: Black",
       "status": "Publicado en HB App Store"
     },
     {
@@ -10669,20 +10641,6 @@
       "download": "https://switch.cdn.fortheusers.org/zips/sys-http.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/sys-http/icon.png",
       "description": "This is a sysmodule that allows communicating with the Nintendo Switch using http. This sysmodule brings a few advantages that don't currently exist:\\n\\nHTTP is a standardized protocol with well defined uses\\nMost languages have at least one http library, so there's not a need to write a wrapper around raw TCP\\nWeb browsers can use HTTP, but not raw TCP (without disabling security rules)\\nPotential future use cases:\\n\\nRead Pokemon Sword/Shield den seeds directly into @Admiral-Fish's RaidFinder or @leanny's Seed Checker\\nDisplay Animal Crossing turnip prices in a mobile app\\nShow updating game values during a Twitch live stream\\nSetup a PKHeX REST API and live edit Pokemon from a website\\nCreate a Discord bot that allows users to interact with the console\\n\\nConnecting\\nsys-http uses port 8080\\nhttps is not currently used\\nAvailable routes\\nAll number query parameters will be in hex format for consistency.\\n\\nThese are the currently available routes:\\n\\n/ - Health check to see if the s",
-      "status": "Publicado en HB App Store"
-    },
-    {
-      "id": "hbas-sys-notif-led",
-      "title": "sys-notif-LED",
-      "type": "Utilidad",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "1.0.1",
-      "author": "xc98",
-      "url": "https://hb-app.store/switch/sys-notif-LED",
-      "download": "https://switch.cdn.fortheusers.org/zips/sys-notif-LED.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/sys-notif-LED/icon.png",
-      "description": "Sysmodule to enable the notification LED on boot or when new controllers are added.\\n\\nThe mode can be changed in the included overlay:\\n\\nSolid\\nDim\\nFade\\nOff\\nDim when charging\\nDim when battery bellow 15%, blink when bellow 5%",
       "status": "Publicado en HB App Store"
     },
     {
