@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T04:30:00+00:00",
+    "generated_at": "2026-10-18T11:01:29+00:00",
     "sources": {
-      "SwitchPorts": "309 importados",
+      "SwitchPorts": "310 importados",
       "HB App Store": "509 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 22,
     "duplicate_records_removed": 12,
     "invalid_records_removed": 4,
-    "unique_records": 804,
+    "unique_records": 805,
     "cover_breakdown": {
       "real_artwork": 22,
       "homebrew_icons": 507,
-      "nx_flow_illustrations": 275,
-      "visually_covered": 804
+      "nx_flow_illustrations": 276,
+      "visually_covered": 805
     }
   },
   "items": [
@@ -427,6 +427,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/r4lix/codboz-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-882d98dc4288c0",
+      "title": "🟢 Costume Quest",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/iqbalriz/costumequest_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T04:30:05+00:00",
-    "port_count": 270,
-    "repositories": 269,
+    "generated_at": "2026-10-18T11:01:29+00:00",
+    "port_count": 271,
+    "repositories": 270,
     "statuses": {
-      "readme_verified": 268,
+      "readme_verified": 269,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -14,7 +14,7 @@
       "optional": 2,
       "not_required": 0,
       "mentioned": 17,
-      "not_documented": 248
+      "not_documented": 249
     }
   },
   "by_repo": {
@@ -2645,7 +2645,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-18T04:30:05+00:00"
+      "checked_at": "2026-10-18T11:01:29+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -2789,6 +2789,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/iqbalriz/costumequest_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/iqbalriz/costumequest_nx/blob/master/README.md",
+      "reason": "",
+      "overview": "`costumequestnx` is a native wrapper that runs the 32-bit ARM Android build of Costume Quest 1.1.7 (`com.doublefine.cq`) on Nintendo Switch.",
+      "requirements": "Linux (Ubuntu / Debian / Linux Mint recommended), or Windows with PowerShell\nDocker\nGit\n[!IMPORTANT]\nOn Windows, run `git config --global core.autocrlf false` before cloning. With `autocrlf=true` the runtime's scripts and Makefiles are checked out with CRLF line endings and do not run in the Linux container.",
+      "installation": "1. Download the latest release from the Releases tab:\n`costumequestnx0.1.0.zip`\n2. Copy the `switch/costumequestnx/` folder from the ZIP to the root of your SD card, so you get:\n3. Place your APK inside that folder:\n`costumequestnx.nro` is already there (from the ZIP).\nCopy your Costume Quest APK into `sdmc:/switch/costumequestnx/` (the name of the apk does not matter).\n4. The final folder structure on your SD card must look like:\n5. Launch Sphaira on your Switch:\nNavigate to Homebrew › Costume Quest.\nChoose Install Forwarder.\nReturn to the Switch HOME Menu and launch the game directly from its icon!",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-18T11:01:29+00:00"
     },
     "https://github.com/iqbalriz/fiestarun_nx": {
       "status": "readme_verified",
