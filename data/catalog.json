@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T04:38:10+00:00",
+    "generated_at": "2026-10-19T13:10:26+00:00",
     "sources": {
-      "SwitchPorts": "314 importados",
+      "SwitchPorts": "316 importados",
       "HB App Store": "506 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 11,
     "invalid_records_removed": 5,
-    "unique_records": 806,
+    "unique_records": 808,
     "cover_breakdown": {
       "real_artwork": 23,
       "homebrew_icons": 504,
-      "nx_flow_illustrations": 279,
-      "visually_covered": 806
+      "nx_flow_illustrations": 281,
+      "visually_covered": 808
     }
   },
   "items": [
@@ -2818,6 +2818,19 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-a74122974e516e",
+      "title": "🟢 Black & White",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/gitgarage/openblack",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/release-openblack-for-switch-black-white-2001-on-nintendo-switch.685558/"
+    },
+    {
       "id": "switchports-bfc64d5db47e50",
       "title": "🟢 Brogue",
       "type": "Port",
@@ -3185,6 +3198,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/worthis/Zelda3T",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-2586d191f7985b",
+      "title": "🟢 Luanti",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/adumah/Luanti-NX/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },

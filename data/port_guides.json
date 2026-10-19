@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T04:38:16+00:00",
-    "port_count": 275,
-    "repositories": 274,
+    "generated_at": "2026-10-19T13:10:26+00:00",
+    "port_count": 277,
+    "repositories": 276,
     "statuses": {
-      "readme_verified": 273,
+      "readme_verified": 275,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -12,9 +12,9 @@
       "required": 0,
       "recommended": 2,
       "optional": 2,
-      "not_required": 0,
+      "not_required": 1,
       "mentioned": 18,
-      "not_documented": 252
+      "not_documented": 253
     }
   },
   "by_repo": {
@@ -1935,6 +1935,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/adumah/Luanti-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/adumah/Luanti-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A Nintendo Switch (any model, including Lite) running custom firmware\n (Atmosphère) with the Homebrew Menu\nAn internet connection only if you want to use ContentDB",
+      "installation": "1. Download the latest release zip from the Releases page\n (or build it yourself).\n2. Extract it to the root of your SD card, so you get `sdmc:/switch/luanti/`.\n3. Launch the Homebrew Menu in application mode: hold R while starting any game.\n Album/applet mode has too little memory for Luanti.\n4. Start Luanti-NX.\nUpdating: replace `switch/luanti/luanti.nro`. If a release says so, also replace the\n`builtin` folder. Your worlds, settings and installed content are kept.",
+      "editions": "",
+      "overclock_status": "not_required",
+      "overclock_notes": "Overclocking the CPU, e.g. with sys-clk,\ndoes help a bit: the Lua interpreter runs on the CPU, so a faster CPU (stock is\n1020 MHz; overclocks go up to about 1785 MHz) makes it proportionally faster, at most\naround 1.75×. It won't remove the lag, though. It can't make up for the missing JIT\ncompiler, and parts of the slowdown (SD card access, generating new terrain) don't scale\nwith the clock.\n⚠️ Overclocking is entirely at your own risk. It increases heat, power draw and\nbattery drain, and can cause instability or damage to your console. Luanti-NX and its\nauthor are not responsible for any damage to your console, SD card or data caused by",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T13:10:26+00:00"
+    },
     "https://github.com/aks796/a8retry_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/aks796/a8retry_nx/blob/main/README.md",
@@ -2658,7 +2671,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-19T04:38:16+00:00"
+      "checked_at": "2026-10-19T13:10:26+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -2711,6 +2724,19 @@
       "overclock_notes": "Fully playable. Measured on a Switch at stock clocks, launched as a Sphaira 4-core forwarder:",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/gitgarage/openblack": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/gitgarage/openblack/blob/master/readme.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "As mentioned before, the original game assets are required in order to run\nopenblack. Since these data are copyrighted, we won't provide them, so please\ndon't ask. Here is a guide for extracting them from the original game.",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T13:10:26+00:00"
     },
     "https://github.com/givethesourceplox/bully-NX": {
       "status": "readme_verified",
