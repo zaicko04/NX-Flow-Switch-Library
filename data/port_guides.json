@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T20:40:26+00:00",
-    "port_count": 271,
-    "repositories": 270,
+    "generated_at": "2026-10-19T04:38:16+00:00",
+    "port_count": 275,
+    "repositories": 274,
     "statuses": {
-      "readme_verified": 269,
+      "readme_verified": 273,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -13,8 +13,8 @@
       "recommended": 2,
       "optional": 2,
       "not_required": 0,
-      "mentioned": 17,
-      "not_documented": 249
+      "mentioned": 18,
+      "not_documented": 252
     }
   },
   "by_repo": {
@@ -810,6 +810,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/DomazinUS/CBFD-Switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/DomazinUS/CBFD-Switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "Download the zip file and extract to the root of your SD card.\nSupply your own Conker's Bad Fur Day USA (Rev 0) ROM in `.z64` format, rename it to `conker.z64` and place it at `SD:/switch/ConkerRecomp/conker.z64`.\n\nNo ROM is included in the uploaded assets.\n\nCBFD-NX is an unofficial fan project and is not affiliated with or endorsed by Rareware, Microsoft or Nintendo.",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "CBFD-NX is an unofficial Conker's Bad Fur Day recompilation for Nintendo Switch. Features 60FPS at 720p portable/1080p docked at stock clocks, widescreen support, graphical enhancements (some of these are heavy and might break the game, use at your own discretion), texture pack, RetroAchievements, rumble. Requires your own ROM.",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T04:38:16+00:00"
     },
     "https://github.com/FWGS/xash3d-fwgs": {
       "status": "readme_verified",
@@ -2645,7 +2658,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-18T20:40:26+00:00"
+      "checked_at": "2026-10-19T04:38:16+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -3504,6 +3517,45 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/xflipperkast/papasburgeria_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/xflipperkast/papasburgeria_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`papasburgerianx` is an experimental standalone Nintendo Switch port targeting\nPapa's Burgeria To Go! Android 1.3.2 (ARM64).",
+      "requirements": "devkitPro, devkitA64 and libnx\nSwitch portlibs: Mesa/libdrmnouveau, libvorbis/libogg, FreeType, curl,\n Mbed TLS and zlib\nLinux or WSL, GNU Make, Bash, Python 3.11+, curl, tar and patch\nA host C compiler, zlib and OpenSSL development headers for `make check`\nHost Mesa EGL/OpenGL libraries (libEGL.so.1 and libGL.so.1) for the real GLES cursor checks\nYour own legally obtained Papa's Burgeria To Go! Android 1.3.2 ARM64 APK",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T04:38:16+00:00"
+    },
+    "https://github.com/xflipperkast/papascluckeria_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/xflipperkast/papascluckeria_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`papascluckerianx` is an experimental standalone Nintendo Switch port targeting\nPapa's Cluckeria To Go! Android 1.0.4 (ARM64).",
+      "requirements": "devkitPro, devkitA64 and libnx\nSwitch portlibs: Mesa/libdrmnouveau, libvorbis/libogg, FreeType, curl,\n Mbed TLS and zlib\nLinux or WSL, GNU Make, Bash, Python 3.11+, curl, tar and patch\nA host C compiler, zlib and OpenSSL development headers for `make check`\nHost Mesa EGL/OpenGL libraries (libEGL.so.1 and libGL.so.1) for the real GLES cursor checks\nYour own legally obtained Papa's Cluckeria To Go! Android 1.0.4 ARM64 APK",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T04:38:16+00:00"
+    },
+    "https://github.com/xflipperkast/papaspaleteria_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/xflipperkast/papaspaleteria_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`papaspaleterianx` is an experimental standalone Nintendo Switch port targeting\nPapa's Paleteria To Go! Android 1.1.1 (ARM64).",
+      "requirements": "devkitPro, devkitA64 and libnx\nSwitch portlibs: Mesa/libdrmnouveau, libvorbis/libogg, FreeType, curl,\n Mbed TLS and zlib\nLinux or WSL, GNU Make, Bash, Python 3.11+, curl, tar and patch\nA host C compiler, zlib and OpenSSL development headers for `make check`\nHost Mesa EGL/OpenGL libraries (libEGL.so.1 and libGL.so.1) for the real GLES cursor checks\nYour own legally obtained Papa's Paleteria To Go! Android 1.1.1 ARM64 APK",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T04:38:16+00:00"
     },
     "https://github.com/xflipperkast/pou_nx": {
       "status": "readme_verified",
