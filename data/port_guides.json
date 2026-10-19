@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T13:10:26+00:00",
-    "port_count": 277,
-    "repositories": 276,
+    "generated_at": "2026-10-19T22:20:02+00:00",
+    "port_count": 278,
+    "repositories": 277,
     "statuses": {
-      "readme_verified": 275,
+      "readme_verified": 276,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -14,7 +14,7 @@
       "optional": 2,
       "not_required": 1,
       "mentioned": 18,
-      "not_documented": 253
+      "not_documented": 254
     }
   },
   "by_repo": {
@@ -108,6 +108,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "You need a legally obtained USA copy of A Link to the Past. No ROM is\nincluded here and none will be provided.\n\n1. Copy the `.nro` to `sdmc:/switch/Zelda3/`.\n2. Put your USA ROM in that same folder (`.sfc` or `.smc`).\n3. Launch it.\n\nOn first run the built-in extractor finds your ROM, validates it, and\ngenerates `zelda3assets.dat` locally — on the console, with no Python or\nother tooling required. A 512-byte copier header is handled where supported.\nKeep the ROM there. If `zelda3assets.dat` is ever deleted the extractor\nneeds the ROM again to rebuild it. The patch shipped inside the `.nro` is only",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T22:20:02+00:00"
     },
     "https://github.com/BirdSentinel/rvgl-for-switch": {
       "status": "readme_verified",
@@ -2671,7 +2684,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-19T13:10:26+00:00"
+      "checked_at": "2026-10-19T22:20:02+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -2829,6 +2842,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/iqbalriz/assassinscreed_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/iqbalriz/assassinscreed_nx/blob/master/README.md",
+      "reason": "",
+      "overview": "`assassinscreednx` is a native wrapper that runs the 32-bit ARM Android build of Assassin's Creed: Altair's Chronicles HD 1.0.5 (`com.gameloft.android.TBFV.Glof…",
+      "requirements": "Linux (Ubuntu / Debian / Linux Mint recommended), or Windows with PowerShell\nDocker\nGit\n[!IMPORTANT]\nOn Windows, run `git config --global core.autocrlf false` before cloning. With `autocrlf=true` the runtime's scripts and Makefiles are checked out with CRLF line endings and do not run in the Linux container.",
+      "installation": "1. Download the latest release from the Releases tab:\n`assassinscreednx0.1.1.zip`\n2. Copy the `switch/assassinscreednx/` folder from the ZIP to the root of your SD card, so you get:\n3. Place your APK and your game data inside that folder:\n`assassinscreednx.nro` is already there (from the ZIP).\nCopy your APK into `sdmc:/switch/assassinscreednx/` (the name of the apk does not matter).\nCopy your phone's `gameloft` folder into `sdmc:/switch/assassinscreednx/` (it holds `games/assassinscreed/`).\n4. The final folder structure on your SD card must look like:\n5. Launch Sphaira on your Switch:",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T22:20:02+00:00"
+    },
     "https://github.com/iqbalriz/costumequest_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/iqbalriz/costumequest_nx/blob/master/README.md",
@@ -2971,6 +2997,19 @@
       "overclock_notes": "Recommended sys-clk config — Optional\nThe game runs great on stock clocks, but the Switch power manager can put the GPU into \"sleep mode\" during light scenes because the game barely uses any GPU power, which can cause small hiccups.\nTo lock the game at a super smooth frame rate without draining extra battery, you can optionally set this profile in sys-clk:\nWe are trading -25% GPU clock for +20% CPU clock, so battery consumption remains roughly the same as stock clocks (or even less).",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/mrOt4/DKC1Recomp-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/mrOt4/DKC1Recomp-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "Headerless Donkey Kong Country USA v1.0:\n\n| Property | Expected value |\n| --- | --- |\n| Size | 4,194,304 bytes |\n| SHA-256 | `fa8cacf5bbfc39ee6bbaa557adf89133d60d42f6cf9e1db30d5a36a469f74d15` |\n\nThe ROM must remain outside Git. No ROM bytes, extracted assets, or generated\ngame code are committed.\n\nFor controlled testing of a data-only ROM produced by a level editor, the",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-19T22:20:02+00:00"
     },
     "https://github.com/mrOt4/babel-recomp": {
       "status": "readme_verified",
@@ -3310,19 +3349,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/snesrev/zelda3": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/snesrev/zelda3/blob/master/README.md",
-      "reason": "",
-      "overview": "This is a reverse engineered clone of Zelda 3 - A Link to the Past.\n\nIt's around 70-80kLOC of C code, and reimplements all parts of the original game",
-      "requirements": "",
-      "installation": "The game supports snapshots. The joypad input history is also saved in the snapshot. It's thus possible to replay a playthrough in turbo mode to verify that the game behaves correctly.\n\nThe game is run with `./zelda3` and takes an optional path to the ROM-file, which will verify for each frame that the C code matches the original behavior.\n\n| Button | Key |\n| ------ | ----------- |\n| Up | Up arrow |\n| Down | Down arrow |\n| Left | Left arrow |\n| Right | Right arrow |\n| Start | Enter |\n| Select | Right shift |\n| A | X |\n| B | Z |\n| X | S |\n| Y | A |\n| L | C |\n| R | V |\n\nThe keys can be reconfigured in zelda3.ini",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-17T20:34:55+00:00"
-    },
     "https://github.com/souldbminerr/0ad-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/souldbminerr/0ad-switch/blob/main/README.md",
@@ -3331,19 +3357,6 @@
       "requirements": "1. devkitPro/libnx installed\n\n2. SpiderMonkey-NX prebuilt static libs (`libjsstatic.a`, `libjsrust.a`,\n `libswitchextra.a`), build from\n souldbminerr/spidermonkey-NX and place in `libs/`\n3. premake5 built for Linux and placed at `0ad-src/libraries/source/premake-core/bin/premake5`\n4. boost — drop `boost1830.tar.gz` into `deps/src/` and run the dependency\n scripts for your system.",
       "installation": "",
       "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/souldbminerr/DKC1Recomp-NX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/souldbminerr/DKC1Recomp-NX/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "Headerless Donkey Kong Country USA v1.0:\n\n| Property | Expected value |\n| --- | --- |\n| Size | 4,194,304 bytes |\n| SHA-256 | `fa8cacf5bbfc39ee6bbaa557adf89133d60d42f6cf9e1db30d5a36a469f74d15` |\n\nThe ROM must remain outside Git. No ROM bytes, extracted assets, or generated\ngame code are committed.\n\nFor controlled testing of a data-only ROM produced by a level editor, the",
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
