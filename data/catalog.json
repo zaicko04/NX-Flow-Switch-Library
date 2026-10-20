@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T17:01:33+00:00",
+    "generated_at": "2026-10-20T21:36:01+00:00",
     "sources": {
       "SwitchPorts": "318 importados",
-      "HB App Store": "506 importados",
+      "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 810,
+    "unique_records": 812,
     "cover_breakdown": {
       "real_artwork": 23,
-      "homebrew_icons": 504,
+      "homebrew_icons": 506,
       "nx_flow_illustrations": 283,
-      "visually_covered": 810
+      "visually_covered": 812
     }
   },
   "items": [
@@ -608,11 +608,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-e3fc4753a646ea",
-      "title": "Smash Hit",
+      "id": "switchports-79466604490777",
+      "title": "🟢 Smash Hit",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "0.1.0",
+      "version": "0.1.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/hazevauks/smashhit_nx",
@@ -620,11 +620,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-20a3af9d017f4f",
-      "title": "Space Hulk",
+      "id": "switchports-4497410497f519",
+      "title": "🟢 Space Hulk",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/liartes/spacehulk-nx",
@@ -5667,6 +5667,20 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "hbas-j2menxx",
+      "title": "J2meNXX",
+      "type": "Homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.8.4",
+      "author": "Tô Quang Thắng",
+      "url": "https://hb-app.store/switch/J2MENXX",
+      "download": "https://switch.cdn.fortheusers.org/zips/J2MENXX.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/J2MENXX/icon.png",
+      "description": "J2ME (Java ME / MIDP 2.0) emulator for Nintendo Switch, written in C with devkitPro + SDL2. Custom Java VM that runs old mobile phone .jar games directly on Switch: 2D/3D (M3G) graphics, MIDI/WAV/MP3 audio, HTTP/HTTPS/socket networking, RMS save data.\\n\\n",
+      "status": "Publicado en HB App Store"
+    },
+    {
       "id": "hbas-jc-color-swapper",
       "title": "JC-color-swapper",
       "type": "Utilidad",
@@ -7594,6 +7608,20 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "hbas-switchhero",
+      "title": "Switch Hero",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.3.1",
+      "author": "Rodrigo Ferreira",
+      "url": "https://hb-app.store/switch/SwitchHero",
+      "download": "https://switch.cdn.fortheusers.org/zips/SwitchHero.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/SwitchHero/icon.png",
+      "description": "Switch Hero is a rhythm game built for Nintendo Switch, designed for both standard controllers and guitar controllers.\\n\\nInspired by classic guitar rhythm games, Switch Hero brings fast, arcade-style note highway gameplay to the Switch with support for Joy-Con, Pro Controller, and compatible Wii guitar controllers.\\n\\nThe game supports Clone Hero-style custom song libraries, allowing players to bring their existing songs and charts into a portable console experience.\\n\\nFeatures include:\\n\\n• Joy-Con and Pro Controller support\\n• Compatible Wii guitar controller support\\n• Custom songs and charts\\n• Clone Hero-compatible song structure\\n• Multiple difficulty levels\\n• Score tracking and performance feedback\\n• Classic five-lane rhythm gameplay\\n• Responsive gameplay designed specifically for Nintendo Switch\\n\\nWhether you're playing casually with a controller or using a guitar for the full rhythm-game experience, Switch Hero is built to make custom rhythm gaming portable.",
+      "status": "Publicado en HB App Store"
+    },
+    {
       "id": "hbas-switchinfonx",
       "title": "SwitchInfoNX",
       "type": "Utilidad",
@@ -8323,16 +8351,16 @@
     },
     {
       "id": "hbas-zeldasaveeditor",
-      "title": "Zelda Save Editor (Beta)",
+      "title": "Zelda Save Editor (Alpha)",
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.1.4-beta.1",
+      "version": "0.1.5-alpha.5",
       "author": "StockiestThree9",
       "url": "https://hb-app.store/switch/ZeldaSaveEditor",
       "download": "https://switch.cdn.fortheusers.org/zips/ZeldaSaveEditor.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/ZeldaSaveEditor/icon.png",
-      "description": "Public beta for Breath of the Wild on the original Nintendo Switch family. Edit hearts, stamina wheels, inventory, equipment, horses and advanced fields with undo/redo and verified backups. Includes Normal, transferred Profile 2 and Master Mode tabs, normal-only profile swapping, console-sourced navigation sounds and OLED black mode. Requires Atmosphere and application-mode homebrew with access to your installed BOTW resources. Launch Sphaira over BOTW by holding R for resource access, then close BOTW before editing. Keep an independent backup. Gameplay after profile swaps and wider device save-and-reload validation remain unverified; shared album and compendium pictures stay in place during swaps. Tested real-save fixture: BOTW 1.9.0. No Nintendo assets, private saves or extracted game resources are included.",
+      "description": "Save editor for Breath of the Wild and experimental Tears of the Kingdom on the original Nintendo Switch family. Edit player values, inventory, equipment and horses with undo/redo and verified backups. TOTK adds grouped armor stars/styles and Decayed/Pristine weapons, fusion, bulk tools, world flags, compendium, direct quest stages, map stamps, amiibo reset and Autobuild .zsbp import/export. BOTW retains separate Normal/Profile 2/Master Mode tabs and normal-only profile swapping. Includes console-sourced navigation sounds and Auto/Light/Dark/OLED appearance. Requires Atmosphere, application-mode homebrew and installed resources for the selected game. Hold R while opening that game to launch Sphaira, then open the editor; close the actual game before editing saves. Keep an independent backup. Expanded TOTK edits and fresh-install resource loading still need console acceptance; host tests do not establish in-game validity. Quest/world edits do not reconcile all story events or rewards. B",
       "status": "Publicado en HB App Store"
     },
     {
@@ -10469,12 +10497,12 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.0",
+      "version": "2.0",
       "author": "fungalspores",
       "url": "https://hb-app.store/switch/sporegram",
       "download": "https://switch.cdn.fortheusers.org/zips/sporegram.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/sporegram/icon.png",
-      "description": "Sporegram is a Nintendo Switch port of AAhead, the Telegram client for the New Nintendo 3DS by Alex Gakh (Memetrix).\\n\\nEverything below the interface comes from there and is unchanged in substance: the MTProto transport, the application layer, storage, calls, and the text engine that does UTF-8, wrapping and Telegram's entities. That part was already proven against Telegram on real hardware, which is the only reason a port was affordable at all.\\n\\nThe interface is new. AAhead's views are composed for two stacked 400×240 panels; reshaping them into one 1280×720 screen turned out to cost more than writing an interface meant for it. So switch/ is written from scratch on SDL2 and FreeType, and none of source/ui/'s views are linked.\\n\\nSporegram is licensed GPL-3.0, like its upstream, and the whole source is here.",
+      "description": "Sporegram is a Telegram client for a Switch running custom firmware. Not a bridge and not a bot: the console talks to Telegram's servers over MTProto itself.\\n\\nFeatures\\n- QR sign-in from your phone, two-step password supported\\n- Chats, groups, channels, folders and archive in two panes: list and conversation on one screen\\n- Replies, editing, deleting, forwarding, reactions, bot buttons, spoilers, quotes, premium emoji\\n- Photos, albums and video right in the chat; video plays on the console\\n- Send screenshots and clips from the console album, filtered by game with real game names\\n- Voice messages: record, send, play, transcribe (Telegram Premium)\\n- Voice calls with the four-emoji key check\\n- Stickers: static, animated and video\\n- Proxy: SOCKS5, HTTP and MTProto (dd and fake-TLS ee), right on the sign-in screen\\n- Up to four accounts, each with its own session and cache\\n- Russian and English\\n- Touch in handheld and the pad everywhere; 720p and 1080p\\n- Session file encrypted ",
       "status": "Publicado en HB App Store"
     },
     {
