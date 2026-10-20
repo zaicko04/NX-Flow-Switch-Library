@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T22:20:02+00:00",
-    "port_count": 278,
-    "repositories": 277,
+    "generated_at": "2026-10-20T04:47:57+00:00",
+    "port_count": 279,
+    "repositories": 278,
     "statuses": {
-      "readme_verified": 276,
+      "readme_verified": 277,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -14,7 +14,7 @@
       "optional": 2,
       "not_required": 1,
       "mentioned": 18,
-      "not_documented": 254
+      "not_documented": 255
     }
   },
   "by_repo": {
@@ -1961,6 +1961,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-19T13:10:26+00:00"
     },
+    "https://github.com/adumah/SheepDogWolf-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/adumah/SheepDogWolf-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "Sheep, Dog 'n' Wolf: Rewooled NX\n\nA Nintendo Switch homebrew port of Sheep, Dog 'n' Wolf: Rewooled, the open-source implementation of Sheep, Dog 'n' Wolf PC",
+      "requirements": "",
+      "installation": "1. Copy `sheepdogwolf.nro` and `environment.txt` to `/switch/sheepdogwolf/` on the SD card.\n2. Copy `Levels/`, `Musics/`, `Voices/`, `References/` and `Bonus/` from your PC game's folder next to them.\n3. Start the Homebrew Menu by holding R while starting a game (the album has too little memory), then the game.\n\nControls, settings and troubleshooting: switch/README.md.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-20T04:47:57+00:00"
+    },
     "https://github.com/aks796/a8retry_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/aks796/a8retry_nx/blob/main/README.md",
@@ -2684,7 +2697,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-19T22:20:02+00:00"
+      "checked_at": "2026-10-20T04:47:57+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
