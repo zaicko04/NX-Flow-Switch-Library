@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T11:33:31+00:00",
+    "generated_at": "2026-10-20T17:01:33+00:00",
     "sources": {
       "SwitchPorts": "318 importados",
       "HB App Store": "506 importados",
@@ -8299,7 +8299,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.1.1",
+      "version": "2.0.0",
       "author": "SertAy",
       "url": "https://hb-app.store/switch/YamaNXTurkishPatcher",
       "download": "https://switch.cdn.fortheusers.org/zips/YamaNXTurkishPatcher.zip",
