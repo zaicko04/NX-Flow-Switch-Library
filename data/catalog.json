@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-20T04:47:51+00:00",
+    "generated_at": "2026-10-20T11:33:31+00:00",
     "sources": {
       "SwitchPorts": "318 importados",
       "HB App Store": "506 importados",
@@ -2580,15 +2580,15 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/dk64-reconkgpiled-nx-port.685111/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donkey%20Kong%2064%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails",
       "game_year": 1999,
       "original_platform": "Nintendo 64",
       "original_files": "ROM original estadounidense (USA) de Donkey Kong 64 para Nintendo 64. El README indica que solo acepta esa edición; otros formatos se convierten a .z64 si la ROM es la correcta.",
       "game_edition": "Nintendo 64 USA (US). No se confirma compatibilidad con las ediciones PAL o japonesa.",
       "installation": "Descarga DK64Recomp-NX-v1.1.2.zip desde la versión v1.1.2. Necesitas tu propia ROM USA. Consulta los archivos de la versión y la documentación del autor antes de copiar archivos a la SD; las rutas de instalación para Switch no están especificadas en el README principal consultado.",
       "source_readme": "https://github.com/Trinalord777/DK64Recomp-NX/blob/main/README.md",
-      "verification": "ROM USA y formato .z64 confirmados en el README; versión v1.1.2 y ZIP confirmados en Releases. Las rutas de instalación para Switch no están confirmadas.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Donkey%20Kong%2064%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "verification": "ROM USA y formato .z64 confirmados en el README; versión v1.1.2 y ZIP confirmados en Releases. Las rutas de instalación para Switch no están confirmadas."
     },
     {
       "id": "switchports-7a3bfb7cfb8671",
