@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T11:46:14+00:00",
+    "generated_at": "2026-10-21T17:10:09+00:00",
     "sources": {
-      "SwitchPorts": "318 importados",
+      "SwitchPorts": "321 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 812,
+    "unique_records": 815,
     "cover_breakdown": {
       "real_artwork": 23,
       "homebrew_icons": 506,
-      "nx_flow_illustrations": 283,
-      "visually_covered": 812
+      "nx_flow_illustrations": 286,
+      "visually_covered": 815
     }
   },
   "items": [
@@ -523,6 +523,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/aks796/flappybirdsfamily_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-791dc80ae4356f",
+      "title": "🟢 Jet Set Radio",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/lemasterxar5/jet-set-radio-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3301,6 +3313,18 @@
       "discussion": "https://gbatemp.net/threads/nzportable-nazi-zombies-made-with-quake-engine.624375/"
     },
     {
+      "id": "switchports-8fe64795ea59e9",
+      "title": "🟢 Minecraft Java 1.12.2",
+      "type": "Port",
+      "platform": "PC",
+      "version": "released",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/etonedemid/minecraft-switch",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-fa2c74545c5fa7",
       "title": "One Must Fall: 2097",
       "type": "Port",
@@ -3372,6 +3396,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/hazevauks/openPREYswitch",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-a84d2574b2162d",
+      "title": "🟢 Project Zomboid",
+      "type": "Port",
+      "platform": "PC",
+      "version": "beta",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/etonedemid/zomboid-switch",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3548,7 +3584,7 @@
       "title": "🟢 Sly Cooper and the Thievius Raccoonus",
       "type": "Port",
       "platform": "PC",
-      "version": "0.4.0-beta.2",
+      "version": "0.5.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ProjectCane",

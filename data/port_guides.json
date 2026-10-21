@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T11:46:19+00:00",
-    "port_count": 279,
-    "repositories": 278,
+    "generated_at": "2026-10-21T17:10:09+00:00",
+    "port_count": 282,
+    "repositories": 281,
     "statuses": {
-      "readme_verified": 277,
+      "readme_verified": 280,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -13,8 +13,8 @@
       "recommended": 2,
       "optional": 2,
       "not_required": 1,
-      "mentioned": 18,
-      "not_documented": 255
+      "mentioned": 19,
+      "not_documented": 257
     }
   },
   "by_repo": {
@@ -2650,6 +2650,32 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/etonedemid/minecraft-switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/etonedemid/minecraft-switch/blob/main/README.md",
+      "reason": "",
+      "overview": "A way to build minecraft java 1.12.2 to C using graalvm, then port it to nintendo switch",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-21T17:10:09+00:00"
+    },
+    "https://github.com/etonedemid/zomboid-switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/etonedemid/zomboid-switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "SD card layout:\n\nplus the game data, built from the game folder:\n\nand copy `out/pz41` onto the card. Start the NRO in full-RAM mode (hold R while starting a game). The first load\ninto the world takes 3-4 minutes. Controller and touch screen both work.\n\nRecommended `options.ini` settings: `texture2x=false`, `maxVehicleTextureSize=1`, `simpleClothingTextures=2`,\n`simpleWeaponTextures=true`.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-21T17:10:09+00:00"
+    },
     "https://github.com/fgsfdsfgs/ArxLibertatis": {
       "status": "readme_verified",
       "readme_url": "https://github.com/fgsfdsfgs/ArxLibertatis/blob/master/README.md",
@@ -2697,7 +2723,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-21T11:46:19+00:00"
+      "checked_at": "2026-10-21T17:10:09+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
@@ -2945,6 +2971,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/lemasterxar5/jet-set-radio-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/lemasterxar5/jet-set-radio-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A homebrew-capable Nintendo Switch with support for running AArch32 programs.\nJet Set Radio for Android 1.07 / 1.0.7, versionCode `7`, package `com.sega.jetsetradio`. The hooks depend on this version; other versions are not supported.\nYour own APK and expansion file, `main.7.com.sega.jetsetradio.obb`.\nApproximately 1.9 GB of free space for the APK, OBB and extracted data; allow additional room for saves and temporary files.",
+      "installation": "A homebrew-capable Nintendo Switch with support for running AArch32 programs.\nJet Set Radio for Android 1.07 / 1.0.7, versionCode `7`, package `com.sega.jetsetradio`. The hooks depend on this version; other versions are not supported.\nYour own APK and expansion file, `main.7.com.sega.jetsetradio.obb`.\nApproximately 1.9 GB of free space for the APK, OBB and extracted data; allow additional room for saves and temporary files.\n\nCopy the release's `switch` folder to the SD card root, then add your own game files:\n\nThe distributed release contains only the NRO and folders, with an empty `obb/`",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "According to the author's console testing, the game runs at 60 FPS at stock clocks, and can even maintain 60 FPS in tested scenes at 607 MHz CPU / 151 MHz GPU. These are author-reported measurements, not a guarantee for every area, SD card or configuration. Loading and demanding scenes may cause dips.\nClock measurement note: by default, the port requests a temporary CPU boost while loading and a handheld GPU boost to 460.8 MHz. To test strictly at stock clocks or 607/151 without these requests, disable both in `/switch/jsrnx/config.ini`:",
+      "overclock_source": "",
+      "checked_at": "2026-10-21T17:10:09+00:00"
     },
     "https://github.com/lemasterxar5/tdkr_nx": {
       "status": "readme_verified",
