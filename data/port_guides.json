@@ -1,20 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T17:08:51+00:00",
-    "port_count": 284,
-    "repositories": 283,
+    "generated_at": "2026-10-22T21:34:00+00:00",
+    "port_count": 253,
+    "repositories": 252,
     "statuses": {
-      "readme_verified": 282,
-      "review_needed": 1
+      "readme_verified": 252
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
       "required": 0,
       "recommended": 2,
       "optional": 2,
-      "not_required": 1,
-      "mentioned": 20,
-      "not_documented": 258
+      "not_required": 2,
+      "mentioned": 19,
+      "not_documented": 227
     }
   },
   "by_repo": {
@@ -285,19 +284,6 @@
       "overview": "",
       "requirements": "",
       "installation": "You need files from your own copy of the Clay Jam Classic APK\n(`com.yumyumyukyuk.clayjamclassic`, Unity 6000.3.0f1).\n\nPut the `.nro` in any folder under `sdmc:/switch/` and place your game files next\nto it — the loader finds its folder at runtime, so the name is up to you:\n\nLaunch via title override (hold R while starting an installed game) or a\nforwarder.\n\nOptionally drop a `cursor.png` (up to 64×64, transparency respected) in the same\nfolder to replace the on-screen cursor with your own.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/ChanseyIsTheBest/cloverpit_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/cloverpit_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You need CloverPit 1.4.8 extract the .apk and put files in the appropriate directories as shown below",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -590,19 +576,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/ChanseyIsTheBest/pvz_ultimate_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/pvz_ultimate_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You need files from `pvzultimate212Android` (game version 2.2.0 BETA).\n \nCopy the `.nro` to your SD card, then place your game files next to it, in the same folder:\n \n\nOptionally, drop a `cursor.png` (up to 64x64, transparency supported) in the same folder to replace the on-screen cursor with your own.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/ChanseyIsTheBest/smk2_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/ChanseyIsTheBest/smk2_nx/blob/main/README.md",
@@ -688,32 +661,6 @@
       "overview": "",
       "requirements": "",
       "installation": "You need files from The Executive V.1.1.0.\n \n \n Launch via title override (hold R while starting an installed game) or a forwarder.\n \nOptionally drop a `cursor.png` (up to 64×64, transparency respected, top-left\npixel is the hotspot) in the same folder to replace the on-screen cursor.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/ChanseyIsTheBest/theroom4_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/theroom4_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You need files from The Room: Old Sins V.1.03.\n \nPut the `.nro` in any folder under `sdmc:/switch/` and place your game files next\nto it — the loader finds its folder at runtime, so the name is up to you:\n \n\nLaunch via title override (hold R while starting an installed game) or a\nforwarder.\n \nOptionally drop a `cursor.png` (up to 64×64, transparency respected, top-left\npixel is the hotspot) in the same folder to replace the on-screen cursor with\nyour own.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/ChanseyIsTheBest/theroomthree_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChanseyIsTheBest/theroomthree_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You need files from The Room Three V.1.08.\n \nPut the `.nro` in any folder under `sdmc:/switch/` and place your game files next\nto it — the loader finds its folder at runtime, so the name is up to you:\n \n\nLaunch via title override (hold R while starting an installed game) or a\nforwarder.\n \nOptionally drop a `cursor.png` (up to 64×64, transparency respected, top-left\npixel is the hotspot) in the same folder to replace the on-screen cursor with\nyour own.",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -889,19 +836,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/HarbourMasters/Starship": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/HarbourMasters/Starship/blob/main/README.md",
-      "reason": "",
-      "overview": "[comment]: <> (Todo: Make Light Mode Image)\n[comment]: <> (Todo: Make Dark Mode Image)",
-      "requirements": "Custom assets are packed in `.o2r` or `.otr` files. To use custom assets, place them in the `mods` folder.\n\nIf you're interested in creating and/or packing your own custom asset `.o2r`/`.otr` files, check out the following tools:\nretro - OTR and O2R generator\nfast64 - Blender plugin (Note that SF64 is not supported at this time)",
-      "installation": "Starship does not include any copyrighted assets. You are required to provide a supported copy of the game.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/HayatoG/PvZ-Portable": {
       "status": "readme_verified",
       "readme_url": "https://github.com/HayatoG/PvZ-Portable/blob/main/README.md",
@@ -941,19 +875,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/KranKRival/OpenJazzNX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/KranKRival/OpenJazzNX/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/McKay42/McOsu-NX": {
       "status": "readme_verified",
       "readme_url": "https://github.com/McKay42/McOsu-NX/blob/master/README.md",
@@ -974,19 +895,6 @@
       "overview": "KINGDOM HEARTS Union χ Dark Road — Nintendo Switch port\n\nA wrapper/port of the Android release of KINGDOM HEARTS Union χ Dark Road\n(v5.0.1)",
       "requirements": "",
       "installation": "Create a folder for the game on your SD card, `/switch/khuxnx/`, and place:\n\n1. `khuxnx.nro`\n2. `libcocos2dcpp.so` — extracted from the APK's `lib/arm64-v8a/` folder.\n3. `assets/` — the contents of the APK's `assets/` folder.\n4. `main.76.com.squareenix.androidgoogleplay.khuxww.obb`\n5. `patch.87.com.squareenix.androidgoogleplay.khuxww.obb`\n\nCopy both OBB files without extracting or renaming them.\n\nLaunch with a game override (hold R while starting a title) or a\nforwarder — applet/album mode does not work.\n\nSaves and configuration files are written next to the `.nro`.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/NaGaa95/MarathonRecomp-NX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/NaGaa95/MarathonRecomp-NX/blob/main/README.md",
-      "reason": "",
-      "overview": "[!CAUTION]\nThis recompilation is still under active development and is NOT meant for public use. Support will not be provided until an official release.",
-      "requirements": "Game bugs present on the original hardware are intentionally preserved and will not be fixed apart from a few minor exceptions in #44. Please do not report issues for these bugs and verify that the issue does not occur on original hardware before reporting. Bug reports for issues found in the original game will be rejected",
-      "installation": "You can make the game ignore the default configuration paths and force it to save everything in the installation directory by creating an empty `portable.txt` file. You are directly responsible for the safekeeping of your save data and configuration if you choose this option.",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -1665,32 +1573,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/Thorhax/Descent2-NX-Modern": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/Thorhax/Descent2-NX-Modern/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "devkitPro / devkitA64 with `switch-dev`\nPortlibs:",
-      "installation": "1. Download the latest `d2x-switch.nro` and `descent.cfg` from the Releases section.\n2. Create a folder on your Switch SD card at `/switch/d2x-switch/`.\n3. Copy `d2x-switch.nro` and `descent.cfg` into `/switch/d2x-switch/`.\n4. Copy the Descent 2 game data files into the same `/switch/d2x-switch/` directory:\n`descent2.ham`\n`descent2.hog`\n`descent2.s22`\nAll `.pig` files\n(These data files are included with the original game on Steam, GOG, or original CD).",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/Thorhax/DevilutionX-NX-Modern": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/Thorhax/DevilutionX-NX-Modern/blob/main/README.md",
-      "reason": "",
-      "overview": "(The health-bar and XP-bar are off by default but can be enabled in the game settings. Widescreen can also be disabled if preferred.)",
-      "requirements": "",
-      "installation": "Note: You'll need access to the data from the original game. If you don't have an original CD, you can buy Diablo from GoG.com or Battle.net.\nCopy `DIABDAT.MPQ` from the CD or Diablo installation (or [extract it from the GoG installer] to the DevilutionX folder.\nTo run the Diablo: Hellfire expansion, you will also need to copy `hellfire.mpq`, `hfmonk.mpq`, `hfmusic.mpq`, and `hfvoice.mpq`.\n\nFor more detailed instructions: Installation Instructions.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/Thorhax/Ducktales-NX": {
       "status": "readme_verified",
       "readme_url": "https://github.com/Thorhax/Ducktales-NX/blob/main/README.md",
@@ -1701,19 +1583,6 @@
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/Thorhax/F-Zero-NX-Modern": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/Thorhax/F-Zero-NX-Modern/blob/main/README.md",
-      "reason": "",
-      "overview": "This is a native Nintendo Switch port of FZeroRecomp, the static C recompilation of SNES F-Zero (USA)",
-      "requirements": "",
-      "installation": "1. Copy the `switch/` directory to the root of your Switch's microSD card (so that `fzerorecomp.nro` is located at `sdmc:/switch/fzero/fzerorecomp.nro`).\n2. Place your own F-Zero (USA) SNES ROM (`.sfc` or `.smc`) in `sdmc:/switch/fzero/fzero.sfc` (or `F-Zero (USA).sfc`).\n3. Launch the Homebrew Menu on your Nintendo Switch.\n4. Select F-Zero and enjoy!",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "[!IMPORTANT] > Performance & Overclocking Recommendation: > This game is very CPU-heavy due to native real-time widescreen Mode 7 track transformation and multi-vehicle layer raster composition. For stable and stutter-free 60 FPS performance, it is strongly recommended to overclock your CPU to 1785 MHz (e.g. via sys-clk).\nPerformance & Overclocking Recommendation: > This game is very CPU-heavy due to native real-time widescreen Mode 7 track transformation and multi-vehicle layer raster composition. For stable and stutter-free 60 FPS performance, it is strongly recommended to overclock your CPU to 1785 MHz (e.g. via sys-clk).",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
@@ -1935,18 +1804,18 @@
       "release_url": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2",
       "release_tag": "v1.1.2"
     },
-    "https://github.com/ZenoArrows/The-Simpsons-Hit-and-Run": {
+    "https://github.com/Wander-Eule/OpenRCT2-Switch": {
       "status": "readme_verified",
-      "readme_url": "https://github.com/ZenoArrows/The-Simpsons-Hit-and-Run/blob/master/README.md",
+      "readme_url": "https://github.com/Wander-Eule/OpenRCT2-Switch/blob/master/readme.md",
       "reason": "",
-      "overview": "",
+      "overview": "OpenRCT2 – Nintendo Switch Port\n\nThis project is an unofficial port of OpenRCT2 – an open-source re-implementation of RollerCoaster Tycoon 2 – as a homebrew app…",
       "requirements": "",
-      "installation": "This port uses the PC assets, so you will need to have the PC version of the game installed. Do not use the assets from the source code leak as those are not the final version, instead use the assets from the official release. Also make sure you're using the original `.rmv` movie files in the `movies` folder rather than the converted `.bk2` files that older releases of the port required.\n\nTo install the port simply copy the contents of the installation folder to `sdmc:/switch/simpsons` on the Switch or `ux0:/data/simpsons` on the Vita.\n\nFinally download the latest release of this port and copy it to your console",
+      "installation": "1. Install the app\nBuild the project (see below) or download a pre-built `.nro`. Copy the `switch` folder to the root of your Switch's SD card, so that `SD:\\switch\\openrct2\\openrct2.nro` exists. Launch it like any other homebrew app, e.g. via title override (Atmosphère) or the Homebrew Menu.\n2. Add your own game files\nFor legal reasons, the original RollerCoaster Tycoon 2 game files are not included. You need your own, legally purchased copy (e.g. from Steam or GOG). Copy the `Data`, `ObjData`, `Scenarios` and `Tracks` folders from your RCT2 installation to:\n\nThe game can then be launched directly.",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
+      "checked_at": "2026-10-22T21:34:00+00:00"
     },
     "https://github.com/adumah/Luanti-NX": {
       "status": "readme_verified",
@@ -1960,6 +1829,19 @@
       "overclock_notes": "Overclocking the CPU, e.g. with sys-clk,\ndoes help a bit: the Lua interpreter runs on the CPU, so a faster CPU (stock is\n1020 MHz; overclocks go up to about 1785 MHz) makes it proportionally faster, at most\naround 1.75×. It won't remove the lag, though. It can't make up for the missing JIT\ncompiler, and parts of the slowdown (SD card access, generating new terrain) don't scale\nwith the clock.\n⚠️ Overclocking is entirely at your own risk. It increases heat, power draw and\nbattery drain, and can cause instability or damage to your console. Luanti-NX and its\nauthor are not responsible for any damage to your console, SD card or data caused by",
       "overclock_source": "",
       "checked_at": "2026-10-19T13:10:26+00:00"
+    },
+    "https://github.com/adumah/MegaMan64Recomp-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/adumah/MegaMan64Recomp-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A Switch running custom firmware (Atmosphère) with the Homebrew Menu.\nYour own Mega Man 64 (USA) ROM in `.z64` format, SHA-1 `f24fe0aff01aec018e2dd558ec4f076cf328129f`.",
+      "installation": "1. Download `MegaMan64Recompiled.nro` from the releases.\n2. Copy it to `sdmc:/switch/MegaMan64Recompiled/` on the SD card.\n3. Put your ROM in the same folder, named `MegaMan64.us.rev1.z64`.\n4. Start the Homebrew Menu in title mode: hold R while launching any installed game, then pick\nMega Man 64 Recomp NX. Launched from the Album (applet mode) the game doesn't get enough memory and refuses to\n start.\n\nThe game starts directly; there's no launcher menu yet. Configuration and saves are stored in\n`sdmc:/switch/MegaMan64Recompiled/`.",
+      "editions": "",
+      "overclock_status": "not_required",
+      "overclock_notes": "The current renderer (GLideN64 on OpenGL) is limited by the Switch's CPU. A native deko3d renderer is planned: the\nPC version's renderer, RT64, running on the Switch's own graphics API, which moves the work from the CPU to the GPU.\nThe goal is a full 60 fps at the standard clocks, with no overclock, as RaceWave46-Switch\ndoes for Wave Race 64. It's a large project and there is no date for it; GLideN64 stays until it's ready.",
+      "overclock_source": "",
+      "checked_at": "2026-10-22T21:34:00+00:00"
     },
     "https://github.com/adumah/SheepDogWolf-NX": {
       "status": "readme_verified",
@@ -2208,32 +2090,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/alexart878/OpenXcom-switch": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/alexart878/OpenXcom-switch/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Go to releases page, and grab latest .nro executable\nObtain legal copy of XCOM: UFO Defense and/or XCOM: TFTD, for steam, files in:\nUse \"bin\" folder from this repo, rename it to \"openxcom\" and place somewhere on SD\nPlace openxcom.nro file to the root of this folder\nLook up UFO/README.txt and TFTD/README.txt in this folder, and place data accordingly\nLaunch game in NON-applet mode to avoid memory insufficiency\nOPTIONAL: if you want to create forwarder DO NOT USE video capture - it causes CPU Boost bug after closing app",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/alexart878/dethrace-switch": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/alexart878/dethrace-switch/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/artslay/NearChuckle_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/artslay/NearChuckle_nx/blob/main/README.md",
@@ -2442,71 +2298,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/capsterx-switch/BrogueCE": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/capsterx-switch/BrogueCE/blob/master/README.md",
-      "reason": "",
-      "overview": "Brogue CE\n=========\nCountless adventurers before you have descended this torch-lit staircase,\nseeking the promised riches below",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/capsterx-switch/Vanilla-Conquer": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/capsterx-switch/Vanilla-Conquer/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/capsterx-switch/abuse": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/capsterx-switch/abuse/blob/main/README",
-      "reason": "",
-      "overview": "Abuse 0.8 README\n1. Introduction\n2. Additional Features\n3. Requirements\n4. Running Abuse\n5. Configuration\n6. Installing the datafiles\n7. Notes\n8",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/capsterx-switch/exult": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/capsterx-switch/exult/blob/master/README.md",
-      "reason": "",
-      "overview": "[](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)\n[](https://www.travis-ci.org/exult/exult)\n[](https://scan.coverity.com/projects/exult-exult)",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/capsterx-switch/iortcw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/capsterx-switch/iortcw/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "1. If you have not already done so, install Return to Castle Wolfenstein and remember the target installation directory.\n 2. Browse to the iortcw project release folder: https://github.com/iortcw/iortcw/releases. \n 3. Download the latest release file for your operating system, as well as patch-data-141.zip. As of this writing, the latest version of the iortcw release file is v1.51c.\n 4. Extract the latest release zip into a location where you would like to have your installation going forward (For example: c:\\Games\\iortcw\\ in Windows or /home/joe/Games/iortcw/ in Linux).\n 5",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/carstene1ns/dunelegacy": {
       "status": "readme_verified",
       "readme_url": "https://github.com/carstene1ns/dunelegacy/blob/master/README",
@@ -2702,68 +2493,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-21T17:10:09+00:00"
     },
-    "https://github.com/fgsfdsfgs/ArxLibertatis": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fgsfdsfgs/ArxLibertatis/blob/master/README.md",
-      "reason": "",
-      "overview": "/\\ \\\n \\| Arx |\n | Libertatis |\n | |\n \\//\n\nCross-platform port of Arx Fatalis\n\nArx Libertatis is based on the publicly released Arx Fatalis source code.",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/fgsfdsfgs/Doom64EX": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fgsfdsfgs/Doom64EX/blob/master/README.md",
-      "reason": "",
-      "overview": "Doom64EX [](https://travis-ci.org/svkaiser/Doom64EX) [](https://ci.appveyor.com/project/dotfloat/doom64ex/branch/master)\n========",
-      "requirements": "",
-      "installation": "At the moment there are no official binary builds. You can find older\nversions here.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/fgsfdsfgs/Serious-Engine": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fgsfdsfgs/Serious-Engine/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "If you have access to a copy of the game (either by CD or through Steam),\nyou can copy the .gro files from the game directory to the repository.",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/fgsfdsfgs/eduke32": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/fgsfdsfgs/eduke32",
-      "reason": "README not available at repository root",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "checked_at": "2026-10-22T17:08:51+00:00"
-    },
-    "https://github.com/fgsfdsfgs/ioq3": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fgsfdsfgs/ioq3/blob/master/README.md",
-      "reason": "",
-      "overview": ",---------------------------------------.\n | |\n | () | || / |\n | | / \\/ ` | || / ` | / / -)| \\ |\n | |\\/\\, |\\,\\,|\\\\|/ |\n | || |\n | |",
-      "requirements": "",
-      "installation": "For nix\n 1. Change to the directory containing this readme.\n 2. Run 'make'.\n\nFor Windows,\n 1. Please refer to the excellent instructions here:\n http://wiki.ioquake3.org/Buildingioquake3\n\nFor Mac OS X, building a Universal Binary\n 1. Install MacOSX SDK packages from XCode. For maximum compatibility,\n install MacOSX10.4u.sdk and MacOSX10.3.9.sdk, and MacOSX10.2.8.sdk.\n 2. Change to the directory containing this README file.\n 3. Run './make-macosx-ub.sh'\n 4. Copy the resulting ioquake3.app in /build/release-darwin-ub to your\n /Applications/ioquake3 folder.\n\nFor Nintendo Switch:\n 1. Install and set up devkitA64.\n 2",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/fgsfdsfgs/openmw": {
       "status": "readme_verified",
       "readme_url": "https://github.com/fgsfdsfgs/openmw/blob/master/README.md",
@@ -2771,19 +2500,6 @@
       "overview": "OpenMW\n======\n\n[](https://travis-ci.org/OpenMW/openmw) [](https://ci.appveyor.com/project/psi29a/openmw) [](https://scan.coverity.com/projects/3740) [](https://…",
       "requirements": "",
       "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/fgsfdsfgs/unreal_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fgsfdsfgs/unreal_nx/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You're going to need an Unreal or Unreal Gold installation patched with the OldUnreal 227j patch.\nUnfortunately oldunreal.com seems to disallow direct linking to files, so click the link at the bottom of that post to get it.\n\nEnsure that the patch is installed correctly: when installing make sure to tick every box, but only tick \"Return to Na Pali support\" if you have Unreal Gold.\nIf you don't have a folder called `SystemARM` in the Unreal folder, you need to reinstall the patch. Simply run the installer again to do that.\n\nTo install:\n1. Create a folder called `unreal` in the `switch` folder on your SD card.\n2",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -2875,19 +2591,6 @@
       "overview": "",
       "requirements": "A Switch with Atmosphère and sphaira\nYour own APK of Smash Hit 1.5.14 (`com.mediocre.smashhit`,\n versionCode 1051400, with the `armeabi-v7a` library). The port is made for\n this version only: other versions are untested and may not work.",
       "installation": "1. Copy `smashhitnx.nro` to `sd:/switch/smashhitnx/`.\n2. Copy your APK into the same folder (any file name ending in `.apk`).\n3. In sphaira: Homebrew › Smash Hit › Install Forwarder.\n4. Start the new icon on the HOME menu. The first start unpacks the game's\n engine from the APK.\n\nTo update, replace the NRO in the folder and start the icon: the port\nupdates itself.\n\nTo remove it, delete `sd:/switch/smashhitnx/` and the folder under\n`atmosphere/contents/` named in `titleid.txt`.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/heyjoeway/Sonic-CD-11-Decompilation": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/heyjoeway/Sonic-CD-11-Decompilation/blob/master/README.md",
-      "reason": "",
-      "overview": "[](https://github.com/heyjoeway/Sonic-CD-11-Decompilation/actions/workflows/switch.yml)",
-      "requirements": "",
-      "installation": "You can find downloads in releases.\n\n1. Make sure your Switch can run homebrew.\n2. Extract the contents of the zip to the root of your SD card.\n3. Copy the assets to `/switch/scd2011` on your Switch's SD card. You will need the following files/folders:\nhelp (folder, optional as How to Play is broken)\nvideos (folder)\nData.rsdk\nfonts.arc\nimages.arc\nsounds.arc\nStrings.str\n3. Start Sonic CD via hbmenu (or whatever method you prefer).\n\nNOTE: It is recommended to give the game full RAM access. This means you shouldn't launch hbmenu from the album applet when running this",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
@@ -3180,84 +2883,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/rsn8887/Hurrican": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/rsn8887/Hurrican/blob/master/readme.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Download (see `assets` below), and unzip `Hurricanswitch.zip` and copy the contents over to the `/switch/` folder on your sd card, so that you have a folder `/switch/Hurrican` with many folders and files inside.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/rsn8887/OpenClaw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/rsn8887/OpenClaw/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/rsn8887/OpenRCT2": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/rsn8887/OpenRCT2/blob/master/readme.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "OpenRCT2 requires original files of RollerCoaster Tycoon 2 to play. It can be bought at either Steam or GOG.com.",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/rsn8887/OpenTTD": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/rsn8887/OpenTTD/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "You can install OpenTTD on external media so you can take it with you, i.e.\nusing a USB key, or a USB HDD, etc.\nCreate a directory where you shall store the game in (i.e. OpenTTD/).\nCopy the binary (OpenTTD.exe, OpenTTD.app, openttd, etc), baseset/ and your\nopenttd.cfg to this directory.\nYou can copy binaries for any operating system into this directory, which will\nallow you to play the game on nearly any computer you can attach the external\nmedia to.\nAs always - additional grf files are stored in the newgrf/ dir (for details,\nagain, see section 4.1).",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/rsn8887/julius": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/rsn8887/julius/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/rsn8887/rocksndiamonds": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/rsn8887/rocksndiamonds/blob/master/README.MD",
-      "reason": "",
-      "overview": "Recent Changes\n======\n1.15 (Switch only)\non Switch, add 12.0.0 support. Only .nro files changed, data is the same.\n\nDescription\n======",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/ryandeering/fallout-ce-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/ryandeering/fallout-ce-switch/blob/main/README.md",
@@ -3414,19 +3039,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/snesrev/sm": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/snesrev/sm/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/souldbminerr/0ad-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/souldbminerr/0ad-switch/blob/main/README.md",
@@ -3473,19 +3085,6 @@
       "overview": "",
       "requirements": "",
       "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/theflippedbit/opentyrian-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/theflippedbit/opentyrian-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "Install DevKitPro \nFollow the instructions to install on your system https://devkitpro.org/wiki/devkitPropacman\nExecute `sudo (dkp-)pacman -S switch-dev` to install the tools and libraries for switch development, where (dkp-) is the path to pacman on your system\nNote: if installing on macOS Catalina, may need to follow these steps: https://github.com/devkitPro/pacman/issues/15\nInstall switch-sdl2 packages: `sudo (dkp-)pacman -S switch-sdl2`",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",

@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T17:08:51+00:00",
+    "generated_at": "2026-10-22T21:34:00+00:00",
     "sources": {
-      "SwitchPorts": "323 importados",
+      "SwitchPorts": "291 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-10-22T11:49:14+00:00",
-    "covers_resolved": 23,
-    "duplicate_records_removed": 14,
+    "covers_resolved": 20,
+    "duplicate_records_removed": 13,
     "invalid_records_removed": 2,
-    "unique_records": 817,
+    "unique_records": 786,
     "cover_breakdown": {
-      "real_artwork": 23,
+      "real_artwork": 20,
       "homebrew_icons": 506,
-      "nx_flow_illustrations": 288,
-      "visually_covered": 817
+      "nx_flow_illustrations": 260,
+      "visually_covered": 786
     }
   },
   "items": [
@@ -1023,19 +1023,6 @@
       "discussion": "https://gbatemp.net/threads/clay-jam-classic-switch-port.683368/"
     },
     {
-      "id": "switchports-d0443244381bb8",
-      "title": "🟠 CloverPit",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/ChanseyIsTheBest/cloverpit_nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/cloverpit-switch-port.683303/#post-10887272"
-    },
-    {
       "id": "switchports-1c2b317cc7b329",
       "title": "Color Sheep",
       "type": "Port",
@@ -1897,19 +1884,6 @@
       "discussion": "https://gbatemp.net/threads/plants-vs-zombies-2-reflourished-switch-port.684044/"
     },
     {
-      "id": "switchports-d7b20988d7b673",
-      "title": "🟠 Plants vs. Zombies Ultimate",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/ChanseyIsTheBest/pvz_ultimate_nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/pvz-ultimate-switch-port.683858/"
-    },
-    {
       "id": "switchports-1ce500d872050d",
       "title": "Pocket Crystal League",
       "type": "Port",
@@ -2011,32 +1985,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/real-drift-car-racing-android-5-0-8-nintendo-switch-port.685675/"
-    },
-    {
-      "id": "switchports-7f38d7daab026a",
-      "title": "🟠 The Room 3",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/ChanseyIsTheBest/theroomthree_nx/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-room-three-old-sins-switch-port.683590/"
-    },
-    {
-      "id": "switchports-3f337fb153b9f8",
-      "title": "🟠 The Room: Old Sins",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/ChanseyIsTheBest/theroom4_nx/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-room-three-old-sins-switch-port.683590/"
     },
     {
       "id": "switchports-ab342f1a222441",
@@ -2616,20 +2564,6 @@
       "verification": "ROM USA y formato .z64 confirmados en el README; versión v1.1.2 y ZIP confirmados en Releases. Las rutas de instalación para Switch no están confirmadas."
     },
     {
-      "id": "switchports-7a3bfb7cfb8671",
-      "title": "🔴 Doom 64",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "0.2.0-nx pre-release",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/fgsfdsfgs/Doom64EX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Doom%2064%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
       "id": "switchports-2b4822e9c55913",
       "title": "F-Zero X",
       "type": "Port",
@@ -2695,6 +2629,18 @@
       "cover_source": "Personalizado"
     },
     {
+      "id": "switchports-c95d1b064a7785",
+      "title": "🟢 Mega Man 64",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "0.9.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/adumah/MegaMan64Recomp-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-33309f513ebcfd",
       "title": "Paper Mario",
       "type": "Port",
@@ -2742,19 +2688,6 @@
       "url": "https://github.com/gabryboy12-ai/StarCraft64-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-470afdad731bf4",
-      "title": "🔴 StarFox",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "2.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/HarbourMasters/Starship/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/starship-sf64-nintendo-switch-port.668344/"
     },
     {
       "id": "switchports-ad99251713ca54",
@@ -2819,18 +2752,6 @@
       "discussion": "https://gbatemp.net/threads/0-a-d-switch-port-rts-in-horizon-os.682759/"
     },
     {
-      "id": "switchports-9ad07904ff2225",
-      "title": "🔴 Abuse",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.8r3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/capsterx-switch/abuse",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
       "id": "switchports-4873c6e349a2dd",
       "title": "Alien vs. Predator: Gold",
       "type": "Port",
@@ -2839,18 +2760,6 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/AvP-Gold-NX-Modern",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-1ef4ef35b34eb2",
-      "title": "🔴 Arx Fatalis",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.2-nx1 pre-release",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/fgsfdsfgs/ArxLibertatis",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -2868,42 +2777,6 @@
       "discussion": "https://gbatemp.net/threads/release-openblack-for-switch-black-white-2001-on-nintendo-switch.685558/"
     },
     {
-      "id": "switchports-18f0f45fc56321",
-      "title": "🔴 Brogue",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.9.2-r2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/capsterx-switch/BrogueCE",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-25d95406e2e975",
-      "title": "🔴 Caesar III",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.02",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/rsn8887/julius",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-16eb34f8cb13ee",
-      "title": "🔴 Captain Claw",
-      "type": "Port",
-      "platform": "PC",
-      "version": "beta2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/rsn8887/OpenClaw",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
       "id": "switchports-263c7dccaf7ad4",
       "title": "🟢 Castlevania ReVamped",
       "type": "Port",
@@ -2915,19 +2788,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/castlevania-revamped-nintendo-switch-port.684636/"
-    },
-    {
-      "id": "switchports-0fb5bedbeba2ce",
-      "title": "🔴 Command & Conquer / Red Alert",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.6",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/capsterx-switch/Vanilla-Conquer/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/c-c-vanilla-conquer.579074/"
     },
     {
       "id": "switchports-614797f0cf69da",
@@ -2955,54 +2815,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-a10e611e3ac0b9",
+      "id": "switchports-ad28449a944fee",
       "title": "Descent 2",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.58.6",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Thorhax/Descent2-NX-Modern",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/descent-2-nx.685064/"
-    },
-    {
-      "id": "switchports-f0adfb79800c91",
-      "title": "🔴 Dethrace",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/alexart878/dethrace-switch",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dethrace-nx.670358/"
-    },
-    {
-      "id": "switchports-7507dfced2e9a1",
-      "title": "🔴 Diablo",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.6.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "http://github.com/Thorhax/DevilutionX-NX-Modern",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "alternatives": [
-        {
-          "title": "🔴 Diablo",
-          "version": "0.95b",
-          "url": "https://github.com/lantus/devilution-nx/",
-          "source": "SwitchPorts"
-        }
-      ]
-    },
-    {
-      "id": "switchports-34dd43005c1931",
-      "title": "🔴 Doom",
       "type": "Port",
       "platform": "PC",
       "version": "4.10.0",
@@ -3013,13 +2827,19 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "alternatives": [
         {
-          "title": "🔴 Doom",
-          "version": "1.02",
-          "url": "https://github.com/lantus/chocolate-doom-nx/",
+          "title": "Descent 2",
+          "version": "0.58.6",
+          "url": "https://github.com/Thorhax/Descent2-NX-Modern",
           "source": "SwitchPorts"
         },
         {
-          "title": "🔴 Doom",
+          "title": "Descent 2",
+          "version": "1.6.1",
+          "url": "http://github.com/Thorhax/DevilutionX-NX-Modern",
+          "source": "SwitchPorts"
+        },
+        {
+          "title": "Descent 2",
           "version": "Update 2",
           "url": "https://github.com/Thorhax/GZDoom-NX-Modern",
           "source": "SwitchPorts"
@@ -3038,18 +2858,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/redriver2-driver-2-playstation-game-reverse-engineering.682414/"
-    },
-    {
-      "id": "switchports-65f78e7da70ac5",
-      "title": "🔴 Duke Nukem 3D",
-      "type": "Port",
-      "platform": "PC",
-      "version": "r8093nx2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/fgsfdsfgs/eduke32",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-25be41ea4302b0",
@@ -3153,18 +2961,6 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-5bc320722cdbd6",
-      "title": "🔴 Hurrican",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.04-Switch",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/rsn8887/Hurrican",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
       "id": "switchports-49b755e874a053",
       "title": "Insaniquarium",
       "type": "Port",
@@ -3176,19 +2972,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/insaniquarium-deluxe-switch-port.684222/"
-    },
-    {
-      "id": "switchports-f9f0ee48c96b9c",
-      "title": "🔴 Jazz Jackrabbit",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.2.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/KranKRival/OpenJazzNX?",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/openjazznx-openjazz-port-with-sdl2-for-the-nintendo-switch.546759/"
     },
     {
       "id": "switchports-cb682dceb89a48",
@@ -3351,18 +3134,6 @@
       "discussion": "https://gbatemp.net/threads/preliminary-list-of-updated-homebrew-apps-and-tools-for-fw-21-0-0-ams-1-10-0-please-add-your-findings.677217/post-10907101"
     },
     {
-      "id": "switchports-ac73c75151b327",
-      "title": "🔴 OpenTyrian 2000",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/theflippedbit/opentyrian-nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
       "id": "switchports-b4ee590dfed773",
       "title": "Outrun 2006: Coast 2 Coast",
       "type": "Port",
@@ -3449,70 +3220,14 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-97cc76bf190675",
-      "title": "🔴 Quake III Arena",
+      "id": "switchports-057b1963d764ab",
+      "title": "RollerCoaster Tycoon 2",
       "type": "Port",
       "platform": "PC",
-      "version": "0.3.0-nx",
+      "version": "1.0.0",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/fgsfdsfgs/ioq3",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-8d412d4601c5af",
-      "title": "🔴 Return to Castle Wolfenstein",
-      "type": "Port",
-      "platform": "PC",
-      "version": "pre-release",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/capsterx-switch/iortcw",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-0c3c12266a1375",
-      "title": "🔴 Rocks'n'Diamonds / Mirrormagic",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.15",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/rsn8887/rocksndiamonds",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-6a79706bacad96",
-      "title": "🔴 RollerCoaster Tycoon 2",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.06-switch",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/rsn8887/OpenRCT2",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "alternatives": [
-        {
-          "title": "🔴 RollerCoaster Tycoon 2",
-          "version": "1.0.0",
-          "url": "https://github.com/Wander-Eule/OpenRCT2-Switch",
-          "source": "SwitchPorts"
-        }
-      ]
-    },
-    {
-      "id": "switchports-4d6ff56c2a1fbe",
-      "title": "🔴 Serious Sam: The First Encounter / The Second Encounter",
-      "type": "Port",
-      "platform": "PC",
-      "version": "nx1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/fgsfdsfgs/Serious-Engine",
+      "url": "https://github.com/Wander-Eule/OpenRCT2-Switch",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3525,18 +3240,6 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/adumah/SheepDogWolf-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-1b662643a3f839",
-      "title": "🔴 The Simpsons: Hit and Run",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.6.1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/ZenoArrows/The-Simpsons-Hit-and-Run/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3604,31 +3307,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/sly-cooper-projectcane-switch-port.685266/"
-    },
-    {
-      "id": "switchports-540e817b3315ca",
-      "title": "🟠 Sonic 2006",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.0.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/NaGaa95/MarathonRecomp-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/marathon-recompiled-sonic-the-hedgehog-2006-switch-port.682907/"
-    },
-    {
-      "id": "switchports-28dbbb97fe5f91",
-      "title": "🟠 Sonic CD",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.3.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/heyjoeway/Sonic-CD-11-Decompilation/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-7512a37ce6943b",
@@ -3818,30 +3496,6 @@
       "discussion": "https://gbatemp.net/threads/touhou-project-on-switch-all-ports-in-one-place.684850/"
     },
     {
-      "id": "switchports-d8cf2050b000f3",
-      "title": "🔴 Transport Tycoon Deluxe",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.07-switch",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/rsn8887/OpenTTD",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-02122c797468a0",
-      "title": "🔴 Ultima VII",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.7.0-switchr1.5",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/capsterx-switch/exult",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
       "id": "switchports-1aec91523967c6",
       "title": "Undertale Yellow",
       "type": "Port",
@@ -3850,18 +3504,6 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NalienDev/Undertale-Yellow-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-0cb6448bb64250",
-      "title": "🔴 Unreal / Unreal Gold",
-      "type": "Port",
-      "platform": "PC",
-      "version": "r2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/fgsfdsfgs/unreal_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3912,19 +3554,6 @@
       "url": "https://github.com/Thorhax/Wolf4SDL-NX-Modern",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-721d0801ee9ccb",
-      "title": "🔴 XCOM",
-      "type": "Port",
-      "platform": "PC",
-      "version": "1.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/alexart878/OpenXcom-switch",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/openxcom-port-for-nintendo-switch.663495/"
     },
     {
       "id": "switchports-653e7389e1683f",
@@ -3995,22 +3624,8 @@
       ]
     },
     {
-      "id": "switchports-8518f10bd9fdaa",
+      "id": "switchports-56bf46b32feefd",
       "title": "F-Zero",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "0.3.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-0e2f6a3c716c9a",
-      "title": "🔴 The Legend of Zelda: A Link to the Past",
       "type": "Port",
       "platform": "Super Nintendo",
       "version": "1.3.0",
@@ -4020,13 +3635,13 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20%28USA%29.png",
       "cover_source": "Libretro thumbnails",
       "alternatives": [
         {
-          "title": "🔴 The Legend of Zelda: A Link to the Past",
-          "version": "0.3",
-          "url": "https://github.com/snesrev/zelda3/",
+          "title": "F-Zero",
+          "version": "0.3.0",
+          "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
           "source": "SwitchPorts"
         }
       ]
@@ -4073,21 +3688,6 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-39c2c61104912d",
-      "title": "🔴 Super Metroid",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "n/a",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/snesrev/sm/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/super-metroid-sm-nintendo-switch-port.628933/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Metroid%20%28USA%2C%20Europe%29%20%28En%2CJa%29%20%28Virtual%20Console%2C%20Classic%20Mini%2C%20Switch%20Online%29.png",
       "cover_source": "Libretro thumbnails"
     },
     {
