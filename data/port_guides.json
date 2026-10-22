@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T21:41:25+00:00",
-    "port_count": 282,
-    "repositories": 281,
+    "generated_at": "2026-10-22T04:41:15+00:00",
+    "port_count": 283,
+    "repositories": 282,
     "statuses": {
-      "readme_verified": 280,
+      "readme_verified": 281,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -13,7 +13,7 @@
       "recommended": 2,
       "optional": 2,
       "not_required": 1,
-      "mentioned": 19,
+      "mentioned": 20,
       "not_documented": 257
     }
   },
@@ -2650,6 +2650,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/dpadninja/realdrift_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/dpadninja/realdrift_nx/blob/master/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "You need a Switch with homebrew (Homebrew Menu), a PC with Python 3.8+, and Real Drift 5.0.8 installed on an Android phone and started at least once (the first start downloads the OBB).\n1. Download `realdriftnx-vX.Y.Z.zip` from Releases and unpack it. It contains `realdriftnx.nro`, `stagesd.py` and `config.example.txt`.\n2. Copy two files from the phone into the unpacked folder:\n\n| File | Location on the phone |\n|---|---|\n| `base.apk` | `/data/app/…/com.realdrift.sipon-…/base.apk` (`adb shell pm path com.realdrift.sipon` prints the exact path) |",
+      "editions": "| | |\n|---|---|\n| Game | Real Drift (full version), package `com.realdrift.sipon` |\n| Version | 5.0.8, versionCode 76, arm64-v8a |\n| Files | `base.apk` + `main.76.com.realdrift.sipon.obb` (~230 MB) |\n\nOther versions do not work as is. Real Drift Lite (`com.realdriftportnew.sipon`) is not supported. The version is defined in one place, `source/game/rdgame.h`.",
+      "overclock_status": "mentioned",
+      "overclock_notes": "| `renderresolution` | `auto` / `720` / `1080` | `auto` | `auto` = 720p handheld, 1080p docked | | `boostloading` | `0` / `1` | `1` | raise the CPU clock while a scene loads | | `smokesize` | `10`–`100` | `100` | size of the tyre smoke puffs in percent; `100` = original. Lower it (e.g. `50`) if heavy smoke drops the frame rate |",
+      "overclock_source": "",
+      "checked_at": "2026-10-22T04:41:15+00:00"
+    },
     "https://github.com/etonedemid/minecraft-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/etonedemid/minecraft-switch/blob/main/README.md",
@@ -2723,7 +2736,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-21T21:41:25+00:00"
+      "checked_at": "2026-10-22T04:41:15+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",

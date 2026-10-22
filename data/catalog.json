@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-21T21:41:25+00:00",
+    "generated_at": "2026-10-22T04:41:15+00:00",
     "sources": {
-      "SwitchPorts": "321 importados",
+      "SwitchPorts": "322 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 815,
+    "unique_records": 816,
     "cover_breakdown": {
       "real_artwork": 23,
       "homebrew_icons": 506,
-      "nx_flow_illustrations": 286,
-      "visually_covered": 815
+      "nx_flow_illustrations": 287,
+      "visually_covered": 816
     }
   },
   "items": [
@@ -177,11 +177,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-a421b2f4d5b307",
-      "title": "DrasticDS",
+      "id": "switchports-7ada3963da2765",
+      "title": "🟢 DrasticDS",
       "type": "Emulador",
       "platform": "Nintendo DS",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/DrasticDS_nx",
@@ -332,11 +332,11 @@
       "discussion": "https://gbatemp.net/threads/d-smile-nx-a-v-smile-emulator.684197/"
     },
     {
-      "id": "switchports-5e290feb311b58",
-      "title": "Cemu",
+      "id": "switchports-78be30b8eccff6",
+      "title": "🟢 Cemu",
       "type": "Emulador",
       "platform": "WIIU",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/Cemu-nx",
@@ -2000,6 +2000,19 @@
       "discussion": "https://gbatemp.net/threads/professor-layton-pandoras-box-hd-switch-port.682460/"
     },
     {
+      "id": "switchports-adf11e221012be",
+      "title": "🟢 Real Drift Car Racing",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "1.2.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/dpadninja/realdrift_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/real-drift-car-racing-android-5-0-8-nintendo-switch-port.685675/"
+    },
+    {
       "id": "switchports-7f38d7daab026a",
       "title": "🟠 The Room 3",
       "type": "Port",
@@ -3545,7 +3558,7 @@
       "title": "🟢 Silent Hill 2",
       "type": "Port",
       "platform": "PC",
-      "version": "1.00",
+      "version": "1.02",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cutarev/sh2-nx",
@@ -4686,7 +4699,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "5.2.0",
+      "version": "5.3.0",
       "author": "FlagBrew",
       "url": "https://hb-app.store/switch/Checkpoint",
       "download": "https://switch.cdn.fortheusers.org/zips/Checkpoint.zip",
