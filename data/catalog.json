@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T04:41:15+00:00",
+    "generated_at": "2026-10-22T11:49:14+00:00",
     "sources": {
       "SwitchPorts": "322 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-10-21T11:46:14+00:00",
+    "covers_checked_at": "2026-10-22T11:49:14+00:00",
     "covers_resolved": 23,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
@@ -531,7 +531,7 @@
       "title": "🟢 Jet Set Radio",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/lemasterxar5/jet-set-radio-nx",
