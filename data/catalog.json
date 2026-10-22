@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T11:49:14+00:00",
+    "generated_at": "2026-10-22T17:08:51+00:00",
     "sources": {
-      "SwitchPorts": "322 importados",
+      "SwitchPorts": "323 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 816,
+    "unique_records": 817,
     "cover_breakdown": {
       "real_artwork": 23,
       "homebrew_icons": 506,
-      "nx_flow_illustrations": 287,
-      "visually_covered": 816
+      "nx_flow_illustrations": 288,
+      "visually_covered": 817
     }
   },
   "items": [
@@ -152,11 +152,11 @@
       "discussion": "https://gbatemp.net/threads/release-supermodel-nx-sega-model-3-arcade-emulator-for-nintendo-switch.684935/"
     },
     {
-      "id": "switchports-7e2477a2fa30a5",
-      "title": "Tico",
+      "id": "switchports-e6916a599d4b09",
+      "title": "🟢 Tico",
       "type": "Emulador",
       "platform": "MULTI",
-      "version": "0.7.9",
+      "version": "0.8.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/ticohq/tico",
@@ -3521,7 +3521,7 @@
       "title": "🟢 Sheep, Dog 'n' Wolf: Rewooled",
       "type": "Port",
       "platform": "PC",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/adumah/SheepDogWolf-NX",
@@ -3674,6 +3674,19 @@
       "url": "https://github.com/RohanBhattacharyya/oSBM",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-f3ab533f6d435c",
+      "title": "🟢 Super Mario War",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/brendongl/supermariowar-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/release-super-mario-war-nx-v1-0-0-native-switch-port-4-player-local-60-fps.685705/"
     },
     {
       "id": "switchports-1470b3e325e0ee",
@@ -10392,7 +10405,7 @@
       "type": "Homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.5.5",
+      "version": "1.5.6",
       "author": "etonedemid",
       "url": "https://hb-app.store/switch/sLaunch",
       "download": "https://switch.cdn.fortheusers.org/zips/sLaunch.zip",

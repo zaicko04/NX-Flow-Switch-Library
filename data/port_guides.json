@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T11:49:19+00:00",
-    "port_count": 283,
-    "repositories": 282,
+    "generated_at": "2026-10-22T17:08:51+00:00",
+    "port_count": 284,
+    "repositories": 283,
     "statuses": {
-      "readme_verified": 281,
+      "readme_verified": 282,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -14,7 +14,7 @@
       "optional": 2,
       "not_required": 1,
       "mentioned": 20,
-      "not_documented": 257
+      "not_documented": 258
     }
   },
   "by_repo": {
@@ -2403,6 +2403,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/brendongl/supermariowar-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/brendongl/supermariowar-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "You need a Switch running custom firmware (Atmosphère). Download the files from the latest release.\nNRO + forwarder NSP (recommended): extract `SuperMarioWar-NX-v.zip` to the root of your SD card (it puts `smw.nro` in `sdmc:/switch/supermariowar/`), then install `SuperMarioWar-NX-v-forwarder.nsp` with an installer such as DBI, Tinfoil or Awoo for a HOME menu icon. The title ID is `017397C52C004000`. Installing NSPs requires signature patches that match your firmware.\nNRO only: copy `smw.nro` to `sdmc:/switch/supermariowar/` and start it from the Homebrew Menu (use title override, not the Album, for full memory).",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-22T17:08:51+00:00"
+    },
     "https://github.com/bshurikan/cvrevamped_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/bshurikan/cvrevamped_nx/blob/main/README.md",
@@ -2736,7 +2749,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-22T11:49:19+00:00"
+      "checked_at": "2026-10-22T17:08:51+00:00"
     },
     "https://github.com/fgsfdsfgs/ioq3": {
       "status": "readme_verified",
