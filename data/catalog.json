@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T11:35:57+00:00",
+    "generated_at": "2026-10-23T17:04:51+00:00",
     "sources": {
-      "SwitchPorts": "291 importados",
+      "SwitchPorts": "292 importados",
       "HB App Store": "508 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-10-22T11:49:14+00:00",
-    "covers_resolved": 20,
+    "covers_checked_at": "2026-10-23T17:04:51+00:00",
+    "covers_resolved": 21,
     "duplicate_records_removed": 13,
-    "invalid_records_removed": 2,
+    "invalid_records_removed": 3,
     "unique_records": 786,
     "cover_breakdown": {
-      "real_artwork": 20,
+      "real_artwork": 21,
       "homebrew_icons": 506,
-      "nx_flow_illustrations": 260,
+      "nx_flow_illustrations": 259,
       "visually_covered": 786
     }
   },
@@ -2638,7 +2638,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/adumah/MegaMan64Recomp-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mega%20Man%2064%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-33309f513ebcfd",
