@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T21:34:00+00:00",
+    "generated_at": "2026-10-23T04:46:31+00:00",
     "sources": {
       "SwitchPorts": "291 importados",
       "HB App Store": "508 importados",
@@ -319,11 +319,11 @@
       "discussion": "https://gbatemp.net/threads/vita3k-playstation-vita.684076/"
     },
     {
-      "id": "switchports-170974f7921b40",
-      "title": "D.Smile NX",
+      "id": "switchports-706398cebd095d",
+      "title": "🟢 D.Smile NX",
       "type": "Emulador",
       "platform": "V.Smile",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/1timewire1/D.Smile_nx/",
