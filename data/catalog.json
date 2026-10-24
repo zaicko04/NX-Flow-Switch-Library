@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-10-23T21:23:14+00:00",
+    "generated_at": "2026-10-24T04:33:58+00:00",
     "sources": {
       "SwitchPorts": "292 importados",
-      "HB App Store": "508 importados",
+      "HB App Store": "511 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
@@ -11,12 +11,12 @@
     "covers_resolved": 21,
     "duplicate_records_removed": 13,
     "invalid_records_removed": 3,
-    "unique_records": 786,
+    "unique_records": 789,
     "cover_breakdown": {
       "real_artwork": 21,
-      "homebrew_icons": 506,
+      "homebrew_icons": 509,
       "nx_flow_illustrations": 259,
-      "visually_covered": 786
+      "visually_covered": 789
     }
   },
   "items": [
@@ -4841,6 +4841,20 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "hbas-fnfvslicenx",
+      "title": "FNF: V-Slice (unofficial port)",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.8.7-nx1",
+      "author": "leleletus",
+      "url": "https://hb-app.store/switch/FNFVSliceNX",
+      "download": "https://switch.cdn.fortheusers.org/zips/FNFVSliceNX.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/FNFVSliceNX/icon.png",
+      "description": "Friday Night Funkin' V-Slice 0.8.7 (the official engine by The Funkin' Crew), ported to the Nintendo Switch.\n\nThis homebrew contains no game assets. On first launch it downloads the official game files (about 734 MB) from The Funkin' Crew's GitHub repository (FunkinCrew/funkin.assets), checks every file against its SHA-256 and starts the game. Downloads resume after a lost connection or a closed game. Without internet on the console, the screen explains how to copy the files from a computer.\n\nRequirements:\n- Launch the homebrew menu from a game (hold R while starting any title), not from the Album.\n- About 1.1 GB free on the SD card.\n\nIncludes every week, Weekend 1, Erect and Pico mixes, Freeplay, Character Select, video cutscenes from the official files, HD Rumble and Nintendo button layout. Saves and mods go to /switch/Friday-Night-Funkin/.\n\nUnofficial port, not affiliated with The Funkin' Crew Inc. or Nintendo. Please support the official game.\n\nCredits: The Funkin' Crew (the game);",
+      "status": "Publicado en HB App Store"
+    },
+    {
       "id": "hbas-fpslocker",
       "title": "FPSLocker",
       "type": "Utilidad",
@@ -6446,6 +6460,20 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "hbas-playguard",
+      "title": "PlayGuard",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.2.0",
+      "author": "JigSawFr",
+      "url": "https://hb-app.store/switch/PlayGuard",
+      "download": "https://switch.cdn.fortheusers.org/zips/PlayGuard.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/PlayGuard/icon.png",
+      "description": "PlayGuard sets the Nintendo Switch's own parental controls on the console, offline: no phone app, no Nintendo account. The countdown, the PIN prompt and the suspension at the limit stay the console's own, nothing runs in the background, and the limits stay if PlayGuard is removed.\\n\\n• Play-time limit: the same every day or one per weekday, saved profiles, extra time or no more play today, a bedtime alarm and a one-switch console lock.\\n• Activity: play time per game and per user account, day by day, exported to CSV, JSON, XLSX or PDF.\\n• Restrictions and PIN: restriction level, age rating, show or change the PIN, an optional PIN to open PlayGuard.\\n• Network clock: set from NTP servers, so the play timer counts right on a console that never reaches Nintendo.\\n• Safe: every change is logged and can be undone, settings are backed up to the SD card.\\n• Unlinks the phone app on a second-hand console. Every console language, light and dark themes.\\n\\nPlayGuard carries on Pctl Manager by Ta",
+      "status": "Publicado en HB App Store"
+    },
+    {
       "id": "hbas-pongnx",
       "title": "Pong-NX",
       "type": "Juego homebrew",
@@ -7263,12 +7291,12 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.7.13.1",
+      "version": "0.7.14",
       "author": "Papux200",
       "url": "https://hb-app.store/switch/SwitchFrameTap",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchFrameTap.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/SwitchFrameTap/icon.png",
-      "description": "Switch Frame Tap is a sysmodule that streams the game you are playing - picture and sound - to a Windows, Linux or macOS PC, with no capture card and no dock. It reads the game's finished frames and encodes them with the Switch's own H.264 encoder: native 1080p at 60 fps.\\n\\n- Play a Switch Lite (or any Switch) on a big screen: a USB cable in handheld, or the network (Wi-Fi or the dock's LAN port) to play docked\\n- Game audio, also in games that block recording (optional), and recording to MP4 on the PC\\n- Native-resolution PNG screenshots on a button combo, also next to the system's Album screenshots\\n- Webcam mode: the Switch shows up as a USB camera, for OBS (H.264, 1080p60) or any camera app (uncompressed, 720p)\\n- Turn the Switch's screen off while you stream\\n- This manager app for the settings and to install the optional tools (Ultrahand, SaltyNX, ReverseNX-RT, sys-clk or Horizon OC), plus a Tesla/Ultrahand overlay\\n\\nNeeds Atmosphere (firmware 21 to 23) and the PC viewer (Windo",
+      "description": "Switch Frame Tap is a sysmodule that streams the game you are playing - picture and sound - to a Windows, Linux or macOS PC, with no capture card and no dock. It reads the game's finished frames and encodes them with the Switch's own H.264 encoder: native 1080p at 60 fps.\\n\\n- Play a Switch Lite (or any Switch) on a big screen: a USB cable in handheld, or the network (Wi-Fi or the dock's LAN port) to play docked\\n- Game audio, also in games that block recording (optional), and recording to MP4 on the PC\\n- Native-resolution PNG screenshots on a button combo, also next to the system's Album screenshots\\n- Webcam mode: the Switch shows up as a USB camera, for OBS (H.264, 1080p60) or any camera app (uncompressed, 720p)\\n- Stream the HOME menu and the console's overlays too: the volume bar, quick settings, power menu and Tesla/Ultrahand menus (optional)\\n- Turn the Switch's screen off while you stream\\n- This manager app for the settings and to install the optional tools (Ultrahand, SaltyN",
       "status": "Publicado en HB App Store"
     },
     {
@@ -7604,7 +7632,7 @@
       "url": "https://hb-app.store/switch/ThemezerNX",
       "download": "https://switch.cdn.fortheusers.org/zips/ThemezerNX.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/ThemezerNX/icon.png",
-      "description": "This app downloads themes from https://themezer.net/ and installs them through the nxthemesinstaller.\\n\\nYou probably want to have the nxthemesinstaller either installed via the hbappstore or as nro in the switch folder in order for this app to be able to install themes.\\nYou can also download themes, and they'll be stored inside sd:/Themes/ThemezerNX/(target)/(creator)/(themename).nxtheme\\n\\n\\n\\n",
+      "description": "This app downloads themes from https://themezer.net/ and installs them through the NXThemes Installer.\\n\\nYou probably want to have the NXThemes Installer either installed via the Homebrew App Store or as an .nro in the switch folder in order for this app to be able to install themes.\\nYou can also download themes, and they'll be stored in sd:/Themes/ThemezerNX.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -8047,12 +8075,12 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.0.1",
+      "version": "2.2.1",
       "author": "acnh-game",
       "url": "https://hb-app.store/switch/acnh-manager",
       "download": "https://switch.cdn.fortheusers.org/zips/acnh-manager.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/acnh-manager/icon.png",
-      "description": "把 agent(游戏内增强 Mod)装进《集合啦!动物森友会》游戏目录(仅支持 3.0.3,写入前逐文件校验),装好后在聊天栏行首输入  /9C9  就能把物品放进背包,也可一键删除还原。\\n\\nInstalls the in-game agent for Animal Crossing: New Horizons 3.0.3 -- every file is SHA-256 checked before it is written -- so a chat line starting with  /9C9  puts that item in your bag, and one tap removes it again.",
+      "description": "可从 SD 卡、HTTP 地址或手机/电脑浏览器安装 NSP、NSZ、XCI、XCZ；本应用不托管任何游戏内容。安装受支持的《集合啦!动物森友会》本体或更新后会自动安装 3.0.3 动森 Game Agent，所有文件逐项 SHA-256 校验。\n\nInstalls NSP, NSZ, XCI and XCZ packages from the SD card, an HTTP address or a phone/computer browser; no game content is hosted by this app. Installs the Game Agent for 3.0.3 automatically after a supported game or update, with SHA-256 verification for every file.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -9929,6 +9957,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/pynx.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/pynx/icon.png",
       "description": "nx-python is an ecosystem for developing and running Python homebrew applications on the Nintendo Switch.PyNX serves as the entry point to running Python apps on your Switch. It is a homebrew app that contains a port of the CPython interpreter and allows you to run Python applications from the Homebrew Menu.\\nThe _nx module provides a low-level wrapper around libnx.\\n\\nThe nx package allows you to use Switch-specific functionalities, such as controller input and filesystem access, in your Python apps.\\nPython 3.5 is supported.\\n\\nThis release largely simplifies loading and distributing Python homebrew apps. When launching PyNX, you will now be greeted with a menu that allows you to select the Python program you want to launch. Python homebrew applications are now placed in the /switch/ directory on the SD card and can be a single .py file or a directory containing a main.py file. Python homebrews can also import each other, as long as the homebrew they're trying to import is installed.",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-ra-offline",
+      "title": "ra-offline",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.4.5",
+      "author": "cheasan",
+      "url": "https://hb-app.store/switch/ra-offline",
+      "download": "https://switch.cdn.fortheusers.org/zips/ra-offline.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/ra-offline/icon.png",
+      "description": "ra-offline is an Atmosphere sysmodule that acts as an offline loopback server for RetroAchievements.\\n\\nWhile you play RetroArch without an internet connection, it pretends to be retroachievements.org on the Switch itself: game data is served from a local cache and every achievement you unlock is queued on the SD card. As soon as the Switch comes back online, the queued unlocks are replayed to the real retroachievements.org over TLS - automatically, and nothing is lost if the connection drops.\\n\\n## Setup (required after install)\\n\\n1. Save your account: run the fetch-cache.py tool from the GitHub repo once on a computer (needs your RetroAchievements account), then copy the resulting folder to sd:/switch/raoffline\\n2. Point RetroArch at the proxy: set cheevos_custom_host = \\\"http://127.0.0.1:8080\\\" in retroarch/retroarch.cfg (the ra-config.sh helper from the repo does this for you), then restart RetroArch\\n3. Reboot the console so the sysmodule starts\\n4. Cache your games before you go",
       "status": "Publicado en HB App Store"
     },
     {
