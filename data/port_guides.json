@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-26T04:44:01+00:00",
-    "port_count": 254,
-    "repositories": 253,
+    "generated_at": "2026-10-26T12:58:10+00:00",
+    "port_count": 260,
+    "repositories": 259,
     "statuses": {
-      "readme_verified": 253
+      "readme_verified": 259
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -12,8 +12,8 @@
       "recommended": 2,
       "optional": 2,
       "not_required": 2,
-      "mentioned": 19,
-      "not_documented": 228
+      "mentioned": 21,
+      "not_documented": 232
     }
   },
   "by_repo": {
@@ -68,19 +68,6 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
-    },
-    "https://github.com/1weell/RaceWave46-Switch": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/1weell/RaceWave46-Switch/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "RaceWave46 retains the original game's modes and progression:\n\n| Feature | What you can play |\n| --- | --- |\n| Championship | Race through the championship, earn points, unlock further challenges and reach the podium. |\n| Time Trials | Chase faster laps and course records. |\n| Stunt Mode | Take on the game's stunt challenges and score-based play. |\n| Two-player racing | Local head-to-head races with two independently controlled riders. |",
-      "installation": "The first release targets Windows 10/11, 64-bit. Detailed performance requirements are still being evaluated; resolution, additional effects and running two player windows all affect GPU load.\n\n1. Extract the entire Windows release ZIP into a writable folder.\n2. Open WaveRace64Recompiled.exe. The application starts in fullscreen.\n3. Choose Select USA ROM and import your own Wave Race 64 USA Rev 1 ROM.\n4. Choose Start Game. Open Settings to adjust the presentation and enhancements.\n\nNo game ROM, personal save, account credentials or installed texture packs are included",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-18T20:40:26+00:00"
     },
     "https://github.com/6eone6/phigros_nx_cn": {
       "status": "readme_verified",
@@ -732,19 +719,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
-    "https://github.com/ChaykaDed/silent-hill-decomp-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/ChaykaDed/silent-hill-decomp-nx/blob/master/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "MSYS2/MinGW64 (Windows). Install MSYS2 from https://www.msys2.org/, then from an MSYS2 MinGW x64 shell install the toolchain:\nPsyCross — pulled in as a git submodule (the SH-specific fork). From the repo root:\n This populates `pcport/PsyCross`. Do not clone PsyCross separately — the build uses the submodule.\nGame disc image — A BIN dump of Silent Hill (USA) (SLUS-00707). Place it at:",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/CostelaCNX/ReChan-Switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/CostelaCNX/ReChan-Switch/blob/main/README.md",
@@ -771,6 +745,32 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/DerilDX/nv-rs-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/DerilDX/nv-rs-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "nv-rs\n\n[](https://www.rust-lang.org/)\n[](https://bevyengine.org/)\n[](LICENSE)\n[](docs/PLAYTESTING.md)\n[](docs/MILESTONES.md)",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
+    },
+    "https://github.com/DerilDX/silent-hill-decomp-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/DerilDX/silent-hill-decomp-nx/blob/master/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "MSYS2/MinGW64 (Windows). Install MSYS2 from https://www.msys2.org/, then from an MSYS2 MinGW x64 shell install the toolchain:\nPsyCross — pulled in as a git submodule (the SH-specific fork). From the repo root:\n This populates `pcport/PsyCross`. Do not clone PsyCross separately — the build uses the submodule.\nGame disc image — A BIN dump of Silent Hill (USA) (SLUS-00707). Place it at:",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
+    },
     "https://github.com/DomazinUS/CBFD-Switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/DomazinUS/CBFD-Switch/blob/main/README.md",
@@ -783,6 +783,19 @@
       "overclock_notes": "CBFD-NX is an unofficial Conker's Bad Fur Day recompilation for Nintendo Switch. Features 60FPS at 720p portable/1080p docked at stock clocks, widescreen support, graphical enhancements (some of these are heavy and might break the game, use at your own discretion), texture pack, RetroAchievements, rumble. Requires your own ROM.",
       "overclock_source": "",
       "checked_at": "2026-10-19T04:38:16+00:00"
+    },
+    "https://github.com/DomazinUS/RaceWave46-Switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/DomazinUS/RaceWave46-Switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "RaceWave46 is an unofficial Wave Race 64 recompilation for Nintendo Switch, celebrating its 30th anniversary. Features Deko3D/OpenGL renderers, 60FPS at 720p portable/1080p docked at stock clocks, enhanced local two-player mode, MSAA, texture packs, RetroAchievements, Dolphin ghost in Time Trail mode, rumble and optional water/sky reflections and shadows. Requires your own ROM.",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
     },
     "https://github.com/FWGS/xash3d-fwgs": {
       "status": "readme_verified",
@@ -809,6 +822,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/HDErick/BO2-Requiem-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/HDErick/BO2-Requiem-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
     },
     "https://github.com/HarbourMasters/Ghostship": {
       "status": "readme_verified",
@@ -1585,6 +1611,32 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/Thorhax/Descent2-NX-Modern": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/Descent2-NX-Modern/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "devkitPro / devkitA64 with `switch-dev`\nPortlibs:",
+      "installation": "1. Download the latest `d2x-switch.nro` and `descent.cfg` from the Releases section.\n2. Create a folder on your Switch SD card at `/switch/d2x-switch/`.\n3. Copy `d2x-switch.nro` and `descent.cfg` into `/switch/d2x-switch/`.\n4. Copy the Descent 2 game data files into the same `/switch/d2x-switch/` directory:\n`descent2.ham`\n`descent2.hog`\n`descent2.s22`\nAll `.pig` files\n(These data files are included with the original game on Steam, GOG, or original CD).",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
+    },
+    "https://github.com/Thorhax/DevilutionX-NX-Modern": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/DevilutionX-NX-Modern/blob/main/README.md",
+      "reason": "",
+      "overview": "(The health-bar and XP-bar are off by default but can be enabled in the game settings. Widescreen can also be disabled if preferred.)",
+      "requirements": "",
+      "installation": "Note: You'll need access to the data from the original game. If you don't have an original CD, you can buy Diablo from GoG.com or Battle.net.\nCopy `DIABDAT.MPQ` from the CD or Diablo installation (or [extract it from the GoG installer] to the DevilutionX folder.\nTo run the Diablo: Hellfire expansion, you will also need to copy `hellfire.mpq`, `hfmonk.mpq`, `hfmusic.mpq`, and `hfvoice.mpq`.\n\nFor more detailed instructions: Installation Instructions.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
     },
     "https://github.com/Thorhax/Ducktales-NX": {
       "status": "readme_verified",
@@ -2506,19 +2558,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-21T17:10:09+00:00"
     },
-    "https://github.com/fgsfdsfgs/openmw": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/fgsfdsfgs/openmw/blob/master/README.md",
-      "reason": "",
-      "overview": "OpenMW\n======\n\n[](https://travis-ci.org/OpenMW/openmw) [](https://ci.appveyor.com/project/psi29a/openmw) [](https://scan.coverity.com/projects/3740) [](https://…",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-16T23:01:36+00:00"
-    },
     "https://github.com/gabryboy12-ai/StarCraft64-NX": {
       "status": "readme_verified",
       "readme_url": "https://github.com/gabryboy12-ai/StarCraft64-NX/blob/main/README.md",
@@ -3013,6 +3052,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/saekaze/th12-switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/saekaze/th12-switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "⚠️ Disclaimer: In compliance with ZUN's guidelines and copyright law, this repository contains ONLY the homebrew engine code. No game assets are distributed. You must legally own a copy of Touhou 12: Undefined Fantastic Object ver 1.00b (Japanese).",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
+    },
     "https://github.com/saekaze/th15-switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/saekaze/th15-switch/blob/main/README.md",
@@ -3051,6 +3103,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/seamusduncmcgrath/openmw-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/seamusduncmcgrath/openmw-nx/blob/master/README.md",
+      "reason": "",
+      "overview": "OpenMW\n======\n\nOpenMW is an open-source open-world RPG game engine that supports playing Morrowind by Bethesda Softworks",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
     },
     "https://github.com/souldbminerr/0ad-switch": {
       "status": "readme_verified",
@@ -3233,6 +3298,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/xflipperkast/granny_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/xflipperkast/granny_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`grannynx` is an experimental standalone port of Granny to Nintendo Switch.\n\nThe project includes its own Switch compatibility runtime and build setup",
+      "requirements": "devkitPro with devkitA64 and libnx.\nSwitch portlibs: Mesa, libdrmnouveau, Vorbis/Ogg, FreeType, curl, Mbed TLS and zlib.\nGNU Make, Python 3 and a host C compiler for checks.\nMeson, Ninja, Bison, Flex, m4 and the Python Mako/PLY modules for the first graphics build.\nOn Windows, a working WSL distribution with the build tools installed.\nYour own Granny Android 1.8.12 ARM64 package.",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T12:58:10+00:00"
     },
     "https://github.com/xflipperkast/papapizzatg_nx": {
       "status": "readme_verified",
