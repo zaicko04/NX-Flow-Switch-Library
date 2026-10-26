@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T20:49:01+00:00",
+    "generated_at": "2026-10-26T04:44:01+00:00",
     "sources": {
-      "SwitchPorts": "292 importados",
+      "SwitchPorts": "293 importados",
       "HB App Store": "511 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 21,
     "duplicate_records_removed": 13,
     "invalid_records_removed": 3,
-    "unique_records": 789,
+    "unique_records": 790,
     "cover_breakdown": {
       "real_artwork": 21,
       "homebrew_icons": 509,
-      "nx_flow_illustrations": 259,
-      "visually_covered": 789
+      "nx_flow_illustrations": 260,
+      "visually_covered": 790
     }
   },
   "items": [
@@ -2510,6 +2510,18 @@
       "discussion": "https://gbatemp.net/threads/release-bomberman-64-recompiled-native-switch-port-nsp-nro-60-fps.685448/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Bomberman%2064%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-17105b92a95529",
+      "title": "🟢 Castlevania: Legacy of Darkness",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.0-RC1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/PalindromicBreadLoaf/LegacyOfDockness",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-f48f5ba32f1a85",

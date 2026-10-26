@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T20:49:07+00:00",
-    "port_count": 253,
-    "repositories": 252,
+    "generated_at": "2026-10-26T04:44:01+00:00",
+    "port_count": 254,
+    "repositories": 253,
     "statuses": {
-      "readme_verified": 252
+      "readme_verified": 253
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 2,
       "mentioned": 19,
-      "not_documented": 227
+      "not_documented": 228
     }
   },
   "by_repo": {
@@ -1433,6 +1433,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/PalindromicBreadLoaf/LegacyOfDockness": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/PalindromicBreadLoaf/LegacyOfDockness/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "1. Download `LodRecomp-vX.Y.Z-switch-RCN.zip` from the releases page.\n2. Extract to your SD card. This creates `sdmc:/switch/lodrecomp/LodRecomp.nro`.\n3. Copy your legally dumped Castlevania: Legacy of Darkness ROM (US in `.z64` format) to the same folder, and name it as `rom.z64`:\n\nYour folder should look like:\n\nIf `rom.z64` is missing, the app also looks for any `.z64`/`.n64`/`.v64` file in `sdmc:/switch/lodrecomp/`, `sdmc:/roms/n64/`, `sdmc:/roms/`, and `sdmc:/switch/`. It prefers names containing \"legacy\", \"lod\" or \"castlevania2\".",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-26T04:44:01+00:00"
     },
     "https://github.com/PalindromicBreadLoaf/NX-Diffuser": {
       "status": "readme_verified",
