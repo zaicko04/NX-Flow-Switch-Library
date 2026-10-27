@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T12:08:31+00:00",
+    "generated_at": "2026-10-27T18:00:28+00:00",
     "sources": {
       "SwitchPorts": "301 importados",
       "HB App Store": "511 importados",
@@ -567,7 +567,7 @@
       "title": "🟢 Modern Combat 4: Zero Hour",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Kaays/mc4_nx",
