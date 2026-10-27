@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T05:01:07+00:00",
+    "generated_at": "2026-10-27T12:08:31+00:00",
     "sources": {
-      "SwitchPorts": "297 importados",
+      "SwitchPorts": "301 importados",
       "HB App Store": "511 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -10,13 +10,13 @@
     "covers_checked_at": "2026-10-26T22:38:35+00:00",
     "covers_resolved": 22,
     "duplicate_records_removed": 13,
-    "invalid_records_removed": 1,
-    "unique_records": 796,
+    "invalid_records_removed": 2,
+    "unique_records": 799,
     "cover_breakdown": {
       "real_artwork": 22,
       "homebrew_icons": 509,
-      "nx_flow_illustrations": 265,
-      "visually_covered": 796
+      "nx_flow_illustrations": 268,
+      "visually_covered": 799
     }
   },
   "items": [
@@ -547,6 +547,30 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/aks796/labyrinth2_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-f73f747556d64d",
+      "title": "🟢 Modern Combat 3: Fallen Nation",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Kaays/mc3_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-1acaf87ada0361",
+      "title": "🟢 Modern Combat 4: Zero Hour",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Kaays/mc4_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3175,6 +3199,19 @@
       "url": "https://github.com/NaGaa95/openmohaa_nx/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-42ded5d165cd54",
+      "title": "🟢 Mega Max W",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Vroccolli/mega-man-w-switch-homebrew",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/megaman-w-fan-game-switch-port.685896/"
     },
     {
       "id": "switchports-006b79a46f558e",
