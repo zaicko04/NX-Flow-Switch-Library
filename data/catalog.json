@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T12:51:42+00:00",
+    "generated_at": "2026-10-28T22:33:22+00:00",
     "sources": {
       "SwitchPorts": "302 importados",
       "HB App Store": "511 importados",
@@ -555,7 +555,7 @@
       "title": "🟢 Modern Combat 3: Fallen Nation",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Kaays/mc3_nx",
