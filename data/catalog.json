@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T05:39:53+00:00",
+    "generated_at": "2026-10-28T12:51:42+00:00",
     "sources": {
       "SwitchPorts": "302 importados",
       "HB App Store": "511 importados",
@@ -3588,11 +3588,11 @@
       "discussion": "https://gbatemp.net/threads/touhou-project-on-switch-all-ports-in-one-place.684850/"
     },
     {
-      "id": "switchports-6e069fb9b1aa2e",
-      "title": "Touhou 10: Mountain of Faith",
+      "id": "switchports-89995c0f21598e",
+      "title": "🟢 Touhou 10: Mountain of Faith",
       "type": "Port",
       "platform": "PC",
-      "version": "1.00a-r5",
+      "version": "1.00a-r6",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/saekaze/th10-switch",
