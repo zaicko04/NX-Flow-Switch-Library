@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T22:12:22+00:00",
+    "generated_at": "2026-10-28T05:39:53+00:00",
     "sources": {
-      "SwitchPorts": "301 importados",
+      "SwitchPorts": "302 importados",
       "HB App Store": "511 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-10-26T22:38:35+00:00",
+    "covers_checked_at": "2026-10-28T05:39:53+00:00",
     "covers_resolved": 22,
     "duplicate_records_removed": 13,
     "invalid_records_removed": 2,
-    "unique_records": 799,
+    "unique_records": 800,
     "cover_breakdown": {
       "real_artwork": 22,
       "homebrew_icons": 509,
-      "nx_flow_illustrations": 268,
-      "visually_covered": 799
+      "nx_flow_illustrations": 269,
+      "visually_covered": 800
     }
   },
   "items": [
@@ -2811,6 +2811,19 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/0-a-d-switch-port-rts-in-horizon-os.682759/"
+    },
+    {
+      "id": "switchports-88222e2a435048",
+      "title": "🟢 Age of Empires II: The Age of Kings",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.1.0 prerelease",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Zaydme/openaok",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10935642"
     },
     {
       "id": "switchports-4873c6e349a2dd",

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T22:12:22+00:00",
-    "port_count": 263,
-    "repositories": 262,
+    "generated_at": "2026-10-28T05:39:59+00:00",
+    "port_count": 264,
+    "repositories": 263,
     "statuses": {
-      "readme_verified": 262
+      "readme_verified": 263
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 2,
       "mentioned": 21,
-      "not_documented": 235
+      "not_documented": 236
     }
   },
   "by_repo": {
@@ -1920,6 +1920,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-22T21:34:00+00:00"
+    },
+    "https://github.com/Zaydme/openaok": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Zaydme/openaok/blob/main/README.md",
+      "reason": "",
+      "overview": "A free, open-source engine for Age of Empires II: The Age of Kings, on your desktop and in your pocket.",
+      "requirements": "OpenAoK needs your own, legally obtained copy of Age of Empires II: The\nAge of Kings (1999, version 1.0, the original CD). It does not work with The\nConquerors expansion or the HD and Definitive editions, which use different\ndata.\n\nCopy the CD's files into a folder named `originalgame1999` at the top of the\nrepository. From a disc or a mounted image on macOS, for example:\n\nThe folder should then hold `GAME/`, `SYSTEM/` and `GOODIES/`. That's all: the",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-28T05:39:59+00:00"
     },
     "https://github.com/adumah/Luanti-NX": {
       "status": "readme_verified",
