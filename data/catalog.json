@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T22:33:22+00:00",
+    "generated_at": "2026-10-29T05:45:34+00:00",
     "sources": {
-      "SwitchPorts": "302 importados",
+      "SwitchPorts": "306 importados",
       "HB App Store": "511 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-10-28T05:39:53+00:00",
-    "covers_resolved": 22,
+    "covers_checked_at": "2026-10-29T05:45:34+00:00",
+    "covers_resolved": 23,
     "duplicate_records_removed": 13,
     "invalid_records_removed": 2,
-    "unique_records": 800,
+    "unique_records": 804,
     "cover_breakdown": {
-      "real_artwork": 22,
+      "real_artwork": 23,
       "homebrew_icons": 509,
-      "nx_flow_illustrations": 269,
-      "visually_covered": 800
+      "nx_flow_illustrations": 272,
+      "visually_covered": 804
     }
   },
   "items": [
@@ -2742,6 +2742,20 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-42f4b941063639",
+      "title": "🟢 Star Wars: Rogue Squadron",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/FurryLilManChild/rs64-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Wars%20-%20Rogue%20Squadron%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
+    },
+    {
       "id": "switchports-ad99251713ca54",
       "title": "Super Mario 64",
       "type": "Port",
@@ -2838,6 +2852,19 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-cd06bb3bda90a8",
+      "title": "🟢 The Binding of Isaac: Repentance+",
+      "type": "Port",
+      "platform": "PC",
+      "version": "unreleased",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/antoniotorres02/isaac-switch-native",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/binding-of-isaac-repentance-port.685733/"
+    },
+    {
       "id": "switchports-a74122974e516e",
       "title": "🟢 Black & White",
       "type": "Port",
@@ -2861,6 +2888,19 @@
       "url": "https://github.com/HDErick/BO2-Requiem-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-58973bfa2cbede",
+      "title": "🟢 Call of Duty / United Offensive",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.3.0 / 0.2.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/cznn999/cod-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/release-call-of-duty-2003-united-offensive-nintendo-switch-native-port.685952/"
     },
     {
       "id": "switchports-ced4954d6a5ab6",
@@ -3425,6 +3465,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10922888"
+    },
+    {
+      "id": "switchports-92425dc2f639dc",
+      "title": "🟢 The Simpsons: Hit and Run",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.7.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Thorhax/The-Simpsons-Hit-and-Run",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-4109de30f6c8d6",
