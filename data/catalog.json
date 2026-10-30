@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T12:51:52+00:00",
+    "generated_at": "2026-10-30T22:17:33+00:00",
     "sources": {
-      "SwitchPorts": "306 importados",
-      "HB App Store": "511 importados",
+      "SwitchPorts": "309 importados",
+      "HB App Store": "513 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 13,
     "invalid_records_removed": 2,
-    "unique_records": 804,
+    "unique_records": 809,
     "cover_breakdown": {
       "real_artwork": 23,
-      "homebrew_icons": 509,
-      "nx_flow_illustrations": 272,
-      "visually_covered": 804
+      "homebrew_icons": 511,
+      "nx_flow_illustrations": 275,
+      "visually_covered": 809
     }
   },
   "items": [
@@ -664,6 +664,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/liartes/spacehulk-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-d7592b53dc626a",
+      "title": "🟢 Steven Universe: Attack the Light",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/iqbalriz/stevenrpg_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -2852,6 +2864,19 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-3854a572656fe5",
+      "title": "🟢 Atomic Bomberman",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.0.6",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/rashevskyv/atomic-bomberman",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/atomic-bomberman-for-switch.685994/"
+    },
+    {
       "id": "switchports-cd06bb3bda90a8",
       "title": "🟢 The Binding of Isaac: Repentance+",
       "type": "Port",
@@ -2927,6 +2952,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/commander-keen-for-switch.569609/"
+    },
+    {
+      "id": "switchports-949c03b7c58ac5",
+      "title": "🟢 Cosmology of Kyoto",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/seamusduncmcgrath/CosmologyOfKyoto-Recompiled",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-e38f32936a5e58",
@@ -7485,7 +7522,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.7.14",
+      "version": "0.7.19",
       "author": "Papux200",
       "url": "https://hb-app.store/switch/SwitchFrameTap",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchFrameTap.zip",
@@ -7513,12 +7550,12 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.0.2",
+      "version": "0.3",
       "author": "dodosi",
       "url": "https://hb-app.store/switch/SwitchInfoNX",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchInfoNX.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/SwitchInfoNX/icon.png",
-      "description": "Switch Info NX est un utilitaire de diagnostic complet pour Nintendo Switch sous CFW. Il offre 8 onglets couvrant tous les aspects de votre console:\\n\\nSystème : firmware, numéro de série, modèle (Erista/Mariko/Lite/OLED), région, langue, batterie avec niveaux des Joy-Con, température, luminosité\\n\\nStockage : carte SD et partitions NAND (Système/Utilisateur) avec barres d'utilisation\\n\\nRéseau : configuration IP complète, RSSI Wi-Fi, qualité de liaison, détection filaire/sans-fil\\n\\nServeur FTP : serveur intégré sur le port 5000 avec accès complet à la SD, support upload/download/reprise, \\nstatistiques de transfert et journal d'activité\\n\\nPerformances : fréquences CPU/GPU/EMC en direct, profils de performance, monitoring thermique\\n\\nTest de manette : test interactif des boutons et sticks analogiques des Joy-Con avec retour visuel\\n\\nOutils : réglage de luminosité, test de vibration haptique, export de rapport système vers la SD\\n\\nÀ propos : crédits et informations sur l'applicatio",
+      "description": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, le transfert MTP et HTTP, ainsi que des thèmes personnalisables et 11 langues.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -8205,6 +8242,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/WookReadercomics.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/WookReadercomics/icon.png",
       "description": "A comic and e-book reader for the Nintendo Switch.\\n\\nFormat support: PDF, EPUB, XPS, CBZ, CBR, CBT, CB7\\nReading modes: Portrait, Landscape, Vertical (fit-to-width), Spread (two-page)\\nCover grid browser with folder navigation and thumbnail previews\\nAsync prefetch — next/previous pages pre-rendered for instant page turns\\nRaw image LRU cache — revisited pages load instantly\\nEarly first-page display — cover shown in ~0.5s while large archives enumerate in background\\nPage-name disk cache — second+ open of any comic skips enumeration entirely\\nRAR3 fast enumeration — header-only scan (~50ms for 500MB solid RAR)\\nProgressive navigation — flip through pages while archive is still scanning\\nAnalog stick scrolling — full 360° proportional panning with left stick\\nPinch-to-zoom and right-stick zoom\\nDark and light mode\\nSaves last page, orientation, and dark mode settings\\nSorted file browser (folders first A-Z, files A-Z, case-insensitive)",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-ytbplayer",
+      "title": "YTB Player",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.1.0",
+      "author": "muratgokce",
+      "url": "https://hb-app.store/switch/YTBPlayer",
+      "download": "https://switch.cdn.fortheusers.org/zips/YTBPlayer.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/YTBPlayer/icon.png",
+      "description": "YTB Player is a YouTube client for Switch homebrew, built on Switch-NewPipe (mirusu400) with the screens redone after YouTube's tablet app. It works with the buttons and the touch screen.\\n\\n- Home with category chips, Shorts with their own player, channel pages with tabs\\n- A watch page with comments and replies, related videos and playlists\\n- Signed in: subscriptions with filters, Watch later, Liked videos, your playlists, notifications\\n- Player: up to 1080p docked and 720p handheld, a quality and speed menu, chapters, subtitles, SponsorBlock, resume, autoplay\\n- Sign in over Wi-Fi from a computer: no Google password is typed on the Switch\\n- English, Turkish and Korean\\n\\nIts files live in sdmc:/switch/ytb-player/; coming from Switch-NewPipe, the settings, history and login are copied over. Not affiliated with YouTube or Google.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -8989,6 +9040,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/gzdoom.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/gzdoom/icon.png",
       "description": "GZDoom is a modder-friendly OpenGL source port based on the DOOM engine.\\n\\nPlace supported IWAD (eg. doom2.wad) files in sd:/switch/gzdoom/iwads\\nThis package comes with Freedom wads.\\n\\nAny custom files (PWADs, PK3s, DEHs, LMPs, whatever) should be placed into the gzdoom/pwads folder.\\nThe launcher has predefined default profiles for most supported IWADs. You can also add your own profiles by pressing Y on the main tab. Any changes will be saved to gzdoom/launcher.ini.\\nThe launcher will only detect files in gzdoom/iwads and gzdoom/pwads. You can use the Override RSP file option if you have to load files from other locations.\\nMultiplayer does work, however only Switch <=> PC multiplayer has been tested. You can start a netgame from the launcher. Don't forget to change the player number from 1 and read the warning message.\\nThe IP that's placed in the address field by default is your Switch's local IP, others can use that to connect to it if they're on the same network.\\nOnly the pla",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-halo-ce-universal",
+      "title": "Halo: Combat Evolved",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "111",
+      "author": "thelinkin3000",
+      "url": "https://hb-app.store/switch/halo-ce-universal",
+      "download": "https://switch.cdn.fortheusers.org/zips/halo-ce-universal.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/halo-ce-universal/icon.png",
+      "description": "NOTE: Halo's game data is not included. Put an Xbox disc image of Halo: Combat Evolved (any version, .iso or .xiso) on the SD card as /switch/halo/halo.iso; the game unpacks its maps folder from it on the first start (about 1.7 GB on the card, a few minutes). Or put the disc's maps folder at /switch/halo/maps yourself.\\n\\nHalo: Combat Evolved on the Switch, built from the decompilation of the Xbox game: the campaign, split-screen and online multiplayer, Halo Custom Edition maps (in /switch/halo/custom_maps), gyro aiming, and the game's own renderer on deko3d at up to 1080p docked.\\n\\nSaves go in /switch/halo/save and the settings in /switch/halo/config.toml. The game updates itself from its GitHub releases when a new build is out.",
       "status": "Publicado en HB App Store"
     },
     {

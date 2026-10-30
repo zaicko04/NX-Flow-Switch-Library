@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T12:51:57+00:00",
-    "port_count": 268,
-    "repositories": 267,
+    "generated_at": "2026-10-30T22:17:33+00:00",
+    "port_count": 271,
+    "repositories": 270,
     "statuses": {
-      "readme_verified": 267
+      "readme_verified": 270
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 2,
       "mentioned": 21,
-      "not_documented": 240
+      "not_documented": 243
     }
   },
   "by_repo": {
@@ -2818,6 +2818,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/iqbalriz/stevenrpg_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/iqbalriz/stevenrpg_nx/blob/master/README.md",
+      "reason": "",
+      "overview": "`stevenrpgnx` is a native wrapper that runs the 32-bit ARM Android build of Steven Universe: Attack the Light 1.3.5 (`com.turner.stevenrpg`) on Nintendo Switch.…",
+      "requirements": "Linux (Ubuntu / Debian / Linux Mint recommended), or Windows with PowerShell\nDocker\nGit\n[!IMPORTANT]\nOn Windows, run `git config --global core.autocrlf false` before cloning. With `autocrlf=true` the runtime's scripts and Makefiles are checked out with CRLF line endings and do not run in the Linux container.",
+      "installation": "1. Download the latest release from the Releases tab:\n`stevenrpgnx0.1.0.zip`\n2. Copy the `switch/stevenrpgnx/` folder from the ZIP to the root of your SD card, so you get:\n3. Place your APK and your OBB inside that folder:\n`stevenrpgnx.nro` is already there (from the ZIP).\nCopy your APK into `sdmc:/switch/stevenrpgnx/` (the name of the APK does not matter).\nCopy your `main.52.com.turner.stevenrpg.obb` into `sdmc:/switch/stevenrpgnx/obb/`.\n4. The final folder structure on your SD card must look like:\n5. Launch Sphaira on your Switch:\nNavigate to Homebrew › Steven Universe: Attack the Light.\nChoose Install Forwarder.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-30T22:17:33+00:00"
+    },
     "https://github.com/jacquesdupontd/port0r": {
       "status": "readme_verified",
       "readme_url": "https://github.com/jacquesdupontd/port0r/blob/main/README.md",
@@ -3026,6 +3039,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
     },
+    "https://github.com/rashevskyv/atomic-bomberman": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/rashevskyv/atomic-bomberman/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "1. Get a build from the Actions artifacts or a release, or build it yourself (below).\n2. Play:\n That is all: with no original game on the machine it starts with the free asset set.\n3. Optional, if you own the original game (installed or on CD): import its data once for the original graphics, sounds, music and all its arenas. The game offers this on its first start and under Options → Original Game Data (choose the folder, watch the progress bar); you can do it at any later time, and Options → Graphics And Sound switches back to the free set. Or with a command:\n `--free` switches back to the free set at any time.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-30T22:17:33+00:00"
+    },
     "https://github.com/reflex909/2ship2harkinian-Switch": {
       "status": "readme_verified",
       "readme_url": "https://github.com/reflex909/2ship2harkinian-Switch/blob/main/README.md",
@@ -3194,6 +3220,19 @@
       "overclock_notes": "The port's corrected runtime build has been tested on physical Nintendo Switch hardware and confirmed working, including gameplay visibility, player damage, stage music, spell/background transitions, and dense danmaku. The October 2026 update fixes the stage 5 background, makes dense Lunatic patterns about 24% cheaper to run (an overclock is still recommended for Lunatic, see Performance and CPU clock), makes the controls remappable in the game's own Key Config, and brings back the game's name entry for scores and replays.\nPerformance and CPU clock\nThe port runs at the Switch's stock clocks; it does not change them.\nAn overclock is recommended for Lunatic playthroughs",
       "overclock_source": "",
       "checked_at": "2026-10-16T23:01:36+00:00"
+    },
+    "https://github.com/seamusduncmcgrath/CosmologyOfKyoto-Recompiled": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/seamusduncmcgrath/CosmologyOfKyoto-Recompiled/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-10-30T22:17:33+00:00"
     },
     "https://github.com/seamusduncmcgrath/cod-boz-arm64-nx": {
       "status": "readme_verified",
