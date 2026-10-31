@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T05:37:34+00:00",
+    "generated_at": "2026-10-31T12:24:28+00:00",
     "port_count": 271,
     "repositories": 270,
     "statuses": {
@@ -2697,7 +2697,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-10-31T05:37:34+00:00"
+      "checked_at": "2026-10-31T12:24:28+00:00"
     },
     "https://github.com/hazevauks/dantheman_nx": {
       "status": "readme_verified",
@@ -3126,7 +3126,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-10-17T10:41:24+00:00"
+      "checked_at": "2026-10-31T12:24:28+00:00"
     },
     "https://github.com/saekaze/th08-switch": {
       "status": "readme_verified",
