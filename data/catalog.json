@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T05:58:26+00:00",
+    "generated_at": "2026-11-02T15:46:23+00:00",
     "sources": {
-      "SwitchPorts": "309 importados",
+      "SwitchPorts": "308 importados",
       "HB App Store": "513 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 23,
     "duplicate_records_removed": 13,
     "invalid_records_removed": 2,
-    "unique_records": 809,
+    "unique_records": 808,
     "cover_breakdown": {
       "real_artwork": 23,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 275,
-      "visually_covered": 809
+      "nx_flow_illustrations": 274,
+      "visually_covered": 808
     }
   },
   "items": [
@@ -942,18 +942,6 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/bouncemasters-switch-port.684181/"
-    },
-    {
-      "id": "switchports-21735144fe932e",
-      "title": "Bully Anniversary Edition",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "0.0.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/givethesourceplox/bully-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-68e9997ec12e42",

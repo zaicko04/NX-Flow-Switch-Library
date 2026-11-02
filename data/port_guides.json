@@ -1,11 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T05:58:26+00:00",
-    "port_count": 271,
-    "repositories": 270,
+    "generated_at": "2026-11-02T15:46:23+00:00",
+    "port_count": 270,
+    "repositories": 269,
     "statuses": {
-      "readme_verified": 269,
-      "review_needed": 1
+      "readme_verified": 269
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -14,7 +13,7 @@
       "optional": 2,
       "not_required": 2,
       "mentioned": 25,
-      "not_documented": 239
+      "not_documented": 238
     }
   },
   "by_repo": {
@@ -1972,7 +1971,7 @@
       "overclock_status": "not_required",
       "overclock_notes": "Overclocking the CPU, e.g. with sys-clk,\ndoes help a bit: the Lua interpreter runs on the CPU, so a faster CPU (stock is\n1020 MHz; overclocks go up to about 1785 MHz) makes it proportionally faster, at most\naround 1.75×. It won't remove the lag, though. It can't make up for the missing JIT\ncompiler, and parts of the slowdown (SD card access, generating new terrain) don't scale\nwith the clock.\n⚠️ Overclocking is entirely at your own risk. It increases heat, power draw and\nbattery drain, and can cause instability or damage to your console. Luanti-NX and its\nauthor are not responsible for any damage to your console, SD card or data caused by",
       "overclock_source": "",
-      "checked_at": "2026-10-19T13:10:26+00:00"
+      "checked_at": "2026-11-02T15:46:23+00:00"
     },
     "https://github.com/adumah/MegaMan64Recomp-NX": {
       "status": "readme_verified",
@@ -2687,17 +2686,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-19T13:10:26+00:00"
-    },
-    "https://github.com/givethesourceplox/bully-NX": {
-      "status": "review_needed",
-      "readme_url": "https://github.com/givethesourceplox/bully-NX",
-      "reason": "README not available at repository root",
-      "overview": "",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "checked_at": "2026-11-02T05:58:26+00:00"
+      "checked_at": "2026-11-02T15:46:23+00:00"
     },
     "https://github.com/hazevauks/dantheman_nx": {
       "status": "readme_verified",
