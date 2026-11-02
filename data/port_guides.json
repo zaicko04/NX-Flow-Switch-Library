@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T21:59:51+00:00",
+    "generated_at": "2026-11-02T05:58:26+00:00",
     "port_count": 271,
     "repositories": 270,
     "statuses": {
@@ -783,7 +783,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "CBFD-NX is an unofficial Conker's Bad Fur Day recompilation for Nintendo Switch. Features 60FPS at 720p portable/1080p docked at stock clocks, widescreen support, graphical enhancements (some of these are heavy and might break the game, use at your own discretion), texture pack, RetroAchievements, rumble. Requires your own ROM.",
       "overclock_source": "",
-      "checked_at": "2026-10-19T04:38:16+00:00"
+      "checked_at": "2026-11-02T05:58:26+00:00"
     },
     "https://github.com/DomazinUS/RaceWave46-Switch": {
       "status": "readme_verified",
@@ -2697,7 +2697,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-11-01T21:59:51+00:00"
+      "checked_at": "2026-11-02T05:58:26+00:00"
     },
     "https://github.com/hazevauks/dantheman_nx": {
       "status": "readme_verified",
@@ -3477,7 +3477,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-19T04:38:16+00:00"
+      "checked_at": "2026-11-02T05:58:26+00:00"
     },
     "https://github.com/xflipperkast/papascluckeria_nx": {
       "status": "readme_verified",
@@ -3490,7 +3490,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-19T04:38:16+00:00"
+      "checked_at": "2026-11-02T05:58:26+00:00"
     },
     "https://github.com/xflipperkast/papaspaleteria_nx": {
       "status": "readme_verified",
@@ -3503,7 +3503,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-19T04:38:16+00:00"
+      "checked_at": "2026-11-02T05:58:26+00:00"
     },
     "https://github.com/xflipperkast/pou_nx": {
       "status": "readme_verified",
