@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-02T15:46:23+00:00",
+    "generated_at": "2026-11-03T00:56:21+00:00",
     "sources": {
-      "SwitchPorts": "308 importados",
-      "HB App Store": "513 importados",
+      "SwitchPorts": "310 importados",
+      "HB App Store": "517 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-01T21:59:44+00:00",
+    "covers_checked_at": "2026-11-03T00:56:21+00:00",
     "covers_resolved": 23,
-    "duplicate_records_removed": 13,
-    "invalid_records_removed": 2,
-    "unique_records": 808,
+    "duplicate_records_removed": 14,
+    "invalid_records_removed": 1,
+    "unique_records": 814,
     "cover_breakdown": {
       "real_artwork": 23,
-      "homebrew_icons": 511,
-      "nx_flow_illustrations": 274,
-      "visually_covered": 808
+      "homebrew_icons": 515,
+      "nx_flow_illustrations": 276,
+      "visually_covered": 814
     }
   },
   "items": [
@@ -139,11 +139,11 @@
       "discussion": "https://gbatemp.net/threads/release-model2-nx-1-0-experimental-sega-model-2-emulator-for-nintendo-switch-powered-by-mame.685198/"
     },
     {
-      "id": "switchports-fbc93610cb60de",
-      "title": "Supermodel-NX",
+      "id": "switchports-f844daed4e037d",
+      "title": "🟢 Supermodel-NX",
       "type": "Emulador",
       "platform": "MODEL3",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/toniisound/supermodel-nx",
@@ -152,8 +152,8 @@
       "discussion": "https://gbatemp.net/threads/release-supermodel-nx-sega-model-3-arcade-emulator-for-nintendo-switch.684935/"
     },
     {
-      "id": "switchports-e6916a599d4b09",
-      "title": "🟢 Tico",
+      "id": "switchports-7e2477a2fa30a5",
+      "title": "Tico",
       "type": "Emulador",
       "platform": "MULTI",
       "version": "0.8.0",
@@ -177,8 +177,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-7ada3963da2765",
-      "title": "🟢 DrasticDS",
+      "id": "switchports-a421b2f4d5b307",
+      "title": "DrasticDS",
       "type": "Emulador",
       "platform": "Nintendo DS",
       "version": "1.2.0",
@@ -207,7 +207,7 @@
       "title": "🟢 Nezumiiruka",
       "type": "Emulador",
       "platform": "",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/PalindromicBreadLoaf/nezumiiruka",
@@ -216,11 +216,11 @@
       "discussion": "https://gbatemp.net/threads/nezumiiruka-new-and-best-dolphin-port.685219/"
     },
     {
-      "id": "switchports-58c17c249cdcaa",
-      "title": "Duckstation",
+      "id": "switchports-42cafcbb5a29fa",
+      "title": "🟢 Duckstation",
       "type": "Emulador",
       "platform": "PlayStation",
-      "version": "PR 2",
+      "version": "PR 3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/shooterspps/duckstation",
@@ -306,11 +306,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-185f5acb935917",
-      "title": "Vita3K",
+      "id": "switchports-69b537557aa17d",
+      "title": "🟢 Vita3K",
       "type": "Emulador",
       "platform": "PS Vita",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/Vita3K-nx",
@@ -319,8 +319,8 @@
       "discussion": "https://gbatemp.net/threads/vita3k-playstation-vita.684076/"
     },
     {
-      "id": "switchports-706398cebd095d",
-      "title": "🟢 D.Smile NX",
+      "id": "switchports-170974f7921b40",
+      "title": "D.Smile NX",
       "type": "Emulador",
       "platform": "V.Smile",
       "version": "1.2.0",
@@ -332,8 +332,8 @@
       "discussion": "https://gbatemp.net/threads/d-smile-nx-a-v-smile-emulator.684197/"
     },
     {
-      "id": "switchports-78be30b8eccff6",
-      "title": "🟢 Cemu",
+      "id": "switchports-5e290feb311b58",
+      "title": "Cemu",
       "type": "Emulador",
       "platform": "WIIU",
       "version": "1.3.0",
@@ -527,8 +527,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-791dc80ae4356f",
-      "title": "🟢 Jet Set Radio",
+      "id": "switchports-27b9b43a4abd82",
+      "title": "Jet Set Radio",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "1.1.0",
@@ -575,7 +575,7 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-e80a35d7cf1b15",
+      "id": "switchports-e9f0ed70e7553d",
       "title": "Need for Speed: Most Wanted (2012)",
       "type": "Port",
       "platform": "Android 32bit",
@@ -644,8 +644,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-79466604490777",
-      "title": "🟢 Smash Hit",
+      "id": "switchports-e3fc4753a646ea",
+      "title": "Smash Hit",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.3",
@@ -656,8 +656,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-4497410497f519",
-      "title": "🟢 Space Hulk",
+      "id": "switchports-20a3af9d017f4f",
+      "title": "Space Hulk",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.4",
@@ -688,6 +688,30 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/aks796/sonic_allstars_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-9fa240a4572ae8",
+      "title": "🟢 Teen Titans Go!",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/iqbalriz/teenytitans_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-eff8adeb452d88",
+      "title": "🟢 Teen Titans GO Figure!",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/iqbalriz/teenyfigure_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -1450,8 +1474,8 @@
       "discussion": "https://gbatemp.net/threads/gta-san-andreas-switch-port.683068/"
     },
     {
-      "id": "switchports-49af5c1f74d606",
-      "title": "🟢 Granny",
+      "id": "switchports-3f3d82845ae530",
+      "title": "Granny",
       "type": "Port",
       "platform": "Android 64bit",
       "version": "1.0.0",
@@ -1781,8 +1805,8 @@
       "discussion": "https://gbatemp.net/threads/papa-pear-saga-switch-port.684294/"
     },
     {
-      "id": "switchports-9899188b6bf1f7",
-      "title": "🟢 Papa's Burgeria to Go!",
+      "id": "switchports-e0a5c9fa23eca2",
+      "title": "Papa's Burgeria to Go!",
       "type": "Port",
       "platform": "Android 64bit",
       "version": "1.0.0",
@@ -2014,7 +2038,7 @@
       "title": "🟢 Real Drift Car Racing",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.3.3",
+      "version": "1.5.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/dpadninja/realdrift_nx",
@@ -2651,11 +2675,11 @@
       ]
     },
     {
-      "id": "switchports-5072e255606783",
-      "title": "The Legened of Zelda: Ocarina of Time",
+      "id": "switchports-3ff79c9fa36b87",
+      "title": "🟢 The Legened of Zelda: Ocarina of Time",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "9.3.1",
+      "version": "9.3.1-nx2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/timschneeb/Shipwright-Switch/",
@@ -2679,8 +2703,8 @@
       "cover_source": "Personalizado"
     },
     {
-      "id": "switchports-c95d1b064a7785",
-      "title": "🟢 Mega Man 64",
+      "id": "switchports-d9ece47a16ec85",
+      "title": "Mega Man 64",
       "type": "Port",
       "platform": "Nintendo 64",
       "version": "0.9.1",
@@ -2831,7 +2855,7 @@
       "title": "🟢 Age of Empires II: The Age of Kings",
       "type": "Port",
       "platform": "PC",
-      "version": "0.1.0 prerelease",
+      "version": "0.6.5 prerelease",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Zaydme/openaok",
@@ -2856,7 +2880,7 @@
       "title": "🟢 Atomic Bomberman",
       "type": "Port",
       "platform": "PC",
-      "version": "1.0.6",
+      "version": "1.0.8",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/rashevskyv/atomic-bomberman",
@@ -2882,7 +2906,7 @@
       "title": "🟢 Black & White",
       "type": "Port",
       "platform": "PC",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/gitgarage/openblack",
@@ -2895,7 +2919,7 @@
       "title": "🟢 Call of Duty - Black Ops II",
       "type": "Port",
       "platform": "PC",
-      "version": "beta 2",
+      "version": "beta 2.5",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HDErick/BO2-Requiem-NX",
@@ -2907,7 +2931,7 @@
       "title": "🟢 Call of Duty / United Offensive",
       "type": "Port",
       "platform": "PC",
-      "version": "0.3.0 / 0.2.0",
+      "version": "0.4.0 / 0.3.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cznn999/cod-nx",
@@ -2929,8 +2953,8 @@
       "discussion": "https://gbatemp.net/threads/castlevania-revamped-nintendo-switch-port.684636/"
     },
     {
-      "id": "switchports-614797f0cf69da",
-      "title": "Commander Keen",
+      "id": "switchports-b6d7b7a2ec3c4f",
+      "title": "🚫 Commander Keen",
       "type": "Port",
       "platform": "PC",
       "version": "3.6.0",
@@ -3024,8 +3048,8 @@
       "discussion": "https://gbatemp.net/threads/redriver2-driver-2-playstation-game-reverse-engineering.682414/"
     },
     {
-      "id": "switchports-25be41ea4302b0",
-      "title": "Dune II",
+      "id": "switchports-987b8666b96a53",
+      "title": "♻️ Dune II",
       "type": "Port",
       "platform": "PC",
       "version": "0.98.4",
@@ -3111,7 +3135,7 @@
       "title": "🟢 Half Life",
       "type": "Port",
       "platform": "PC",
-      "version": "4225",
+      "version": "4230",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/FWGS/xash3d-fwgs/",
@@ -3279,8 +3303,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-42ded5d165cd54",
-      "title": "🟢 Mega Max W",
+      "id": "switchports-761d3c2ad9ed7b",
+      "title": "🟢 Mega Man W",
       "type": "Port",
       "platform": "PC",
       "version": "0.1.0",
@@ -3305,8 +3329,8 @@
       "discussion": "https://gbatemp.net/threads/nzportable-nazi-zombies-made-with-quake-engine.624375/"
     },
     {
-      "id": "switchports-8fe64795ea59e9",
-      "title": "🟢 Minecraft Java 1.12.2",
+      "id": "switchports-a7ad6be4a4965c",
+      "title": "Minecraft Java 1.12.2",
       "type": "Port",
       "platform": "PC",
       "version": "released",
@@ -3355,11 +3379,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-0d52ba87be4a85",
-      "title": "PokeMMO",
+      "id": "switchports-5f2a5e830b3526",
+      "title": "🟢 PokeMMO",
       "type": "Port",
       "platform": "PC",
-      "version": "1.1.4",
+      "version": "1.1.8",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Petit-Prince-dev/PokeMMO-NX",
@@ -3384,7 +3408,7 @@
       "title": "🟢 Project Zomboid",
       "type": "Port",
       "platform": "PC",
-      "version": "0.4",
+      "version": "0.5",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/etonedemid/zomboid-switch",
@@ -3428,8 +3452,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-bcba657db867e3",
-      "title": "🟢 Sheep, Dog 'n' Wolf: Rewooled",
+      "id": "switchports-93aba42efe2f16",
+      "title": "Sheep, Dog 'n' Wolf: Rewooled",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.1",
@@ -3440,8 +3464,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-39333d0d123a6b",
-      "title": "🟢 Silent Hill",
+      "id": "switchports-1614d1dec12dbc",
+      "title": "Silent Hill",
       "type": "Port",
       "platform": "PC",
       "version": "1.2.0",
@@ -3453,8 +3477,8 @@
       "discussion": "https://gbatemp.net/threads/silent-hill-decompilation-nx-switch-port.682867/"
     },
     {
-      "id": "switchports-d2aa024540c1b2",
-      "title": "🟢 Silent Hill 2",
+      "id": "switchports-83e6fcd7f14bcc",
+      "title": "Silent Hill 2",
       "type": "Port",
       "platform": "PC",
       "version": "1.02",
@@ -3466,8 +3490,8 @@
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10921957"
     },
     {
-      "id": "switchports-65874c4bd3b605",
-      "title": "🟢 Silent Hill 3",
+      "id": "switchports-dc4cc7c30062cf",
+      "title": "Silent Hill 3",
       "type": "Port",
       "platform": "PC",
       "version": "0.06",
@@ -3489,7 +3513,15 @@
       "url": "https://github.com/72ak/sh4-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10922888"
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/post-10922888",
+      "alternatives": [
+        {
+          "title": "Silent Hill 4: The Room",
+          "version": "0.0.1",
+          "url": "https://github.com/cutarev/sh4-nx",
+          "source": "SwitchPorts"
+        }
+      ]
     },
     {
       "id": "switchports-92425dc2f639dc",
@@ -3504,8 +3536,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-4109de30f6c8d6",
-      "title": "🟢 Sly Cooper and the Thievius Raccoonus",
+      "id": "switchports-129c9d8712123f",
+      "title": "Sly Cooper and the Thievius Raccoonus",
       "type": "Port",
       "platform": "PC",
       "version": "0.5.0",
@@ -3562,8 +3594,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-f3ab533f6d435c",
-      "title": "🟢 Super Mario War",
+      "id": "switchports-e66cf38d51aee6",
+      "title": "Super Mario War",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.0",
@@ -3575,8 +3607,8 @@
       "discussion": "https://gbatemp.net/threads/release-super-mario-war-nx-v1-0-0-native-switch-port-4-player-local-60-fps.685705/"
     },
     {
-      "id": "switchports-1470b3e325e0ee",
-      "title": "Terraria (+ Mod Loader)",
+      "id": "switchports-0b81f5fcdc59e2",
+      "title": "🟢 Terraria (+ Mod Loader)",
       "type": "Port",
       "platform": "PC",
       "version": "released",
@@ -3691,8 +3723,8 @@
       "discussion": "https://gbatemp.net/threads/touhou-project-on-switch-all-ports-in-one-place.684850/"
     },
     {
-      "id": "switchports-f32aa8d2176045",
-      "title": "🟢 Touhou 12: Undefined Fantastic Object",
+      "id": "switchports-1b8095d2e195f9",
+      "title": "Touhou 12: Undefined Fantastic Object",
       "type": "Port",
       "platform": "PC",
       "version": "1.00b-r2",
@@ -3882,8 +3914,8 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-5d4cb835f812e0",
-      "title": "🟢 Mega Man X",
+      "id": "switchports-9821a7afda53f5",
+      "title": "Mega Man X",
       "type": "Port",
       "platform": "Super Nintendo",
       "version": "1.2.0",
@@ -3901,7 +3933,7 @@
       "title": "🟢 Starfox",
       "type": "Port",
       "platform": "Super Nintendo",
-      "version": "0.0.8.8.1",
+      "version": "0.0.8.8.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/kandowontu2/starfox-enhanced",
@@ -6432,6 +6464,20 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "hbas-openaok",
+      "title": "OpenAoK",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.6.6",
+      "author": "Zaydme",
+      "url": "https://hb-app.store/switch/OpenAoK",
+      "download": "https://switch.cdn.fortheusers.org/zips/OpenAoK.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/OpenAoK/icon.png",
+      "description": "OpenAoK is an engine for Age of Empires II: The Age of Kings (1999), written from scratch, that plays the game from your own copy of the original CD. The download holds none of the game: you make its data on a computer from your CD and copy the folder to the SD card beside the app, as the guide at zaydme.github.io/openaok/guide/switch says.\\n\\n- Random maps from the game's own scripts, the computer players' own AI scripts, the campaigns, scenarios and the scenario editor\\n- In handheld mode the touch screen plays: tap to click, hold for a right click, two fingers to scroll, pinch to zoom\\n- The controller plays as a mouse and the game's hotkeys: left stick moves the pointer, right stick scrolls, A clicks, B right-clicks, X goes to the next idle villager, + opens the game menu\\n\\nHold R while starting a game so the Homebrew Menu opens with all of the console's memory, which OpenAoK needs. Its files, the game's data, profile and saved games, live in sdmc:/switch/openaok/. Not affiliated ",
+      "status": "Publicado en HB App Store"
+    },
+    {
       "id": "hbas-openarenanx",
       "title": "OpenArenaNX",
       "type": "Juego homebrew",
@@ -7538,12 +7584,12 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.3",
+      "version": "0.5",
       "author": "dodosi",
       "url": "https://hb-app.store/switch/SwitchInfoNX",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchInfoNX.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/SwitchInfoNX/icon.png",
-      "description": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, le transfert MTP et HTTP, ainsi que des thèmes personnalisables et 11 langues.",
+      "description": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes, des thèmes personnalisables et un overlay réseau pour Ultrahand.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -7670,6 +7716,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/Switchfin.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/Switchfin/icon.png",
       "description": "Switchfin is third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.\\nSupported media items: movies, series, seasons, episodes\\nDirect play and transcoding",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-switchnotestudio",
+      "title": "Switchnote Studio",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.1.51",
+      "author": "RexiMemo!",
+      "url": "https://hb-app.store/switch/SwitchnoteStudio",
+      "download": "https://switch.cdn.fortheusers.org/zips/SwitchnoteStudio.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/SwitchnoteStudio/icon.png",
+      "description": "Create frame-by-frame animations on Nintendo Switch. Draw at 640×360 with four layers, ten ink colours, pens, brushes, erasers, onion skin and eight playback speeds.\\n\\nAdd sound, import pictures, organise Switchnotes locally, export video and share through Switchnote Gallery.\\n\\nThis is a public alpha, so please back up your work.\\n\\nLaunch through Homebrew Menu in app override mode; applet mode is unsupported.\\n\\nAI use: Human-written.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -9185,6 +9245,20 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "hbas-iwbtgrt",
+      "title": "IWBTGR Tribute Edition",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.6.6.6",
+      "author": "shaman",
+      "url": "https://hb-app.store/switch/iwbtgrt",
+      "download": "https://switch.cdn.fortheusers.org/zips/iwbtgrt.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/iwbtgrt/icon.png",
+      "description": "I Wanna Be The Guy: Remastered Tribute Edition is fan-made version 1.6.6.6 of I Wanna Be The Guy: Remastered by Cherry Treehouse, on the Switch. Same brutal classic, plus new ways to suffer.\\n\\n- The full IWBTG: Remastered.\\n- Tribute Mode: play as the Tribute Kid, with some extra secrets to find.\\n- Over a dozen language options.\\n- Secrets and hidden extras for the truly stubborn.\\n\\nStart it from the Homebrew Menu in title-override mode (hold R while starting a game) so it gets the full memory. Applet mode also works. B jump, Y shoot, X restart, + pause, A back, menus confirm with B. Controls can be remapped in Options. Saves go to /switch/iwbtgrt/save. To quit, press HOME and close the software.\\n\\nCredits: I Wanna Be The Guy by Michael \"Kayin\" O'Reilly. I Wanna Be The Guy: Remastered by Cherry Treehouse. I Wanna be the Tribute, and the 1.6.6.6 patch and extras, by shaman. Free fan project, not affiliated with Kayin or Cherry Treehouse.",
+      "status": "Publicado en HB App Store"
+    },
+    {
       "id": "hbas-jaguar",
       "title": "Virtual Jaguar",
       "type": "Homebrew",
@@ -9294,6 +9368,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/khedgb.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/khedgb/icon.png",
       "description": "If you're having trouble with this (or don't want to deal with the problems it has) I recommend following this tutorial to play gb/gbc games in the excelent vba-next port.\\n\\nSince retroarch isn't working on anything higher then 3.0 right now I ported the gameboy color emulator khedgb to the nintendo switch. (Works on all versions as far as I know)\\n\\nMore info : https://gbatemp.net/threads/gbc-emulator-port-khedgb-works-on-5-0.503969/",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-kicknx",
+      "title": "kickNX",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.5.0",
+      "author": "j2k",
+      "url": "https://hb-app.store/switch/kickNX",
+      "download": "https://switch.cdn.fortheusers.org/zips/kickNX.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/kickNX/icon.png",
+      "description": "kickNX is an independent Kick client built specifically for the Nintendo Switch. It brings livestream viewing, category discovery, search, and integrated chat interaction to handheld, tabletop, and docked play.",
       "status": "Publicado en HB App Store"
     },
     {
