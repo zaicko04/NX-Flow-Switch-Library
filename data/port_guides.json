@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T00:56:26+00:00",
+    "generated_at": "2026-11-03T14:09:52+00:00",
     "port_count": 272,
     "repositories": 271,
     "statuses": {
@@ -11,9 +11,9 @@
       "required": 0,
       "recommended": 2,
       "optional": 2,
-      "not_required": 2,
+      "not_required": 3,
       "mentioned": 25,
-      "not_documented": 240
+      "not_documented": 239
     }
   },
   "by_repo": {
@@ -1994,10 +1994,10 @@
       "requirements": "",
       "installation": "1. Copy `sheepdogwolf.nro` and `environment.txt` to `/switch/sheepdogwolf/` on the SD card.\n2. Copy `Levels/`, `Musics/`, `Voices/`, `References/` and `Bonus/` from your PC game's folder next to them.\n3. Start the Homebrew Menu by holding R while starting a game (the album has too little memory), then the game.\n\nControls, settings and troubleshooting: switch/README.md.",
       "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
+      "overclock_status": "not_required",
+      "overclock_notes": "It runs at 60 fps on the Switch's stock clocks, with no overclock: 1080p docked and 720p handheld.\nThe platform layer on libnx and SDL2: audio at 48 kHz, controllers, the clocks, the system language - No overclock needed: the game leaves the clocks at stock. A CPU or GPU boost can still be set in `environment.txt` (put back on quit) - The pause menu's Screen %, anti-aliasing and texture filtering work on the Switch too",
       "overclock_source": "",
-      "checked_at": "2026-10-20T04:47:57+00:00"
+      "checked_at": "2026-11-03T14:09:52+00:00"
     },
     "https://github.com/aks796/a8retry_nx": {
       "status": "readme_verified",

@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-11-03T00:56:21+00:00",
+    "generated_at": "2026-11-03T14:09:52+00:00",
     "sources": {
-      "SwitchPorts": "310 importados",
-      "HB App Store": "517 importados",
+      "SwitchPorts": "311 importados",
+      "HB App Store": "516 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
@@ -14,8 +14,8 @@
     "unique_records": 814,
     "cover_breakdown": {
       "real_artwork": 23,
-      "homebrew_icons": 515,
-      "nx_flow_illustrations": 276,
+      "homebrew_icons": 514,
+      "nx_flow_illustrations": 277,
       "visually_covered": 814
     }
   },
@@ -302,6 +302,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/yabasanshiro-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-4ab35cadfe353e",
+      "title": "🟢 Wide-SNES-NX",
+      "type": "Emulador",
+      "platform": "SNES",
+      "version": "???",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -2838,6 +2850,129 @@
       ]
     },
     {
+      "id": "switchports-a3d3f26b9b8303",
+      "title": "Donkey Kong Country",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "1.0.3",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/mrOt4/DKC1Recomp-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "Donkey Kong Country",
+          "version": "0.1.0-NX",
+          "url": "https://github.com/souldbminerr/DKC1Recomp-NX",
+          "source": "SwitchPorts"
+        }
+      ]
+    },
+    {
+      "id": "switchports-26ac9a330c0c9b",
+      "title": "Donkey Kong Country 2",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "0.0.5-NX",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/souldbminerr/DKC2Recomp-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/"
+    },
+    {
+      "id": "switchports-b5592d6303d899",
+      "title": "Donkey Kong Country 3",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "0.0.5-NX1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/souldbminerr/DKC3Recomp-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/",
+      "alternatives": [
+        {
+          "title": "Donkey Kong Country 3",
+          "version": "1.1",
+          "url": "https://github.com/1weell/DKC2Recomp-Switch",
+          "source": "SwitchPorts"
+        }
+      ]
+    },
+    {
+      "id": "switchports-56bf46b32feefd",
+      "title": "F-Zero",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "1.3.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails",
+      "alternatives": [
+        {
+          "title": "F-Zero",
+          "version": "0.3.0",
+          "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
+          "source": "SwitchPorts"
+        }
+      ]
+    },
+    {
+      "id": "switchports-88316cffcb285c",
+      "title": "Illusion of Gaia",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/mrOt4/babel-recomp",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Illusion%20of%20Gaia%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-9821a7afda53f5",
+      "title": "Mega Man X",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "1.2.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Thorhax/MegaManX-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/megaman-x-recomp-nx.685184/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-a1ba8e06e89ca6",
+      "title": "🟢 Starfox",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "0.0.8.8.3",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/kandowontu2/starfox-enhanced",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
+    },
+    {
       "id": "switchports-ea434b2dbab8be",
       "title": "0 A.D.",
       "type": "Port",
@@ -3821,129 +3956,6 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-a3d3f26b9b8303",
-      "title": "Donkey Kong Country",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "1.0.3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/mrOt4/DKC1Recomp-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails",
-      "alternatives": [
-        {
-          "title": "Donkey Kong Country",
-          "version": "0.1.0-NX",
-          "url": "https://github.com/souldbminerr/DKC1Recomp-NX",
-          "source": "SwitchPorts"
-        }
-      ]
-    },
-    {
-      "id": "switchports-26ac9a330c0c9b",
-      "title": "Donkey Kong Country 2",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "0.0.5-NX",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/souldbminerr/DKC2Recomp-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/"
-    },
-    {
-      "id": "switchports-b5592d6303d899",
-      "title": "Donkey Kong Country 3",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "0.0.5-NX1",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/souldbminerr/DKC3Recomp-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/",
-      "alternatives": [
-        {
-          "title": "Donkey Kong Country 3",
-          "version": "1.1",
-          "url": "https://github.com/1weell/DKC2Recomp-Switch",
-          "source": "SwitchPorts"
-        }
-      ]
-    },
-    {
-      "id": "switchports-56bf46b32feefd",
-      "title": "F-Zero",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "1.3.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails",
-      "alternatives": [
-        {
-          "title": "F-Zero",
-          "version": "0.3.0",
-          "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
-          "source": "SwitchPorts"
-        }
-      ]
-    },
-    {
-      "id": "switchports-88316cffcb285c",
-      "title": "Illusion of Gaia",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "1.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/mrOt4/babel-recomp",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Illusion%20of%20Gaia%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-9821a7afda53f5",
-      "title": "Mega Man X",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "1.2.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/Thorhax/MegaManX-NX",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/megaman-x-recomp-nx.685184/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-a1ba8e06e89ca6",
-      "title": "🟢 Starfox",
-      "type": "Port",
-      "platform": "Super Nintendo",
-      "version": "0.0.8.8.3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/kandowontu2/starfox-enhanced",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
       "id": "hbas-100boxesnx",
       "title": "100 Boxes NX",
       "type": "Juego homebrew",
@@ -4431,20 +4443,6 @@
       "download": "https://switch.cdn.fortheusers.org/zips/CHIP8.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/CHIP8/icon.png",
       "description": "A working early stage CHIP8 emulator for the Nintendo Switch.\\n\\nFeel free to help and improve the code!\\n\\nExit to HBmenu using PLUS button",
-      "status": "Publicado en HB App Store"
-    },
-    {
-      "id": "hbas-coldstart",
-      "title": "COLD START",
-      "type": "Juego homebrew",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "3.6.0",
-      "author": "etonedemid",
-      "url": "https://hb-app.store/switch/COLDSTART",
-      "download": "https://switch.cdn.fortheusers.org/zips/COLDSTART.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/COLDSTART/icon.png",
-      "description": "COLD START is a roguelike topdown survival with bombs, upgrades, parrying and a console where you can spawn a car and run enemies over.",
       "status": "Publicado en HB App Store"
     },
     {
