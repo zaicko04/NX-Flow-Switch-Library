@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T06:15:53+00:00",
+    "generated_at": "2026-11-04T19:43:42+00:00",
     "sources": {
       "SwitchPorts": "311 importados",
       "HB App Store": "516 importados",
@@ -302,18 +302,6 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/yabasanshiro-nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-4ab35cadfe353e",
-      "title": "🟢 Wide-SNES-NX",
-      "type": "Emulador",
-      "platform": "SNES",
-      "version": "???",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -2971,6 +2959,18 @@
       "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-75f1714e577bda",
+      "title": "🟢 Super Mario World",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "1.0.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-ea434b2dbab8be",
@@ -9374,7 +9374,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": "j2k",
       "url": "https://hb-app.store/switch/kickNX",
       "download": "https://switch.cdn.fortheusers.org/zips/kickNX.zip",

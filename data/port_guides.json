@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T06:15:57+00:00",
-    "port_count": 272,
+    "generated_at": "2026-11-04T19:43:42+00:00",
+    "port_count": 273,
     "repositories": 271,
     "statuses": {
       "readme_verified": 271
@@ -2640,14 +2640,14 @@
       "status": "readme_verified",
       "readme_url": "https://github.com/etonedemid/minecraft-switch/blob/main/README.md",
       "reason": "",
-      "overview": "A way to build minecraft java 1.12.2 to C using graalvm, then port it to nintendo switch",
-      "requirements": "",
+      "overview": "",
+      "requirements": "Sources under `deps/`:\n`deps/lwjgl3-333`: LWJGL 3.3.3 source\n`deps/openal-soft-1.18.2`: openal-soft 1.18.2 source\nYou supply these :\n`mc-optifine.jar`: the 1.12.2 client jar with OptiFine merged in as a jar mod, `compat/org/lwjgl/Sys.java` compiled in, and recipe/advancement classes patched with `tools/LdcPatch.java` (`jar` → `resource`)\n`lwjgl3/pojav-noglfw.jar` (PojavLauncher's LWJGL2-on-3 compat layer) and `lwjgl3/lwjgl-glfw-3.3.3.jar`",
       "installation": "",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-21T17:10:09+00:00"
+      "checked_at": "2026-11-04T19:43:42+00:00"
     },
     "https://github.com/etonedemid/zomboid-switch": {
       "status": "readme_verified",
@@ -2660,7 +2660,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-21T17:10:09+00:00"
+      "checked_at": "2026-11-04T19:43:42+00:00"
     },
     "https://github.com/gabryboy12-ai/StarCraft64-NX": {
       "status": "readme_verified",
@@ -2894,7 +2894,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "According to the author's console testing, the game runs at 60 FPS at stock clocks, and can even maintain 60 FPS in tested scenes at 607 MHz CPU / 151 MHz GPU. These are author-reported measurements, not a guarantee for every area, SD card or configuration. Loading and demanding scenes may cause dips.\nClock measurement note: by default, the port requests a temporary CPU boost while loading and a handheld GPU boost to 460.8 MHz. To test strictly at stock clocks or 607/151 without these requests, disable both in `/switch/jsrnx/config.ini`:",
       "overclock_source": "",
-      "checked_at": "2026-10-21T17:10:09+00:00"
+      "checked_at": "2026-11-04T19:43:42+00:00"
     },
     "https://github.com/lemasterxar5/tdkr_nx": {
       "status": "readme_verified",
