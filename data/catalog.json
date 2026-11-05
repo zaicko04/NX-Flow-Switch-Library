@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T19:43:42+00:00",
+    "generated_at": "2026-11-05T06:42:41+00:00",
     "sources": {
       "SwitchPorts": "311 importados",
       "HB App Store": "516 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 1"
+      "GBAtemp": "19 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-04T06:15:53+00:00",
-    "covers_resolved": 23,
+    "covers_checked_at": "2026-11-05T06:42:41+00:00",
+    "covers_resolved": 24,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 1,
-    "unique_records": 814,
+    "unique_records": 832,
     "cover_breakdown": {
-      "real_artwork": 23,
+      "real_artwork": 24,
       "homebrew_icons": 514,
-      "nx_flow_illustrations": 277,
-      "visually_covered": 814
+      "nx_flow_illustrations": 294,
+      "visually_covered": 832
     }
   },
   "items": [
@@ -2970,7 +2970,9 @@
       "source": "SwitchPorts",
       "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-ea434b2dbab8be",
@@ -11159,6 +11161,186 @@
       "icon": "https://switch.cdn.fortheusers.org/packages/yallarenuts/icon.png",
       "description": "Use UP & DOWN to select a save. LEFT & RIGHT to skip 5 saves.\\nPress A to dump save files into 'save/' or press Y for 'save/{titleID}/{userID}/' (will overwrite whatever's already in there.)\\nPress ZR to dump all saves\\nPress X to inject all files that are present in inject/ (For now, don't put too many file at one time. Only put 1 folder for botw save for example. Use at your own risk and always have backups)\\nPress PLUS to quit when not copying files.\\n\\nSince console output doesn't support UTF-8, you can press R to show title ID instead. When you see garbled text (Japanese names, for example) you can manually look up a title here.\\nAvoid using this while the Switch is docked, as in my testing docked mode seems unstable and sometimes crashes.\\n\\nI only made a release of this homebrew because I saw people trying to get builds of my previous versions and it got quite messy... This is by no means a formal program for the long term. It's just a filler for people who are too impatient to ",
       "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "gbatemp-7334d21f42527d",
+      "title": "Need For Speed: Most Wanted (2005) - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/need-for-speed-most-wanted-2005-switch-port.684784/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-0cea4a992286d4",
+      "title": "Atmosphere-NX - Custom Firmware in development by SciresM",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/atmosphere-nx-custom-firmware-in-development-by-sciresm.496832/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-40497deb312013",
+      "title": "Post homebrew ideas, suggestions, requests here",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/post-homebrew-ideas-suggestions-requests-here.514524/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-f05be9680ed4c2",
+      "title": "[Release] SuperModel NX - Sega Model 3 arcade emulator for Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-supermodel-nx-sega-model-3-arcade-emulator-for-nintendo-switch.684935/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-9b8bd4613c3c9d",
+      "title": "[WIP] The House of the Dead 2 — Native Nintendo Switch Port (Dreamcast)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/wip-the-house-of-the-dead-2-native-nintendo-switch-port-dreamcast.685779/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-b4be9179c78f9a",
+      "title": "Tekken 3: Definitive Edition (Native Port)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/tekken-3-definitive-edition-native-port.686192/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-d2edfb893c2dcc",
+      "title": "2Ship2Harkinian Switch Port - Gyro and Rumble Support",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/2ship2harkinian-switch-port-gyro-and-rumble-support.683491/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54ca399ec27a3b",
+      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-e4016382787067",
+      "title": "[Release] Isaac Switch Mod Runtime v1.0.0 — Run PC Repentance Mods on Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-isaac-switch-mod-runtime-v1-0-0-run-pc-repentance-mods-on-nintendo-switch.686101/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-14d8b2ea1bec02",
+      "title": "[Release] SwitchU, a Wii U-style custom home menu replacement for Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-switchu-a-wii-u-style-custom-home-menu-replacement-for-nintendo-switch.680725/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-0bb80e779eb4db",
+      "title": "PAC-MAN Championship Edition DX+ - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/pac-man-championship-edition-dx-switch-port.686167/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-8f15ccbe4be5aa",
+      "title": "[Release] Switch-Super-Manager - a PC library manager and its companion installer (beta testers welcome)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-switch-super-manager-a-pc-library-manager-and-its-companion-installer-beta-testers-welcome.685327/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-aa8944da2a1825",
+      "title": "Ultimate Switch Port Thread",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-9e293d9749b752",
+      "title": "[Release] One-click native Mario Kart Wii builder for Switch — your own dump in, an .nro out (no Docker)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-one-click-native-mario-kart-wii-builder-for-switch-your-own-dump-in-an-nro-out-no-docker.686221/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-7756cfaa5d794f",
+      "title": "Kameo: Elements of Power - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/kameo-elements-of-power-switch-port.686207/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-59ed2ca8497f94",
+      "title": "Nezumiiruka - A New Port of Dolphin to the Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/nezumiiruka-a-new-port-of-dolphin-to-the-nintendo-switch.685580/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-0c1bfdc6b0ed44",
+      "title": "[Release] Switch Library Manager Web – a self-hosted manager for your Switch backups (Docker / Unraid / Windows / macOS / Linux)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-switch-library-manager-web-a-self-hosted-manager-for-your-switch-backups-docker-unraid-windows-macos-linux.685319/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-c283170a0b077d",
+      "title": "[Release] NXPress - NSZ/XCZ compressor for NSP, XCI and SuperNSP, nsz-compatible (Windows / macOS / Linux)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nxpress-nsz-xcz-compressor-for-nsp-xci-and-supernsp-nsz-compatible-windows-macos-linux.685719/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
       "id": "manual-autorun-dlls",
