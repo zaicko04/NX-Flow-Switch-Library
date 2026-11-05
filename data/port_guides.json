@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T06:42:45+00:00",
-    "port_count": 273,
-    "repositories": 271,
+    "generated_at": "2026-11-05T19:55:13+00:00",
+    "port_count": 275,
+    "repositories": 273,
     "statuses": {
-      "readme_verified": 271
+      "readme_verified": 273
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 3,
       "mentioned": 25,
-      "not_documented": 239
+      "not_documented": 241
     }
   },
   "by_repo": {
@@ -888,6 +888,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
+    "https://github.com/JohnUzoka/horizon-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/JohnUzoka/horizon-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "Website ·\n Download ·\n Documentation ·\n Release notes ·\n Roadmap ·\n Project status ·\n Contributing",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-05T19:55:13+00:00"
+    },
     "https://github.com/JohnUzoka/terrabuilder-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/JohnUzoka/terrabuilder-nx/blob/main/README.md",
@@ -939,6 +952,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
+    },
+    "https://github.com/LaLemniscata/sd2-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/LaLemniscata/sd2-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "1. Install Soda Dungeon 2 version 1.2.21 from Google Play on an ARM64 Android device.\n2. Copy its two APKs to your PC. With USB debugging on:\n\n3. Put these three files in `sd:/switch/sd2nx/`:\n\n4. Hold R while opening an installed game to reach the Homebrew Menu, then open sd2nx.\n Do not launch it from the Album: applet mode lacks the memory.\n\nThe first start checks the APKs, unpacks about 200 MB and moves the APKs to `apk/`.\nAfter that, `apk/` can be deleted. To update, replace only `sd2nx.nro`.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-05T19:55:13+00:00"
     },
     "https://github.com/McKay42/McOsu-NX": {
       "status": "readme_verified",
@@ -2426,7 +2452,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-22T17:08:51+00:00"
+      "checked_at": "2026-11-05T19:55:13+00:00"
     },
     "https://github.com/bshurikan/cvrevamped_nx": {
       "status": "readme_verified",

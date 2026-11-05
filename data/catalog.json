@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T06:42:41+00:00",
+    "generated_at": "2026-11-05T19:55:12+00:00",
     "sources": {
-      "SwitchPorts": "311 importados",
+      "SwitchPorts": "315 importados",
       "HB App Store": "516 importados",
-      "GBAtemp": "19 importados"
+      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-05T06:42:41+00:00",
     "covers_resolved": 24,
     "duplicate_records_removed": 14,
-    "invalid_records_removed": 1,
-    "unique_records": 832,
+    "invalid_records_removed": 2,
+    "unique_records": 835,
     "cover_breakdown": {
       "real_artwork": 24,
       "homebrew_icons": 514,
-      "nx_flow_illustrations": 294,
-      "visually_covered": 832
+      "nx_flow_illustrations": 297,
+      "visually_covered": 835
     }
   },
   "items": [
@@ -72,6 +72,19 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/nintendo-switch-raika-azahar-the-3ds-emulator-aimed-at-base-nintendo-switch.683593/"
+    },
+    {
+      "id": "switchports-9adaba68116628",
+      "title": "🟢 UAE4ALL2 HD",
+      "type": "Emulador",
+      "platform": "AMIGA",
+      "version": "1.07",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH/",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/release-amiga-emulator-uae4all2-for-switch.522539/post-10914616"
     },
     {
       "id": "switchports-fd9559a99283fe",
@@ -1729,11 +1742,11 @@
       "discussion": "https://gbatemp.net/threads/max-payne-mobile-port-loader.583635/"
     },
     {
-      "id": "switchports-c7d03ab02e03bf",
-      "title": "Mega Man X Regenesis",
+      "id": "switchports-de9a97c88e0853",
+      "title": "🟢 Mega Man X Regenesis",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.00.92",
+      "version": "1.01.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/StevensND/mmxregenesis_nx",
@@ -2091,6 +2104,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/slither-io-switch-port.684111/"
+    },
+    {
+      "id": "switchports-fa7da8a3e5e3e7",
+      "title": "🟢 Soda Dungeon 2",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/LaLemniscata/sd2-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-eff6cc3a09ecba",
@@ -3056,7 +3081,7 @@
       "title": "🟢 Call of Duty - Black Ops II",
       "type": "Port",
       "platform": "PC",
-      "version": "beta 2.5",
+      "version": "0.3.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HDErick/BO2-Requiem-NX",
@@ -3474,6 +3499,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/etonedemid/minecraft-switch",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-c513a960f499a5",
+      "title": "🟢 Minecraft Rust",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/JohnUzoka/horizon-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
