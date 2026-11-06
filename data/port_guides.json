@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-05T19:55:13+00:00",
+    "generated_at": "2026-11-06T06:40:01+00:00",
     "port_count": 275,
     "repositories": 273,
     "statuses": {
@@ -1971,7 +1971,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-22T21:34:00+00:00"
+      "checked_at": "2026-11-06T06:40:01+00:00"
     },
     "https://github.com/Zaydme/openaok": {
       "status": "readme_verified",
@@ -2010,7 +2010,7 @@
       "overclock_status": "not_required",
       "overclock_notes": "The current renderer (GLideN64 on OpenGL) is limited by the Switch's CPU. A native deko3d renderer is planned: the\nPC version's renderer, RT64, running on the Switch's own graphics API, which moves the work from the CPU to the GPU.\nThe goal is a full 60 fps at the standard clocks, with no overclock, as RaceWave46-Switch\ndoes for Wave Race 64. It's a large project and there is no date for it; GLideN64 stays until it's ready.",
       "overclock_source": "",
-      "checked_at": "2026-10-22T21:34:00+00:00"
+      "checked_at": "2026-11-06T06:40:01+00:00"
     },
     "https://github.com/adumah/SheepDogWolf-NX": {
       "status": "readme_verified",
