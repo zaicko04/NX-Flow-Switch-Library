@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-06T19:22:38+00:00",
+    "generated_at": "2026-11-07T05:55:39+00:00",
     "sources": {
       "SwitchPorts": "315 importados",
       "HB App Store": "516 importados",
@@ -1613,14 +1613,14 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-996f5e03edddc7",
+      "id": "switchports-8948da6505d953",
       "title": "Killer Bean Unleashed",
       "type": "Port",
       "platform": "Android 64bit",
       "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/ChanseyIsTheBest/killerbean_nx/tree/main",
+      "url": "https://github.com/ChanseyIsTheBest/killerbean_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/killer-bean-unleashed-switch-port.683815/"
