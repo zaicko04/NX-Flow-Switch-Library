@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T05:55:39+00:00",
+    "generated_at": "2026-11-07T12:57:17+00:00",
     "sources": {
-      "SwitchPorts": "315 importados",
+      "SwitchPorts": "318 importados",
       "HB App Store": "516 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 24,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 835,
+    "unique_records": 838,
     "cover_breakdown": {
       "real_artwork": 24,
       "homebrew_icons": 514,
-      "nx_flow_illustrations": 297,
-      "visually_covered": 835
+      "nx_flow_illustrations": 300,
+      "visually_covered": 838
     }
   },
   "items": [
@@ -456,6 +456,18 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-79b1bd342df089",
+      "title": "Call of Duty: Strike Team",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Zumoly/cod-strike-team-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-71626161dfc4fe",
       "title": "Costume Quest",
       "type": "Port",
@@ -544,7 +556,7 @@
       "title": "Jet Set Radio",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/lemasterxar5/jet-set-radio-nx",
@@ -669,14 +681,14 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-20a3af9d017f4f",
-      "title": "Space Hulk",
+      "id": "switchports-60eabbc91f72c7",
+      "title": "🟢 Space Hulk",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/liartes/spacehulk-nx",
+      "url": "https://github.com//spacehulk-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -3165,6 +3177,18 @@
       "discussion": "https://gbatemp.net/threads/descent-2-nx.685064/"
     },
     {
+      "id": "switchports-bac58b93ac2009",
+      "title": "🟢 Deus EX",
+      "type": "Port",
+      "platform": "PC",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/JohnUzoka/dx-rust-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-2ac89d69eeabfa",
       "title": "Diablo",
       "type": "Port",
@@ -3478,19 +3502,6 @@
       "discussion": "https://gbatemp.net/threads/megaman-w-fan-game-switch-port.685896/"
     },
     {
-      "id": "switchports-006b79a46f558e",
-      "title": "🟢 Nazi Zombies: Portable",
-      "type": "Port",
-      "platform": "PC",
-      "version": "2.0.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/nzp-team/nzportable/",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/nzportable-nazi-zombies-made-with-quake-engine.624375/"
-    },
-    {
       "id": "switchports-a7ad6be4a4965c",
       "title": "Minecraft Java 1.12.2",
       "type": "Port",
@@ -3511,6 +3522,31 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/JohnUzoka/horizon-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-006b79a46f558e",
+      "title": "🟢 Nazi Zombies: Portable",
+      "type": "Port",
+      "platform": "PC",
+      "version": "2.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/nzp-team/nzportable/",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/nzportable-nazi-zombies-made-with-quake-engine.624375/"
+    },
+    {
+      "id": "switchports-746f83a738077d",
+      "title": "🟢 Need for Speed II / III",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.0.1 pre-release",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/PalindromicBreadLoaf/HotPursuitNX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },

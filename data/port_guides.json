@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T05:55:39+00:00",
-    "port_count": 275,
-    "repositories": 273,
+    "generated_at": "2026-11-07T12:57:17+00:00",
+    "port_count": 278,
+    "repositories": 275,
     "statuses": {
-      "readme_verified": 273
+      "readme_verified": 275
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 3,
       "mentioned": 25,
-      "not_documented": 241
+      "not_documented": 243
     }
   },
   "by_repo": {
@@ -888,6 +888,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
+    "https://github.com/JohnUzoka/dx-rust-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/JohnUzoka/dx-rust-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-07T12:57:17+00:00"
+    },
     "https://github.com/JohnUzoka/horizon-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/JohnUzoka/horizon-nx/blob/main/README.md",
@@ -1525,6 +1538,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
+    "https://github.com/PalindromicBreadLoaf/HotPursuitNX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/PalindromicBreadLoaf/HotPursuitNX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "You need the original game files.\n\n1. Install the game from your original CD (or mount the iso).\n On Linux, install the game from the CD-ROM through Wine, e.g. `WINEARCH=win32 WINEPREFIX=/opt/win98 wine /mnt/AUTORUN.EXE`\n Note that Wine's WOW64 mode will not work for this as both games are 16-bit executables.\n I found that a Windows 7 VM was the easiest way to extract the files.\n2. Copy CD data: The game expects certain files to be on the CD",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-07T12:57:17+00:00"
+    },
     "https://github.com/PalindromicBreadLoaf/LegacyOfDockness": {
       "status": "readme_verified",
       "readme_url": "https://github.com/PalindromicBreadLoaf/LegacyOfDockness/blob/main/README.md",
@@ -1985,6 +2011,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-28T05:39:59+00:00"
+    },
+    "https://github.com/Zumoly/cod-strike-team-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Zumoly/cod-strike-team-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "The port was made and tested with this version of the Android game:\n\n| | |\n| --- | --- |\n| Package | `com.activision.callofduty.striketeam` |\n| Version | 1.0.40 (versionCode 15), Unity 4.3.0f4, armeabi-v7a |\n| APK | 37,363,316 bytes, SHA-1 `e468b92901054d2fa0ac92908a97015424d17822` |\n| OBB | `main.15.com.activision.callofduty.striketeam.obb`, 1,037,673,862 bytes, SHA-1 `7e7d910a8956f76d0f0d8756be853bcf6bf12b3d` |",
+      "installation": "You need Atmosphère with signature patches, DBI, your own APK and OBB of the game (version below), and Docker\nDesktop on a PC for the one-time game-file setup.\n\n1. Download `codstnx-v0.1.0.zip` from the Releases page and extract it.\n2. Copy the `switch/codst/` folder to the root of your SD card.\n3. Add your game files to `sdmc:/switch/codst/` (see Game files).\n4. Install `COD Strike Team Loader [0100C0D57E4A0000].nsp` with DBI.\n5. Start COD Strike Team from the HOME menu.\n\nThe installed title is a small 32-bit loader for `sdmc:/switch/codst/codst.nro`. Install it once; to update\nthe port, replace `codst.nro`",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-07T12:57:17+00:00"
     },
     "https://github.com/adumah/Luanti-NX": {
       "status": "readme_verified",
@@ -2932,19 +2971,6 @@
       "editions": "",
       "overclock_status": "mentioned",
       "overclock_notes": "`[performance] boostcpuwhenloading`: `true` (CPU at 1785 MHz inside loading frames only; gameplay stays at stock clocks). `gpuboosthandheld`: handheld GPU at 460.8 MHz (`true`; CPU/MEM stock, docked untouched).",
-      "overclock_source": "",
-      "checked_at": "2026-10-31T05:37:34+00:00"
-    },
-    "https://github.com/liartes/spacehulk-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/liartes/spacehulk-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "`spacehulknx` loads the Android game's own libraries (`libunity.so`,\n`libmono.so`, `libmain.so`) and the game's C# assemblies, and provides what",
-      "requirements": "",
-      "installation": "Download the latest release from\ngithub.com/liartes/spacehulk-nx/releases.\n\nYou need a Switch with Atmosphère and sphaira, and your own copy of\nSpace Hulk for Android (`com.hoplite.spacehulk`, versionCode 7, the\narmeabi-v7a build signed by Hoplite Research):\nthe APK,\nits OBB, `main.7.com.hoplite.spacehulk.obb` (about 1.5 GB), from\n `Android/obb/com.hoplite.spacehulk/` on the phone.\n\nCopy them to the SD card like this:\n\nThen, in sphaira: Homebrew › spacehulknx › Install Forwarder, and\nstart the game from its new icon on the HOME menu.\nThe first start takes a few minutes: the libraries are unpacked from the",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
