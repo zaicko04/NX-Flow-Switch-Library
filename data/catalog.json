@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T13:21:03+00:00",
+    "generated_at": "2026-11-08T22:01:35+00:00",
     "sources": {
       "SwitchPorts": "319 importados",
-      "HB App Store": "516 importados",
+      "HB App Store": "512 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-07T21:47:51+00:00",
-    "covers_resolved": 24,
+    "covers_checked_at": "2026-11-08T22:01:35+00:00",
+    "covers_resolved": 25,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 839,
+    "unique_records": 835,
     "cover_breakdown": {
-      "real_artwork": 24,
-      "homebrew_icons": 514,
-      "nx_flow_illustrations": 301,
-      "visually_covered": 839
+      "real_artwork": 25,
+      "homebrew_icons": 510,
+      "nx_flow_illustrations": 300,
+      "visually_covered": 835
     }
   },
   "items": [
@@ -2800,7 +2800,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/cdlewis/snowboardkids2-recomp",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%202%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-cf07f487799a47",
@@ -5401,20 +5403,6 @@
       "status": "Publicado en HB App Store"
     },
     {
-      "id": "hbas-gamepadoverlay",
-      "title": "Gamepad Overlay ",
-      "type": "Utilidad",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "1.0.4",
-      "author": "etonedemid",
-      "url": "https://hb-app.store/switch/GamepadOverlay",
-      "download": "https://switch.cdn.fortheusers.org/zips/GamepadOverlay.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/GamepadOverlay/icon.png",
-      "description": "A Nintendo Switch Tesla overlay that shows a compact live preview of gamepad inputs.\\nFeatures:\\n  Customizable Accent color, button/stick position, two dpad styles, stick size/travel,\\n   background toggling, saving/loading to/from 3 preset slots.",
-      "status": "Publicado en HB App Store"
-    },
-    {
       "id": "hbas-gerenciadormil",
       "title": "Gerenciador M.I.L.",
       "type": "Utilidad",
@@ -6437,20 +6425,6 @@
       "status": "Publicado en HB App Store"
     },
     {
-      "id": "hbas-nxpotify",
-      "title": "NXpotify",
-      "type": "Utilidad",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "2.0.0.0",
-      "author": "etonedemid",
-      "url": "https://hb-app.store/switch/NXpotify",
-      "download": "https://switch.cdn.fortheusers.org/zips/NXpotify.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/NXpotify/icon.png",
-      "description": "Stream music directly to your Switch via Spotify Connect. Appears as a Spotify device on your network -- just select it in the Spotify app and play.\n\nFeatures\n- Full Spotify Connect support (play, pause, skip, seek, shuffle, repeat)\n- Album art with spectrum visualizer\n- Layout presets and accent color theming (including auto-extract from album art)\n- Touchscreen support (tap to play/pause, swipe to skip, tap progress bar to seek)\n- Pro Controller, Joy-Con, and handheld mode support\n- Device auth via QR code (one-time setup)",
-      "status": "Publicado en HB App Store"
-    },
-    {
       "id": "hbas-nxthemes_installer",
       "title": "NXThemes Installer",
       "type": "Homebrew",
@@ -6476,20 +6450,6 @@
       "download": "https://switch.cdn.fortheusers.org/zips/NaziZombiesPortable.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/NaziZombiesPortable/icon.png",
       "description": "A Work-in-Progress Quake \"demake\" of the Zombies mode from Call of Duty.\\n\\nThe game itself is mostly feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with some parity differences, but most World at War maps and their gimmicks are not yet represented. Various small features from Call of Duty: Black Ops are present, but not on as wide of a scale as compared to World at War. Bundled with a lot of Custom Maps created by community members.\\n\\nThe Nintendo Switch version is powered by Quakespasm-NX, a port of Quakespasm done by fgsfdsfgs.",
-      "status": "Publicado en HB App Store"
-    },
-    {
-      "id": "hbas-netsurf",
-      "title": "NetSurf",
-      "type": "Utilidad",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "0.2.0",
-      "author": "etonedemid",
-      "url": "https://hb-app.store/switch/NetSurf",
-      "download": "https://switch.cdn.fortheusers.org/zips/NetSurf.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/NetSurf/icon.png",
-      "description": "Netsurf is a small web browser which i ported to Nintendo switch and added JavaScript via QuickJS and basic media support\\n",
       "status": "Publicado en HB App Store"
     },
     {
@@ -10461,20 +10421,6 @@
       "download": "https://switch.cdn.fortheusers.org/zips/rocksndiamonds.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/rocksndiamonds/icon.png",
       "description": "Rocks'n'Diamonds is a Boulderdash type game by Holger Schemel with many unique features, such as the ability to play remade levels from Boulderdash, Emerald Mine and Supaplex and many more levels.\\n\\nFor more information on how to play the game, or to load custom levels, view the source repo at github.com/rsn8887/rocksndiamonds/\\n\\nThanks:\\n- Thanks to my awesome supporters on Patreon, especially Andyways, CountDuckula, and Sean Ritzo.\\n- Thanks @FrangarCJ for help with optimizing the rendering.\\n- Thanks to Holger Schemel for making a great and portable game.\\n- Thanks to the many devs of VitaSDK for a great development environment.\\n\\n\\nVita/Switch-Exclusive Features:\\n\\n- game controller mapping including analog joystick mouse controls\\n- front touch controls with left/right mouse click and drag and drop gestures\\n- support for bluetooth keyboard and mouse\\n- the game runs smooth at the same speed as the desktop versions\\n- additional level package with thousands of levels as separa",
-      "status": "Publicado en HB App Store"
-    },
-    {
-      "id": "hbas-slaunch",
-      "title": "sLaunch",
-      "type": "Homebrew",
-      "platform": "Nintendo Switch",
-      "source": "HB App Store",
-      "version": "1.5.6",
-      "author": "etonedemid",
-      "url": "https://hb-app.store/switch/sLaunch",
-      "download": "https://switch.cdn.fortheusers.org/zips/sLaunch.zip",
-      "icon": "https://switch.cdn.fortheusers.org/packages/sLaunch/icon.png",
-      "description": "sLaunch is a fast and beautiful home replacement for your switch",
       "status": "Publicado en HB App Store"
     },
     {
