@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T05:58:01+00:00",
+    "generated_at": "2026-11-08T13:21:03+00:00",
     "sources": {
-      "SwitchPorts": "318 importados",
+      "SwitchPorts": "319 importados",
       "HB App Store": "516 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 24,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 838,
+    "unique_records": 839,
     "cover_breakdown": {
       "real_artwork": 24,
       "homebrew_icons": 514,
-      "nx_flow_illustrations": 300,
-      "visually_covered": 838
+      "nx_flow_illustrations": 301,
+      "visually_covered": 839
     }
   },
   "items": [
@@ -2789,6 +2789,18 @@
       "discussion": "https://gbatemp.net/threads/perfect-dark-switch-port.663322/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Perfect%20Dark%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-1326a42d7e6e19",
+      "title": "🟢 Snowboard Kids 2",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "2.0.2",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/cdlewis/snowboardkids2-recomp",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-cf07f487799a47",

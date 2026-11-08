@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T05:58:01+00:00",
-    "port_count": 278,
-    "repositories": 275,
+    "generated_at": "2026-11-08T13:21:04+00:00",
+    "port_count": 279,
+    "repositories": 276,
     "statuses": {
-      "readme_verified": 275
+      "readme_verified": 276
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 3,
       "mentioned": 25,
-      "not_documented": 243
+      "not_documented": 244
     }
   },
   "by_repo": {
@@ -2531,6 +2531,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
+    },
+    "https://github.com/cdlewis/snowboardkids2-recomp": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/cdlewis/snowboardkids2-recomp/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\nGeForce GT 630\nRadeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\nIntel HD 510 (Skylake)\nA Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-08T13:21:04+00:00"
     },
     "https://github.com/cutarev/sh2-nx": {
       "status": "readme_verified",
