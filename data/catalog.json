@@ -1,21 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-11-09T06:21:53+00:00",
+    "generated_at": "2026-11-09T22:18:47+00:00",
     "sources": {
       "SwitchPorts": "323 importados",
       "HB App Store": "512 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-08T22:01:35+00:00",
-    "covers_resolved": 25,
+    "covers_checked_at": "2026-11-09T22:18:48+00:00",
+    "covers_resolved": 28,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
     "unique_records": 839,
     "cover_breakdown": {
-      "real_artwork": 25,
+      "real_artwork": 28,
       "homebrew_icons": 510,
-      "nx_flow_illustrations": 304,
+      "nx_flow_illustrations": 301,
       "visually_covered": 839
     }
   },
@@ -2547,7 +2547,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/outrunners-port",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/OutRunners%20%28World%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-f28e04158137a8",
@@ -2585,7 +2587,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/tmnt-port",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Teenage%20Mutant%20Ninja%20Turtles%20%28PlayChoice-10%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-2a12f48011d448",
@@ -3045,7 +3049,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20All-Stars%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-75f1714e577bda",

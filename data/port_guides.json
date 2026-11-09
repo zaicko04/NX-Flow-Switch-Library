@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-09T06:21:54+00:00",
+    "generated_at": "2026-11-09T22:18:54+00:00",
     "port_count": 283,
     "repositories": 280,
     "statuses": {
@@ -756,7 +756,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/DerilDX/silent-hill-decomp-nx": {
       "status": "readme_verified",
@@ -769,7 +769,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/DomazinUS/CBFD-Switch": {
       "status": "readme_verified",
@@ -795,7 +795,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "RaceWave46 is an unofficial Wave Race 64 recompilation for Nintendo Switch, celebrating its 30th anniversary. Features Deko3D/OpenGL renderers, 60FPS at 720p portable/1080p docked at stock clocks, enhanced local two-player mode, MSAA, texture packs, RetroAchievements, Dolphin ghost in Time Trail mode, rumble and optional water/sky reflections and shadows. Requires your own ROM.",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/FWGS/xash3d-fwgs": {
       "status": "readme_verified",
@@ -847,7 +847,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/HarbourMasters/Ghostship": {
       "status": "readme_verified",
@@ -1714,7 +1714,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/Thorhax/DevilutionX-NX-Modern": {
       "status": "readme_verified",
@@ -1727,7 +1727,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/Thorhax/Ducktales-NX": {
       "status": "readme_verified",
@@ -3310,7 +3310,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/saekaze/th15-switch": {
       "status": "readme_verified",
@@ -3375,7 +3375,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/simplePsyduck/SuperMarioAllStars-NX": {
       "status": "readme_verified",
@@ -3583,7 +3583,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T12:58:10+00:00"
+      "checked_at": "2026-11-09T22:18:54+00:00"
     },
     "https://github.com/xflipperkast/papapizzatg_nx": {
       "status": "readme_verified",
