@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T22:01:35+00:00",
+    "generated_at": "2026-11-09T06:21:53+00:00",
     "sources": {
-      "SwitchPorts": "319 importados",
+      "SwitchPorts": "323 importados",
       "HB App Store": "512 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 25,
     "duplicate_records_removed": 14,
     "invalid_records_removed": 2,
-    "unique_records": 835,
+    "unique_records": 839,
     "cover_breakdown": {
       "real_artwork": 25,
       "homebrew_icons": 510,
-      "nx_flow_illustrations": 300,
-      "visually_covered": 835
+      "nx_flow_illustrations": 304,
+      "visually_covered": 839
     }
   },
   "items": [
@@ -2538,6 +2538,18 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-398c04b1acb4d4",
+      "title": "🟢 Outrunners",
+      "type": "Port",
+      "platform": "Arcade",
+      "version": "1.2.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/cheviman/outrunners-port",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-f28e04158137a8",
       "title": "Sega Rally",
       "type": "Port",
@@ -2562,6 +2574,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/sonic-the-fighters-switch-port.685251/"
+    },
+    {
+      "id": "switchports-895f0867694446",
+      "title": "🟢 Teenage Mutant Ninja Turtles",
+      "type": "Port",
+      "platform": "Arcade",
+      "version": "1.0.5",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/cheviman/tmnt-port",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-2a12f48011d448",
@@ -3012,6 +3036,18 @@
       "cover_source": "Libretro thumbnails"
     },
     {
+      "id": "switchports-5e3898176a29bc",
+      "title": "🟢 Super Mario All-Stars",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "pre-release 2",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-75f1714e577bda",
       "title": "🟢 Super Mario World",
       "type": "Port",
@@ -3128,6 +3164,18 @@
       "discussion": "https://gbatemp.net/threads/release-call-of-duty-2003-united-offensive-nintendo-switch-native-port.685952/"
     },
     {
+      "id": "switchports-34b07a14517eae",
+      "title": "🟢 Carmageddon",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.2-nx",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/jackazz86/dethrace-switch-fw21",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-ced4954d6a5ab6",
       "title": "Castlevania ReVamped",
       "type": "Port",
@@ -3141,8 +3189,8 @@
       "discussion": "https://gbatemp.net/threads/castlevania-revamped-nintendo-switch-port.684636/"
     },
     {
-      "id": "switchports-b6d7b7a2ec3c4f",
-      "title": "🚫 Commander Keen",
+      "id": "switchports-614797f0cf69da",
+      "title": "Commander Keen",
       "type": "Port",
       "platform": "PC",
       "version": "3.6.0",

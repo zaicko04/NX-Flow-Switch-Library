@@ -1,19 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-11-08T22:01:40+00:00",
-    "port_count": 279,
-    "repositories": 276,
+    "generated_at": "2026-11-09T06:21:54+00:00",
+    "port_count": 283,
+    "repositories": 280,
     "statuses": {
-      "readme_verified": 276
+      "readme_verified": 280
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
       "required": 0,
-      "recommended": 2,
+      "recommended": 3,
       "optional": 2,
       "not_required": 3,
       "mentioned": 25,
-      "not_documented": 244
+      "not_documented": 247
     }
   },
   "by_repo": {
@@ -1562,7 +1562,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-26T04:44:01+00:00"
+      "checked_at": "2026-11-09T06:21:54+00:00"
     },
     "https://github.com/PalindromicBreadLoaf/NX-Diffuser": {
       "status": "readme_verified",
@@ -2545,6 +2545,32 @@
       "overclock_source": "",
       "checked_at": "2026-11-08T13:21:04+00:00"
     },
+    "https://github.com/cheviman/outrunners-port": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/cheviman/outrunners-port/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-09T06:21:54+00:00"
+    },
+    "https://github.com/cheviman/tmnt-port": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/cheviman/tmnt-port/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-09T06:21:54+00:00"
+    },
     "https://github.com/cutarev/sh2-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/cutarev/sh2-nx/blob/main/README.md",
@@ -2921,6 +2947,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-03T00:56:26+00:00"
+    },
+    "https://github.com/jackazz86/dethrace-switch-fw21": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/jackazz86/dethrace-switch-fw21/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-09T06:21:54+00:00"
     },
     "https://github.com/jacquesdupontd/port0r": {
       "status": "readme_verified",
@@ -3337,6 +3376,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-26T12:58:10+00:00"
+    },
+    "https://github.com/simplePsyduck/SuperMarioAllStars-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "recommended",
+      "overclock_notes": "Gameplay — NES Brick Bounce: in Super Mario Bros. and The Lost Levels, a brick broken from below sends Mario back down as on the NES instead of letting him keep rising (BMF54123's brick fix, updated by Blittle McNilsen, written into the console's ROM while on: `SmasGame::setNesBrickBounce`). Off by default. Performance — Choose the CPU clock speed for the switch to help the game run better (use at your own risk!) Cycles through stock, 1224MHz, 1581MHz, or 1785Mhz options. Mild overclock is recommended to get fullspeeds.",
+      "overclock_source": "",
+      "checked_at": "2026-11-09T06:21:54+00:00"
     },
     "https://github.com/souldbminerr/0ad-switch": {
       "status": "readme_verified",
