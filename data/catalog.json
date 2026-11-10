@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-10T07:14:12+00:00",
+    "generated_at": "2026-11-10T19:41:57+00:00",
     "sources": {
-      "SwitchPorts": "323 importados",
+      "SwitchPorts": "321 importados",
       "HB App Store": "512 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-09T22:18:48+00:00",
-    "covers_resolved": 28,
-    "duplicate_records_removed": 14,
-    "invalid_records_removed": 2,
-    "unique_records": 839,
+    "covers_resolved": 25,
+    "duplicate_records_removed": 15,
+    "invalid_records_removed": 0,
+    "unique_records": 838,
     "cover_breakdown": {
-      "real_artwork": 28,
+      "real_artwork": 25,
       "homebrew_icons": 510,
-      "nx_flow_illustrations": 301,
-      "visually_covered": 839
+      "nx_flow_illustrations": 303,
+      "visually_covered": 838
     }
   },
   "items": [
@@ -74,8 +74,8 @@
       "discussion": "https://gbatemp.net/threads/nintendo-switch-raika-azahar-the-3ds-emulator-aimed-at-base-nintendo-switch.683593/"
     },
     {
-      "id": "switchports-9adaba68116628",
-      "title": "🟢 UAE4ALL2 HD",
+      "id": "switchports-5f9be6ddeea53b",
+      "title": "UAE4ALL2 HD",
       "type": "Emulador",
       "platform": "AMIGA",
       "version": "1.07",
@@ -91,7 +91,7 @@
       "title": "🟢 Flycast",
       "type": "Emulador",
       "platform": "Dreamcast",
-      "version": "???",
+      "version": "commit 72b8e67",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://flyinghead.github.io/flycast-builds/",
@@ -156,7 +156,7 @@
       "title": "🟢 Supermodel-NX",
       "type": "Emulador",
       "platform": "MODEL3",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/toniisound/supermodel-nx",
@@ -190,11 +190,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-a421b2f4d5b307",
-      "title": "DrasticDS",
+      "id": "switchports-7ada3963da2765",
+      "title": "🟢 DrasticDS",
       "type": "Emulador",
       "platform": "Nintendo DS",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/DrasticDS_nx",
@@ -203,11 +203,11 @@
       "discussion": "https://gbatemp.net/threads/drasticds-emulator-switch-port.683280/"
     },
     {
-      "id": "switchports-5a78413b737b0b",
-      "title": "Dolphin",
+      "id": "switchports-f0999da1153b76",
+      "title": "🟢 Dolphin",
       "type": "Emulador",
       "platform": "GameCube / Wii",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/dolphin-nx",
@@ -220,7 +220,7 @@
       "title": "🟢 Nezumiiruka",
       "type": "Emulador",
       "platform": "",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/PalindromicBreadLoaf/nezumiiruka",
@@ -229,8 +229,8 @@
       "discussion": "https://gbatemp.net/threads/nezumiiruka-new-and-best-dolphin-port.685219/"
     },
     {
-      "id": "switchports-42cafcbb5a29fa",
-      "title": "🟢 Duckstation",
+      "id": "switchports-58c17c249cdcaa",
+      "title": "Duckstation",
       "type": "Emulador",
       "platform": "PlayStation",
       "version": "PR 3",
@@ -242,11 +242,23 @@
       "discussion": "https://gbatemp.net/threads/duckstation-for-switch.654484/"
     },
     {
-      "id": "switchports-9c94de3c3ab532",
-      "title": "NetherSX2",
+      "id": "switchports-f97fbe3fbf284f",
+      "title": "Duckstation",
+      "type": "Emulador",
+      "platform": "",
+      "version": "3.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/JohnJames29/duckstation-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-1ca9407d15e1ac",
+      "title": "🟢 NetherSX2",
       "type": "Emulador",
       "platform": "PlayStation 2",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/NetherSX2_nx",
@@ -307,23 +319,24 @@
       "discussion": "https://gbatemp.net/threads/system22-nx-emulator-port-mame.684898/"
     },
     {
-      "id": "switchports-460b2e9afed943",
-      "title": "YabaSanshiro",
+      "id": "switchports-4ff25646eb966b",
+      "title": "🟢 YabaSanshiro",
       "type": "Emulador",
       "platform": "Saturn",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/yabasanshiro-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/yabasanshiro-nx-sega-saturn-emulator.686378/unread"
     },
     {
       "id": "switchports-69b537557aa17d",
       "title": "🟢 Vita3K",
       "type": "Emulador",
       "platform": "PS Vita",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/Vita3K-nx",
@@ -345,11 +358,11 @@
       "discussion": "https://gbatemp.net/threads/d-smile-nx-a-v-smile-emulator.684197/"
     },
     {
-      "id": "switchports-5e290feb311b58",
-      "title": "Cemu",
+      "id": "switchports-78be30b8eccff6",
+      "title": "🟢 Cemu",
       "type": "Emulador",
       "platform": "WIIU",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/Cemu-nx",
@@ -456,8 +469,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-79b1bd342df089",
-      "title": "Call of Duty: Strike Team",
+      "id": "switchports-d74663198393c2",
+      "title": "🟢 Call of Duty: Strike Team",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.0",
@@ -552,8 +565,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-27b9b43a4abd82",
-      "title": "Jet Set Radio",
+      "id": "switchports-791dc80ae4356f",
+      "title": "🟢 Jet Set Radio",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "1.2.0",
@@ -576,8 +589,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-f73f747556d64d",
-      "title": "🟢 Modern Combat 3: Fallen Nation",
+      "id": "switchports-f92337b2189d22",
+      "title": "Modern Combat 3: Fallen Nation",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "1.0.1",
@@ -588,8 +601,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-1acaf87ada0361",
-      "title": "🟢 Modern Combat 4: Zero Hour",
+      "id": "switchports-c1645b3ed9c490",
+      "title": "Modern Combat 4: Zero Hour",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "1.0.1",
@@ -600,11 +613,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-e9f0ed70e7553d",
+      "id": "switchports-e80a35d7cf1b15",
       "title": "Need for Speed: Most Wanted (2012)",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "0.3.0",
+      "version": "0.3.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch",
@@ -681,20 +694,20 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-60eabbc91f72c7",
+      "id": "switchports-4497410497f519",
       "title": "🟢 Space Hulk",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.5",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com//spacehulk-nx",
+      "url": "https://github.com/liartes/spacehulk-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-d7592b53dc626a",
-      "title": "🟢 Steven Universe: Attack the Light",
+      "id": "switchports-40898f1ec23370",
+      "title": "Steven Universe: Attack the Light",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.0",
@@ -717,8 +730,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-9fa240a4572ae8",
-      "title": "🟢 Teen Titans Go!",
+      "id": "switchports-360ef28c520faa",
+      "title": "Teen Titans Go!",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.0",
@@ -729,8 +742,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-eff8adeb452d88",
-      "title": "🟢 Teen Titans GO Figure!",
+      "id": "switchports-70d040582926e1",
+      "title": "Teen Titans GO Figure!",
       "type": "Port",
       "platform": "Android 32bit",
       "version": "0.1.0",
@@ -754,11 +767,11 @@
       "discussion": "https://gbatemp.net/threads/ultimate-spider-man-total-mayhem-switch-port.685255/"
     },
     {
-      "id": "switchports-f7a7b6bc67ff8b",
-      "title": "Adventures of Mana",
+      "id": "switchports-8179569069bf63",
+      "title": "🟢 Adventures of Mana",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/aom_nx",
@@ -767,11 +780,11 @@
       "discussion": "https://gbatemp.net/threads/adventures-of-mana-switch-port.682785/"
     },
     {
-      "id": "switchports-161304066e2ca3",
-      "title": "After Burner Climax",
+      "id": "switchports-f85209c31028ca",
+      "title": "🟢 After Burner Climax",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.2",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/abc_nx",
@@ -793,11 +806,11 @@
       "discussion": "https://gbatemp.net/threads/angry-birds-classic-switch-port.682955/"
     },
     {
-      "id": "switchports-f79790f3593fb7",
-      "title": "Angry Birds 2",
+      "id": "switchports-89a5bfb89c32a3",
+      "title": "🟢 Angry Birds 2",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/angrybirds2_nx",
@@ -819,11 +832,11 @@
       "discussion": "https://gbatemp.net/threads/angry-birds-epic-all-stars-switch-port.684031/"
     },
     {
-      "id": "switchports-b1ba74f75421e4",
-      "title": "Angry Birds Journey",
+      "id": "switchports-d3d36cb0a89154",
+      "title": "🟢 Angry Birds Journey",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/angrybirdsjourney_nx",
@@ -843,11 +856,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-6e04c943a50c1d",
-      "title": "Animal Crossing: Pocket Camp",
+      "id": "switchports-7bb1a79e6d589b",
+      "title": "🟢 Animal Crossing: Pocket Camp",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/acpc_nx",
@@ -1031,11 +1044,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-63159ef96e19c6",
-      "title": "Castle of Illusion",
+      "id": "switchports-c22996133d8130",
+      "title": "🟢 Castle of Illusion",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/coi_nx",
@@ -1044,11 +1057,11 @@
       "discussion": "https://gbatemp.net/threads/castle-of-illusion-switch-port.682811/"
     },
     {
-      "id": "switchports-8c30152ed39848",
-      "title": "Castlevania Symphony of the Night",
+      "id": "switchports-bd8905662f603a",
+      "title": "🟢 Castlevania Symphony of the Night",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/sotn_nx",
@@ -1057,11 +1070,11 @@
       "discussion": "https://gbatemp.net/threads/castlevania-symphony-of-the-night-switch-port.682763/"
     },
     {
-      "id": "switchports-920963d9aaff0e",
-      "title": "Chaos Rings III",
+      "id": "switchports-c04822a9cc0948",
+      "title": "🟢 Chaos Rings III",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/cr3_nx",
@@ -1070,11 +1083,11 @@
       "discussion": "https://gbatemp.net/threads/chaos-rings-iii-switch-port.682597/"
     },
     {
-      "id": "switchports-a95d19d442e62f",
-      "title": "Chrono Trigger",
+      "id": "switchports-24ac5e2b22c25e",
+      "title": "🟢 Chrono Trigger",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ct_nx",
@@ -1109,11 +1122,11 @@
       "discussion": "https://gbatemp.net/threads/color-sheep-switch-port.683025/unread"
     },
     {
-      "id": "switchports-912826b282b626",
-      "title": "Counter Strike Source",
+      "id": "switchports-38f15502f73034",
+      "title": "🟢 Counter Strike Source",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/css_nx",
@@ -1135,11 +1148,11 @@
       "discussion": "https://gbatemp.net/threads/crazy-taxi-port.683085/"
     },
     {
-      "id": "switchports-6170b5ddbc1933",
-      "title": "Cut the Rope",
+      "id": "switchports-6fdb40c0844b7e",
+      "title": "🟢 Cut the Rope",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ctr_nx",
@@ -1147,11 +1160,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-71588e756b53d0",
-      "title": "Cut the Rope 2",
+      "id": "switchports-148cae395ff0b4",
+      "title": "🟢 Cut the Rope 2",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ctr2_nx",
@@ -1311,11 +1324,11 @@
       "discussion": "https://gbatemp.net/threads/far-cry-1-nintendo-switch-port.684771/"
     },
     {
-      "id": "switchports-f1d91809a7379e",
-      "title": "Final Fantasy Dimensions",
+      "id": "switchports-24537f32bd12ca",
+      "title": "🟢 Final Fantasy Dimensions",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ffd_nx",
@@ -1324,11 +1337,11 @@
       "discussion": "https://gbatemp.net/threads/final-fantasy-dimensions-switch-port.682781/"
     },
     {
-      "id": "switchports-9fe09248443e2d",
-      "title": "Final Fantasy Dimension II",
+      "id": "switchports-a6c0adfa7549d4",
+      "title": "🟢 Final Fantasy Dimension II",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ffd2_nx",
@@ -1337,11 +1350,11 @@
       "discussion": "https://gbatemp.net/threads/final-fantasy-dimensions-ii-switch-port.683067/"
     },
     {
-      "id": "switchports-a92e3f0e50f665",
-      "title": "Final Fantasy III 3D Remake",
+      "id": "switchports-2d00517951c3db",
+      "title": "🟢 Final Fantasy III 3D Remake",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ff3_3d_nx",
@@ -1350,32 +1363,32 @@
       "discussion": "https://gbatemp.net/threads/final-fantasy-iii-3d-remake-switch-port.682660/"
     },
     {
-      "id": "switchports-7d9d5f337b7d07",
-      "title": "Final Fantasy IV 3D Remake",
+      "id": "switchports-b704d773fb8b55",
+      "title": "🟢 Final Fantasy IV 3D Remake",
       "type": "Port",
       "platform": "Android 64bit",
       "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/GlitchedDeveloper/ff4_nx",
+      "url": "https://github.com/NaGaa95/ff4_3d_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/final-fantasy-iv-3d-remake-switch-port.683136/",
+      "discussion": "https://gbatemp.net/threads/final-fantasy-iv-3d-remake-switch-port.682557/",
       "alternatives": [
         {
-          "title": "Final Fantasy IV 3D Remake",
-          "version": "1.0.2",
-          "url": "https://github.com/NaGaa95/ff4_3d_nx",
+          "title": "🟢 Final Fantasy IV 3D Remake",
+          "version": "1.0.4",
+          "url": "https://github.com/GlitchedDeveloper/ff4_nx",
           "source": "SwitchPorts"
         }
       ]
     },
     {
-      "id": "switchports-5abd37a79f12c6",
-      "title": "Final Fantasy IV The After Years",
+      "id": "switchports-be5980386790d0",
+      "title": "🟢 Final Fantasy IV The After Years",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ff4tay_nx",
@@ -1422,11 +1435,11 @@
       "discussion": "https://gbatemp.net/threads/galaxy-on-fire-nintendo-switch-port.684562/"
     },
     {
-      "id": "switchports-b6e46c07ddfcda",
-      "title": "Geometry Dash",
+      "id": "switchports-f42140ccce3557",
+      "title": "🟢 Geometry Dash",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/gdash_nx",
@@ -1460,11 +1473,11 @@
       "discussion": "https://gbatemp.net/threads/gta-3-mobile-switch-port.683969/#post-10900135"
     },
     {
-      "id": "switchports-8a91727cb3b2b8",
-      "title": "Grand Theft Auto Chinatown Wars",
+      "id": "switchports-ea9e09a2dfc4ba",
+      "title": "🟢 Grand Theft Auto Chinatown Wars",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/gtactw_nx",
@@ -1473,11 +1486,11 @@
       "discussion": "https://gbatemp.net/threads/gta-chinatown-wars-switch-port.682411/"
     },
     {
-      "id": "switchports-a538d7d3566c4f",
-      "title": "Grand Theft Auto Liberty City Stories",
+      "id": "switchports-fb08ec18f8a7cd",
+      "title": "🟢 Grand Theft Auto Liberty City Stories",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/gtalcs_nx",
@@ -1486,11 +1499,11 @@
       "discussion": "https://gbatemp.net/threads/gta-liberty-city-stories-switch-port.682681/"
     },
     {
-      "id": "switchports-9321e1e48754e4",
-      "title": "Grand Theft Auto San Andreas",
+      "id": "switchports-9839b050e0dad8",
+      "title": "🟢 Grand Theft Auto San Andreas",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/gtasa_nx",
@@ -1511,11 +1524,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-ceda838c5cc09f",
-      "title": "Half Life 2",
+      "id": "switchports-2836f1d2e40c6a",
+      "title": "🟢 Half Life 2",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/hl2_nx",
@@ -1613,11 +1626,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-06fa342d8ccd0d",
-      "title": "Jetpack Joyride",
+      "id": "switchports-3f1f80cfe9a628",
+      "title": "🟢 Jetpack Joyride",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/jetpackjoyride_nx",
@@ -1638,11 +1651,11 @@
       "discussion": "https://gbatemp.net/threads/killer-bean-unleashed-switch-port.683815/"
     },
     {
-      "id": "switchports-36b7889061109d",
-      "title": "Kingdom Hearts Union χ Dark Road",
+      "id": "switchports-ecf66d3bf436e7",
+      "title": "🟢 Kingdom Hearts Union χ Dark Road",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/KHUx_nx",
@@ -1664,11 +1677,11 @@
       "discussion": "https://gbatemp.net/threads/lara-croft-go-switch-port.683509/"
     },
     {
-      "id": "switchports-315fda44314ee1",
-      "title": "Layton Brothers Mystery Room",
+      "id": "switchports-511da64fc3c231",
+      "title": "🟢 Layton Brothers Mystery Room",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/laytonbmr_nx",
@@ -1677,11 +1690,11 @@
       "discussion": "https://gbatemp.net/threads/layton-brothers-mystery-room-switch-port.682988/"
     },
     {
-      "id": "switchports-449a713c1cbc3f",
-      "title": "LEGO Batman Beyond Gotham",
+      "id": "switchports-470950ff4dd7ff",
+      "title": "🟢 LEGO Batman Beyond Gotham",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/lbbg_nx",
@@ -1690,11 +1703,11 @@
       "discussion": "https://gbatemp.net/threads/lego-batman-3-beyond-gotham-switch-port.682841/"
     },
     {
-      "id": "switchports-3a24a6808eee6d",
-      "title": "LEGO Ninjago Shadow of Ronin",
+      "id": "switchports-c8df714874ddcd",
+      "title": "🟢 LEGO Ninjago Shadow of Ronin",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/lnsor_nx",
@@ -1703,11 +1716,11 @@
       "discussion": "https://gbatemp.net/threads/lego-ninjago-shadow-of-ronin-switch-port.682953/"
     },
     {
-      "id": "switchports-b919dff7d2806a",
-      "title": "LEGO Star Wars The Complete Saga",
+      "id": "switchports-240ccfc395c556",
+      "title": "🟢 LEGO Star Wars The Complete Saga",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/lswtcs_nx",
@@ -1716,11 +1729,11 @@
       "discussion": "https://gbatemp.net/threads/lego-star-wars-the-complete-saga-switch-port.682412/"
     },
     {
-      "id": "switchports-a0d2f92ed9d08a",
-      "title": "LEGO Star Wars The Force Awakens",
+      "id": "switchports-3c8d9fce9082d8",
+      "title": "🟢 LEGO Star Wars The Force Awakens",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/lswtfa_nx",
@@ -1741,11 +1754,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-85e1f7575d3539",
-      "title": "Max Payne",
+      "id": "switchports-cad775c1fa278c",
+      "title": "🟢 Max Payne",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/max_nx_v2.1.131",
@@ -2020,11 +2033,11 @@
       "discussion": "https://gbatemp.net/threads/pou-switch-port.683953/"
     },
     {
-      "id": "switchports-1bdde52cb3d4bc",
-      "title": "Professor Layton Curious Village HD",
+      "id": "switchports-4f0fddef1145ee",
+      "title": "🟢 Professor Layton Curious Village HD",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/layton_nx",
@@ -2033,11 +2046,11 @@
       "discussion": "https://gbatemp.net/threads/professor-layton-curious-village-hd-switch-port.682435/"
     },
     {
-      "id": "switchports-f6b3c91a491223",
-      "title": "Professor Layton Lost Hope HD",
+      "id": "switchports-845494a102e07f",
+      "title": "🟢 Professor Layton Lost Hope HD",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/layton3_nx",
@@ -2046,11 +2059,11 @@
       "discussion": "https://gbatemp.net/threads/professor-layton-lost-future-hd-switch-port.682462/"
     },
     {
-      "id": "switchports-8c4fa4766d61c0",
-      "title": "Professor Layton Pandora's Box HD",
+      "id": "switchports-1c83f8f4582a4e",
+      "title": "🟢 Professor Layton Pandora's Box HD",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/layton2_nx",
@@ -2063,7 +2076,7 @@
       "title": "🟢 Real Drift Car Racing",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.5.1",
+      "version": "1.5.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/dpadninja/realdrift_nx",
@@ -2257,11 +2270,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-52d8653368ed8d",
-      "title": "Subway Surfers",
+      "id": "switchports-e559d5d272f20c",
+      "title": "🟢 Subway Surfers",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/subwaysurfers_nx",
@@ -2319,11 +2332,11 @@
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/page-3#post-10885621"
     },
     {
-      "id": "switchports-763200705415ea",
-      "title": "Swordigo",
+      "id": "switchports-6ebe0525b1df13",
+      "title": "🟢 Swordigo",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/swordigo_nx",
@@ -2332,11 +2345,11 @@
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/#post-10883678"
     },
     {
-      "id": "switchports-dd273a3b6430a8",
-      "title": "Team Fortress 2 ReClassic",
+      "id": "switchports-eeced071abe103",
+      "title": "🟢 Team Fortress 2 ReClassic",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/tf2_nx",
@@ -2383,11 +2396,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-40e18627a997af",
-      "title": "Very Little Nightmares",
+      "id": "switchports-223f8816e1b3a1",
+      "title": "🟢 Very Little Nightmares",
       "type": "Port",
       "platform": "Android 64bit",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/vln_nx",
@@ -2444,19 +2457,6 @@
       "url": "https://github.com/DI4VOLO-dev/ys1x_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-20638ec32b1c10",
-      "title": "Zombotron Re-Boot",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "1.0.2",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/StevensND/zombotron_nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/zombotron-re-boot-nintendo-switch-port.684161/"
     },
     {
       "id": "switchports-139de7a130b9b0",
@@ -2542,7 +2542,7 @@
       "title": "🟢 Outrunners",
       "type": "Port",
       "platform": "Arcade",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/outrunners-port",
@@ -2582,7 +2582,7 @@
       "title": "🟢 Teenage Mutant Ninja Turtles",
       "type": "Port",
       "platform": "Arcade",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/tmnt-port",
@@ -2605,6 +2605,18 @@
       "discussion": "https://gbatemp.net/threads/virtua-fighter-2-arcade.685157/unread",
       "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Virtua%20Fighter%202%20%28Version%202.1%29.png",
       "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-d5e29affb75259",
+      "title": "🟢 Metroid Prime: Hunters",
+      "type": "Port",
+      "platform": "Nintendo DS",
+      "version": "0.5.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/FurryLilManChild/MPH-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-619dc705750abe",
@@ -2740,8 +2752,8 @@
       ]
     },
     {
-      "id": "switchports-3ff79c9fa36b87",
-      "title": "🟢 The Legened of Zelda: Ocarina of Time",
+      "id": "switchports-5072e255606783",
+      "title": "The Legened of Zelda: Ocarina of Time",
       "type": "Port",
       "platform": "Nintendo 64",
       "version": "9.3.1-nx2",
@@ -2819,34 +2831,40 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-1326a42d7e6e19",
-      "title": "🟢 Snowboard Kids 2",
+      "id": "switchports-20c87746b8eb76",
+      "title": "Snowboard Kids 2",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "2.0.2",
+      "version": "1.0.0",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/cdlewis/snowboardkids2-recomp",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%202%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
-    },
-    {
-      "id": "switchports-cf07f487799a47",
-      "title": "StarCraft64",
-      "type": "Port",
-      "platform": "Nintendo 64",
-      "version": "1.3",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/gabryboy12-ai/StarCraft64-NX",
+      "url": "https://github.com/D35P4C1T0/snowboardkids2-recomp-switch",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-42f4b941063639",
-      "title": "🟢 Star Wars: Rogue Squadron",
+      "id": "switchports-ab658490b9305c",
+      "title": "🟢 StarCraft64",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.5.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/gabryboy12-ai/StarCraft64-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "alternatives": [
+        {
+          "title": "🟢 StarCraft64",
+          "version": "1.5.0",
+          "url": "https://github.com/Thorhax/StarCraft64-NX",
+          "source": "SwitchPorts"
+        }
+      ]
+    },
+    {
+      "id": "switchports-c16c2b35a85bdc",
+      "title": "Star Wars: Rogue Squadron",
       "type": "Port",
       "platform": "Nintendo 64",
       "version": "1.0",
@@ -2854,9 +2872,7 @@
       "source": "SwitchPorts",
       "url": "https://github.com/FurryLilManChild/rs64-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Wars%20-%20Rogue%20Squadron%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-ad99251713ca54",
@@ -3025,8 +3041,8 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-a1ba8e06e89ca6",
-      "title": "🟢 Starfox",
+      "id": "switchports-69176aae48f0a0",
+      "title": "Starfox",
       "type": "Port",
       "platform": "Super Nintendo",
       "version": "0.0.8.8.3",
@@ -3035,9 +3051,7 @@
       "url": "https://github.com/kandowontu2/starfox-enhanced",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Star%20Fox%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "discussion": "https://gbatemp.net/threads/star-fox-enhanced.684201/"
     },
     {
       "id": "switchports-5e3898176a29bc",
@@ -3085,7 +3099,7 @@
       "title": "🟢 Age of Empires II: The Age of Kings",
       "type": "Port",
       "platform": "PC",
-      "version": "0.6.5 prerelease",
+      "version": "0.7.0 prerelease",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Zaydme/openaok",
@@ -3106,8 +3120,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-3854a572656fe5",
-      "title": "🟢 Atomic Bomberman",
+      "id": "switchports-25ebd615b29be6",
+      "title": "Atomic Bomberman",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.8",
@@ -3119,8 +3133,8 @@
       "discussion": "https://gbatemp.net/threads/atomic-bomberman-for-switch.685994/"
     },
     {
-      "id": "switchports-cd06bb3bda90a8",
-      "title": "🟢 The Binding of Isaac: Repentance+",
+      "id": "switchports-28f419098a0d89",
+      "title": "The Binding of Isaac: Repentance+",
       "type": "Port",
       "platform": "PC",
       "version": "unreleased",
@@ -3132,8 +3146,8 @@
       "discussion": "https://gbatemp.net/threads/binding-of-isaac-repentance-port.685733/"
     },
     {
-      "id": "switchports-a74122974e516e",
-      "title": "🟢 Black & White",
+      "id": "switchports-f434633576b670",
+      "title": "Black & White",
       "type": "Port",
       "platform": "PC",
       "version": "0.4.0",
@@ -3149,7 +3163,7 @@
       "title": "🟢 Call of Duty - Black Ops II",
       "type": "Port",
       "platform": "PC",
-      "version": "0.3.0",
+      "version": "0.3.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HDErick/BO2-Requiem-NX",
@@ -3157,8 +3171,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-58973bfa2cbede",
-      "title": "🟢 Call of Duty / United Offensive",
+      "id": "switchports-5d60d2c22bcc92",
+      "title": "Call of Duty / United Offensive",
       "type": "Port",
       "platform": "PC",
       "version": "0.4.0 / 0.3.0",
@@ -3170,8 +3184,8 @@
       "discussion": "https://gbatemp.net/threads/release-call-of-duty-2003-united-offensive-nintendo-switch-native-port.685952/"
     },
     {
-      "id": "switchports-34b07a14517eae",
-      "title": "🟢 Carmageddon",
+      "id": "switchports-75b37914375dbf",
+      "title": "Carmageddon",
       "type": "Port",
       "platform": "PC",
       "version": "1.2-nx",
@@ -3208,8 +3222,8 @@
       "discussion": "https://gbatemp.net/threads/commander-keen-for-switch.569609/"
     },
     {
-      "id": "switchports-949c03b7c58ac5",
-      "title": "🟢 Cosmology of Kyoto",
+      "id": "switchports-be7d92acb125cc",
+      "title": "Cosmology of Kyoto",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.0",
@@ -3302,19 +3316,6 @@
       "discussion": "https://gbatemp.net/threads/redriver2-driver-2-playstation-game-reverse-engineering.682414/"
     },
     {
-      "id": "switchports-987b8666b96a53",
-      "title": "♻️ Dune II",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.98.4",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/carstene1ns/dunelegacy/tree/switch-port",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/dune-legacy-dune-ii-remake.676917/"
-    },
-    {
       "id": "switchports-33669d5af9c861",
       "title": "Elder Scrolls III Morrowind",
       "type": "Port",
@@ -3361,8 +3362,8 @@
       "discussion": "https://gbatemp.net/threads/fallout-1-2-ce-switch-port.681906/"
     },
     {
-      "id": "switchports-08c7dce6acd3c7",
-      "title": "🟢 Fallout: New Vegas",
+      "id": "switchports-ee0cdbc7b7050b",
+      "title": "Fallout: New Vegas",
       "type": "Port",
       "platform": "PC",
       "version": "unreleased",
@@ -3389,7 +3390,7 @@
       "title": "🟢 Half Life",
       "type": "Port",
       "platform": "PC",
-      "version": "4230",
+      "version": "4237",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/FWGS/xash3d-fwgs/",
@@ -3398,11 +3399,11 @@
       "discussion": "https://gbatemp.net/threads/xash3d-half-life-custom-goldsrc-engine-for-switch.522848/"
     },
     {
-      "id": "switchports-947f218186e79e",
-      "title": "Heroes of Might & Magic II",
+      "id": "switchports-909159a12bb8de",
+      "title": "🟢 Heroes of Might & Magic II",
       "type": "Port",
       "platform": "PC",
-      "version": "1.1.17",
+      "version": "1.1.18",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/ihhub/fheroes2/",
@@ -3545,11 +3546,11 @@
       "discussion": "https://gbatemp.net/threads/mcosu-osu-for-the-switch.529564/"
     },
     {
-      "id": "switchports-59efba235bd579",
-      "title": "Medal of Honor: Allied Assault",
+      "id": "switchports-19e2a17d958459",
+      "title": "🟢 Medal of Honor: Allied Assault",
       "type": "Port",
       "platform": "PC",
-      "version": "0.83 R3",
+      "version": "0.83.0.4",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/openmohaa_nx/",
@@ -3557,8 +3558,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-761d3c2ad9ed7b",
-      "title": "🟢 Mega Man W",
+      "id": "switchports-57fdf7440f6ef9",
+      "title": "Mega Man W",
       "type": "Port",
       "platform": "PC",
       "version": "0.1.0",
@@ -3607,8 +3608,8 @@
       "discussion": "https://gbatemp.net/threads/nzportable-nazi-zombies-made-with-quake-engine.624375/"
     },
     {
-      "id": "switchports-746f83a738077d",
-      "title": "🟢 Need for Speed II / III",
+      "id": "switchports-a0faa977213dd1",
+      "title": "Need for Speed II / III",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.1 pre-release",
@@ -3661,7 +3662,7 @@
       "title": "🟢 PokeMMO",
       "type": "Port",
       "platform": "PC",
-      "version": "1.1.8",
+      "version": "1.1.9",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Petit-Prince-dev/PokeMMO-NX",
@@ -3670,20 +3671,8 @@
       "discussion": "https://gbatemp.net/threads/pokemmo-is-now-running-natively-on-the-nintendo-switch.685027/"
     },
     {
-      "id": "switchports-ef40365b195fd8",
-      "title": "Prey",
-      "type": "Port",
-      "platform": "PC",
-      "version": "0.1.0",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/hazevauks/openPREYswitch",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
-      "id": "switchports-a84d2574b2162d",
-      "title": "🟢 Project Zomboid",
+      "id": "switchports-33a146ceb8d949",
+      "title": "Project Zomboid",
       "type": "Port",
       "platform": "PC",
       "version": "0.5",
@@ -3755,11 +3744,11 @@
       "discussion": "https://gbatemp.net/threads/silent-hill-decompilation-nx-switch-port.682867/"
     },
     {
-      "id": "switchports-83e6fcd7f14bcc",
-      "title": "Silent Hill 2",
+      "id": "switchports-d2aa024540c1b2",
+      "title": "🟢 Silent Hill 2",
       "type": "Port",
       "platform": "PC",
-      "version": "1.02",
+      "version": "1.03",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cutarev/sh2-nx",
@@ -3802,8 +3791,8 @@
       ]
     },
     {
-      "id": "switchports-92425dc2f639dc",
-      "title": "🟢 The Simpsons: Hit and Run",
+      "id": "switchports-2bcde82c40520e",
+      "title": "The Simpsons: Hit and Run",
       "type": "Port",
       "platform": "PC",
       "version": "0.7.0",
@@ -3814,11 +3803,11 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-129c9d8712123f",
-      "title": "Sly Cooper and the Thievius Raccoonus",
+      "id": "switchports-4109de30f6c8d6",
+      "title": "🟢 Sly Cooper and the Thievius Raccoonus",
       "type": "Port",
       "platform": "PC",
-      "version": "0.5.0",
+      "version": "0.5.0-v2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ProjectCane",
@@ -3975,8 +3964,8 @@
       "discussion": "https://gbatemp.net/threads/touhou-project-on-switch-all-ports-in-one-place.684850/"
     },
     {
-      "id": "switchports-89995c0f21598e",
-      "title": "🟢 Touhou 10: Mountain of Faith",
+      "id": "switchports-6e069fb9b1aa2e",
+      "title": "Touhou 10: Mountain of Faith",
       "type": "Port",
       "platform": "PC",
       "version": "1.00a-r6",

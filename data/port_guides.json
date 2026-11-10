@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-10T07:14:12+00:00",
-    "port_count": 283,
-    "repositories": 280,
+    "generated_at": "2026-11-10T19:41:57+00:00",
+    "port_count": 281,
+    "repositories": 279,
     "statuses": {
-      "readme_verified": 280
+      "readme_verified": 279
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -12,7 +12,7 @@
       "recommended": 3,
       "optional": 2,
       "not_required": 3,
-      "mentioned": 25,
+      "mentioned": 24,
       "not_documented": 247
     }
   },
@@ -732,6 +732,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
+    "https://github.com/D35P4C1T0/snowboardkids2-recomp-switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/D35P4C1T0/snowboardkids2-recomp-switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\nGeForce GT 630\nRadeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\nIntel HD 510 (Skylake)\nA Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-10T19:41:57+00:00"
+    },
     "https://github.com/DI4VOLO-dev/ys1x_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/DI4VOLO-dev/ys1x_nx/blob/main/README.md",
@@ -810,6 +823,19 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
+    "https://github.com/FurryLilManChild/MPH-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/FurryLilManChild/MPH-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-10T19:41:57+00:00"
+    },
     "https://github.com/FurryLilManChild/rs64-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/FurryLilManChild/rs64-nx/blob/main/README.md",
@@ -822,19 +848,6 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-29T05:45:38+00:00"
-    },
-    "https://github.com/GlitchedDeveloper/ff4_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/GlitchedDeveloper/ff4_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "This software is an unofficial, fan-made wrapper that allows for the AARCH64 Android version of Final Fantasy IV (3D Remake) to run natively on the Nintendo Swi…",
-      "requirements": "Modded Nintendo Switch running Atmosphère\nA legally purchased copy of Final Fantasy IV (3D Remake) from the Google Play store\nTested on version 2.0.5. Other versions may work, however compatibility is not guaranteed.",
-      "installation": "Copy any `.obb` files to `sdmc:/switch/ff4/mods`.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-31T05:37:34+00:00"
     },
     "https://github.com/HDErick/BO2-Requiem-NX": {
       "status": "readme_verified",
@@ -938,7 +951,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-27T12:08:31+00:00"
+      "checked_at": "2026-11-10T19:41:57+00:00"
     },
     "https://github.com/Kaays/mc4_nx": {
       "status": "readme_verified",
@@ -951,7 +964,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-27T12:08:31+00:00"
+      "checked_at": "2026-11-10T19:41:57+00:00"
     },
     "https://github.com/KawaiiBunga/BattleShipNX": {
       "status": "readme_verified",
@@ -1173,6 +1186,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
+    },
+    "https://github.com/NaGaa95/ff4_3d_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/NaGaa95/ff4_3d_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "Final Fantasy IV 3D — Nintendo Switch port\n\nThis is a wrapper/port of the Android version of Final Fantasy IV 3D",
+      "requirements": "",
+      "installation": "You're going to need:\nThe `.apk` for version 2.0.5. The game data lives in `assets/main.obb`, the\n engine code is `lib/arm64-v8a/libff4.so`, and the intro movie is\n `res/raw/opening.mp4`.\n\nTo install:\n1. Create a folder called `ff43d` in the `switch` folder on your SD card.\n2. From your `.apk`, extract `lib/arm64-v8a/libff4.so` to `/switch/ff43d/`.\n3. From your `.apk`, extract `assets/main.obb` to `/switch/ff43d/`.\n4. From your `.apk`, extract `res/raw/opening.mp4` to `/switch/ff43d/res/raw/`.\n5. Copy `ff43dnx.nro` into `/switch/ff43d/`.\n\nSo `/switch/ff43d/` should contain: `libff4.so`, `main.obb`, `res/raw/opening.mp4`,\n`ff43dnx.nro`.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-10T19:41:57+00:00"
     },
     "https://github.com/NaGaa95/ff4tay_nx": {
       "status": "readme_verified",
@@ -1638,19 +1664,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
-    "https://github.com/StevensND/zombotron_nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/StevensND/zombotron_nx/blob/main/README.md",
-      "reason": "",
-      "overview": "Zombotron Re-Boot — Nintendo Switch port (Unity 6000.2.6f2)\n\nA wrapper/port of the Android release of Zombotron Re-Boot.",
-      "requirements": "",
-      "installation": "Create a folder for the game on your SD card, `/switch/zombotronnx/`, and place:\n\n1. `zombotronnx.nro`.\n2. The `.so` libraries and the `assets` folder from the Zombotron Re-Boot \n APK. Open the APK with 7-Zip or another ZIP extractor: copy the libraries out\n of `lib/arm64-v8a/` into the folder and copy the whole `assets/` folder.\n\nThe four `.so` files can sit next to the `.nro` (as above) or grouped inside a\n`lib/` subfolder (`/switch/zombotronnx/lib/libmain.so`, and so on) if you prefer a\ntidier root — the loader checks both locations. Zombotron Re-Boot ships most of its\ncontent through addressables, so copy the entire `assets/` folder,",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-31T05:37:34+00:00"
-    },
     "https://github.com/Thorhax/AvP-Gold-NX-Modern": {
       "status": "readme_verified",
       "readme_url": "https://github.com/Thorhax/AvP-Gold-NX-Modern/blob/master/README",
@@ -1984,7 +1997,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-27T12:08:31+00:00"
+      "checked_at": "2026-11-10T19:41:57+00:00"
     },
     "https://github.com/Wander-Eule/OpenRCT2-Switch": {
       "status": "readme_verified",
@@ -2519,32 +2532,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
-    "https://github.com/carstene1ns/dunelegacy": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/carstene1ns/dunelegacy/blob/master/README",
-      "reason": "",
-      "overview": "/-----------------------------------------------\\\n | |\n | Dune Legacy 0.98.4 readme |\n | --------------------------------------- |",
-      "requirements": "",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-10-31T05:37:34+00:00"
-    },
-    "https://github.com/cdlewis/snowboardkids2-recomp": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/cdlewis/snowboardkids2-recomp/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "A GPU supporting Direct3D 12.0 (Shader Model 6), Vulkan 1.2, or Metal Argument Buffers Tier 2 support is required to run this project. The oldest GPUs that should be supported for each vendor are:\nGeForce GT 630\nRadeon HD 7750 (the one from 2012, not to be confused with the RX 7000 series) and newer\nIntel HD 510 (Skylake)\nA Mac with Apple Silicon or an Intel 7th Gen CPU with MacOS 13.0+",
-      "installation": "",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-11-08T13:21:04+00:00"
-    },
     "https://github.com/cheviman/outrunners-port": {
       "status": "readme_verified",
       "readme_url": "https://github.com/cheviman/outrunners-port/blob/main/README.md",
@@ -2818,19 +2805,6 @@
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
     },
-    "https://github.com/hazevauks/openPREYswitch": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/hazevauks/openPREYswitch/blob/main/README.md",
-      "reason": "",
-      "overview": "openPREY for Nintendo Switch\n\n Prey (2006), running natively on the Nintendo Switch as homebrew.\n\n A port of OpenPrey, built with devkitPro and libnx.",
-      "requirements": "A Nintendo Switch running Atmosphère.\nTitle override. Open the Homebrew Menu by holding R while you start any\n installed game, then launch openPREY from there. Prey needs more memory than\n homebrew gets when started from the Album (applet mode), so it does not run from\n there. Forwarders also get the full memory but have had less testing.\nPrey (2006) for PC, for the `.pk4` files in its `base` folder. Tested with the",
-      "installation": "1. Download `openPREY-switch-.zip` from the\n latest release.\n2. Extract it to the root of the SD card. This creates the folder\n `switch/openprey/`.\n3. Copy every `.pk4` file from the `base` folder of your PC installation (for\n example `C:\\Program Files (x86)\\Human Head Studios\\Prey\\base`) into\n `switch/openprey/base/` on the SD card.\n4. Put the SD card back in the console, hold R while starting any game, and pick\nopenPREY in the Homebrew Menu.\n\nThe SD card should end up like this:\n\nThe folder must be named `switch/openprey/`: the game always looks for its files\nthere.\n[!NOTE]",
-      "editions": "",
-      "overclock_status": "mentioned",
-      "overclock_notes": "A settings menu on the − button: FPS counter, frame lock, shadows, dynamic resolution, GPU clock profile, gyro, look speed, subtitles and noclip. - The console's official GPU and memory clock profiles, applied by the game itself.\nresolution, GPU clock profile, gyro, look speed, subtitles and noclip. - The console's official GPU and memory clock profiles, applied by the game itself. - Logs and crash reports saved to the SD card, ready to attach to a bug report.\ncache, which grows as you reach new maps. - Recommended: sys-clk to raise the CPU clock (see Performance tips).",
-      "overclock_source": "",
-      "checked_at": "2026-10-31T05:37:34+00:00"
-    },
     "https://github.com/hazevauks/smashhit_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/hazevauks/smashhit_nx/blob/main/README.md",
@@ -3025,6 +2999,19 @@
       "overclock_notes": "`[performance] boostcpuwhenloading`: `true` (CPU at 1785 MHz inside loading frames only; gameplay stays at stock clocks). `gpuboosthandheld`: handheld GPU at 460.8 MHz (`true`; CPU/MEM stock, docked untouched).",
       "overclock_source": "",
       "checked_at": "2026-10-31T05:37:34+00:00"
+    },
+    "https://github.com/liartes/spacehulk-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/liartes/spacehulk-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`spacehulknx` loads the Android game's own libraries (`libunity.so`,\n`libmono.so`, `libmain.so`) and the game's C# assemblies, and provides what",
+      "requirements": "",
+      "installation": "Download the latest release from\ngithub.com/liartes/spacehulk-nx/releases.\n\nYou need a Switch with Atmosphère and sphaira, and your own copy of\nSpace Hulk for Android (`com.hoplite.spacehulk`, versionCode 7, the\narmeabi-v7a build signed by Hoplite Research):\nthe APK,\nits OBB, `main.7.com.hoplite.spacehulk.obb` (about 1.5 GB), from\n `Android/obb/com.hoplite.spacehulk/` on the phone.\n\nCopy them to the SD card like this:\n\nThen, in sphaira: Homebrew › spacehulknx › Install Forwarder, and\nstart the game from its new icon on the HOME menu.\nThe first start takes a few minutes: the libraries are unpacked from the",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-10T19:41:57+00:00"
     },
     "https://github.com/mariob0y/gta3-nx": {
       "status": "readme_verified",
