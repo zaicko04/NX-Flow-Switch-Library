@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-10T19:41:57+00:00",
+    "generated_at": "2026-11-11T06:12:42+00:00",
     "port_count": 281,
     "repositories": 279,
     "statuses": {
@@ -2016,14 +2016,14 @@
       "status": "readme_verified",
       "readme_url": "https://github.com/Zaydme/openaok/blob/main/README.md",
       "reason": "",
-      "overview": "A free, open-source engine for Age of Empires II: The Age of Kings, on your desktop and in your pocket.",
-      "requirements": "OpenAoK needs your own, legally obtained copy of Age of Empires II: The\nAge of Kings (1999, version 1.0, the original CD). It does not work with The\nConquerors expansion or the HD and Definitive editions, which use different\ndata.\n\nCopy the CD's files into a folder named `originalgame1999` at the top of the\nrepository. From a disc or a mounted image on macOS, for example:\n\nThe folder should then hold `GAME/`, `SYSTEM/` and `GOODIES/`. That's all: the",
-      "installation": "",
+      "overview": "A free, open-source engine for Age of Empires II: The Age of Kings, on your desktop and in your pocket.\n\n Documentation ·\n Getting started ·\n Download",
+      "requirements": "",
+      "installation": "OpenAoK needs your own, legally obtained copy of Age of Empires II: The\nAge of Kings (1999, the original CD), not The Conquerors or the HD and\nDefinitive editions. Your game files\nexplains what to copy. The downloads hold none of the game's data; the data is\nprepared from your CD.\n\n| Platform | | |\n|---|---|---|\n| Windows 10 and 11, 64-bit | A folder to unzip; the data is prepared on first start | Guide |\n| macOS and Linux | Built from source in one step | Guide |\n| Android 10 or later, arm64 | An APK, with a data folder made on a computer | Guide |\n| iPhone and iPad, iOS 15 or later | An IPA to sideload, or built with Xcode | Guide |",
       "editions": "",
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-10-28T05:39:59+00:00"
+      "checked_at": "2026-11-11T06:12:42+00:00"
     },
     "https://github.com/Zumoly/cod-strike-team-nx": {
       "status": "readme_verified",
