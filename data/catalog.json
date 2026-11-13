@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-13T06:41:26+00:00",
+    "generated_at": "2026-11-13T19:39:35+00:00",
     "sources": {
       "SwitchPorts": "321 importados",
-      "HB App Store": "512 importados",
+      "HB App Store": "513 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-12T07:07:24+00:00",
+    "covers_checked_at": "2026-11-13T19:39:35+00:00",
     "covers_resolved": 29,
     "duplicate_records_removed": 15,
     "invalid_records_removed": 0,
-    "unique_records": 838,
+    "unique_records": 839,
     "cover_breakdown": {
       "real_artwork": 29,
-      "homebrew_icons": 510,
+      "homebrew_icons": 511,
       "nx_flow_illustrations": 299,
-      "visually_covered": 838
+      "visually_covered": 839
     }
   },
   "items": [
@@ -5235,12 +5235,12 @@
       "type": "Juego homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.8.7-nx1",
+      "version": "0.8.7-nx-release-1",
       "author": "leleletus",
       "url": "https://hb-app.store/switch/FNFVSliceNX",
       "download": "https://switch.cdn.fortheusers.org/zips/FNFVSliceNX.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/FNFVSliceNX/icon.png",
-      "description": "Friday Night Funkin' V-Slice 0.8.7 (the official engine by The Funkin' Crew), ported to the Nintendo Switch.\n\nThis homebrew contains no game assets. On first launch it downloads the official game files (about 734 MB) from The Funkin' Crew's GitHub repository (FunkinCrew/funkin.assets), checks every file against its SHA-256 and starts the game. Downloads resume after a lost connection or a closed game. Without internet on the console, the screen explains how to copy the files from a computer.\n\nRequirements:\n- Launch the homebrew menu from a game (hold R while starting any title), not from the Album.\n- About 1.1 GB free on the SD card.\n\nIncludes every week, Weekend 1, Erect and Pico mixes, Freeplay, Character Select, video cutscenes from the official files, HD Rumble and Nintendo button layout. Saves and mods go to /switch/Friday-Night-Funkin/.\n\nUnofficial port, not affiliated with The Funkin' Crew Inc. or Nintendo. Please support the official game.\n\nCredits: The Funkin' Crew (the game);",
+      "description": "Grab your Joy-Cons and get funky! This is Friday Night Funkin' V-Slice 0.8.7, the same version you play today on PC and mobile, ported 1:1 to the Nintendo Switch. Every week, Weekend 1, Erect and Pico mixes, Freeplay, Character Select, the animated cutscenes with sound and HD Rumble on the hits.\n\nBEFORE YOU PLAY\n\n1) Open it with full memory. Hold R while you launch any game from the HOME menu and pick Friday Night Funkin' from the homebrew menu (a forwarder on your HOME menu works too). Opening it from the Album gives the game too little memory.\n\n2) Stay online the first time. To keep things legal, this homebrew comes without the game's art and music. On first launch it downloads the official files (about 734 MB) straight from The Funkin' Crew's GitHub, checks every one of them and starts the game. Lost the connection or closed the game? It picks up right where it left off. You need about 1.1 GB free on the SD card.\n\nNo internet on the console? No problem: the screen tells you how to c",
       "status": "Publicado en HB App Store"
     },
     {
@@ -6515,6 +6515,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/Neumann.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/Neumann/icon.png",
       "description": "Nintendo Switch SaveDate Backup & Restore Tool\\n\\nSpecial Thanks\\n\\nEdiZon\\nswitch-portlibs-examples",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-nexstatus",
+      "title": "NexStatus",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.1.3",
+      "author": "ILALEX",
+      "url": "https://hb-app.store/switch/NexStatus",
+      "download": "https://switch.cdn.fortheusers.org/zips/NexStatus.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/NexStatus/icon.png",
+      "description": "NexStatus shows who is online on Nextendo. The home screen lists games with a live player count, and opening a game shows its rooms and the players in them. After you sign in with a QR code, friends are marked in the list. Counts refresh about every 15 seconds while the app is open.\\n\\nAn Ultrahand overlay shows the same public totals without signing in. Updates can be installed from inside the app.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -7820,12 +7834,12 @@
       "type": "Juego homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.1.51",
+      "version": "0.1.58",
       "author": "RexiMemo!",
       "url": "https://hb-app.store/switch/SwitchnoteStudio",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchnoteStudio.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/SwitchnoteStudio/icon.png",
-      "description": "Create frame-by-frame animations on Nintendo Switch. Draw at 640×360 with four layers, ten ink colours, pens, brushes, erasers, onion skin and eight playback speeds.\\n\\nAdd sound, import pictures, organise Switchnotes locally, export video and share through Switchnote Gallery.\\n\\nThis is a public alpha, so please back up your work.\\n\\nLaunch through Homebrew Menu in app override mode; applet mode is unsupported.\\n\\nAI use: Human-written.",
+      "description": "Create frame-by-frame animations on Nintendo Switch. Draw at 640×360 with four layers, ten ink colours, pens, brushes, erasers, onion skin and eight playback speeds.\\n\\nAdd sound, import pictures, organise Switchnotes locally, export video and share through Switchnote Gallery.\\n\\nThis is a public alpha, so please back up your work.\\n\\nLaunch through Homebrew Menu in app override mode; applet mode is unsupported.\\n\\nOfficial website: https://switchnote.studio\\n\\nAI use: Human-written.",
       "status": "Publicado en HB App Store"
     },
     {
