@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T06:18:22+00:00",
+    "generated_at": "2026-11-14T17:58:46+00:00",
     "sources": {
       "SwitchPorts": "321 importados",
       "HB App Store": "513 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 19"
+      "GBAtemp": "33 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-13T19:39:35+00:00",
     "covers_resolved": 29,
     "duplicate_records_removed": 15,
     "invalid_records_removed": 0,
-    "unique_records": 839,
+    "unique_records": 851,
     "cover_breakdown": {
       "real_artwork": 29,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 299,
-      "visually_covered": 839
+      "nx_flow_illustrations": 311,
+      "visually_covered": 851
     }
   },
   "items": [
@@ -11259,6 +11259,146 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "gbatemp-aa8944da2a1825",
+      "title": "Ultimate Switch Port Thread",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-e3f6b07fef2969",
+      "title": "Blue Dragon - Nintendo Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/blue-dragon-nintendo-switch-port.685955/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-d9453cdd6f3a48",
+      "title": "Resident Evil Code: Veronica X NX Port (PS2)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/resident-evil-code-veronica-x-nx-port-ps2.686504/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-4f72993e85f238",
+      "title": "reNut-NX Ultimate Switch 360 Port Base",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/renut-nx-ultimate-switch-360-port-base.686515/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-4b0340afda957a",
+      "title": "Mario Kart: Double Dash!! NX - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/mario-kart-double-dash-nx-switch-port.685843/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-3b48c762d91cb1",
+      "title": "Nintendo Switch V1 - RCM not working - USB-C-port?",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/nintendo-switch-v1-rcm-not-working-usb-c-port.686529/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-922e20bc3d9cfe",
+      "title": "Release] SciLor's Antinag – removes the \"Please turn flight mode off\" popup in games (Atmosphere sysmodule + overlay)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-scilors-antinag-removes-the-please-turn-flight-mode-off-popup-in-games-atmosphere-sysmodule-overlay.686530/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-7388a25986028a",
+      "title": "[Release] Silent Hill Homecoming NX V1.0 – native Switch port of Silent Hill: Homecoming via static recompilation",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-silent-hill-homecoming-nx-v1-0-native-switch-port-of-silent-hill-homecoming-via-static-recompilation.686040/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-1043bf3e7c46fb",
+      "title": "Luigi's Mansion (Game Cube) - Switch Port |LM-NX",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/luigis-mansion-game-cube-switch-port-lm-nx.686090/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-4d5c1dc1f0aa1a",
+      "title": "[Release] Call of Duty (2003) + United Offensive - Nintendo Switch Native Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-call-of-duty-2003-united-offensive-nintendo-switch-native-port.685952/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-898886f159096f",
+      "title": "7th Heaven NX - PC Mods Manager for FF7 Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/7th-heaven-nx-pc-mods-manager-for-ff7-switch.686158/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-be9e15cef8dfec",
+      "title": "PPSSPP-nx -",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ppsspp-nx.684504/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54ca399ec27a3b",
+      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-312ad59b55769d",
+      "title": "[Release] BetterBedrock NX - Vibrant Visuals on Switch 1, Microsoft sign-in fix and your own server for Minecraft Bedrock",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-betterbedrock-nx-vibrant-visuals-on-switch-1-microsoft-sign-in-fix-and-your-own-server-for-minecraft-bedrock.685052/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
       "id": "gbatemp-7334d21f42527d",
       "title": "Need For Speed: Most Wanted (2005) - Switch Port",
       "type": "Comunidad",
@@ -11329,16 +11469,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-54ca399ec27a3b",
-      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-e4016382787067",
       "title": "[Release] Isaac Switch Mod Runtime v1.0.0 — Run PC Repentance Mods on Nintendo Switch",
       "type": "Comunidad",
@@ -11375,16 +11505,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/release-switch-super-manager-a-pc-library-manager-and-its-companion-installer-beta-testers-welcome.685327/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-aa8944da2a1825",
-      "title": "Ultimate Switch Port Thread",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
