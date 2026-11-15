@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-14T22:21:24+00:00",
+    "generated_at": "2026-11-15T06:25:53+00:00",
     "sources": {
       "SwitchPorts": "321 importados",
       "HB App Store": "513 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 31"
+      "GBAtemp": "48 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-14T22:21:24+00:00",
     "covers_resolved": 29,
     "duplicate_records_removed": 15,
     "invalid_records_removed": 0,
-    "unique_records": 851,
+    "unique_records": 857,
     "cover_breakdown": {
       "real_artwork": 29,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 311,
-      "visually_covered": 851
+      "nx_flow_illustrations": 317,
+      "visually_covered": 857
     }
   },
   "items": [
@@ -11259,6 +11259,56 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "gbatemp-d9453cdd6f3a48",
+      "title": "Resident Evil Code: Veronica X NX Port (PS2)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/resident-evil-code-veronica-x-nx-port-ps2.686504/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-930954429ae03e",
+      "title": "Blocked Internet functionality for homebrew",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/blocked-internet-functionality-for-homebrew.686506/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54ca399ec27a3b",
+      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-82b165cff50c6d",
+      "title": "[RELEASE] NX-Ultimate-Installer v1.0.0 - All-in-One USB & Network Installer, Optimizer, Converter & RCM Tool",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nx-ultimate-installer-v1-0-0-all-in-one-usb-network-installer-optimizer-converter-rcm-tool.686152/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54fe40d5eed18d",
+      "title": "NX Remote Play — Remote Play For Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/nx-remote-play-remote-play-for-nintendo-switch.686542/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
       "id": "gbatemp-aa8944da2a1825",
       "title": "Ultimate Switch Port Thread",
       "type": "Comunidad",
@@ -11269,22 +11319,12 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-e3f6b07fef2969",
-      "title": "Blue Dragon - Nintendo Switch Port",
+      "id": "gbatemp-2bb14235266ae0",
+      "title": "Sly Cooper (ProjectCane) - Switch port",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/blue-dragon-nintendo-switch-port.685955/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-d9453cdd6f3a48",
-      "title": "Resident Evil Code: Veronica X NX Port (PS2)",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/resident-evil-code-veronica-x-nx-port-ps2.686504/",
+      "discussion": "https://gbatemp.net/threads/sly-cooper-projectcane-switch-port.685266/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11299,12 +11339,12 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-4b0340afda957a",
-      "title": "Mario Kart: Double Dash!! NX - Switch Port",
+      "id": "gbatemp-e3f6b07fef2969",
+      "title": "Blue Dragon - Nintendo Switch Port",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/mario-kart-double-dash-nx-switch-port.685843/",
+      "discussion": "https://gbatemp.net/threads/blue-dragon-nintendo-switch-port.685955/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11315,6 +11355,46 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/nintendo-switch-v1-rcm-not-working-usb-c-port.686529/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-1043bf3e7c46fb",
+      "title": "Luigi's Mansion (Game Cube) - Switch Port |LM-NX",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/luigis-mansion-game-cube-switch-port-lm-nx.686090/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-f9fe81f92a116c",
+      "title": "BLACK XBOX NX PORT",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/black-xbox-nx-port.685756/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-531fbcd97ae204",
+      "title": "Guardian Heroes (XBLA, Xbox 360) for Switch: static recompilation port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/guardian-heroes-xbla-xbox-360-for-switch-static-recompilation-port.685995/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-4b0340afda957a",
+      "title": "Mario Kart: Double Dash!! NX - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/mario-kart-double-dash-nx-switch-port.685843/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11335,16 +11415,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/release-silent-hill-homecoming-nx-v1-0-native-switch-port-of-silent-hill-homecoming-via-static-recompilation.686040/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-1043bf3e7c46fb",
-      "title": "Luigi's Mansion (Game Cube) - Switch Port |LM-NX",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/luigis-mansion-game-cube-switch-port-lm-nx.686090/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11375,16 +11445,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/ppsspp-nx.684504/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-54ca399ec27a3b",
-      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
