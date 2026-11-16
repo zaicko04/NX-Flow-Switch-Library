@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T06:24:18+00:00",
-    "port_count": 281,
-    "repositories": 279,
+    "generated_at": "2026-11-16T21:59:00+00:00",
+    "port_count": 284,
+    "repositories": 282,
     "statuses": {
-      "readme_verified": 278,
+      "readme_verified": 281,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -12,8 +12,8 @@
       "required": 0,
       "recommended": 3,
       "optional": 2,
-      "not_required": 3,
-      "mentioned": 24,
+      "not_required": 4,
+      "mentioned": 26,
       "not_documented": 247
     }
   },
@@ -1027,7 +1027,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-11-16T06:24:18+00:00"
+      "checked_at": "2026-11-16T21:59:00+00:00"
     },
     "https://github.com/NaGaa95/abc_nx": {
       "status": "readme_verified",
@@ -1984,6 +1984,32 @@
       "release_url": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2",
       "release_tag": "v1.1.2"
     },
+    "https://github.com/VLPLAY-Games/dRally_S": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/VLPLAY-Games/dRally_S/blob/master/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A Nintendo Switch with custom firmware that runs homebrew (for example Atmosphère) and the Homebrew Menu (`hbmenu`).\nNo overclocking is needed. The game is from 1996 and is light for the console; it runs at the stock clocks. If you like, you can do the opposite and set lower clocks with a tool such as Horizon OC or sys-clk to save battery. How low you can go has not been measured, so try it for yourself. The game never changes clocks itself.",
+      "installation": "Everything goes into one folder, `sdmc:/switch/dRally/`:\n\n1. Copy `dRally.nro` (from the releases page) to `sdmc:/switch/dRally/`.\n2. Copy the game files into the same folder. The names must be in upper case. On the original Death Rally CD they are in the `RALINST` folder (the `.BPA` files) and in `CINEM` (the `.HAF` files). You do not need `DR.IDF`, `RALLY.EXE`, `SETUP.EXE` or anything else.\n3. Start dRally from the Homebrew Menu.\n\nThe game keeps its settings (`DR.CFG`), the settings of this port (`SWITCH.CFG`, written the first time) and `log.txt` in the same folder. `log.txt` is the file to attach to a bug report.",
+      "editions": "",
+      "overclock_status": "not_required",
+      "overclock_notes": "A Nintendo Switch with custom firmware that runs homebrew (for example Atmosphère) and the Homebrew Menu (`hbmenu`). - No overclocking is needed. The game is from 1996 and is light for the console; it runs at the stock clocks. If you like, you can do the opposite and set lower clocks with a tool such as Horizon OC or sys-clk to save battery. How low you can go has not been measured, so try it for yourself. The game never changes clocks itself. - An SD card (the game files are about 45 MB).",
+      "overclock_source": "",
+      "checked_at": "2026-11-16T21:59:00+00:00"
+    },
+    "https://github.com/VLPLAY-Games/openQ4_S": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/VLPLAY-Games/openQ4_S/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A Nintendo Switch with custom firmware that runs homebrew (for example Atmosphère) and the Homebrew Menu (`hbmenu`).\nLaunch in title takeover mode: start `hbmenu` by holding R while opening a game, not through the Album applet. Applet mode gives the application far too little memory for Quake 4.\nCPU overclock to 1785 MHz or higher. The game is CPU-bound, so the stock 1020 MHz is not enough for a comfortable frame rate",
+      "installation": "The game lives in `sdmc:/switch/openQ4/`:\n[!TIP]\nUse the tested settings file. Every release has an `openQ4Config.cfg` attached. It is the\nconfiguration the port was tested with: stick dead zone, look curve and sensitivity, volume\nlevels, the button layout and the other menu options. Copy it to\n`sdmc:/switch/openQ4/baseoq4/` before the first start (or replace your own file; keep a\ncopy if you changed settings). It contains no personal data: the player name is the default\n`Player`.\n\n1. Copy `openQ4.nro` to `sdmc:/switch/openQ4/`.\n2. Copy the `q4base` folder from your Quake 4 installation next to it.\n3",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "What was tested: the first three levels, on a Switch Lite in handheld mode, with a CPU clock of 1785 MHz, a GPU clock of 460 MHz and a RAM clock of 1600 MHz. Later levels have not been played through yet. In heavy fights the frame rate drops a lot, well below 30 FPS in the worst moments.\nLaunch in title takeover mode: start `hbmenu` by holding R while opening a game, not through the Album applet. Applet mode gives the application far too little memory for Quake 4. - CPU overclock to 1785 MHz or higher. The game is CPU-bound, so the stock 1020 MHz is not enough for a comfortable frame rate. Use an overclocking tool such as Horizon OC; the game never changes clocks itself",
+      "overclock_source": "",
+      "checked_at": "2026-11-16T21:59:00+00:00"
+    },
     "https://github.com/Vroccolli/mega-man-w-switch-homebrew": {
       "status": "readme_verified",
       "readme_url": "https://github.com/Vroccolli/mega-man-w-switch-homebrew/blob/main/README.md",
@@ -2047,7 +2073,7 @@
       "overclock_status": "not_required",
       "overclock_notes": "Overclocking the CPU, e.g. with sys-clk,\ndoes help a bit: the Lua interpreter runs on the CPU, so a faster CPU (stock is\n1020 MHz; overclocks go up to about 1785 MHz) makes it proportionally faster, at most\naround 1.75×. It won't remove the lag, though. It can't make up for the missing JIT\ncompiler, and parts of the slowdown (SD card access, generating new terrain) don't scale\nwith the clock.\n⚠️ Overclocking is entirely at your own risk. It increases heat, power draw and\nbattery drain, and can cause instability or damage to your console. Luanti-NX and its\nauthor are not responsible for any damage to your console, SD card or data caused by",
       "overclock_source": "",
-      "checked_at": "2026-11-02T15:46:23+00:00"
+      "checked_at": "2026-11-16T21:59:00+00:00"
     },
     "https://github.com/adumah/MegaMan64Recomp-NX": {
       "status": "readme_verified",
@@ -2775,7 +2801,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-02T15:46:23+00:00"
+      "checked_at": "2026-11-16T21:59:00+00:00"
     },
     "https://github.com/hazevauks/dantheman_nx": {
       "status": "readme_verified",
@@ -3426,6 +3452,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
+    },
+    "https://github.com/the-deshpande/usm_switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/the-deshpande/usm_switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "1. Copy `usmswitch.nro` to your Nintendo Switch SD card:\nLocation: `sdmc:/switch/usm/usmswitch.nro`\n2. Copy `USM.exe` and the `Data/` folder from your PC installation into `sdmc:/switch/usm/`:\n3. Launch `usmswitch` from the Homebrew Launcher.\n[!IMPORTANT]\nFor the best performance and stability, launch via title-override mode (hold `R` while launching any installed Switch game from the HOME menu) so that the Homebrew Launcher grants the port full RAM access (~3.1 GB available memory).",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "720p Handheld (1280x720): Runs at a solid, locked 30 FPS at stock Nintendo Switch clocks (1020 MHz CPU / 307 MHz GPU). Delivers crisp 1:1 native pixel mapping on the Switch internal display with zero blurry scaling. - 1080p Docked / Enhanced (1920x1080): Native full HD 1080p rendering. Needs overclocking (e.g., Boost/High CPU clock and High GPU profile via the in-game overlay menu) to achieve a stable 30 FPS. - Changing Resolutions: To change internal rendering resolution:\nHigh-Definition Rendering (720p / 1080p): Native 1280x720 internal rendering for crisp handheld play, with optional 1920x1080 mode for docked play",
+      "overclock_source": "",
+      "checked_at": "2026-11-16T21:59:00+00:00"
     },
     "https://github.com/timschneeb/Shipwright-Switch": {
       "status": "readme_verified",
