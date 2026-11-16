@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-15T18:49:31+00:00",
+    "generated_at": "2026-11-16T06:24:12+00:00",
     "sources": {
       "SwitchPorts": "321 importados",
       "HB App Store": "513 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 37"
+      "GBAtemp": "49 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-14T22:21:24+00:00",
+    "covers_checked_at": "2026-11-16T06:24:12+00:00",
     "covers_resolved": 29,
     "duplicate_records_removed": 15,
     "invalid_records_removed": 0,
-    "unique_records": 857,
+    "unique_records": 862,
     "cover_breakdown": {
       "real_artwork": 29,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 317,
-      "visually_covered": 857
+      "nx_flow_illustrations": 322,
+      "visually_covered": 862
     }
   },
   "items": [
@@ -11259,6 +11259,126 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "gbatemp-be9e15cef8dfec",
+      "title": "PPSSPP-nx -",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ppsspp-nx.684504/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-4b41c14f2499e2",
+      "title": "YabaSanshiro NX - Sega Saturn emulator",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/yabasanshiro-nx-sega-saturn-emulator.686378/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-aa8944da2a1825",
+      "title": "Ultimate Switch Port Thread",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-0eb9d8db8d7dba",
+      "title": "[Release] Dishonored (2012, Xbox 360) Nintendo Switch Native Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-dishonored-2012-xbox-360-nintendo-switch-native-port.686432/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-3342dcc7fca4ec",
+      "title": "[Release] Switify – Native Spotify app and background playback overlay for Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-switify-native-spotify-app-and-background-playback-overlay-for-nintendo-switch.683796/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54ca399ec27a3b",
+      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54fe40d5eed18d",
+      "title": "NX Remote Play — Remote Play For Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/nx-remote-play-remote-play-for-nintendo-switch.686542/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-c283170a0b077d",
+      "title": "[Release] NXPress - NSZ/XCZ compressor for NSP, XCI and SuperNSP, nsz-compatible (Windows / macOS / Linux)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nxpress-nsz-xcz-compressor-for-nsp-xci-and-supernsp-nsz-compatible-windows-macos-linux.685719/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-7b482ab8cc5e45",
+      "title": "[WIP] The Warriors for Nintendo Switch — original Xbox recompilation port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/wip-the-warriors-for-nintendo-switch-original-xbox-recompilation-port.686073/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-40497deb312013",
+      "title": "Post homebrew ideas, suggestions, requests here",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/post-homebrew-ideas-suggestions-requests-here.514524/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-218925d31bd988",
+      "title": "[Release] NXDock - homebrew installer for NSP, NSZ, XCI and XCZ, installs from your Switch Library Manager Web library over the network (beta)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nxdock-homebrew-installer-for-nsp-nsz-xci-and-xcz-installs-from-your-switch-library-manager-web-library-over-the-network-beta.686452/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-4f72993e85f238",
+      "title": "reNut-NX Ultimate Switch 360 Port Base",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/renut-nx-ultimate-switch-360-port-base.686515/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
       "id": "gbatemp-d9453cdd6f3a48",
       "title": "Resident Evil Code: Veronica X NX Port (PS2)",
       "type": "Comunidad",
@@ -11279,16 +11399,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-54ca399ec27a3b",
-      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-82b165cff50c6d",
       "title": "[RELEASE] NX-Ultimate-Installer v1.0.0 - All-in-One USB & Network Installer, Optimizer, Converter & RCM Tool",
       "type": "Comunidad",
@@ -11299,42 +11409,12 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-54fe40d5eed18d",
-      "title": "NX Remote Play — Remote Play For Nintendo Switch",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/nx-remote-play-remote-play-for-nintendo-switch.686542/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-aa8944da2a1825",
-      "title": "Ultimate Switch Port Thread",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-2bb14235266ae0",
       "title": "Sly Cooper (ProjectCane) - Switch port",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/sly-cooper-projectcane-switch-port.685266/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-4f72993e85f238",
-      "title": "reNut-NX Ultimate Switch 360 Port Base",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/renut-nx-ultimate-switch-360-port-base.686515/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11439,16 +11519,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-be9e15cef8dfec",
-      "title": "PPSSPP-nx -",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/ppsspp-nx.684504/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-312ad59b55769d",
       "title": "[Release] BetterBedrock NX - Vibrant Visuals on Switch 1, Microsoft sign-in fix and your own server for Minecraft Bedrock",
       "type": "Comunidad",
@@ -11475,16 +11545,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/atmosphere-nx-custom-firmware-in-development-by-sciresm.496832/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-40497deb312013",
-      "title": "Post homebrew ideas, suggestions, requests here",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/post-homebrew-ideas-suggestions-requests-here.514524/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11605,16 +11665,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/release-switch-library-manager-web-a-self-hosted-manager-for-your-switch-backups-docker-unraid-windows-macos-linux.685319/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-c283170a0b077d",
-      "title": "[Release] NXPress - NSZ/XCZ compressor for NSP, XCI and SuperNSP, nsz-compatible (Windows / macOS / Linux)",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nxpress-nsz-xcz-compressor-for-nsp-xci-and-supernsp-nsz-compatible-windows-macos-linux.685719/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
