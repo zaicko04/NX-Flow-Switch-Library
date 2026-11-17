@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-16T21:59:00+00:00",
+    "generated_at": "2026-11-17T07:52:37+00:00",
     "sources": {
-      "SwitchPorts": "324 importados",
+      "SwitchPorts": "327 importados",
       "HB App Store": "513 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 42"
+      "GBAtemp": "56 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-16T06:24:12+00:00",
-    "covers_resolved": 29,
+    "covers_checked_at": "2026-11-17T07:52:37+00:00",
+    "covers_resolved": 31,
     "duplicate_records_removed": 15,
     "invalid_records_removed": 0,
-    "unique_records": 865,
+    "unique_records": 874,
     "cover_breakdown": {
-      "real_artwork": 29,
+      "real_artwork": 31,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 325,
-      "visually_covered": 865
+      "nx_flow_illustrations": 332,
+      "visually_covered": 874
     }
   },
   "items": [
@@ -2233,6 +2233,19 @@
       "discussion": "https://gbatemp.net/threads/sonic-triple-trouble-16-bit-switch-port.682814/"
     },
     {
+      "id": "switchports-ae676da18fa364",
+      "title": "🟢 Soulcalibur II",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "0.4.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/markaurel13/soulcalibur2-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/soulcalibur-ii-for-nintendo-switch-includes-all-the-console-exclusive-characters-switch-port.686581/"
+    },
+    {
       "id": "switchports-00ac90751dfc65",
       "title": "Stick With It",
       "type": "Port",
@@ -2592,6 +2605,20 @@
       "cover_source": "Libretro thumbnails"
     },
     {
+      "id": "switchports-b171e49c8f53cd",
+      "title": "🟢 The Simpsons",
+      "type": "Port",
+      "platform": "Arcade",
+      "version": "1.0.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/cheviman/simpsons-port",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/The%20Simpsons%20%282%20Players%29.png",
+      "cover_source": "Libretro thumbnails"
+    },
+    {
       "id": "switchports-2a12f48011d448",
       "title": "Virtua Fighter 2",
       "type": "Port",
@@ -2728,6 +2755,20 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/F-Zero%20X%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-c5b096e87ba74d",
+      "title": "🟢 GoldenEye 007",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "0.2.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/christphe/project-dam-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/GoldenEye%20007%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
     },
     {
@@ -11295,12 +11336,62 @@
       "status": "Publicado en HB App Store"
     },
     {
-      "id": "gbatemp-be9e15cef8dfec",
-      "title": "PPSSPP-nx -",
+      "id": "gbatemp-9543e4fa7b4b85",
+      "title": "Ocarina of Time Switch Port [ Ship of Harkinian ]",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/ppsspp-nx.684504/",
+      "discussion": "https://gbatemp.net/threads/ocarina-of-time-switch-port-ship-of-harkinian.630367/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-aa8944da2a1825",
+      "title": "Ultimate Switch Port Thread",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-ed0f4890e44a7c",
+      "title": "Mass Effect 2 (2010, Xbox 360) Nintendo Switch Native Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/mass-effect-2-2010-xbox-360-nintendo-switch-native-port.686606/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-59ed2ca8497f94",
+      "title": "Nezumiiruka - A New Port of Dolphin to the Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/nezumiiruka-a-new-port-of-dolphin-to-the-nintendo-switch.685580/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-15838567e04a33",
+      "title": "Slay the Spire 2 - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/slay-the-spire-2-switch-port.683997/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54ca399ec27a3b",
+      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11315,12 +11406,82 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-aa8944da2a1825",
-      "title": "Ultimate Switch Port Thread",
+      "id": "gbatemp-898886f159096f",
+      "title": "7th Heaven NX - PC Mods Manager for FF7 Switch",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "discussion": "https://gbatemp.net/threads/7th-heaven-nx-pc-mods-manager-for-ff7-switch.686158/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-0cf04d7730e615",
+      "title": "Bloody Roar Extreme (Xbox) Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/bloody-roar-extreme-xbox-switch-port.686195/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-14d8b2ea1bec02",
+      "title": "[Release] SwitchU, a Wii U-style custom home menu replacement for Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-switchu-a-wii-u-style-custom-home-menu-replacement-for-nintendo-switch.680725/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-78d283f271a32b",
+      "title": "Soulcalibur II for Nintendo Switch (Includes all the Console exclusive characters) - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/soulcalibur-ii-for-nintendo-switch-includes-all-the-console-exclusive-characters-switch-port.686581/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-d84ab75359e235",
+      "title": "[Release] Madagascar (Xbox) for Nintendo Switch - native static recompilation port (v0.1.8)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-madagascar-xbox-for-nintendo-switch-native-static-recompilation-port-v0-1-8.686468/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-0cea4a992286d4",
+      "title": "Atmosphere-NX - Custom Firmware in development by SciresM",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/atmosphere-nx-custom-firmware-in-development-by-sciresm.496832/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-c283170a0b077d",
+      "title": "[Release] NXPress - NSZ/XCZ compressor for NSP, XCI and SuperNSP, nsz-compatible (Windows / macOS / Linux)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nxpress-nsz-xcz-compressor-for-nsp-xci-and-supernsp-nsz-compatible-windows-macos-linux.685719/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-be9e15cef8dfec",
+      "title": "PPSSPP-nx -",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ppsspp-nx.684504/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11345,32 +11506,12 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-54ca399ec27a3b",
-      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-54fe40d5eed18d",
       "title": "NX Remote Play — Remote Play For Nintendo Switch",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/nx-remote-play-remote-play-for-nintendo-switch.686542/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-c283170a0b077d",
-      "title": "[Release] NXPress - NSZ/XCZ compressor for NSP, XCI and SuperNSP, nsz-compatible (Windows / macOS / Linux)",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nxpress-nsz-xcz-compressor-for-nsp-xci-and-supernsp-nsz-compatible-windows-macos-linux.685719/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11545,16 +11686,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-898886f159096f",
-      "title": "7th Heaven NX - PC Mods Manager for FF7 Switch",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/7th-heaven-nx-pc-mods-manager-for-ff7-switch.686158/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-312ad59b55769d",
       "title": "[Release] BetterBedrock NX - Vibrant Visuals on Switch 1, Microsoft sign-in fix and your own server for Minecraft Bedrock",
       "type": "Comunidad",
@@ -11571,16 +11702,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/need-for-speed-most-wanted-2005-switch-port.684784/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-0cea4a992286d4",
-      "title": "Atmosphere-NX - Custom Firmware in development by SciresM",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/atmosphere-nx-custom-firmware-in-development-by-sciresm.496832/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11635,16 +11756,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-14d8b2ea1bec02",
-      "title": "[Release] SwitchU, a Wii U-style custom home menu replacement for Nintendo Switch",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-switchu-a-wii-u-style-custom-home-menu-replacement-for-nintendo-switch.680725/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-0bb80e779eb4db",
       "title": "PAC-MAN Championship Edition DX+ - Switch Port",
       "type": "Comunidad",
@@ -11681,16 +11792,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/kameo-elements-of-power-switch-port.686207/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-59ed2ca8497f94",
-      "title": "Nezumiiruka - A New Port of Dolphin to the Nintendo Switch",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/nezumiiruka-a-new-port-of-dolphin-to-the-nintendo-switch.685580/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
