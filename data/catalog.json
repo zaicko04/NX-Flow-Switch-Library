@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T07:24:30+00:00",
+    "generated_at": "2026-11-18T20:29:10+00:00",
     "sources": {
-      "SwitchPorts": "331 importados",
+      "SwitchPorts": "336 importados",
       "HB App Store": "513 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 48"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-17T07:52:37+00:00",
-    "covers_resolved": 24,
+    "covers_checked_at": "2026-11-18T20:29:10+00:00",
+    "covers_resolved": 37,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 892,
+    "unique_records": 897,
     "cover_breakdown": {
-      "real_artwork": 24,
+      "real_artwork": 37,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 357,
-      "visually_covered": 892
+      "nx_flow_illustrations": 349,
+      "visually_covered": 897
     }
   },
   "items": [
@@ -2307,6 +2307,18 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-f350d56471cb8f",
+      "title": "Stupid Zombies",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "v1.0.2",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Terremotixx/Stupid-Zombies-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-52d8653368ed8d",
       "title": "Subway Surfers",
       "type": "Port",
@@ -2623,7 +2635,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/SegaSonic-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/SegaSonic%20The%20Hedgehog%20%28Japan%2C%20rev.%20C%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-4ebefe1d33a8db",
@@ -2691,7 +2705,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/FurryLilManChild/MPH-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%20DS/Named_Boxarts/Metroid%20Prime%20-%20Hunters%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-619dc705750abe",
@@ -2828,7 +2844,9 @@
       "url": "https://github.com/YoshiCrystal9/2ship2harkinian-Switch/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/majoras-mask-switch-port-2ship-2harkinian.667996/"
+      "discussion": "https://gbatemp.net/threads/majoras-mask-switch-port-2ship-2harkinian.667996/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-b42a2157fe743c",
@@ -2841,7 +2859,9 @@
       "url": "https://github.com/reflex909/2ship2harkinian-Switch",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/2ship2harkinian-switch-port-gyro-and-rumble-support.683491/"
+      "discussion": "https://gbatemp.net/threads/2ship2harkinian-switch-port-gyro-and-rumble-support.683491/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20Majora%27s%20Mask%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-3ff79c9fa36b87",
@@ -2895,7 +2915,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/PaperBoat-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-f03e6dd9aca29c",
@@ -2907,7 +2929,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/CypherNoodle/PaperBoat-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Paper%20Mario%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-266942c59cc5b9",
@@ -3001,7 +3025,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/KawaiiBunga/BattleShipNX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-76d4ebbd682062",
@@ -3013,7 +3039,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/delsonazevedo/BattleShip-Switch",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Super%20Smash%20Bros.%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-bc1b044adbdc0d",
@@ -3041,6 +3069,18 @@
       "discussion": "https://gbatemp.net/threads/release-racewave46-wave-race-64-recompiled-for-nintendo-switch-60fps-720p-1080p-stock-clocks.684841/"
     },
     {
+      "id": "switchports-66604d9edc330d",
+      "title": "Disney's Magical Quest Trilogy",
+      "type": "Port",
+      "platform": "Super Nintendo",
+      "version": "beta-v1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/simplePsyduck/MagicalQuestTrilogy-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-816152090e990f",
       "title": "Donkey Kong Country (souldbminerr)",
       "type": "Port",
@@ -3051,7 +3091,9 @@
       "url": "https://github.com/souldbminerr/DKC1Recomp-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/"
+      "discussion": "https://gbatemp.net/threads/donkey-kong-country-trilogy-port-16-9-widescreen-2-player-support.684319/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-a02b8dc8440ba7",
@@ -3063,7 +3105,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/mrOt4/DKC1Recomp-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Donkey%20Kong%20Country%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-26ac9a330c0c9b",
@@ -3113,7 +3157,9 @@
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/F-Zero-NX-Modern",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/F-Zero%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-88316cffcb285c",
@@ -3140,7 +3186,9 @@
       "url": "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/"
+      "discussion": "https://gbatemp.net/threads/the-legend-of-zelda-a-link-to-the-past-aleks-ultimate-nx.683965/",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Legend%20of%20Zelda%2C%20The%20-%20A%20Link%20to%20the%20Past%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-9821a7afda53f5",
@@ -3196,7 +3244,9 @@
       "source": "SwitchPorts",
       "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
+      "description": "Revisa la fuente original y sus requisitos.",
+      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
+      "cover_source": "Libretro thumbnails"
     },
     {
       "id": "switchports-ea434b2dbab8be",
@@ -3461,8 +3511,8 @@
       "discussion": "https://gbatemp.net/threads/redriver2-driver-2-playstation-game-reverse-engineering.682414/"
     },
     {
-      "id": "switchports-824bca3a629db7",
-      "title": "Elder Scrolls III Morrowind (fgsfdsfgs)",
+      "id": "switchports-42bc8ef4693650",
+      "title": "Elder Scrolls III: Morrowind (fgsfdsfgs)",
       "type": "Port",
       "platform": "PC",
       "version": "0.46.0-nx4",
@@ -3474,8 +3524,8 @@
       "discussion": "https://gbatemp.net/threads/openmw-for-switch.540250/"
     },
     {
-      "id": "switchports-2ab90796ca0a38",
-      "title": "Elder Scrolls III Morrowind (seamusduncmcgrath)",
+      "id": "switchports-c483f1b8e71894",
+      "title": "Elder Scrolls III: Morrowind (seamusduncmcgrath)",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.0",
@@ -3683,6 +3733,18 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-39196fc504407d",
+      "title": "🟢 Mario vs. Luigi Online MiiBumm's Mega Item Mod",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.0.2",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/aks796/mmim_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-fa3c3608462c2a",
       "title": "McOsu",
       "type": "Port",
@@ -3758,8 +3820,8 @@
       "discussion": "https://gbatemp.net/threads/nzportable-nazi-zombies-made-with-quake-engine.624375/"
     },
     {
-      "id": "switchports-a0faa977213dd1",
-      "title": "Need for Speed II / III",
+      "id": "switchports-ad2fa07e452dd3",
+      "title": "Need for Speed II: SE  Need for Speed III: Hot Pursuit",
       "type": "Port",
       "platform": "PC",
       "version": "1.0.1 pre-release",
@@ -4234,6 +4296,18 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-5f1a504b41b452",
+      "title": "Woody Woodpecker: Escape from Buzz Buzzard Park",
+      "type": "Port",
+      "platform": "PC",
+      "version": "v1.0.12",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/jjmhalew/WoodyRE",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-b34a1e73b199ad",
       "title": "Wolfenstein 3D",
       "type": "Port",
@@ -4257,6 +4331,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/your-turn-to-die-death-game-by-majority.686072/"
+    },
+    {
+      "id": "switchports-d9aed6997be8c1",
+      "title": "Yume Nikki",
+      "type": "Port",
+      "platform": "PC",
+      "version": "v1.2.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Electr0Whale/nx-yumenikki",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-653e7389e1683f",
