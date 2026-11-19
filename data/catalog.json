@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-19T07:21:50+00:00",
+    "generated_at": "2026-11-19T20:33:02+00:00",
     "sources": {
-      "SwitchPorts": "336 importados",
+      "SwitchPorts": "340 importados",
       "HB App Store": "513 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 48"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-18T20:29:10+00:00",
+    "covers_checked_at": "2026-11-19T20:33:02+00:00",
     "covers_resolved": 37,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 897,
+    "unique_records": 901,
     "cover_breakdown": {
       "real_artwork": 37,
       "homebrew_icons": 511,
-      "nx_flow_illustrations": 349,
-      "visually_covered": 897
+      "nx_flow_illustrations": 353,
+      "visually_covered": 901
     }
   },
   "items": [
@@ -329,7 +329,7 @@
       "url": "https://github.com/Thorhax/yabasanshiro-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/yabasanshiro-nx-sega-saturn-emulator.686378/unread"
+      "discussion": "https://gbatemp.net/threads/yabasanshiro-nx-sega-saturn-emulator.686378/"
     },
     {
       "id": "switchports-185f5acb935917",
@@ -429,6 +429,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/markaurel13/abstarwars2_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-f8a8407e7d5bac",
+      "title": "🟢 Asphalt 6: Adrenaline",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.7.9",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/7UNC46/a6_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -1119,7 +1131,7 @@
       "url": "https://github.com/ChanseyIsTheBest/colorsheep_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/color-sheep-switch-port.683025/unread"
+      "discussion": "https://gbatemp.net/threads/color-sheep-switch-port.683025/"
     },
     {
       "id": "switchports-912826b282b626",
@@ -1296,7 +1308,7 @@
       "url": "https://github.com/ChanseyIsTheBest/daggerfall_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/daggerfall-unity-switch-port.684258/unread"
+      "discussion": "https://gbatemp.net/threads/daggerfall-unity-switch-port.684258/"
     },
     {
       "id": "switchports-4b06d909aded05",
@@ -1566,7 +1578,7 @@
       "url": "https://github.com/NaGaa95/hl2_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/half-life-2-source-engine-switch-port.682466/unread"
+      "discussion": "https://gbatemp.net/threads/half-life-2-source-engine-switch-port.682466/"
     },
     {
       "id": "switchports-f9f7b9bf55d94e",
@@ -1935,6 +1947,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/papers-please-switch-port.683337/"
+    },
+    {
+      "id": "switchports-ad4c014da0dbb8",
+      "title": "🟢 PewDiePie: Legend of Brofist",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "1.0.2",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/xflipperkast/PewDiePie_NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-209aa0a5f1cefb",
@@ -2467,7 +2491,7 @@
       "url": "https://github.com/NaGaa95/vln_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/very-little-nightmares-switch-port.682971/unread"
+      "discussion": "https://gbatemp.net/threads/very-little-nightmares-switch-port.682971/"
     },
     {
       "id": "switchports-69f965d67c93f7",
@@ -2556,7 +2580,7 @@
       "url": "https://github.com/Thorhax/Daytona-NX-Modern",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/daytona-usa-arcade-port-nx.685139/unread"
+      "discussion": "https://gbatemp.net/threads/daytona-usa-arcade-port-nx.685139/"
     },
     {
       "id": "switchports-f986f1c9cc06dc",
@@ -2691,7 +2715,7 @@
       "url": "https://github.com/Thorhax/VF2-NX-Modern",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/virtua-fighter-2-arcade.685157/unread",
+      "discussion": "https://gbatemp.net/threads/virtua-fighter-2-arcade.685157/",
       "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/Virtua%20Fighter%202%20%28Version%202.1%29.png",
       "cover_source": "Libretro thumbnails"
     },
@@ -3231,6 +3255,7 @@
       "url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/super-mario-all-stars-for-nintendo-switch-true-widescreen-co-op-multiplayer-msu-1-support-cheats-achievements-more.686444/",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20All-Stars%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
     },
@@ -3795,8 +3820,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-9cf8fc4e87b7f8",
-      "title": "Minecraft Rust",
+      "id": "switchports-e0035022b4888f",
+      "title": "Minecraft Rust (JohnUzoka)",
       "type": "Port",
       "platform": "PC",
       "version": "0.1.0",
@@ -3805,6 +3830,19 @@
       "url": "https://github.com/JohnUzoka/horizon-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-5cf7c26a5802fb",
+      "title": "🟢 Minecraft Rust (KoHaku743)",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.0.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/KoHaku743/horizon-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/release-horizon-nx-v1-0-0-minecraft-java-edition-26-3-running-natively-on-switch-rust-no-java.686675/"
     },
     {
       "id": "switchports-006b79a46f558e",
@@ -3866,6 +3904,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HayatoG/PvZ-Portable/",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-d67ca6aab4a74f",
+      "title": "🟢 Plants Vs. Zombies: DLC Edition",
+      "type": "Port",
+      "platform": "PC",
+      "version": "beta-2.5",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/aks796/pvzdlc_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -4474,7 +4524,7 @@
       "type": "Homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.6.5",
+      "version": "0.7.0",
       "author": "xlanor",
       "url": "https://hb-app.store/switch/Akira",
       "download": "https://switch.cdn.fortheusers.org/zips/Akira.zip",
@@ -6784,7 +6834,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.1.3",
+      "version": "1.1.11",
       "author": "ILALEX",
       "url": "https://hb-app.store/switch/NexStatus",
       "download": "https://switch.cdn.fortheusers.org/zips/NexStatus.zip",
@@ -8613,7 +8663,7 @@
       "type": "Juego homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.7.1",
+      "version": "1.9.0",
       "author": "Wololo",
       "url": "https://hb-app.store/switch/WarnelChawpiovs",
       "download": "https://switch.cdn.fortheusers.org/zips/WarnelChawpiovs.zip",
@@ -9467,7 +9517,7 @@
       "type": "Juego homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "build-141",
+      "version": "build-143",
       "author": "thelinkin3000",
       "url": "https://hb-app.store/switch/halo-ce-universal",
       "download": "https://switch.cdn.fortheusers.org/zips/halo-ce-universal.zip",
@@ -10881,7 +10931,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.0.8",
+      "version": "1.1.1",
       "author": "iTotalJustice",
       "url": "https://hb-app.store/switch/sphaira",
       "download": "https://switch.cdn.fortheusers.org/zips/sphaira.zip",
@@ -11315,7 +11365,7 @@
       "type": "Homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "1.2.5",
+      "version": "1.2.6",
       "author": "XorTroll",
       "url": "https://hb-app.store/switch/uLaunch",
       "download": "https://switch.cdn.fortheusers.org/zips/uLaunch.zip",

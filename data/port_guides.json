@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-19T07:21:51+00:00",
-    "port_count": 310,
-    "repositories": 308,
+    "generated_at": "2026-11-19T20:33:07+00:00",
+    "port_count": 314,
+    "repositories": 312,
     "statuses": {
-      "readme_verified": 308
+      "readme_verified": 312
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 4,
       "mentioned": 29,
-      "not_documented": 270
+      "not_documented": 274
     }
   },
   "by_repo": {
@@ -120,6 +120,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
+    },
+    "https://github.com/7UNC46/a6_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/7UNC46/a6_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`a6nx` is a native wrapper that runs the 32-bit (ARMv7) Android build of\nAsphalt 6: Adrenaline HD on Nintendo Switch. It loads the game's own Glitch",
+      "requirements": "Docker\nThe vita2hos AArch32 toolchain image\n (`ghcr.io/vita2hos/devcontainer/vita2hos:latest`): devkitARM, switch-tools\n and miniz\nlibnx32, the 32-bit libnx\nmesa32, the 32-bit Mesa 20.1 and\n libdrmnouveau for Switch\nThe `devkitpro/devkita64` image for the launcher\n\n`tools/setupdeps.sh` fetches and builds libnx32 and Mesa into `deps/` and\n`portlibs32/`. You only need to run it once.\n\nCompile the 32-bit game program, then the launcher that carries it:",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-19T20:33:07+00:00"
     },
     "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition": {
       "status": "readme_verified",
@@ -1016,7 +1029,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-05T19:55:13+00:00"
+      "checked_at": "2026-11-19T20:33:07+00:00"
     },
     "https://github.com/JohnUzoka/terrabuilder-nx": {
       "status": "readme_verified",
@@ -1070,6 +1083,19 @@
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
     },
+    "https://github.com/KoHaku743/horizon-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/KoHaku743/horizon-nx/blob/master/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A Nintendo Switch running Atmosphère custom firmware.\nAbout 1 GB free on the SD card.\nA computer (Windows, macOS or Linux) to prepare the game files, and your own copy of Minecraft: Java Edition.\nTo play on online servers: the Microsoft account that owns Minecraft: Java Edition.",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-19T20:33:07+00:00"
+    },
     "https://github.com/LaLemniscata/sd2-nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/LaLemniscata/sd2-nx/blob/main/README.md",
@@ -1081,7 +1107,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-05T19:55:13+00:00"
+      "checked_at": "2026-11-19T20:33:07+00:00"
     },
     "https://github.com/McKay42/McOsu-NX": {
       "status": "readme_verified",
@@ -2467,6 +2493,19 @@
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
     },
+    "https://github.com/aks796/pvzdlc_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/aks796/pvzdlc_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "An unofficial port of Plants vs. Zombies: DLC Edition v2.7.2, the fan expansion of\nPlants vs. Zombies by Samen and the DLC team, to:",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-19T20:33:07+00:00"
+    },
     "https://github.com/aks796/sm127_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/aks796/sm127_nx/blob/main/README.md",
@@ -2712,7 +2751,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-05T19:55:13+00:00"
+      "checked_at": "2026-11-19T20:33:07+00:00"
     },
     "https://github.com/bshurikan/cvrevamped_nx": {
       "status": "readme_verified",
@@ -3883,6 +3922,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
+    },
+    "https://github.com/xflipperkast/PewDiePie_NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/xflipperkast/PewDiePie_NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "Use application/title takeover mode (hold R while opening an installed game to\nenter hbmenu). Put only these two files on the SD card:\n\nUse your own ARM64 PewDiePie 1.4.6 APK, renamed to `pewdiepie.apk`. Do not extract\nor patch its native libraries. The port creates one `data/` directory beside\nthese files for saves and cached runtime files. Keep `data/` when updating the\nNRO. It does not read or migrate APK64 saves or another standalone port's files.\nExisting APK64 saves remain in their original location.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-19T20:33:07+00:00"
     },
     "https://github.com/xflipperkast/angrybirdsas_nx": {
       "status": "readme_verified",
