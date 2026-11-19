@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T20:29:10+00:00",
+    "generated_at": "2026-11-19T07:21:50+00:00",
     "sources": {
       "SwitchPorts": "336 importados",
       "HB App Store": "513 importados",
@@ -5986,7 +5986,7 @@
       "type": "Homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.8.4",
+      "version": "0.8.13",
       "author": "Tô Quang Thắng",
       "url": "https://hb-app.store/switch/J2MENXX",
       "download": "https://switch.cdn.fortheusers.org/zips/J2MENXX.zip",
@@ -10503,7 +10503,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "2.3.3",
+      "version": "2.3.4",
       "author": "Insektaure",
       "url": "https://hb-app.store/switch/pkHouseLocalPokeBank",
       "download": "https://switch.cdn.fortheusers.org/zips/pkHouseLocalPokeBank.zip",

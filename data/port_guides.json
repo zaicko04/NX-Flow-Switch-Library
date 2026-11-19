@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-18T20:29:17+00:00",
+    "generated_at": "2026-11-19T07:21:51+00:00",
     "port_count": 310,
     "repositories": 308,
     "statuses": {
@@ -2998,7 +2998,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "| `renderresolution` | `auto` / `720` / `1080` | `auto` | `auto` = 720p handheld, 1080p docked | | `boostloading` | `0` / `1` | `1` | raise the CPU clock at start and while a scene loads | | `archivecache` | `0` / `1` | `1` | keep recently read parts of the APK and OBB in memory (64 MB) and prefetch the small reads made at start; `0` reads the SD card directly (slower loads) |\n| `gevignettehandheld`, `gevignettedocked` | `0` / `1` | `1` / `1` | darkened screen corners. `0` = off | | `geantialiasinghandheld`, `geantialiasingdocked` | `0` / `2` / `4` / `8` | `2` / `0` | MSAA: smooths the edges of the car, road and rails (not foliage)",
       "overclock_source": "",
-      "checked_at": "2026-11-05T06:42:45+00:00"
+      "checked_at": "2026-11-19T07:21:51+00:00"
     },
     "https://github.com/etonedemid/minecraft-switch": {
       "status": "readme_verified",
