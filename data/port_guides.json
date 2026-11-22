@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T19:12:39+00:00",
-    "port_count": 314,
-    "repositories": 312,
+    "generated_at": "2026-11-22T06:43:28+00:00",
+    "port_count": 316,
+    "repositories": 314,
     "statuses": {
-      "readme_verified": 312
+      "readme_verified": 314
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +13,7 @@
       "optional": 2,
       "not_required": 4,
       "mentioned": 29,
-      "not_documented": 274
+      "not_documented": 276
     }
   },
   "by_repo": {
@@ -121,6 +121,19 @@
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
     },
+    "https://github.com/7UNC46/a5_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/7UNC46/a5_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "`a5nx` is a native wrapper that runs the 32-bit (ARMv5TE) Android build of\nAsphalt 5 HD on Nintendo Switch. It loads the game's own engine library and",
+      "requirements": "Docker\nThe vita2hos AArch32 toolchain image\n (`ghcr.io/vita2hos/devcontainer/vita2hos:latest`): devkitARM, switch-tools\n and miniz\nlibnx32, the 32-bit libnx\nmesa32, the 32-bit Mesa 20.1 and\n libdrmnouveau for Switch\nFFmpeg 6.1.2 (LGPL build, see `THIRDPARTYNOTICES.md`)\nThe `devkitpro/devkita64` image for the launcher\n\n`tools/setupdeps.sh` fetches and builds the dependencies into `deps/`. You\nonly need to run it once.",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-22T06:43:28+00:00"
+    },
     "https://github.com/7UNC46/a6_nx": {
       "status": "readme_verified",
       "readme_url": "https://github.com/7UNC46/a6_nx/blob/main/README.md",
@@ -133,6 +146,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-19T20:33:07+00:00"
+    },
+    "https://github.com/7UNC46/a7_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/7UNC46/a7_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-22T06:43:28+00:00"
     },
     "https://github.com/Alexgg1014/The-Legend-of-Zelda-A-Link-To-The-Past-Alek-s-Ultimate-NX-Edition": {
       "status": "readme_verified",

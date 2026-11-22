@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T19:12:39+00:00",
+    "generated_at": "2026-11-22T06:43:28+00:00",
     "sources": {
-      "SwitchPorts": "340 importados",
+      "SwitchPorts": "342 importados",
       "HB App Store": "514 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 48"
     },
@@ -11,12 +11,12 @@
     "covers_resolved": 37,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 902,
+    "unique_records": 904,
     "cover_breakdown": {
       "real_artwork": 37,
       "homebrew_icons": 512,
-      "nx_flow_illustrations": 353,
-      "visually_covered": 902
+      "nx_flow_illustrations": 355,
+      "visually_covered": 904
     }
   },
   "items": [
@@ -433,14 +433,38 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-1d887cbd40b2b7",
+      "title": "🟢 Asphalt 5 HD",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.3.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/7UNC46/a5_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-f8a8407e7d5bac",
       "title": "🟢 Asphalt 6: Adrenaline",
       "type": "Port",
       "platform": "Android 32bit",
-      "version": "0.7.9",
+      "version": "0.8.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/7UNC46/a6_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-a804566d36da28",
+      "title": "🟢 Asphalt 7: Heat",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.2.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/7UNC46/a7_nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -6890,7 +6914,7 @@
       "type": "Juego homebrew",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.6.6",
+      "version": "0.7.0",
       "author": "Zaydme",
       "url": "https://hb-app.store/switch/OpenAoK",
       "download": "https://switch.cdn.fortheusers.org/zips/OpenAoK.zip",
@@ -9811,7 +9835,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "author": "j2k",
       "url": "https://hb-app.store/switch/kickNX",
       "download": "https://switch.cdn.fortheusers.org/zips/kickNX.zip",
