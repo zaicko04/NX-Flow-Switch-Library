@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-22T19:35:27+00:00",
-    "port_count": 316,
-    "repositories": 314,
+    "generated_at": "2026-11-23T07:33:29+00:00",
+    "port_count": 324,
+    "repositories": 322,
     "statuses": {
-      "readme_verified": 314
+      "readme_verified": 322
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -12,8 +12,8 @@
       "recommended": 3,
       "optional": 2,
       "not_required": 4,
-      "mentioned": 29,
-      "not_documented": 276
+      "mentioned": 32,
+      "not_documented": 281
     }
   },
   "by_repo": {
@@ -1718,7 +1718,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T06:21:54+00:00"
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/PalindromicBreadLoaf/NX-Diffuser": {
       "status": "readme_verified",
@@ -2054,6 +2054,19 @@
       "overclock_source": "",
       "checked_at": "2026-11-17T20:52:51+00:00"
     },
+    "https://github.com/Thorhax/Simpsons-NX-Modern": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/Simpsons-NX-Modern/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "[!NOTE]\nLaunch with title override (full RAM mode, hold R while starting a game) rather than from the album applet.\n\n1. Download `Simpsons-NX-Modern-v1.2.0.zip` from the Releases page.\n2. Extract it to the root of your SD card and add your ROM, so the layout matches:\n[!NOTE]\nv1.1.0 used `sdmc:/switch/simpsons/`, which other homebrew also uses. If you are upgrading, move your `roms/`, `cfg/` and `nvram/` folders into `sdmc:/switch/simpsons-arcade/` and delete the old `simpsons.nro`.\n[!IMPORTANT]\nThe arcade ROMs are copyrighted by Konami and are not included. Use your own legally obtained copy.",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
+    },
     "https://github.com/Thorhax/Sonic-R-NX-Modern": {
       "status": "readme_verified",
       "readme_url": "https://github.com/Thorhax/Sonic-R-NX-Modern/blob/main/README.md",
@@ -2066,6 +2079,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
+    },
+    "https://github.com/Thorhax/SonicDreamTeam-NX": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/SonicDreamTeam-NX/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "You need a Switch with Atmosphère and the game's APK.\nWhich APK: the Android build of Sonic Dream Team, package `com.sdt.port`, version 1.10.3\n(usually named `sdt-1.10.3.apk`). This is the only version the port was built and tested against;\nother versions are not expected to work.\n\n| | |\n|---|---|\n| Size | 2,245,078,225 bytes (about 2.1 GB) |\n| SHA-256 | `d4e6fb090277a4ca92f9645f3f5c80e215fe63c56382efa1b937332b7c6356f6` |\n\nThe APK is not part of this project and is not distributed with it.\n\n1. Make the folder `sdmc:/switch/sdt/` and copy `sdtnx.nro` into it.\n2. Copy the APK there as `base.apk`, unmodified.\n3",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "Measured only on an overclocked console (CPU about 1785 MHz, GPU 768 MHz), at 720p. The heaviest level found (Ego City Nightmare) holds 60 fps from a four-core forwarder and runs at about 57 fps\nlevel found (Ego City Nightmare) holds 60 fps from a four-core forwarder and runs at about 57 fps from the title override (three cores). The main thread is the limit, so stock clocks will be slower; try `SDTMEMTOTALMB=512` there.",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/Thorhax/StarCraft64-NX": {
       "status": "readme_verified",
@@ -2157,6 +2183,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-14T06:18:23+00:00"
+    },
+    "https://github.com/Thorhax/ra2-engine-switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Thorhax/ra2-engine-switch/blob/master/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "Red Alert 2 with Yuri's Revenge, installed from a legally owned copy\n (CD, The First Decade, Origin / EA App or Steam). The engine reads the\n Yuri's Revenge data, so a Red Alert 2-only install is not enough.\nWindows 10 or later, or Android 5.0 or later.",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/Trinalord777/DK64Recomp-NX": {
       "status": "readme_verified",
@@ -2271,6 +2310,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-21T19:12:39+00:00"
+    },
+    "https://github.com/Zumoly/samurai-ii-android-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/Zumoly/samurai-ii-android-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "1. Download and unpack `samurai-ii-android-nx-v0.1.0.zip`. Use a PC with Python 3.11 or newer and Docker running in Linux-container mode.\n2. From the extracted folder, run:\n\n3. On the SD card, merge the ZIP's `switch` folder and the generated `dist/switch` folder. Both belong at the root of the card. Keep the contents of the generated folder private.\n4. Install `Samurai II Android NX [01005A4D55520000].nsp` using the title installer on your Atmosph�re setup. Start Samurai II Android NX from HOME. The forwarder starts the AArch32 executable at `sdmc:/switch/samuraiiiandroid/samuraiiiandroid.nro`",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/adumah/Luanti-NX": {
       "status": "readme_verified",
@@ -2505,6 +2557,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-18T20:29:17+00:00"
+    },
+    "https://github.com/aks796/projectdream_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/aks796/projectdream_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "An unofficial port of Sonic Dream Team (SEGA / HARDlight) to the Nintendo Switch (homebrew). It runs the game's",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "The limit is the main thread, which runs the game's own code, so 60 needs an overclocked CPU (Horizon OC, sys-clk). The port never sets the clocks itself. Docked, the console draws at 720p too: 1080p is 2.25 times the pixels.",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/aks796/pvz_touch_nx": {
       "status": "readme_verified",
@@ -2816,7 +2881,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T06:21:54+00:00"
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/cheviman/simpsons-port": {
       "status": "readme_verified",
@@ -2842,7 +2907,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T06:21:54+00:00"
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/christphe/project-dam-nx": {
       "status": "readme_verified",
@@ -3284,7 +3349,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T06:21:54+00:00"
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/jacquesdupontd/port0r": {
       "status": "readme_verified",
@@ -3728,6 +3793,32 @@
       "overclock_source": "",
       "checked_at": "2026-11-09T22:18:54+00:00"
     },
+    "https://github.com/siiiimooooon/TitanSouls-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/siiiimooooon/TitanSouls-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "On the console\nA Switch running custom firmware (Atmosphère).\nSphaira as the homebrew menu: it creates the game's icon on the HOME menu.\nFrom the game: your copy of Titan Souls for Android, version 1.03\n| File | Details |\n|---|---|\n| The APK | Package `com.devolver.titansouls`, version 1.03 (versionCode 31). The file name does not matter. |\n| The OBB | `main.31.com.devolver.titansouls.obb` (178 MB), with exactly that name. |",
+      "installation": "1. Download `titansoulsnx.nro` from the latest version in Releases.\n2. On the SD card, create the folder `switch/titansoulsnx/` and lay it out like this:\n3. Put the SD card back in the Switch and open Sphaira.\n4. Go to Homebrew, highlight Titan Souls and choose Install Forwarder. A new Titan Souls icon appears on the HOME menu.\n5. Go back to the HOME menu and open that icon. The first time takes a few seconds (it installs the program and unpacks the libraries from the APK, with a progress bar). After that it starts right away.\n\nFrom then on, always play from that icon",
+      "editions": "",
+      "overclock_status": "mentioned",
+      "overclock_notes": "60 fps at stock clocks, 720p in handheld mode. - Switch buttons on screen and a controls screen showing a Switch.\n| `[audio] soundcachemb` | `96` | Memory used to keep sound effects between loads (faster retries). `0` turns it off. | | `[performance] boostcpuwhenloading` | `false` | Raises the CPU clock while loading. Off: everything at stock clocks. |",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
+    },
+    "https://github.com/simplePsyduck/CardWars_nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/simplePsyduck/CardWars_nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
+    },
     "https://github.com/simplePsyduck/MagicalQuestTrilogy-NX": {
       "status": "readme_verified",
       "readme_url": "https://github.com/simplePsyduck/MagicalQuestTrilogy-NX/blob/main/README.md",
@@ -3752,7 +3843,7 @@
       "overclock_status": "recommended",
       "overclock_notes": "Gameplay — NES Brick Bounce: in Super Mario Bros. and The Lost Levels, a brick broken from below sends Mario back down as on the NES instead of letting him keep rising (BMF54123's brick fix, updated by Blittle McNilsen, written into the console's ROM while on: `SmasGame::setNesBrickBounce`). Off by default. Performance — Choose the CPU clock speed for the switch to help the game run better (use at your own risk!) Cycles through stock, 1224MHz, 1581MHz, or 1785Mhz options. Mild overclock is recommended to get fullspeeds.",
       "overclock_source": "",
-      "checked_at": "2026-11-09T06:21:54+00:00"
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/souldbminerr/0ad-switch": {
       "status": "readme_verified",
@@ -3831,6 +3922,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-17T20:52:51+00:00"
+    },
+    "https://github.com/the-deshpande/hp2_switch": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/the-deshpande/hp2_switch/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "1. Python 3.8+ installed on your system.\n2. Original PC Game Data: A folder containing your installed PC copy with `Maps/`, `Music/`, `Sounds/`, `system/`, and `Textures/`.\n3. Switch Keyset (`prod.keys`): Dumped from your Switch console (e.g. using LockpickRCM or Picofly).\n4. hacbrewpack (v3.05+):\nDownload: Grab the latest release from hacBrewPack Releases.",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-23T07:33:29+00:00"
     },
     "https://github.com/the-deshpande/usm_switch": {
       "status": "readme_verified",

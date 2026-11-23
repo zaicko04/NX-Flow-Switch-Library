@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-22T19:35:25+00:00",
+    "generated_at": "2026-11-23T07:33:29+00:00",
     "sources": {
-      "SwitchPorts": "342 importados",
+      "SwitchPorts": "351 importados",
       "HB App Store": "514 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 48"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-22T19:35:25+00:00",
-    "covers_resolved": 37,
+    "covers_resolved": 35,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 904,
+    "unique_records": 913,
     "cover_breakdown": {
-      "real_artwork": 37,
+      "real_artwork": 35,
       "homebrew_icons": 512,
-      "nx_flow_illustrations": 355,
-      "visually_covered": 904
+      "nx_flow_illustrations": 366,
+      "visually_covered": 913
     }
   },
   "items": [
@@ -165,17 +165,17 @@
       "discussion": "https://gbatemp.net/threads/release-supermodel-nx-sega-model-3-arcade-emulator-for-nintendo-switch.684935/"
     },
     {
-      "id": "switchports-e6916a599d4b09",
-      "title": "🟢 Tico",
+      "id": "switchports-f2a0c22cd25f06",
+      "title": "🟢 pEMU",
       "type": "Emulador",
       "platform": "MULTI",
-      "version": "0.8.2",
+      "version": "7.2",
       "updated": "",
       "source": "SwitchPorts",
-      "url": "https://github.com/ticohq/tico",
+      "url": "https://github.com/Cpasjuste/pemu",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/tico-gamecube-wii-psp-and-3ds-on-switch-hos.681231/"
+      "discussion": "https://gbatemp.net/threads/psnes-switch-snes9x-port.507847/"
     },
     {
       "id": "switchports-6d07056d1b248f",
@@ -188,6 +188,19 @@
       "url": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-e6916a599d4b09",
+      "title": "🟢 Tico",
+      "type": "Emulador",
+      "platform": "MULTI",
+      "version": "0.8.2",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/ticohq/tico",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos.",
+      "discussion": "https://gbatemp.net/threads/tico-gamecube-wii-psp-and-3ds-on-switch-hos.681231/"
     },
     {
       "id": "switchports-a421b2f4d5b307",
@@ -297,7 +310,7 @@
       "title": "🟢 PPSSPP-NX",
       "type": "Emulador",
       "platform": "PSP",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/ppsspp-nx",
@@ -332,11 +345,11 @@
       "discussion": "https://gbatemp.net/threads/yabasanshiro-nx-sega-saturn-emulator.686378/"
     },
     {
-      "id": "switchports-185f5acb935917",
-      "title": "Vita3K",
+      "id": "switchports-69b537557aa17d",
+      "title": "🟢 Vita3K",
       "type": "Emulador",
       "platform": "PS Vita",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/Vita3K-nx",
@@ -362,7 +375,7 @@
       "title": "🟢 Cemu",
       "type": "Emulador",
       "platform": "WIIU",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/Cemu-nx",
@@ -382,6 +395,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/autorun-play-windows-pc-games-on-your-nintendo-switch.684587/"
+    },
+    {
+      "id": "switchports-a8b6a4a04980d2",
+      "title": "🟢 Adventure Time: Card Wars",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/simplePsyduck/CardWars_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-f857fbd5837278",
@@ -718,6 +743,18 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
+      "id": "switchports-e51e4924626a8a",
+      "title": "🟢 Samurai II: Vengeance",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "0.1.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Zumoly/samurai-ii-android-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-e3fc4753a646ea",
       "title": "Smash Hit",
       "type": "Port",
@@ -786,6 +823,18 @@
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/iqbalriz/teenyfigure_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-1123f36ac87be7",
+      "title": "🟢 Titan Souls",
+      "type": "Port",
+      "platform": "Android 32bit",
+      "version": "1.0.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/siiiimooooon/TitanSouls-nx",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos."
     },
@@ -2267,6 +2316,30 @@
       "discussion": "https://gbatemp.net/threads/sonic-dash-sonic-dash-2-sonic-boom-switch-port.684613/"
     },
     {
+      "id": "switchports-4ee77fb133cf30",
+      "title": "🟢 Sonic Dream Team (aks796)",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "1.0.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/aks796/projectdream_nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-4388abe4cd096a",
+      "title": "🟢 Sonic Dream Team (Thorhax)",
+      "type": "Port",
+      "platform": "Android 64bit",
+      "version": "1.10.3",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Thorhax/SonicDreamTeam-NX",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
       "id": "switchports-ec47ed1c6d2b57",
       "title": "Sonic Jump",
       "type": "Port",
@@ -2715,8 +2788,8 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-b171e49c8f53cd",
-      "title": "🟢 The Simpsons",
+      "id": "switchports-772d330f2f407b",
+      "title": "🟢 The Simpsons (cheviman)",
       "type": "Port",
       "platform": "Arcade",
       "version": "1.0.1",
@@ -2724,9 +2797,19 @@
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/simpsons-port",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/The%20Simpsons%20%282%20Players%29.png",
-      "cover_source": "Libretro thumbnails"
+      "description": "Revisa la fuente original y sus requisitos."
+    },
+    {
+      "id": "switchports-ae2ed1284bd925",
+      "title": "🟢 The Simpsons (Thorhax)",
+      "type": "Port",
+      "platform": "Arcade",
+      "version": "1.2.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Thorhax/Simpsons-NX-Modern",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-2a12f48011d448",
@@ -3284,18 +3367,16 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-c365756b58c718",
-      "title": "Super Mario World",
+      "id": "switchports-75f1714e577bda",
+      "title": "🟢 Super Mario World",
       "type": "Port",
       "platform": "Super Nintendo",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://gitlab.com/wiredlainn/wide-snes-NX",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Super%20Mario%20World%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-ea434b2dbab8be",
@@ -3379,7 +3460,7 @@
       "title": "🟢 Call of Duty - Black Ops",
       "type": "Port",
       "platform": "PC",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HDErick/OpenBLOPS-NX",
@@ -3391,7 +3472,7 @@
       "title": "🟢 Call of Duty - Black Ops II",
       "type": "Port",
       "platform": "PC",
-      "version": "0.3.4",
+      "version": "0.4.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HDErick/BO2-Requiem-NX",
@@ -3435,6 +3516,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/castlevania-revamped-nintendo-switch-port.684636/"
+    },
+    {
+      "id": "switchports-1ecf9dbda2e06b",
+      "title": "🟢 Command and Conquer: Red Alert 2",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.4.3",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/Thorhax/ra2-engine-switch",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-614797f0cf69da",
@@ -3646,6 +3739,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/xash3d-half-life-custom-goldsrc-engine-for-switch.522848/"
+    },
+    {
+      "id": "switchports-df13dddd75b4ba",
+      "title": "🟢 Harry Potter and the Chamber of Secrets",
+      "type": "Port",
+      "platform": "PC",
+      "version": "1.2.0",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/the-deshpande/hp2_switch",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-947f218186e79e",
@@ -3936,7 +4041,7 @@
       "title": "🟢 Plants Vs. Zombies: DLC Edition",
       "type": "Port",
       "platform": "PC",
-      "version": "beta-2.5",
+      "version": "beta-2.5.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/aks796/pvzdlc_nx",
