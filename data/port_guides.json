@@ -1,10 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T07:33:29+00:00",
-    "port_count": 324,
-    "repositories": 322,
+    "generated_at": "2026-11-23T23:51:16+00:00",
+    "port_count": 323,
+    "repositories": 321,
     "statuses": {
-      "readme_verified": 322
+      "readme_verified": 320,
+      "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
     "overclock_statuses": {
@@ -13,7 +14,7 @@
       "optional": 2,
       "not_required": 4,
       "mentioned": 32,
-      "not_documented": 281
+      "not_documented": 280
     }
   },
   "by_repo": {
@@ -850,17 +851,14 @@
       "checked_at": "2026-11-14T06:18:23+00:00"
     },
     "https://github.com/DerilDX/nv-rs-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/DerilDX/nv-rs-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "nv-rs\n\n[](https://www.rust-lang.org/)\n[](https://bevyengine.org/)\n[](LICENSE)\n[](docs/PLAYTESTING.md)\n[](docs/MILESTONES.md)",
+      "status": "review_needed",
+      "readme_url": "https://github.com/DerilDX/nv-rs-nx",
+      "reason": "README not available at repository root",
+      "overview": "",
       "requirements": "",
       "installation": "",
       "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/DerilDX/silent-hill-decomp-nx": {
       "status": "readme_verified",
@@ -873,7 +871,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/DomazinUS/CBFD-Switch": {
       "status": "readme_verified",
@@ -899,7 +897,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "RaceWave46 is an unofficial Wave Race 64 recompilation for Nintendo Switch, celebrating its 30th anniversary. Features Deko3D/OpenGL renderers, 60FPS at 720p portable/1080p docked at stock clocks, enhanced local two-player mode, MSAA, texture packs, RetroAchievements, Dolphin ghost in Time Trail mode, rumble and optional water/sky reflections and shadows. Requires your own ROM.",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/Electr0Whale/nx-yumenikki": {
       "status": "readme_verified",
@@ -977,7 +975,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/HDErick/OpenBLOPS-NX": {
       "status": "readme_verified",
@@ -1870,7 +1868,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/Thorhax/DevilutionX-NX-Modern": {
       "status": "readme_verified",
@@ -1883,7 +1881,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/Thorhax/Ducktales-NX": {
       "status": "readme_verified",
@@ -2974,19 +2972,6 @@
       "overclock_source": "",
       "checked_at": "2026-11-12T07:07:28+00:00"
     },
-    "https://github.com/cznn999/survive-nx": {
-      "status": "readme_verified",
-      "readme_url": "https://github.com/cznn999/survive-nx/blob/main/README.md",
-      "reason": "",
-      "overview": "",
-      "requirements": "",
-      "installation": "1. Create `/switch/survivenx/` on the SD card and put `survivenx.nro` in it.\n2. Open the Survive - Wilderness survival 2.880 APK (arm64) with 7-Zip or\n any other ZIP tool and extract everything into the same folder:\n\n3. Start it with a game override (hold R while starting a game) or a\n forwarder with full memory. The album (applet mode) does not have enough\n memory.\n\nThe first launch takes a while: the port checks the files, removes the Android\nfiles it does not use and packs the assets into one file for faster loading.\nWhen it says Game data is ready, press A and start the port again.",
-      "editions": "",
-      "overclock_status": "not_documented",
-      "overclock_notes": "",
-      "overclock_source": "",
-      "checked_at": "2026-11-17T20:52:51+00:00"
-    },
     "https://github.com/deathkiller/jazz2": {
       "status": "readme_verified",
       "readme_url": "https://github.com/deathkiller/jazz2/blob/main/README.md",
@@ -3726,7 +3711,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/saekaze/th15-switch": {
       "status": "readme_verified",
@@ -3791,7 +3776,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/siiiimooooon/TitanSouls-nx": {
       "status": "readme_verified",
@@ -4129,7 +4114,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-09T22:18:54+00:00"
+      "checked_at": "2026-11-23T23:51:16+00:00"
     },
     "https://github.com/xflipperkast/papapizzatg_nx": {
       "status": "readme_verified",

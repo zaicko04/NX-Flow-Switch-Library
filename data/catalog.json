@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T07:33:29+00:00",
+    "generated_at": "2026-11-23T23:51:15+00:00",
     "sources": {
-      "SwitchPorts": "351 importados",
-      "HB App Store": "514 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 48"
+      "SwitchPorts": "350 importados",
+      "HB App Store": "517 importados",
+      "GBAtemp": "64 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-22T19:35:25+00:00",
-    "covers_resolved": 35,
+    "covers_checked_at": "2026-11-23T23:51:15+00:00",
+    "covers_resolved": 31,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 913,
+    "unique_records": 927,
     "cover_breakdown": {
-      "real_artwork": 35,
-      "homebrew_icons": 512,
-      "nx_flow_illustrations": 366,
-      "visually_covered": 913
+      "real_artwork": 31,
+      "homebrew_icons": 515,
+      "nx_flow_illustrations": 381,
+      "visually_covered": 927
     }
   },
   "items": [
@@ -91,7 +91,7 @@
       "title": "🟢 Flycast",
       "type": "Emulador",
       "platform": "Dreamcast",
-      "version": "commit 3a5267a",
+      "version": "commit 105324d",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://flyinghead.github.io/flycast-builds/",
@@ -139,8 +139,8 @@
       "discussion": "https://gbatemp.net/threads/release-kirikiroid2-nx-kirikiroid2-kirikiri-krkr-visual-novel-player-ported-to-the-switch.684902/"
     },
     {
-      "id": "switchports-afe54877f07ce0",
-      "title": "🟢 Model2 NX",
+      "id": "switchports-c8b76421dc434c",
+      "title": "Model2 NX",
       "type": "Emulador",
       "platform": "MODEL2",
       "version": "1.0",
@@ -152,8 +152,8 @@
       "discussion": "https://gbatemp.net/threads/release-model2-nx-1-0-experimental-sega-model-2-emulator-for-nintendo-switch-powered-by-mame.685198/"
     },
     {
-      "id": "switchports-f844daed4e037d",
-      "title": "🟢 Supermodel-NX",
+      "id": "switchports-fbc93610cb60de",
+      "title": "Supermodel-NX",
       "type": "Emulador",
       "platform": "MODEL3",
       "version": "1.5.2",
@@ -165,8 +165,8 @@
       "discussion": "https://gbatemp.net/threads/release-supermodel-nx-sega-model-3-arcade-emulator-for-nintendo-switch.684935/"
     },
     {
-      "id": "switchports-f2a0c22cd25f06",
-      "title": "🟢 pEMU",
+      "id": "switchports-060c634863293c",
+      "title": "pEMU",
       "type": "Emulador",
       "platform": "MULTI",
       "version": "7.2",
@@ -203,11 +203,11 @@
       "discussion": "https://gbatemp.net/threads/tico-gamecube-wii-psp-and-3ds-on-switch-hos.681231/"
     },
     {
-      "id": "switchports-a421b2f4d5b307",
-      "title": "DrasticDS",
+      "id": "switchports-7ada3963da2765",
+      "title": "🟢 DrasticDS",
       "type": "Emulador",
       "platform": "Nintendo DS",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/NaGaa95/DrasticDS_nx",
@@ -216,8 +216,8 @@
       "discussion": "https://gbatemp.net/threads/drasticds-emulator-switch-port.683280/"
     },
     {
-      "id": "switchports-f0999da1153b76",
-      "title": "🟢 Dolphin",
+      "id": "switchports-5a78413b737b0b",
+      "title": "Dolphin",
       "type": "Emulador",
       "platform": "GameCube / Wii",
       "version": "1.2.2",
@@ -1615,8 +1615,8 @@
       "discussion": "https://gbatemp.net/threads/granny-1-2-and-3-switch-port.686577/"
     },
     {
-      "id": "switchports-4bc1ac13c25c52",
-      "title": "🟢 Granny: Chapter 2",
+      "id": "switchports-041f63e5fe1c87",
+      "title": "Granny: Chapter 2",
       "type": "Port",
       "platform": "Android 64bit",
       "version": "1.0.0",
@@ -2502,18 +2502,6 @@
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/page-3#post-10885621"
     },
     {
-      "id": "switchports-e58f8f54cbb94e",
-      "title": "🟢 Survive - Wilderness Survival",
-      "type": "Port",
-      "platform": "Android 64bit",
-      "version": "0.10",
-      "updated": "",
-      "source": "SwitchPorts",
-      "url": "https://github.com/cznn999/survive-nx",
-      "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos."
-    },
-    {
       "id": "switchports-763200705415ea",
       "title": "Swordigo",
       "type": "Port",
@@ -2667,8 +2655,8 @@
       "discussion": "https://gbatemp.net/threads/virtual-on-arcade.685244/"
     },
     {
-      "id": "switchports-f4e14c95bc8b79",
-      "title": "🟢 Daytona USA",
+      "id": "switchports-650c2c3847b057",
+      "title": "Daytona USA",
       "type": "Port",
       "platform": "Arcade",
       "version": "1.2.0",
@@ -2720,8 +2708,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-398c04b1acb4d4",
-      "title": "🟢 Outrunners",
+      "id": "switchports-c67c6af0833d95",
+      "title": "Outrunners",
       "type": "Port",
       "platform": "Arcade",
       "version": "1.3.2",
@@ -2729,9 +2717,7 @@
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/outrunners-port",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/MAME/Named_Boxarts/OutRunners%20%28World%29.png",
-      "cover_source": "Libretro thumbnails"
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-f28e04158137a8",
@@ -2778,7 +2764,7 @@
       "title": "🟢 Teenage Mutant Ninja Turtles",
       "type": "Port",
       "platform": "Arcade",
-      "version": "1.0.7",
+      "version": "1.1.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/tmnt-port",
@@ -2792,7 +2778,7 @@
       "title": "🟢 The Simpsons (cheviman)",
       "type": "Port",
       "platform": "Arcade",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/cheviman/simpsons-port",
@@ -2955,7 +2941,7 @@
       "title": "🟢 GoldenEye 007",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "0.2.0",
+      "version": "0.4.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/christphe/project-dam-nx",
@@ -2995,8 +2981,8 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-3ff79c9fa36b87",
-      "title": "🟢 The Legened of Zelda: Ocarina of Time",
+      "id": "switchports-5072e255606783",
+      "title": "The Legened of Zelda: Ocarina of Time",
       "type": "Port",
       "platform": "Nintendo 64",
       "version": "9.3.1-nx3",
@@ -3080,18 +3066,16 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-20c87746b8eb76",
-      "title": "Snowboard Kids 2",
+      "id": "switchports-c51572447ee84d",
+      "title": "🟢 Snowboard Kids 2",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/D35P4C1T0/snowboardkids2-recomp-switch",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Snowboard%20Kids%202%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-bdeb25f11eaf73",
@@ -3118,18 +3102,16 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-c16c2b35a85bdc",
-      "title": "Star Wars: Rogue Squadron",
+      "id": "switchports-42f4b941063639",
+      "title": "🟢 Star Wars: Rogue Squadron",
       "type": "Port",
       "platform": "Nintendo 64",
-      "version": "1.0",
+      "version": "1.0.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/FurryLilManChild/rs64-nx",
       "status": "Catalogado",
-      "description": "Revisa la fuente original y sus requisitos.",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Star%20Wars%20-%20Rogue%20Squadron%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-ad99251713ca54",
@@ -3200,8 +3182,8 @@
       "discussion": "https://gbatemp.net/threads/release-racewave46-wave-race-64-recompiled-for-nintendo-switch-60fps-720p-1080p-stock-clocks.684841/"
     },
     {
-      "id": "switchports-66604d9edc330d",
-      "title": "Disney's Magical Quest Trilogy",
+      "id": "switchports-2f204d7afc975f",
+      "title": "🟢 Disney's Magical Quest Trilogy",
       "type": "Port",
       "platform": "Super Nintendo",
       "version": "beta-v1",
@@ -3322,19 +3304,17 @@
       "cover_source": "Libretro thumbnails"
     },
     {
-      "id": "switchports-9821a7afda53f5",
-      "title": "Mega Man X",
+      "id": "switchports-5d4cb835f812e0",
+      "title": "🟢 Mega Man X",
       "type": "Port",
       "platform": "Super Nintendo",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/Thorhax/MegaManX-NX",
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
-      "discussion": "https://gbatemp.net/threads/megaman-x-recomp-nx.685184/",
-      "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/Named_Boxarts/Mega%20Man%20X%20%28USA%29.png",
-      "cover_source": "Libretro thumbnails"
+      "discussion": "https://gbatemp.net/threads/megaman-x-recomp-nx.685184/"
     },
     {
       "id": "switchports-69176aae48f0a0",
@@ -3356,7 +3336,7 @@
       "title": "🟢 Super Mario All-Stars",
       "type": "Port",
       "platform": "Super Nintendo",
-      "version": "1.0.1",
+      "version": "1.1.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/simplePsyduck/SuperMarioAllStars-NX",
@@ -3430,11 +3410,11 @@
       "discussion": "https://gbatemp.net/threads/atomic-bomberman-for-switch.685994/"
     },
     {
-      "id": "switchports-28f419098a0d89",
-      "title": "The Binding of Isaac: Repentance+",
+      "id": "switchports-cd06bb3bda90a8",
+      "title": "🟢 The Binding of Isaac: Repentance+",
       "type": "Port",
       "platform": "PC",
-      "version": "unreleased",
+      "version": "0.1.0",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/antoniotorres02/isaac-switch-native",
@@ -3472,7 +3452,7 @@
       "title": "🟢 Call of Duty - Black Ops II",
       "type": "Port",
       "platform": "PC",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/HDErick/BO2-Requiem-NX",
@@ -3518,8 +3498,8 @@
       "discussion": "https://gbatemp.net/threads/castlevania-revamped-nintendo-switch-port.684636/"
     },
     {
-      "id": "switchports-1ecf9dbda2e06b",
-      "title": "🟢 Command and Conquer: Red Alert 2",
+      "id": "switchports-96d49dfef768e4",
+      "title": "Command and Conquer: Red Alert 2",
       "type": "Port",
       "platform": "PC",
       "version": "1.4.3",
@@ -3732,7 +3712,7 @@
       "title": "🟢 Half Life",
       "type": "Port",
       "platform": "PC",
-      "version": "4248",
+      "version": "4253",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/FWGS/xash3d-fwgs/",
@@ -3891,7 +3871,7 @@
       "title": "🟢 Mario vs. Luigi Online MiiBumm's Mega Item Mod",
       "type": "Port",
       "platform": "PC",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/aks796/mmim_nx",
@@ -3965,7 +3945,7 @@
       "title": "🟢 Minecraft Rust (KoHaku743)",
       "type": "Port",
       "platform": "PC",
-      "version": "1.0.0",
+      "version": "2.0.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/KoHaku743/horizon-nx",
@@ -4041,7 +4021,7 @@
       "title": "🟢 Plants Vs. Zombies: DLC Edition",
       "type": "Port",
       "platform": "PC",
-      "version": "beta-2.5.1",
+      "version": "beta-2.5.2",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/aks796/pvzdlc_nx",
@@ -4098,8 +4078,8 @@
       "description": "Revisa la fuente original y sus requisitos."
     },
     {
-      "id": "switchports-483213fbfe24b9",
-      "title": "🟢 Quake 4",
+      "id": "switchports-733b80708f7185",
+      "title": "Quake 4",
       "type": "Port",
       "platform": "PC",
       "version": "1.2.0",
@@ -4350,8 +4330,8 @@
       "discussion": "https://gbatemp.net/threads/touhou-project-on-switch-all-ports-in-one-place.684850/"
     },
     {
-      "id": "switchports-89995c0f21598e",
-      "title": "🟢 Touhou 10: Mountain of Faith",
+      "id": "switchports-6e069fb9b1aa2e",
+      "title": "Touhou 10: Mountain of Faith",
       "type": "Port",
       "platform": "PC",
       "version": "1.00a-r7",
@@ -4415,8 +4395,8 @@
       "discussion": "https://gbatemp.net/threads/touhou-project-on-switch-all-ports-in-one-place.684850/"
     },
     {
-      "id": "switchports-502e17704e8edf",
-      "title": "🟢 Ultimate Spider-Man",
+      "id": "switchports-2dc622dd84b126",
+      "title": "Ultimate Spider-Man",
       "type": "Port",
       "platform": "PC",
       "version": "1.1",
@@ -4503,7 +4483,7 @@
       "title": "🟢 Your Turn to Die",
       "type": "Port",
       "platform": "PC",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "updated": "",
       "source": "SwitchPorts",
       "url": "https://github.com/sukalibur9/yttd-nx",
@@ -4617,6 +4597,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/AARebootApplet.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/AARebootApplet/icon.png",
       "description": "This is an applet forwarder for the my AA-Reboot application, which reboots to a hekate.bin payload on the root of the sd card.\\n\\nTo use this applet forwarder, make sure you have AA-Reboot installed and a hekate.bin file on the root of your sd card. You need a linked/fakelinked user account too because otherwise the applet won't start.\\n\\nTip: If you have only one user, you can activate \"Skip Selection Screen\" in the settings, to start the AA-Reboot instantly.\\n\\nMariko and OLED variants are untested\\n\\nKnown Limitations:\\nIt replaces LoginApplet, the ShareApplet and the LobbyApplet too because it's the same application. (This shouldn't matter since you are not accessing those applets while in CFW)",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-acnh-power-pockets",
+      "title": "ACNH Power Pockets",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.2.0",
+      "author": "chatelp",
+      "url": "https://hb-app.store/switch/ACNH-Power-Pockets",
+      "download": "https://switch.cdn.fortheusers.org/zips/ACNH-Power-Pockets.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/ACNH-Power-Pockets/icon.png",
+      "description": "Edits the pocket slots (20, 30 or 40, as many as you have unlocked), Bells, Nook Miles and the house loan of the primary resident, directly on the console. Fork of ACNH Save Editor by cbreezy210: the save engine is his, the interface is new.\n\n- Pick an item once, then each press of Y drops it in the next empty slot. Occupied slots are never overwritten.\n- Every change is staged and shown in a Review screen (before > after); nothing is written until you press Apply.\n- Quantities stop at each item's real stack limit; about 10,500 items that never stack are marked 1/slot.\n- 69 built-in favorites, plus your own, managed in the app.\n- Turnips panel: this week's Stalk Market prices, read from the save (read-only).\n- Integrity hashes recomputed and checked before every write; SD backups before every write and a pre-edit backup.\n\nWARNING: this app writes to your save. Back up your save with JKSV or Checkpoint first, and use it offline. Launch it by holding R while starting Animal Crossing (tit",
       "status": "Publicado en HB App Store"
     },
     {
@@ -5205,6 +5199,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/Clanbomber.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/Clanbomber/icon.png",
       "description": "ClanBomber for Nintendo Switch is a homebrew port of ClanBomber2, the SDL2 fork of the classic Linux Bomberman-style multiplayer game by Andreas Hundt and Denis Oliver Kropp.\\n\\nDrop bombs, kick boxes, dodge explosions, and outlast everyone else on screen. Up to 8 players battle simultaneously across 33 hand-crafted maps — from tight death corridors to wide arenas. Drop your own .map files into sdmc:/switch/clanbomber/maps/ to extend the rotation. Two AI difficulty modes fill in for missing humans.\\n\\nFeatures:\\n- 1 to 8 local players, JoyCon / Pro Controller / split JoyCons\\n- D-Pad or left analog stick for movement, A or B to drop bombs\\n- Minus button quits to main menu\\n- 8 selectable character skins, team play, configurable round timer\\n- 33 bundled maps plus user maps from SD card\\n- Chiptune soundtrack and original SFX\\n- Handheld and docked mode\\n\\nFree, open source under GPLv2-or-later. Source on GitHub.",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-classof09",
+      "title": "Class of '09",
+      "type": "Juego homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.0.0",
+      "author": "catsandgats",
+      "url": "https://hb-app.store/switch/Classof09",
+      "download": "https://switch.cdn.fortheusers.org/zips/Classof09.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/Classof09/icon.png",
+      "description": "A native Nintendo Switch homebrew port of the Class of '09 runtime.\\n\\nUnofficial fan project. Not affiliated with the game's developers or publishers, Nintendo, or Sony.\\n\\n*Release does NOT include any retail game assets - users must supply game folder\\n\\nCopy game folder from retail copy of Class of '09 to sdmc:/switch/class09/assets/ on the switch\\n\\nFinal folder layout should appear as sdmc:/switch/class09/assets/game/\\n\\nAI use: Co-written with AI.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -6087,6 +6095,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/Homebrew_SD_Setup.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/Homebrew_SD_Setup/icon.png",
       "description": "Warning: The current release of the app is buggy and not officially supported. You should strongly consider avoiding use of this app and instead use https://www.sdsetup.com or the Homebrew App Store until further notice.\\n\\nUpdate homebrew and CFW without ever leaving the comfort of your Switch!\\nThis app allows you to access and download packages from www.sdsetup.com right on your Switch, no PC required! Many homebrews and CFWs can be updated without ever taking out your SD card.\\n\\nThe app features both touch controls and controller support via a cursor.\\n\\nSee the SDSetup repo for more information on the whole SDSetup project.",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-honeydew",
+      "title": "Honeydew",
+      "type": "Homebrew",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "0.5.1",
+      "author": "FrcJules",
+      "url": "https://hb-app.store/switch/Honeydew",
+      "download": "https://switch.cdn.fortheusers.org/zips/Honeydew.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/Honeydew/icon.png",
+      "description": "Honeydew is a Nintendo DS emulator for Switch, based on melonDS (GPL-3.0). Unofficial fork of the latest melonDS core, not made or supported by the melonDS team (formerly named \"melonDS Switch\"). JIT, 2x GPU rendering, no BIOS needed. Auto CPU boost, touch screen via right stick + R3 (TV mode), per-game settings, 4 save state slots. 60 fps in Mario Kart DS, Pokemon, NSMB, Layton, Metroid Prime Hunters. Run hbmenu in app mode (hold R). No games included. Discord: rateur42\\n\\nAI use: Co-written with AI. AI also used for: description text.",
       "status": "Publicado en HB App Store"
     },
     {
@@ -8120,7 +8142,7 @@
       "type": "Utilidad",
       "platform": "Nintendo Switch",
       "source": "HB App Store",
-      "version": "0.7.22",
+      "version": "0.7.23",
       "author": "Papux200",
       "url": "https://hb-app.store/switch/SwitchFrameTap",
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchFrameTap.zip",
@@ -11713,22 +11735,172 @@
       "status": "Publicado en HB App Store"
     },
     {
-      "id": "gbatemp-9543e4fa7b4b85",
-      "title": "Ocarina of Time Switch Port [ Ship of Harkinian ]",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/ocarina-of-time-switch-port-ship-of-harkinian.630367/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-aa8944da2a1825",
       "title": "Ultimate Switch Port Thread",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-54ca399ec27a3b",
+      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-5c803b0decb589",
+      "title": "[Release] Dragon Ball Z: Budokai 3 HD for Nintendo Switch | Budokai3-nx",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-dragon-ball-z-budokai-3-hd-for-nintendo-switch-budokai3-nx.686629/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-1d7e64f0c7e73f",
+      "title": "[Release] Silent Hill 3 NX V1.0 – native Switch port of Silent Hill 3 (HD Collection) via static recompilation",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-silent-hill-3-nx-v1-0-native-switch-port-of-silent-hill-3-hd-collection-via-static-recompilation.686039/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-367b1b4dcfb237",
+      "title": "Starfox Adventures (Gamecube) port of Foxhollow",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/starfox-adventures-gamecube-port-of-foxhollow.686822/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-3594d94d350731",
+      "title": "[WIP] X-Men Origins: Wolverine for Nintendo Switch | XMOW-nx",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/wip-x-men-origins-wolverine-for-nintendo-switch-xmow-nx.686816/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-7ae4e5e0f555bd",
+      "title": "[Release] Horizon NX v1.0.0 – Minecraft: Java Edition 26.3 running natively on Switch (Rust, no Java)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-horizon-nx-v1-0-0-minecraft-java-edition-26-3-running-natively-on-switch-rust-no-java.686675/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-b96ebcd894c0f9",
+      "title": "[WIP] Metal Gear Solid V: The Phantom Pain – native Switch port (in development)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/wip-metal-gear-solid-v-the-phantom-pain-native-switch-port-in-development.686306/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-71b0cbbb9bb32a",
+      "title": "Super Mario World (16:9 wide-snes) port for the Nintendo Switch",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/super-mario-world-16-9-wide-snes-port-for-the-nintendo-switch.686814/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-f6e0c875b7c1ec",
+      "title": "Sonic The Fighters - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/sonic-the-fighters-switch-port.685251/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-1043bf3e7c46fb",
+      "title": "Luigi's Mansion (Game Cube) - Switch Port |LM-NX",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/luigis-mansion-game-cube-switch-port-lm-nx.686090/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-d333fbb19d3d45",
+      "title": "[Release] God of War Collection NX v1.2 – native Switch port of God of War I & II (PS Vita static recompilation)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-god-of-war-collection-nx-v1-2-native-switch-port-of-god-of-war-i-ii-ps-vita-static-recompilation.686632/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-9356dbce7c2f26",
+      "title": "[WIP] Metal Gear Solid: The Twin Snakes for Nintendo Switch | MGSTTS-nx",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/wip-metal-gear-solid-the-twin-snakes-for-nintendo-switch-mgstts-nx.686817/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-105522299c6d45",
+      "title": "Banjo Kazooie Nuts & Bolts (reNut) - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/banjo-kazooie-nuts-bolts-renut-switch-port.686095/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-312ad59b55769d",
+      "title": "[Release] BetterBedrock NX - Vibrant Visuals on Switch 1, Microsoft sign-in fix and your own server for Minecraft Bedrock",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-betterbedrock-nx-vibrant-visuals-on-switch-1-microsoft-sign-in-fix-and-your-own-server-for-minecraft-bedrock.685052/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-8f78e6ca4d2297",
+      "title": "Sonic & All-Stars Racing Transformed (XBOX 360 Ver.) - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/sonic-all-stars-racing-transformed-xbox-360-ver-switch-port.686820/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-9543e4fa7b4b85",
+      "title": "Ocarina of Time Switch Port [ Ship of Harkinian ]",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ocarina-of-time-switch-port-ship-of-harkinian.630367/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11759,16 +11931,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/slay-the-spire-2-switch-port.683997/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-54ca399ec27a3b",
-      "title": "[Release] Nexus USB HATS — Install and play Switch games from HDDs, SSDs and USB flash drives",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-nexus-usb-hats-install-and-play-switch-games-from-hdds-ssds-and-usb-flash-drives.685800/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11993,16 +12155,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-1043bf3e7c46fb",
-      "title": "Luigi's Mansion (Game Cube) - Switch Port |LM-NX",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/luigis-mansion-game-cube-switch-port-lm-nx.686090/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-f9fe81f92a116c",
       "title": "BLACK XBOX NX PORT",
       "type": "Comunidad",
@@ -12059,16 +12211,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/release-call-of-duty-2003-united-offensive-nintendo-switch-native-port.685952/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-312ad59b55769d",
-      "title": "[Release] BetterBedrock NX - Vibrant Visuals on Switch 1, Microsoft sign-in fix and your own server for Minecraft Bedrock",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/release-betterbedrock-nx-vibrant-visuals-on-switch-1-microsoft-sign-in-fix-and-your-own-server-for-minecraft-bedrock.685052/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
