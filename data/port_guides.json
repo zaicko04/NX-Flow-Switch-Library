@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T23:51:16+00:00",
-    "port_count": 323,
-    "repositories": 321,
+    "generated_at": "2026-11-24T09:50:59+00:00",
+    "port_count": 324,
+    "repositories": 322,
     "statuses": {
-      "readme_verified": 320,
+      "readme_verified": 321,
       "review_needed": 1
     },
     "note": "Overclock details come from the authors; mentions are not evidence it is necessary.",
@@ -14,7 +14,7 @@
       "optional": 2,
       "not_required": 4,
       "mentioned": 32,
-      "not_documented": 280
+      "not_documented": 281
     }
   },
   "by_repo": {
@@ -858,7 +858,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-11-23T23:51:16+00:00"
+      "checked_at": "2026-11-24T09:50:59+00:00"
     },
     "https://github.com/DerilDX/silent-hill-decomp-nx": {
       "status": "readme_verified",
@@ -3179,6 +3179,19 @@
       "overclock_notes": "",
       "overclock_source": "",
       "checked_at": "2026-11-16T21:59:00+00:00"
+    },
+    "https://github.com/guiwege/goemon64recomp-nx": {
+      "status": "readme_verified",
+      "readme_url": "https://github.com/guiwege/goemon64recomp-nx/blob/main/README.md",
+      "reason": "",
+      "overview": "",
+      "requirements": "A Switch running custom firmware (Atmosphère) with the Homebrew Menu.\nYour own Mystical Ninja Starring Goemon (USA) dump. It is the only version accepted.\n\n| Check | Value |\n|---|---|\n| Region / serial | USA, `NG5E` |\n| Internal name | `MYSTICAL NINJA` |\n| Compressed dump size | 16 MiB |\n| SHA-256 (`.z64`, big-endian) | `1603be37427a33548857fc3d2e8867ede71121c353fb631b79b44f1d94845d80` |\n| SHA-1 (same `.z64`) | `df8083a54296b8c151917c5333e1c85f014a2a66` |",
+      "installation": "",
+      "editions": "",
+      "overclock_status": "not_documented",
+      "overclock_notes": "",
+      "overclock_source": "",
+      "checked_at": "2026-11-24T09:50:59+00:00"
     },
     "https://github.com/hazevauks/dantheman_nx": {
       "status": "readme_verified",

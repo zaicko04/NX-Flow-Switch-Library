@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-23T23:51:15+00:00",
+    "generated_at": "2026-11-24T09:50:59+00:00",
     "sources": {
-      "SwitchPorts": "350 importados",
+      "SwitchPorts": "352 importados",
       "HB App Store": "517 importados",
-      "GBAtemp": "64 importados"
+      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 60"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-23T23:51:15+00:00",
     "covers_resolved": 31,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 927,
+    "unique_records": 929,
     "cover_breakdown": {
       "real_artwork": 31,
       "homebrew_icons": 515,
-      "nx_flow_illustrations": 381,
-      "visually_covered": 927
+      "nx_flow_illustrations": 383,
+      "visually_covered": 929
     }
   },
   "items": [
@@ -98,6 +98,18 @@
       "status": "Catalogado",
       "description": "Revisa la fuente original y sus requisitos.",
       "discussion": "https://gbatemp.net/threads/flycast-standalone-for-nintendo-switch.593111/"
+    },
+    {
+      "id": "switchports-af5a5cbf7667f9",
+      "title": "🟢 Hollycast",
+      "type": "Emulador",
+      "platform": "Dreamcast",
+      "version": "1.3",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/nexus382/Hollycast",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-250f6247401d6e",
@@ -3021,6 +3033,18 @@
       "description": "Revisa la fuente original y sus requisitos.",
       "cover": "https://thumbnails.libretro.com/Nintendo%20-%20Nintendo%2064/Named_Boxarts/Mega%20Man%2064%20%28USA%29.png",
       "cover_source": "Libretro thumbnails"
+    },
+    {
+      "id": "switchports-60af1656a242ab",
+      "title": "🟢 Mystical Ninja Starring Goemon",
+      "type": "Port",
+      "platform": "Nintendo 64",
+      "version": "1.0.0-alpha.1",
+      "updated": "",
+      "source": "SwitchPorts",
+      "url": "https://github.com/guiwege/goemon64recomp-nx",
+      "status": "Catalogado",
+      "description": "Revisa la fuente original y sus requisitos."
     },
     {
       "id": "switchports-72c92630b79575",
