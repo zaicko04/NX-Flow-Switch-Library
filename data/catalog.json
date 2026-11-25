@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-24T22:24:07+00:00",
+    "generated_at": "2026-11-25T08:28:39+00:00",
     "sources": {
       "SwitchPorts": "352 importados",
-      "HB App Store": "517 importados",
+      "HB App Store": "518 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 60"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-23T23:51:15+00:00",
+    "covers_checked_at": "2026-11-25T08:28:39+00:00",
     "covers_resolved": 31,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 929,
+    "unique_records": 930,
     "cover_breakdown": {
       "real_artwork": 31,
-      "homebrew_icons": 515,
+      "homebrew_icons": 516,
       "nx_flow_illustrations": 383,
-      "visually_covered": 929
+      "visually_covered": 930
     }
   },
   "items": [
@@ -8130,6 +8130,20 @@
       "download": "https://switch.cdn.fortheusers.org/zips/SwitchCast.zip",
       "icon": "https://switch.cdn.fortheusers.org/packages/SwitchCast/icon.png",
       "description": "In this modified version of SysDVR you can select a Chromecast on the network and cast natively.   No audio for now to Prioritize Low latency.  Also has a USB dock mode and a companion Pi zero 2 W iso for a low latency USB dock.  FYI, Needs good WIFI for both the Switch and Cast reciever for best experience.   Thanks for checking this out!",
+      "status": "Publicado en HB App Store"
+    },
+    {
+      "id": "hbas-switchdeck",
+      "title": "SwitchDeck",
+      "type": "Utilidad",
+      "platform": "Nintendo Switch",
+      "source": "HB App Store",
+      "version": "1.0.0",
+      "author": "SertAy",
+      "url": "https://hb-app.store/switch/SwitchDeck",
+      "download": "https://switch.cdn.fortheusers.org/zips/SwitchDeck.zip",
+      "icon": "https://switch.cdn.fortheusers.org/packages/SwitchDeck/icon.png",
+      "description": "Turn your Nintendo Switch into a touchscreen control panel for Macro Deck. Open the deck you built on your PC, trigger macros, adjust volume, and control Spotify playback from your Switch. Keep an eye on clocks, timers, weather, and CPU, GPU, and RAM usage with widgets.\\n\\nRequires Macro Deck running on a PC on the same local network.\\n\\nAI use: AI-generated, not reviewed line by line. AI also used for: icon/banner art, description text.",
       "status": "Publicado en HB App Store"
     },
     {
