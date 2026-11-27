@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T21:28:37+00:00",
+    "generated_at": "2026-11-27T08:25:46+00:00",
     "sources": {
       "SwitchPorts": "352 importados",
       "HB App Store": "518 importados",
-      "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 60"
+      "GBAtemp": "73 importados"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
     "covers_checked_at": "2026-11-26T21:28:37+00:00",
     "covers_resolved": 31,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,
-    "unique_records": 930,
+    "unique_records": 936,
     "cover_breakdown": {
       "real_artwork": 31,
       "homebrew_icons": 516,
-      "nx_flow_illustrations": 383,
-      "visually_covered": 930
+      "nx_flow_illustrations": 389,
+      "visually_covered": 936
     }
   },
   "items": [
@@ -11773,12 +11773,122 @@
       "status": "Publicado en HB App Store"
     },
     {
+      "id": "gbatemp-b96ebcd894c0f9",
+      "title": "[WIP] Metal Gear Solid V: The Phantom Pain – native Switch port (in development)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/wip-metal-gear-solid-v-the-phantom-pain-native-switch-port-in-development.686306/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
       "id": "gbatemp-aa8944da2a1825",
       "title": "Ultimate Switch Port Thread",
       "type": "Comunidad",
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/ultimate-switch-port-thread.683071/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-862c3bab0a96e6",
+      "title": "[PORT] New Super Mario Bros. Wii for Switch (with NewerSMBW mod support)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/port-new-super-mario-bros-wii-for-switch-with-newersmbw-mod-support.686745/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-531fbcd97ae204",
+      "title": "Guardian Heroes (XBLA, Xbox 360) for Switch: static recompilation port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/guardian-heroes-xbla-xbox-360-for-switch-static-recompilation-port.685995/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-105522299c6d45",
+      "title": "Banjo Kazooie Nuts & Bolts (reNut) - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/banjo-kazooie-nuts-bolts-renut-switch-port.686095/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-ab23de4d415e34",
+      "title": "GTA V port?",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/gta-v-port.684062/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-dd2420592f297a",
+      "title": "Zelda The Wind Waker GC - Switch Port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/zelda-the-wind-waker-gc-switch-port.685126/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-78ed9cccc4df6c",
+      "title": "[Release] Twilight Princess on Switch: Dusklight \"Alek's Ultimate NX Edition\" 1.0.0 (deko3d, PC mods, co-op, cross-save)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/release-twilight-princess-on-switch-dusklight-aleks-ultimate-nx-edition-1-0-0-deko3d-pc-mods-co-op-cross-save.685740/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-1dc2f5a96dd70a",
+      "title": "Perfect dark switch port??!",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/perfect-dark-switch-port.663322/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-d9453cdd6f3a48",
+      "title": "Resident Evil Code: Veronica X NX Port (PS2)",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/resident-evil-code-veronica-x-nx-port-ps2.686504/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-7f781893d548bc",
+      "title": "SSX3 native switch port",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/ssx3-native-switch-port.686920/",
+      "status": "Por verificar",
+      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
+    },
+    {
+      "id": "gbatemp-40497deb312013",
+      "title": "Post homebrew ideas, suggestions, requests here",
+      "type": "Comunidad",
+      "platform": "Nintendo Switch",
+      "source": "GBAtemp",
+      "discussion": "https://gbatemp.net/threads/post-homebrew-ideas-suggestions-requests-here.514524/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -11843,16 +11953,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-b96ebcd894c0f9",
-      "title": "[WIP] Metal Gear Solid V: The Phantom Pain – native Switch port (in development)",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/wip-metal-gear-solid-v-the-phantom-pain-native-switch-port-in-development.686306/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-71b0cbbb9bb32a",
       "title": "Super Mario World (16:9 wide-snes) port for the Nintendo Switch",
       "type": "Comunidad",
@@ -11899,16 +11999,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/wip-metal-gear-solid-the-twin-snakes-for-nintendo-switch-mgstts-nx.686817/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-105522299c6d45",
-      "title": "Banjo Kazooie Nuts & Bolts (reNut) - Switch Port",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/banjo-kazooie-nuts-bolts-renut-switch-port.686095/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -12103,16 +12193,6 @@
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
     {
-      "id": "gbatemp-40497deb312013",
-      "title": "Post homebrew ideas, suggestions, requests here",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/post-homebrew-ideas-suggestions-requests-here.514524/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
       "id": "gbatemp-218925d31bd988",
       "title": "[Release] NXDock - homebrew installer for NSP, NSZ, XCI and XCZ, installs from your Switch Library Manager Web library over the network (beta)",
       "type": "Comunidad",
@@ -12129,16 +12209,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/renut-nx-ultimate-switch-360-port-base.686515/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-d9453cdd6f3a48",
-      "title": "Resident Evil Code: Veronica X NX Port (PS2)",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/resident-evil-code-veronica-x-nx-port-ps2.686504/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
@@ -12199,16 +12269,6 @@
       "platform": "Nintendo Switch",
       "source": "GBAtemp",
       "discussion": "https://gbatemp.net/threads/black-xbox-nx-port.685756/",
-      "status": "Por verificar",
-      "description": "Publicación de la comunidad, no confirmada como descarga oficial."
-    },
-    {
-      "id": "gbatemp-531fbcd97ae204",
-      "title": "Guardian Heroes (XBLA, Xbox 360) for Switch: static recompilation port",
-      "type": "Comunidad",
-      "platform": "Nintendo Switch",
-      "source": "GBAtemp",
-      "discussion": "https://gbatemp.net/threads/guardian-heroes-xbla-xbox-360-for-switch-static-recompilation-port.685995/",
       "status": "Por verificar",
       "description": "Publicación de la comunidad, no confirmada como descarga oficial."
     },
