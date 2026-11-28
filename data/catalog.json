@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T21:14:39+00:00",
+    "generated_at": "2026-11-28T07:44:13+00:00",
     "sources": {
       "SwitchPorts": "352 importados",
       "HB App Store": "518 importados",
       "GBAtemp": "Error: HTTP Error 403: Forbidden; conservados 66"
     },
     "notice": "Datos públicos; GBAtemp queda por verificar.",
-    "covers_checked_at": "2026-11-26T21:28:37+00:00",
+    "covers_checked_at": "2026-11-28T07:44:13+00:00",
     "covers_resolved": 31,
     "duplicate_records_removed": 1,
     "invalid_records_removed": 0,

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-27T21:14:39+00:00",
+    "generated_at": "2026-11-28T07:44:14+00:00",
     "port_count": 324,
     "repositories": 322,
     "statuses": {
@@ -29,7 +29,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/1timewire1/ctr_experiments_nx": {
       "status": "readme_verified",
@@ -42,7 +42,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/1timewire1/ctr_magic_nx": {
       "status": "readme_verified",
@@ -55,7 +55,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/1timewire1/ctr_timetravel_nx": {
       "status": "readme_verified",
@@ -68,7 +68,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/1weell/DKC2Recomp-Switch": {
       "status": "readme_verified",
@@ -107,7 +107,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "Chart/audio latency can vary with the console, performance or overclock settings, and audio output configuration. Use the in-game latency setting to calibrate for your setup. The port does not force a fixed latency compensation value.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/72ak/sh4-nx": {
       "status": "readme_verified",
@@ -120,7 +120,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/7UNC46/a5_nx": {
       "status": "readme_verified",
@@ -185,7 +185,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/MBHaxe-Switch": {
       "status": "readme_verified",
@@ -198,7 +198,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/angrybirdsclassic_nx": {
       "status": "readme_verified",
@@ -211,7 +211,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/badpiggies_nx": {
       "status": "readme_verified",
@@ -224,7 +224,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/baldi_nx": {
       "status": "readme_verified",
@@ -237,7 +237,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/bananakong_nx": {
       "status": "readme_verified",
@@ -250,7 +250,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/battd_nx": {
       "status": "readme_verified",
@@ -263,7 +263,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/bloons_pop_nx": {
       "status": "readme_verified",
@@ -276,7 +276,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/bouncemasters_nx": {
       "status": "readme_verified",
@@ -289,7 +289,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/btd5_nx": {
       "status": "readme_verified",
@@ -302,7 +302,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/burgershop2_nx": {
       "status": "readme_verified",
@@ -315,7 +315,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/burgershop_nx": {
       "status": "readme_verified",
@@ -328,7 +328,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/clayjamclassic_nx": {
       "status": "readme_verified",
@@ -341,7 +341,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/colorsheep_nx": {
       "status": "readme_verified",
@@ -354,7 +354,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/daggerfall_nx": {
       "status": "readme_verified",
@@ -367,7 +367,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/datadefense_nx": {
       "status": "readme_verified",
@@ -380,7 +380,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/deusexgo_nx": {
       "status": "readme_verified",
@@ -393,7 +393,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/dukedashington_nx": {
       "status": "readme_verified",
@@ -406,7 +406,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/fruitninjaclassic_nx": {
       "status": "readme_verified",
@@ -419,7 +419,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/happywheels_nx": {
       "status": "readme_verified",
@@ -432,7 +432,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/heartstar_nx": {
       "status": "readme_verified",
@@ -445,7 +445,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/hitmango_nx": {
       "status": "readme_verified",
@@ -458,7 +458,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/insaniquarium_nx": {
       "status": "readme_verified",
@@ -471,7 +471,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/killerbean_nx": {
       "status": "readme_verified",
@@ -484,7 +484,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/laracroftgo_nx": {
       "status": "readme_verified",
@@ -497,7 +497,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/mulmash_nx": {
       "status": "readme_verified",
@@ -510,7 +510,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/osmos_nx": {
       "status": "readme_verified",
@@ -523,7 +523,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/papapear_nx": {
       "status": "readme_verified",
@@ -536,7 +536,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/papersplease_nx": {
       "status": "readme_verified",
@@ -549,7 +549,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/pcl_nx": {
       "status": "readme_verified",
@@ -562,7 +562,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/phigros_nx": {
       "status": "readme_verified",
@@ -575,7 +575,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/poinpy_nx": {
       "status": "readme_verified",
@@ -588,7 +588,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/poorbunny_nx": {
       "status": "readme_verified",
@@ -601,7 +601,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/pvs_nx": {
       "status": "readme_verified",
@@ -614,7 +614,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/pvz_fusion_en_nx": {
       "status": "readme_verified",
@@ -627,7 +627,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/revolt_nx": {
       "status": "readme_verified",
@@ -653,7 +653,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/sonicboomdash_nx": {
       "status": "readme_verified",
@@ -666,7 +666,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/sonicdash_nx": {
       "status": "readme_verified",
@@ -679,7 +679,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/sonicjump_nx": {
       "status": "readme_verified",
@@ -692,7 +692,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/sonicjumpfever_nx": {
       "status": "readme_verified",
@@ -705,7 +705,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/sts2_nx": {
       "status": "readme_verified",
@@ -718,7 +718,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/the_executive_nx": {
       "status": "readme_verified",
@@ -731,7 +731,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/totalpartykill_nx": {
       "status": "readme_verified",
@@ -744,7 +744,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/tte_nx": {
       "status": "readme_verified",
@@ -757,7 +757,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/wmw2_nx": {
       "status": "readme_verified",
@@ -770,7 +770,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/wmw_nx": {
       "status": "readme_verified",
@@ -783,7 +783,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ChanseyIsTheBest/zookeeperdx_nx": {
       "status": "readme_verified",
@@ -796,7 +796,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/CostelaCNX/ReChan-Switch": {
       "status": "readme_verified",
@@ -809,7 +809,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/CypherNoodle/PaperBoat-nx": {
       "status": "readme_verified",
@@ -848,7 +848,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/DerilDX/nv-rs-nx": {
       "status": "review_needed",
@@ -858,7 +858,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-11-27T21:14:39+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/DerilDX/silent-hill-decomp-nx": {
       "status": "readme_verified",
@@ -923,7 +923,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/FurryLilManChild/MPH-nx": {
       "status": "readme_verified",
@@ -1001,7 +1001,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/HarbourMasters/SpaghettiKart": {
       "status": "readme_verified",
@@ -1014,7 +1014,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/HayatoG/PvZ-Portable": {
       "status": "readme_verified",
@@ -1027,7 +1027,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/JohnUzoka/dx-rust-nx": {
       "status": "readme_verified",
@@ -1066,7 +1066,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The vanilla release candidate has passed hardware checks for audio, FPS toggle, multiplayer join, and frame rate at default clocks. The Fargo's Souls tModLoader build loads its mods and reaches a world on hardware; with",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Kaays/mc3_nx": {
       "status": "readme_verified",
@@ -1105,7 +1105,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/KoHaku743/horizon-nx": {
       "status": "readme_verified",
@@ -1144,7 +1144,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/KHUx_nx": {
       "status": "readme_verified",
@@ -1157,7 +1157,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/abc_nx": {
       "status": "readme_verified",
@@ -1170,7 +1170,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/acpc_nx": {
       "status": "readme_verified",
@@ -1183,7 +1183,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/angrybirds2_nx": {
       "status": "readme_verified",
@@ -1196,7 +1196,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/angrybirdsjourney_nx": {
       "status": "readme_verified",
@@ -1209,7 +1209,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/aom_nx": {
       "status": "readme_verified",
@@ -1222,7 +1222,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/coi_nx": {
       "status": "readme_verified",
@@ -1235,7 +1235,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/cr3_nx": {
       "status": "readme_verified",
@@ -1248,7 +1248,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/css_nx": {
       "status": "readme_verified",
@@ -1261,7 +1261,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ct_nx": {
       "status": "readme_verified",
@@ -1274,7 +1274,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ctr2_nx": {
       "status": "readme_verified",
@@ -1287,7 +1287,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ctr_nx": {
       "status": "readme_verified",
@@ -1300,7 +1300,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ff3_3d_nx": {
       "status": "readme_verified",
@@ -1313,7 +1313,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ff4_3d_nx": {
       "status": "readme_verified",
@@ -1339,7 +1339,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ffd2_nx": {
       "status": "readme_verified",
@@ -1352,7 +1352,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/ffd_nx": {
       "status": "readme_verified",
@@ -1365,7 +1365,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/freespace2_nx": {
       "status": "readme_verified",
@@ -1378,7 +1378,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/gdash_nx": {
       "status": "readme_verified",
@@ -1391,7 +1391,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/gtactw_nx": {
       "status": "readme_verified",
@@ -1404,7 +1404,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/gtalcs_nx": {
       "status": "readme_verified",
@@ -1417,7 +1417,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/gtasa_nx": {
       "status": "readme_verified",
@@ -1430,7 +1430,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/hl2_nx": {
       "status": "readme_verified",
@@ -1443,7 +1443,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/jetpackjoyride_nx": {
       "status": "readme_verified",
@@ -1456,7 +1456,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/layton2_nx": {
       "status": "readme_verified",
@@ -1469,7 +1469,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/layton3_nx": {
       "status": "readme_verified",
@@ -1482,7 +1482,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/layton_nx": {
       "status": "readme_verified",
@@ -1495,7 +1495,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/laytonbmr_nx": {
       "status": "readme_verified",
@@ -1508,7 +1508,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/lbbg_nx": {
       "status": "readme_verified",
@@ -1521,7 +1521,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/lnsor_nx": {
       "status": "readme_verified",
@@ -1534,7 +1534,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/lswtcs_nx": {
       "status": "readme_verified",
@@ -1547,7 +1547,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/lswtfa_nx": {
       "status": "readme_verified",
@@ -1560,7 +1560,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/max_nx_v2.1.131": {
       "status": "readme_verified",
@@ -1573,7 +1573,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/openmohaa_nx": {
       "status": "readme_verified",
@@ -1586,7 +1586,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/sotn_nx": {
       "status": "readme_verified",
@@ -1599,7 +1599,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/subwaysurfers_nx": {
       "status": "readme_verified",
@@ -1612,7 +1612,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/swordigo_nx": {
       "status": "readme_verified",
@@ -1625,7 +1625,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/tf2_nx": {
       "status": "readme_verified",
@@ -1638,7 +1638,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/vcmi_nx": {
       "status": "readme_verified",
@@ -1651,7 +1651,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NaGaa95/vln_nx": {
       "status": "readme_verified",
@@ -1664,7 +1664,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/NalienDev/Undertale-Yellow-NX": {
       "status": "readme_verified",
@@ -1677,7 +1677,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/PalindromicBreadLoaf/Docklight": {
       "status": "readme_verified",
@@ -1690,7 +1690,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/PalindromicBreadLoaf/HotPursuitNX": {
       "status": "readme_verified",
@@ -1729,7 +1729,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Petit-Prince-dev/PokeMMO-NX": {
       "status": "readme_verified",
@@ -1742,7 +1742,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "Even at default clocks the game can run at 120 fps. However, it suffers from loading stutters. I would recommend keeping it at 60 fps and using a light overclock to remove the stutters.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/RohanBhattacharyya/oSBM": {
       "status": "readme_verified",
@@ -1755,7 +1755,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch": {
       "status": "readme_verified",
@@ -1768,7 +1768,7 @@
       "overclock_status": "optional",
       "overclock_notes": "No se documenta como obligatorio. El juego apunta a 30 FPS, pero las carreras exigentes pueden bajar de esa cifra con frecuencias estándar; el menú de depuración permite elevar la CPU. Los relojes personalizados figuran como experimentales.",
       "overclock_source": "https://github.com/SantiBros/NFSMostWanted2012-Android-Switch/blob/main/README.md#status",
-      "checked_at": "2026-11-14T06:18:23+00:00",
+      "checked_at": "2026-11-28T07:44:14+00:00",
       "title": "Need for Speed: Most Wanted (2012)",
       "game_year": 2012,
       "original_platform": "Android",
@@ -1790,7 +1790,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Terremotixx/Stupid-Zombies-NX": {
       "status": "readme_verified",
@@ -1816,7 +1816,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Cannonball-NX-Modern": {
       "status": "readme_verified",
@@ -1829,7 +1829,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Daytona-NX-Modern": {
       "status": "readme_verified",
@@ -1842,7 +1842,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Descent1-NX-Modern": {
       "status": "readme_verified",
@@ -1855,7 +1855,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Descent2-NX-Modern": {
       "status": "readme_verified",
@@ -1894,7 +1894,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/F-Zero-NX-Modern": {
       "status": "readme_verified",
@@ -1920,7 +1920,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/GZDoom-NX-Modern": {
       "status": "readme_verified",
@@ -1946,7 +1946,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Killer-Instinct-2-NX-Modern": {
       "status": "readme_verified",
@@ -1959,7 +1959,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Killer-Instinct-NX-Modern": {
       "status": "readme_verified",
@@ -1972,7 +1972,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/MegaManX-NX": {
       "status": "readme_verified",
@@ -1980,12 +1980,12 @@
       "reason": "",
       "overview": "",
       "requirements": "",
-      "installation": "1. Copy the `switch/` folder from the release zip to the root of your SD card,\n so that the NRO is at `sdmc:/switch/MegaManX/MegaManX.nro`.\n2. Put your own Mega Man X (USA) (Rev 1) ROM in `sdmc:/switch/MegaManX/`,\n ideally named `mmx.sfc`. Any `.sfc` / `.smc` name works, because the game\n checks the ROM's SHA-256.\n3. Optional, for Zero, co-op and the X3 weapons: your Mega Man X3 (USA) ROM.\n For the X2 weapons: your Mega Man X2 (USA) ROM. Put them in the same\n folder and select them in the launcher's Mods page.\n4. Start Mega Man X Recompiled from the Homebrew Menu. A short intro plays\n first; any button skips it after 3 seconds",
+      "installation": "1. Copy the `switch/` folder from the release zip to the root of your SD card,\n so that the NRO is at `sdmc:/switch/MegaManX/MegaManX.nro`.\n2. Put your own Mega Man X (USA) (Rev 1) ROM in `sdmc:/switch/MegaManX/`,\n ideally named `mmx.sfc`. Any `.sfc` / `.smc` name works, because the game\n checks the ROM's SHA-256.\n3. Optional, for Zero, co-op and the X3 weapons or armor: your Mega Man X3 (USA) ROM.\n For the X2 weapons or armor: your Mega Man X2 (USA) ROM. Put them in the same\n folder and select them in the launcher's Mods page.\n4. Start Mega Man X Recompiled from the Homebrew Menu. A short intro plays",
       "editions": "",
       "overclock_status": "mentioned",
       "overclock_notes": "[!NOTE] > Performance. The game runs at 60 FPS at the stock CPU clock (1020 MHz), > including widescreen, Zero / co-op and the X2/X3 weapons. The NRO never\nincluding widescreen, Zero / co-op and the X2/X3 weapons. The NRO never > changes the clock itself; overclocking only adds headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/OpenOMF-NX-Modern": {
       "status": "readme_verified",
@@ -1998,7 +1998,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/PaperBoat-NX-Modern": {
       "status": "readme_verified",
@@ -2011,7 +2011,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Quake2-NX-Modern": {
       "status": "readme_verified",
@@ -2024,7 +2024,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Quakespasm-NX-Modern": {
       "status": "readme_verified",
@@ -2037,7 +2037,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/SegaSonic-NX": {
       "status": "readme_verified",
@@ -2076,7 +2076,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/SonicDreamTeam-NX": {
       "status": "readme_verified",
@@ -2128,7 +2128,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Virtual-On-NX": {
       "status": "readme_verified",
@@ -2141,7 +2141,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "A CPU overclock of 1428 MHz is recommended (for example with sys-clk).",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/War1gus-NX-Modern": {
       "status": "readme_verified",
@@ -2154,7 +2154,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Wargus-NX-Modern": {
       "status": "readme_verified",
@@ -2167,7 +2167,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/Wolf4SDL-NX-Modern": {
       "status": "readme_verified",
@@ -2180,7 +2180,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/Thorhax/ra2-engine-switch": {
       "status": "readme_verified",
@@ -2206,7 +2206,7 @@
       "overclock_status": "optional",
       "overclock_notes": "No está documentado como obligatorio para jugar. La resolución experimental 4x (1080p en dock) se probó únicamente a 1428 MHz de GPU en el lanzamiento v1.1.2; esa medición no significa que sea necesaria para los modos normales.",
       "overclock_source": "https://github.com/Trinalord777/DK64Recomp-NX/releases/tag/v1.1.2",
-      "checked_at": "2026-11-14T06:18:23+00:00",
+      "checked_at": "2026-11-28T07:44:14+00:00",
       "title": "Donkey Kong 64",
       "game_year": 1999,
       "original_platform": "Nintendo 64",
@@ -2372,7 +2372,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "seven languages. A fourth options page, SWITCH, has the port's own settings: CPU clock, the graphics driver thread, handheld GPU clock, screen resolution and the race control layout.\nOverclocking tools such as sys-clk take priority. Once one changes the CPU clock, the game leaves it alone until it is closed. Set OPTIONS > SWITCH >\nclock, the game leaves it alone until it is closed. Set OPTIONS > SWITCH > CPU clock to System to leave the clock to the Switch or the tool from the start.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/abforever_nx": {
       "status": "readme_verified",
@@ -2385,7 +2385,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/abreloaded_nx": {
       "status": "readme_verified",
@@ -2398,7 +2398,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/abspace_nx": {
       "status": "readme_verified",
@@ -2411,7 +2411,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/bombsquad_nx": {
       "status": "readme_verified",
@@ -2424,7 +2424,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/bs_joyride_nx": {
       "status": "readme_verified",
@@ -2437,7 +2437,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/bse_rebombed_nx": {
       "status": "readme_verified",
@@ -2450,7 +2450,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/dcr_sea_nx": {
       "status": "readme_verified",
@@ -2463,7 +2463,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/flappy_bird_nx": {
       "status": "readme_verified",
@@ -2476,7 +2476,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/flappybirdsfamily_nx": {
       "status": "readme_verified",
@@ -2489,7 +2489,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/infinityblade_nx": {
       "status": "readme_verified",
@@ -2502,7 +2502,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/labyrinth2_nx": {
       "status": "readme_verified",
@@ -2515,7 +2515,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/lummm_nx": {
       "status": "readme_verified",
@@ -2528,7 +2528,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/mari0_ae_nx": {
       "status": "readme_verified",
@@ -2541,7 +2541,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/mmim_nx": {
       "status": "readme_verified",
@@ -2580,7 +2580,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/pvzdlc_nx": {
       "status": "readme_verified",
@@ -2606,7 +2606,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/sm63redux_nx": {
       "status": "readme_verified",
@@ -2619,7 +2619,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "Gameplay, audio, controller and touchscreen input, remapping and the pause menu are working. The CPU runs at the stock clock in menus and is raised in levels as needed, never above 1683 MHz.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/aks796/sonic_allstars_nx": {
       "status": "readme_verified",
@@ -2632,7 +2632,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/antoniotorres02/isaac-switch-native": {
       "status": "readme_verified",
@@ -2658,7 +2658,7 @@
       "overclock_status": "recommended",
       "overclock_notes": "A performance overclock is recommended.\nThe game can take a while to start and load on a stock Switch. Using an overclock can significantly reduce startup and loading times and makes the initial loading process smoother.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/artslay/abyssal_nx": {
       "status": "readme_verified",
@@ -2671,7 +2671,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/artslay/galaxian_nx": {
       "status": "readme_verified",
@@ -2684,7 +2684,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/auggeythecat/NX-VVVVVV--recomp": {
       "status": "readme_verified",
@@ -2697,7 +2697,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/averne/SpaceCadetPinball-NX": {
       "status": "readme_verified",
@@ -2710,7 +2710,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/goldenballoon_nx": {
       "status": "readme_verified",
@@ -2723,7 +2723,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/hmd_nx": {
       "status": "readme_verified",
@@ -2736,7 +2736,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/s4ep2-nx": {
       "status": "readme_verified",
@@ -2749,7 +2749,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/sonic_r_nx": {
       "status": "readme_verified",
@@ -2775,7 +2775,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/sonic_the_fighters_nx": {
       "status": "readme_verified",
@@ -2788,7 +2788,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "Real Nintendo Switch hardware is the main target; the maintainer has reported the external-ROM build working on Switch. - No fixed-FPS or overclock requirement is claimed by this release. - Logging is disabled by default. L + R + Y toggles performance logging.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/spiderman_total_mayhem_nx": {
       "status": "readme_verified",
@@ -2801,7 +2801,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/stt16bit_nx": {
       "status": "readme_verified",
@@ -2814,7 +2814,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/boraeskicioglu/tasm2_nx": {
       "status": "readme_verified",
@@ -2827,7 +2827,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/brendongl/supermariowar-nx": {
       "status": "readme_verified",
@@ -2853,7 +2853,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/bshurikan/mpo_nx": {
       "status": "readme_verified",
@@ -2866,7 +2866,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/cheviman/outrunners-port": {
       "status": "readme_verified",
@@ -2931,7 +2931,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/cutarev/sh3-nx": {
       "status": "readme_verified",
@@ -2944,7 +2944,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/cutarev/sh4-nx": {
       "status": "readme_verified",
@@ -2983,7 +2983,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/BattleShip-Switch": {
       "status": "readme_verified",
@@ -3009,7 +3009,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/Super-Mario-World-Remastered-Plus-Switch": {
       "status": "readme_verified",
@@ -3022,7 +3022,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/crazytaxy_nx": {
       "status": "readme_verified",
@@ -3035,7 +3035,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/drmariomania_nx": {
       "status": "readme_verified",
@@ -3048,7 +3048,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/mari0-switch": {
       "status": "readme_verified",
@@ -3061,7 +3061,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/nbajam_nx": {
       "status": "readme_verified",
@@ -3074,7 +3074,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/sorx_nx": {
       "status": "readme_verified",
@@ -3087,7 +3087,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/delsonazevedo/vpl_nx": {
       "status": "readme_verified",
@@ -3100,7 +3100,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/dpadninja/realdrift_nx": {
       "status": "readme_verified",
@@ -3165,7 +3165,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/gitgarage/openblack": {
       "status": "readme_verified",
@@ -3204,7 +3204,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/hazevauks/deadspace_nx": {
       "status": "readme_verified",
@@ -3217,7 +3217,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/hazevauks/smashhit_nx": {
       "status": "readme_verified",
@@ -3230,7 +3230,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ihhub/fheroes2": {
       "status": "readme_verified",
@@ -3243,7 +3243,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/iqbalriz/assassinscreed_nx": {
       "status": "readme_verified",
@@ -3282,7 +3282,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/iqbalriz/rayman_nx": {
       "status": "readme_verified",
@@ -3295,7 +3295,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/iqbalriz/stevenrpg_nx": {
       "status": "readme_verified",
@@ -3308,7 +3308,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/iqbalriz/teenyfigure_nx": {
       "status": "readme_verified",
@@ -3360,7 +3360,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/jamyaro/REDRIVER2-switch": {
       "status": "readme_verified",
@@ -3373,7 +3373,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/jjmhalew/WoodyRE": {
       "status": "readme_verified",
@@ -3399,7 +3399,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/lemasterxar5/jet-set-radio-nx": {
       "status": "readme_verified",
@@ -3425,7 +3425,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "`[performance] boostcpuwhenloading`: `true` (CPU at 1785 MHz inside loading frames only; gameplay stays at stock clocks). `gpuboosthandheld`: handheld GPU at 460.8 MHz (`true`; CPU/MEM stock, docked untouched).",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/liartes/spacehulk-nx": {
       "status": "readme_verified",
@@ -3451,7 +3451,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "| `fullpreload` | `1` | `1` = instantiate every texture dictionary before gameplay and after every save load (longer loading screens, much less stutter); `0` = stream normally | | `cpuclockmhz` | `1785` | CPU clock held during gameplay (the GPU is left alone); `0` keeps the system default of 1020. Higher draws more battery | | `glthread` | `1` | run the GL driver on its own core (Mesa's glthread); `0` turns it off. Needs a build linked against the patched Mesa — see Building |\n[!TIP] > Already overclocking with sys-clk? The port never lowers a clock that's already > higher than `cpuclockmhz`. If your sys-clk profile for this title sets a lower CPU",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/markaurel13/abstarwars2_nx": {
       "status": "readme_verified",
@@ -3464,7 +3464,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/markaurel13/nova3-nx": {
       "status": "readme_verified",
@@ -3477,7 +3477,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "Recommended sys-clk config — Optional\nThe game runs great on stock clocks, but the Switch power manager can put the GPU into \"sleep mode\" during light scenes because the game barely uses any GPU power, which can cause small hiccups.\nTo lock the game at a super smooth frame rate without draining extra battery, you can optionally set this profile in sys-clk:\nWe are trading -25% GPU clock for +20% CPU clock, so battery consumption remains roughly the same as stock clocks (or even less).",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/mrOt4/DKC1Recomp-NX": {
       "status": "readme_verified",
@@ -3503,7 +3503,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/nzp-team/nzportable": {
       "status": "readme_verified",
@@ -3516,7 +3516,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/paulodiasred/BM64Switch": {
       "status": "readme_verified",
@@ -3529,7 +3529,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "General: language (English or Portuguese). - Graphics: internal resolution, anti-aliasing, texture filtering, VSync, FPS and the Switch CPU clock. - Sound.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/perfect-dark-pc-port/perfect_dark": {
       "status": "readme_verified",
@@ -3542,7 +3542,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/r4dius/outrun2-decomp": {
       "status": "readme_verified",
@@ -3555,7 +3555,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/r4lix/codboz-nx": {
       "status": "readme_verified",
@@ -3568,7 +3568,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "Busy rounds need more CPU than a 60 fps frame allows at stock clocks, so they drop toward 30–45 fps; see Frame rate.\nuneven 40–50. - Raise the CPU clock with an overclock tool such as sys-clk. The GPU is not the limit; the CPU is.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/rashevskyv/atomic-bomberman": {
       "status": "readme_verified",
@@ -3581,7 +3581,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/reflex909/2ship2harkinian-Switch": {
       "status": "readme_verified",
@@ -3594,7 +3594,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ryandeering/fallout-ce-switch": {
       "status": "readme_verified",
@@ -3607,7 +3607,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/ryandeering/fallout2-ce-switch": {
       "status": "readme_verified",
@@ -3620,7 +3620,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th06-switch": {
       "status": "readme_verified",
@@ -3633,7 +3633,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th07-switch": {
       "status": "readme_verified",
@@ -3646,7 +3646,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th075-switch": {
       "status": "readme_verified",
@@ -3672,7 +3672,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th09-switch": {
       "status": "readme_verified",
@@ -3685,7 +3685,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. Replay fast-forward keeps upstream's behaviour. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th10-switch": {
       "status": "readme_verified",
@@ -3696,9 +3696,9 @@
       "installation": "⚠️ Disclaimer: In compliance with ZUN's guidelines and copyright law, this repository contains ONLY the homebrew engine code. No game assets are distributed. You must legally own a copy of Touhou 10: Mountain of Faith v1.00a.",
       "editions": "",
       "overclock_status": "mentioned",
-      "overclock_notes": "🚀 Native build, much faster: the game code is now compiled straight to ARM64 instead of going through a WebAssembly layer. In the heaviest spell cards the game's own work per frame is about 60% lower, the hardest moments run about 33% faster when fast-forwarding a replay, and the frame drops in busy boss fights are gone. 🔋 Stock CPU clock: r6 runs at the Switch's normal CPU speed (r5 asked for 1785 MHz) and is still faster. 🕒 Stays smooth in long sessions: memory use and frame cost stay flat through long play with many restarts, returns to the title and character changes.",
+      "overclock_notes": "⏱️ Slowdown like on PC: a heavy frame briefly slows the game instead of skipping ahead, so no frames get dropped in bursts mid-pattern. 🚀 From r6: native ARM64 build at the stock CPU clock — about 60% less game work per frame in the heaviest spell cards, and smooth through long sessions. 💾 Nothing to migrate: same folder, same `th10.cfg`, `scoreth10.dat` and replays, same controls. Just replace `touhou10.nro`.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th11-switch": {
       "status": "readme_verified",
@@ -3711,7 +3711,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/th12-switch": {
       "status": "readme_verified",
@@ -3737,7 +3737,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/saekaze/thWWW-switch": {
       "status": "readme_verified",
@@ -3750,7 +3750,7 @@
       "overclock_status": "recommended",
       "overclock_notes": "The port's corrected runtime build has been tested on physical Nintendo Switch hardware and confirmed working, including gameplay visibility, player damage, stage music, spell/background transitions, and dense danmaku. The October 2026 update fixes the stage 5 background, makes dense Lunatic patterns about 24% cheaper to run (an overclock is still recommended for Lunatic, see Performance and CPU clock), makes the controls remappable in the game's own Key Config, and brings back the game's name entry for scores and replays.\nPerformance and CPU clock\nThe port runs at the Switch's stock clocks; it does not change them.\nAn overclock is recommended for Lunatic playthroughs",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/seamusduncmcgrath/CosmologyOfKyoto-Recompiled": {
       "status": "readme_verified",
@@ -3763,7 +3763,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/seamusduncmcgrath/cod-boz-arm64-nx": {
       "status": "readme_verified",
@@ -3776,7 +3776,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/seamusduncmcgrath/openmw-nx": {
       "status": "readme_verified",
@@ -3854,7 +3854,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/souldbminerr/DKC1Recomp-NX": {
       "status": "readme_verified",
@@ -3880,7 +3880,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/souldbminerr/DKC3Recomp-NX": {
       "status": "readme_verified",
@@ -3893,7 +3893,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/souldbminerr/swi-nx": {
       "status": "readme_verified",
@@ -3906,7 +3906,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/sukalibur9/yttd-nx": {
       "status": "readme_verified",
@@ -3958,7 +3958,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/worthis/Vovochka": {
       "status": "readme_verified",
@@ -3971,7 +3971,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/worthis/Zelda3T": {
       "status": "readme_verified",
@@ -3984,7 +3984,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/worthis/ZeldaOLB-new-engine": {
       "status": "readme_verified",
@@ -3997,7 +3997,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/worthis/ZeldaROTH-new-engine": {
       "status": "readme_verified",
@@ -4010,7 +4010,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/HCR_NX": {
       "status": "readme_verified",
@@ -4023,7 +4023,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/PVZ2RF_NX": {
       "status": "readme_verified",
@@ -4036,7 +4036,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/PVZ2_NX": {
       "status": "readme_verified",
@@ -4049,7 +4049,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/PewDiePie_NX": {
       "status": "readme_verified",
@@ -4075,7 +4075,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/earntodie2_nx": {
       "status": "readme_verified",
@@ -4088,7 +4088,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/granny2_nx": {
       "status": "readme_verified",
@@ -4140,7 +4140,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/papasburgeria_nx": {
       "status": "readme_verified",
@@ -4192,7 +4192,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/slither_nx": {
       "status": "readme_verified",
@@ -4205,7 +4205,7 @@
       "overclock_status": "not_documented",
       "overclock_notes": "",
       "overclock_source": "",
-      "checked_at": "2026-11-14T06:18:23+00:00"
+      "checked_at": "2026-11-28T07:44:14+00:00"
     },
     "https://github.com/xflipperkast/stonestory_nx": {
       "status": "readme_verified",
