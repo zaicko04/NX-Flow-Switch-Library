@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-28T07:44:14+00:00",
+    "generated_at": "2026-11-28T19:58:32+00:00",
     "port_count": 324,
     "repositories": 322,
     "statuses": {
@@ -858,7 +858,7 @@
       "requirements": "",
       "installation": "",
       "editions": "",
-      "checked_at": "2026-11-28T07:44:14+00:00"
+      "checked_at": "2026-11-28T19:58:32+00:00"
     },
     "https://github.com/DerilDX/silent-hill-decomp-nx": {
       "status": "readme_verified",
@@ -3659,7 +3659,7 @@
       "overclock_status": "mentioned",
       "overclock_notes": "The game ticks once per vsync (60 Hz); after a real stall it catches up by at most four ticks, like upstream's frame cadence. It runs at the Switch's stock clocks; raise them with a tool such as sys-clk if you want more headroom.",
       "overclock_source": "",
-      "checked_at": "2026-11-14T17:58:47+00:00"
+      "checked_at": "2026-11-28T19:58:32+00:00"
     },
     "https://github.com/saekaze/th08-switch": {
       "status": "readme_verified",
